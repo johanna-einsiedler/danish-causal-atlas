@@ -1,0 +1,2068 @@
+{
+ "nodes": [
+  {
+   "id": "economy.import_competition",
+   "label": "Import competition",
+   "domain": "economy",
+   "domain_label": "Economy",
+   "resolved": true,
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "description": "The level of competition faced by domestic firms from foreign imports. Appears as a cause in 3 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "economy.liquidity_constraints",
+   "label": "Liquidity constraints",
+   "domain": "economy",
+   "domain_label": "Economy",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "The inability of individuals or firms to access liquid funds or credit. Appears as a cause in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "family.children",
+   "label": "Having children",
+   "domain": "family",
+   "domain_label": "Family",
+   "resolved": true,
+   "papers": [
+    "dk_W2566343964",
+    "dk_W2784402791"
+   ],
+   "n_papers": 2,
+   "description": "The presence, arrival, or number of children in a household. Appears as a cause in 15 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "family.grandparents_labor",
+   "label": "Maternal grandparents' relative labor supply",
+   "domain": "family",
+   "domain_label": "Family",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The labor supply of maternal grandparents relative to paternal grandparents, proxying childhood environment. Appears as a cause in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.child_penalty_earnings",
+   "label": "Female child penalty in earnings",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The long-run negative impact of having children on women's earnings relative to men's. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.earnings",
+   "label": "Gender gap in earnings",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The difference in earnings between male and female workers. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.family_friendly_firm",
+   "label": "Probability of working in a family-friendly firm for women relative to men",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The likelihood of women working in family-friendly environments compared to men. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.hours_worked",
+   "label": "Gender gap in hours worked",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The difference in hours worked between male and female workers. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.manager_probability",
+   "label": "Probability of becoming manager for women relative to men",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The likelihood of a female worker attaining a managerial position relative to a male worker. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.occupational_rank",
+   "label": "Occupational rank of women relative to men",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The relative standing or prestige of women's occupations compared to men's. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.participation",
+   "label": "Gender gap in labor participation",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The difference in labor force participation rates between men and women. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.public_sector",
+   "label": "Probability of working in the public sector for women relative to men",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The likelihood of women being employed in the public sector compared to men. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "gender_gap.wage_rates",
+   "label": "Gender gap in wage rates",
+   "domain": "gender_gap",
+   "domain_label": "Gender gaps",
+   "resolved": true,
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "description": "The difference in hourly wage rates between male and female workers. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.mental_health_prescriptions",
+   "label": "Mental health prescriptions",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "description": "Prescriptions filled for psychiatric or mental health conditions. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.opioid_prescriptions",
+   "label": "Opioid prescriptions",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "description": "Prescriptions filled for opioid medications. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.parental_death",
+   "label": "Parental death",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "description": "The sudden death of a parent, representing a severe family bereavement shock. Appears as a cause in 5 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.psychological_assistance",
+   "label": "Use of psychological assistance",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "description": "Utilization of mental health services and psychological counseling. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.shock",
+   "label": "Health shock",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [],
+   "n_papers": 0,
+   "description": "A sudden, severe deterioration in the health status of a family member.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.shock.fatal",
+   "label": "Fatal health shock",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "description": "A health shock resulting in the death of a family member (e.g., spouse). Appears as a cause in 4 claims.",
+   "parent": "health.shock",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "health.shock.nonfatal",
+   "label": "Severe nonfatal health shock",
+   "domain": "health",
+   "domain_label": "Health",
+   "resolved": true,
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "description": "A severe but non-lethal health shock experienced by a family member. Appears as a cause in 3 claims.",
+   "parent": "health.shock",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.capital",
+   "label": "Capital income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "n_papers": 1,
+   "description": "Income derived from capital assets and investments. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.hourly_earnings",
+   "label": "Hourly earnings",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "description": "The rate of labor earnings per hour worked. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.household_post_transfer",
+   "label": "Household post-transfer income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "description": "Total household income after accounting for government transfers and benefits. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.labor",
+   "label": "Labor income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W1992237160",
+    "dk_W2566343964",
+    "dk_W3174613487",
+    "dk_W7160055634"
+   ],
+   "n_papers": 4,
+   "description": "Earnings and income derived from labor market work. Appears as an outcome in 10 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.taxable",
+   "label": "Taxable income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "The amount of income subject to personal income tax. Appears as an outcome in 3 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.taxable.self_reported",
+   "label": "Self-reported taxable income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "description": "Taxable income that is self-reported by the taxpayer rather than third-party verified. Appears as an outcome in 2 claims.",
+   "parent": "income.taxable",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "income.taxable.third_party",
+   "label": "Third-party reported taxable income",
+   "domain": "income",
+   "domain_label": "Income & wealth",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "description": "Taxable income reported directly to tax authorities by third parties such as employers. Appears as an outcome in 2 claims.",
+   "parent": "income.taxable",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "labor_supply.employment_high_wage",
+   "label": "Employment in high-wage occupations",
+   "domain": "labor_supply",
+   "domain_label": "Labor supply",
+   "resolved": true,
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "description": "Employment in occupations classified in the top tier of the wage distribution. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "labor_supply.employment_low_wage",
+   "label": "Employment in low-wage occupations",
+   "domain": "labor_supply",
+   "domain_label": "Labor supply",
+   "resolved": true,
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "description": "Employment in occupations classified in the bottom tier of the wage distribution. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "labor_supply.employment_mid_wage",
+   "label": "Employment in mid-wage occupations",
+   "domain": "labor_supply",
+   "domain_label": "Labor supply",
+   "resolved": true,
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "description": "Employment in occupations classified in the middle tier of the wage distribution. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "labor_supply.hours_worked",
+   "label": "Hours worked",
+   "domain": "labor_supply",
+   "domain_label": "Labor supply",
+   "resolved": true,
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "description": "The number of hours worked in a given period (typically weekly). Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "labor_supply.participation",
+   "label": "Labor force participation",
+   "domain": "labor_supply",
+   "domain_label": "Labor supply",
+   "resolved": true,
+   "papers": [
+    "dk_W2566343964",
+    "dk_W3174613487"
+   ],
+   "n_papers": 2,
+   "description": "Whether an individual is active in the labor force (employed or actively seeking work). Appears as an outcome in 4 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "tax.avoidance",
+   "label": "Tax avoidance",
+   "domain": "tax",
+   "domain_label": "Tax behavior",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "description": "Legal methods used to minimize the amount of income tax owed. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "tax.evasion",
+   "label": "Tax evasion",
+   "domain": "tax",
+   "domain_label": "Tax behavior",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "description": "Illegal non-payment or underpayment of tax, specifically on self-reported income. Appears as an outcome in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "tax.shifting",
+   "label": "Tax shifting behavior",
+   "domain": "tax",
+   "domain_label": "Tax behavior",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "Behavioral responses aimed at shifting income across tax categories or periods to minimize tax liability. Appears as an outcome in 3 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "tax.shifting.intertemporal",
+   "label": "Intertemporal tax shifting",
+   "domain": "tax",
+   "domain_label": "Tax behavior",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "Shifting the timing of income realization across tax years to exploit tax rate differentials. Appears as an outcome in 1 claim.",
+   "parent": "tax.shifting",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.enforcement",
+   "label": "Tax audit enforcement",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "description": "The active enforcement of tax compliance through audits or threats of audits. Appears as a cause in 4 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.firm_cooperation",
+   "label": "Firm willingness to cooperate in tax shifting",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "The inclination of employers to assist employees in shifting income to reduce tax liability. Appears as a cause in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.marginal_tax",
+   "label": "Marginal tax rate",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W2088663850",
+    "dk_W2114357420"
+   ],
+   "n_papers": 2,
+   "description": "The tax rate imposed on the last dollar of taxable income. Appears as a cause in 6 claims.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.marginal_tax.capital",
+   "label": "Marginal tax rate on capital income",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "n_papers": 1,
+   "description": "The marginal tax rate applied specifically to capital income. Appears as a cause in 1 claim.",
+   "parent": "taxation.marginal_tax",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.marginal_tax.labor",
+   "label": "Marginal tax rate on labor income",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "n_papers": 1,
+   "description": "The marginal tax rate applied specifically to labor earnings. Appears as a cause in 1 claim.",
+   "parent": "taxation.marginal_tax",
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  },
+  {
+   "id": "taxation.salience",
+   "label": "Tax salience",
+   "domain": "taxation",
+   "domain_label": "Taxation",
+   "resolved": true,
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "description": "The visibility or prominence of tax liabilities to taxpayers. Appears as a cause in 1 claim.",
+   "parent": null,
+   "direction": "higher_is_more",
+   "measurements": [],
+   "n_measurements": 0
+  }
+ ],
+ "edges": [
+  {
+   "from": "economy.import_competition",
+   "to": "labor_supply.employment_high_wage",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2213841331_S3"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2213841331"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1999,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2023,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "economy.import_competition",
+   "to": "labor_supply.employment_low_wage",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2213841331_S2"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2213841331"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1999,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2023,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "economy.import_competition",
+   "to": "labor_supply.employment_mid_wage",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2213841331_S1"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2213841331"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1999,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2023,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "economy.liquidity_constraints",
+   "to": "tax.shifting",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2114357420_S6"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2114357420"
+   ],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 2008,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2016,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.earnings",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S1"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.family_friendly_firm",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S8"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.hours_worked",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S2"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.manager_probability",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S6"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2784402791"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.occupational_rank",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S5"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2784402791"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.participation",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S3"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.public_sector",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S7"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "gender_gap.wage_rates",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S4"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2784402791"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "income.hourly_earnings",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2566343964_S5"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2566343964"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "instrumental_variables"
+   ],
+   "year_from": 1991,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2017,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "income.labor",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2566343964_S4",
+    "dk_W2566343964_S8",
+    "dk_W2566343964_S9",
+    "dk_W2566343964_S10"
+   ],
+   "n_claims": 4,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2566343964"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "instrumental_variables"
+   ],
+   "year_from": 1991,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2017,
+   "description": "4 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "labor_supply.hours_worked",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2566343964_S7"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2566343964"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "instrumental_variables"
+   ],
+   "year_from": 1991,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2017,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.children",
+   "to": "labor_supply.participation",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2566343964_S6"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2566343964"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "instrumental_variables"
+   ],
+   "year_from": 1991,
+   "year_to": 2009,
+   "causal": true,
+   "sexes": [
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2017,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "family.grandparents_labor",
+   "to": "gender_gap.child_penalty_earnings",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2784402791_S10"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2784402791"
+   ],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 1964,
+   "year_to": 2013,
+   "causal": true,
+   "sexes": [
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2019,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.parental_death",
+   "to": "health.mental_health_prescriptions",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W7160055634_S3"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W7160055634"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1980,
+   "year_to": 2019,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2026,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.parental_death",
+   "to": "health.opioid_prescriptions",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W7160055634_S4"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W7160055634"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1980,
+   "year_to": 2019,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2026,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.parental_death",
+   "to": "health.psychological_assistance",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W7160055634_S2"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W7160055634"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1980,
+   "year_to": 2019,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2026,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.parental_death",
+   "to": "income.labor",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W7160055634_S1",
+    "dk_W7160055634_S5"
+   ],
+   "n_claims": 2,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W7160055634"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1980,
+   "year_to": 2019,
+   "causal": true,
+   "sexes": [
+    "men",
+    "women"
+   ],
+   "units": [],
+   "pub_year": 2026,
+   "description": "2 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "health.shock.fatal",
+   "to": "income.labor",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W3174613487_S2",
+    "dk_W3174613487_S4"
+   ],
+   "n_claims": 2,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W3174613487"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2021,
+   "description": "2 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "health.shock.fatal",
+   "to": "labor_supply.participation",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W3174613487_S1",
+    "dk_W3174613487_S3"
+   ],
+   "n_claims": 2,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W3174613487"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2021,
+   "description": "2 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "health.shock.nonfatal",
+   "to": "income.household_post_transfer",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W3174613487_S7"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W3174613487"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2021,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.shock.nonfatal",
+   "to": "income.labor",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W3174613487_S6"
+   ],
+   "n_claims": 1,
+   "consensus_sign": null,
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2021,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "health.shock.nonfatal",
+   "to": "labor_supply.participation",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W3174613487_S5"
+   ],
+   "n_claims": 1,
+   "consensus_sign": null,
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "event_study"
+   ],
+   "year_from": 1980,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2021,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.enforcement",
+   "to": "income.taxable.self_reported",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2088663850_S7",
+    "dk_W2088663850_S8"
+   ],
+   "n_claims": 2,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2088663850"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 2006,
+   "year_to": 2008,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2011,
+   "description": "2 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.enforcement",
+   "to": "income.taxable.third_party",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2088663850_S9",
+    "dk_W2088663850_S10"
+   ],
+   "n_claims": 2,
+   "consensus_sign": null,
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 2006,
+   "year_to": 2008,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2011,
+   "description": "2 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.firm_cooperation",
+   "to": "tax.shifting",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2114357420_S7"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2114357420"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 2008,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2016,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax",
+   "to": "income.taxable",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2114357420_S2",
+    "dk_W2114357420_S3",
+    "dk_W2114357420_S4"
+   ],
+   "n_claims": 3,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2114357420"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 2009,
+   "year_to": 2010,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2016,
+   "description": "3 stated claims in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax",
+   "to": "tax.avoidance",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2088663850_S5"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2088663850"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "bunching"
+   ],
+   "year_from": 2006,
+   "year_to": 2007,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2011,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax",
+   "to": "tax.evasion",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2088663850_S4"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2088663850"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [
+    "bunching"
+   ],
+   "year_from": 2006,
+   "year_to": 2007,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2011,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax",
+   "to": "tax.shifting.intertemporal",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2114357420_S1"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W2114357420"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 2008,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2016,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax.capital",
+   "to": "income.capital",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W1992237160_S3"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W1992237160"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1982,
+   "year_to": 2005,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2014,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.marginal_tax.labor",
+   "to": "income.labor",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W1992237160_S2"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "negative",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [],
+   "papers_negative": [
+    "dk_W1992237160"
+   ],
+   "role_conflict": false,
+   "designs": [
+    "difference_in_differences"
+   ],
+   "year_from": 1982,
+   "year_to": 2005,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2014,
+   "description": "1 stated claim in 1 paper assert this relation."
+  },
+  {
+   "from": "taxation.salience",
+   "to": "tax.shifting",
+   "kinds": [
+    "causal_tested"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "n_papers": 1,
+   "claims": [
+    "dk_W2114357420_S5"
+   ],
+   "n_claims": 1,
+   "consensus_sign": "positive",
+   "has_contradiction": false,
+   "within_paper_mixed": false,
+   "papers_positive": [
+    "dk_W2114357420"
+   ],
+   "papers_negative": [],
+   "role_conflict": false,
+   "designs": [],
+   "year_from": 2008,
+   "year_to": 2011,
+   "causal": true,
+   "sexes": [],
+   "units": [],
+   "pub_year": 2016,
+   "description": "1 stated claim in 1 paper assert this relation."
+  }
+ ],
+ "kind_style": {
+  "causal_tested": {
+   "color": "#2a78d6",
+   "dash": "solid",
+   "width": 2.4
+  },
+  "causal_assumed": {
+   "color": "#4a3aa7",
+   "dash": "dashed",
+   "width": 1.6
+  },
+  "mediator_claimed": {
+   "color": "#199e70",
+   "dash": "solid",
+   "width": 1.3
+  },
+  "moderator": {
+   "color": "#eb6834",
+   "dash": "dotted",
+   "width": 1.6
+  },
+  "confounder_adjusted": {
+   "color": "#52514e",
+   "dash": "dashed",
+   "width": 1.0
+  },
+  "instrument": {
+   "color": "#4a3aa7",
+   "dash": "solid",
+   "width": 1.6
+  },
+  "exclusion_assumed_absent": {
+   "color": "#52514e",
+   "dash": "dotted",
+   "width": 1.0
+  }
+ },
+ "domain_tint": {
+  "taxation": "#fbe0d4",
+  "tax": "#fbeecc",
+  "income": "#d4e8d4",
+  "labor_supply": "#d7e6f8",
+  "gender_gap": "#dcd8f0",
+  "health": "#fae2eb",
+  "family": "#d3ece2",
+  "economy": "#e8e7e3",
+  "other": "#f0efeb"
+ },
+ "domain_label": {
+  "taxation": "Taxation",
+  "tax": "Tax behavior",
+  "income": "Income & wealth",
+  "labor_supply": "Labor supply",
+  "gender_gap": "Gender gaps",
+  "health": "Health",
+  "family": "Family",
+  "economy": "Economy",
+  "other": "Other"
+ },
+ "provenance": {
+  "source": "metalens release",
+  "dataset": {
+   "title": "Register-data claims — agent (Danish)",
+   "slug": "register-data-claims-agent-danish-4d724d9c",
+   "author": "Johanna Einsiedler",
+   "citation": "Johanna Einsiedler (2026). Register-data claims — agent (Danish) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=4d724d9c-8f58-4b75-8d81-64ea365d7592",
+   "published_url": null,
+   "description": "The nine seed papers extracted by the danish-register-econ agent with stated_claims_v3_agent.md (four passes; constructs, estimands, value_from). The review target; supersedes the import of the old pipeline's claims.",
+   "keywords": [
+    "causal claims",
+    "Danish register data",
+    "administrative data",
+    "economics",
+    "labor supply",
+    "taxation",
+    "evidence extraction"
+   ]
+  },
+  "release": {
+   "number": 1,
+   "created_at": "2026-09-29T02:17:07+02:00",
+   "content_sha": "001a785b24df88d8d7f0e22b1dadafe0f237bb0e6231c2d79926201dbb65cc00",
+   "notes": "v1 — nine seed papers, agent-extracted (stated_claims_v3_agent); one paper prints no abstract and yields no claims by the anchor rule; all records unverified pending human review; vocabularies cause/effect v1; cross-check vs the tables dataset frozen.",
+   "changes": {
+    "first": true,
+    "status": {
+     "newly_flagged": 0,
+     "newly_verified": 0
+    },
+    "records": {
+     "added": 62,
+     "changed": 0,
+     "removed": 0
+    },
+    "n_papers": 8,
+    "n_records": 62,
+    "papers_added": [
+     {
+      "doi": "10.3982/ecta9113",
+      "study": "Kleven et al. (2011)",
+      "title": "Unwilling or Unable to Cheat? Evidence From a Tax Audit Experiment in Denmark",
+      "records": 11
+     },
+     {
+      "doi": "10.1257/pol.6.4.271",
+      "study": "Kleven & Schultz (2014)",
+      "title": "Estimating Taxable Income Responses Using Danish Tax Reforms",
+      "records": 4
+     },
+     {
+      "doi": "10.1257/pol.20140233",
+      "study": "Kreiner et al. (2016)",
+      "title": "Tax Reforms and Intertemporal Shifting of Wage Income: Evidence from Danish Monthly Payroll Records",
+      "records": 7
+     },
+     {
+      "doi": "10.1257/aer.20141467",
+      "study": "Lundborg et al. (2017)",
+      "title": "Can Women Have Children and a Career? IV Evidence from IVF Treatments",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/app.20180010",
+      "study": "Kleven et al. (2019)",
+      "title": "Children and Gender Inequality: Evidence from Denmark",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/app.20170604",
+      "study": "Fadlon & Nielsen (2021)",
+      "title": "Family Labor Supply Responses to Severe Health Shocks: Evidence from Danish Administrative Records",
+      "records": 8
+     },
+     {
+      "doi": "10.1016/j.jinteco.2023.103810",
+      "study": "Keller & Utar (2023)",
+      "title": "International trade and job polarization: Evidence at the worker level",
+      "records": 7
+     },
+     {
+      "doi": "10.1257/aer.20240432",
+      "study": "Jensen & Zhang (2026)",
+      "title": "Effects of Parental Death on Labor Market Outcomes",
+      "records": 5
+     }
+    ],
+    "papers_removed": [],
+    "preset_changed": false
+   },
+   "doi": null,
+   "concept_doi": null
+  },
+  "credibility": {
+   "tier": "ai_only",
+   "label": "AI-only",
+   "audited": 0,
+   "n_records": 62
+  },
+  "note": "AI-extracted stated claims; no record has been individually human-verified yet."
+ }
+}
