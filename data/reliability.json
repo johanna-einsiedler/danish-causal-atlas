@@ -1,0 +1,32 @@
+{
+ "note": "Iteration-stability check of the extraction itself: every paper was extracted three times by independent blind agent runs under the identical contract, and the runs were compared claim by claim. Agreement is reported over the claims that ALL three runs found independently.",
+ "date": "2026-10-04",
+ "runs_per_paper": 3,
+ "corpus": {
+  "claim_keys_in_all_runs": [44, 77],
+  "dimensions": [
+   {"name": "sign", "agree": 44, "of": 44, "comment": "the direction of every shared claim matched in all three runs"},
+   {"name": "design", "agree": 42, "of": 44, "comment": "the coded identification design (enum)"},
+   {"name": "abstract anchor", "agree": 41, "of": 44, "comment": "which abstract sentence the claim hangs on"},
+   {"name": "support grade", "agree": 38, "of": 44, "comment": "explicit / assembled / weak"},
+   {"name": "instrument (raw wording)", "agree": 35, "of": 44, "comment": "disagreements are parenthetical rewordings of the same instrument"},
+   {"name": "identifying variation (raw wording)", "agree": 12, "of": 44, "comment": "almost all disagreements are paraphrases of the same source of variation; the field had no committed vocabulary to anchor phrasing at extraction time"}
+  ],
+  "numeric_pairs": {"in_all_runs": 142, "union": 256,
+   "comment": "where two runs extracted the same (outcome, value) they agreed every time; unshared pairs are extra table columns one run covered and another skipped, never a different value for the same estimate"},
+  "theory_unanimous_papers": [8, 9],
+  "verbatim_snippets": {"checked": 2464, "verbatim": 2463,
+   "comment": "every evidence snippet of both reruns (1193/1193) and all but one span of the production run (1270/1271; a seven-word paper-level sentence) was programmatically located verbatim in its PDF"}
+ },
+ "papers": [
+  {"artid": "dk_W3122551933", "structural": "0 claims in all 3 runs (the paper prints no abstract)", "highlight": "the only theory divergence of the sweep: none vs verbal_mechanism, a borderline both runs flagged themselves"},
+  {"artid": "dk_W2784402791", "structural": "8/12 claim keys in all runs", "highlight": "numeric values 15/15/15 identical; sign, support, design, instrument, anchor all 8/8"},
+  {"artid": "dk_W3174613487", "structural": "9/12", "highlight": "numeric values 17/17/17 identical across runs"},
+  {"artid": "dk_W7160055634", "structural": "8/10", "highlight": "full agreement on every dimension including the variation phrase"},
+  {"artid": "dk_W1992237160", "structural": "5/6", "highlight": "reruns extracted strict supersets of the production run's numbers (20 shared pairs, no contradictions)"},
+  {"artid": "dk_W2213841331", "structural": "4/7", "highlight": "design, instrument and theory model identical; 21 shared numeric pairs"},
+  {"artid": "dk_W2566343964", "structural": "4/6", "highlight": "instrument differences are parentheticals on the same IVF-success phrase"},
+  {"artid": "dk_W2114357420", "structural": "4/14", "highlight": "the real soft spot: runs slice the income-shifting outcomes at different granularity; within shared claims sign and instrument agree 4/4"},
+  {"artid": "dk_W2088663850", "structural": "2/10", "highlight": "mostly a population-wording artifact (individual vs all); the same cause-effect edges exist in every run, and the theory string matched verbatim"}
+ ]
+}

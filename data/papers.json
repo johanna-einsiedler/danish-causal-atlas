@@ -7,8 +7,8 @@
   "year": 2011,
   "journal": "Econometrica",
   "doi": "10.3982/ecta9113",
-  "n_claims": 11,
-  "n_claims_total": 11,
+  "n_claims": 10,
+  "n_claims_total": 10,
   "claim_scope": "headline",
   "designs": [
    "randomized_experiment",
@@ -30,13 +30,13 @@
   "year": 2014,
   "journal": "American Economic Journal Economic Policy",
   "doi": "10.1257/pol.6.4.271",
-  "n_claims": 4,
-  "n_claims_total": 4,
+  "n_claims": 10,
+  "n_claims_total": 10,
   "claim_scope": "headline",
   "designs": [
-   "instrumental_variables",
-   "difference_in_differences",
-   "panel_fixed_effects"
+   "diff_in_diff",
+   "iv",
+   "panel_fe"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -54,11 +54,12 @@
   "year": 2016,
   "journal": "American Economic Journal Economic Policy",
   "doi": "10.1257/pol.20140233",
-  "n_claims": 7,
-  "n_claims_total": 7,
+  "n_claims": 12,
+  "n_claims_total": 12,
   "claim_scope": "headline",
   "designs": [
-   "difference_in_differences"
+   "diff_in_diff",
+   "other"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -76,11 +77,11 @@
   "year": 2017,
   "journal": "American Economic Review",
   "doi": "10.1257/aer.20141467",
-  "n_claims": 10,
-  "n_claims_total": 10,
+  "n_claims": 6,
+  "n_claims_total": 6,
   "claim_scope": "headline",
   "designs": [
-   "instrumental_variables"
+   "iv"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -98,11 +99,12 @@
   "year": 2019,
   "journal": "American Economic Journal Applied Economics",
   "doi": "10.1257/app.20180010",
-  "n_claims": 10,
-  "n_claims_total": 10,
+  "n_claims": 11,
+  "n_claims_total": 11,
   "claim_scope": "headline",
   "designs": [
-   "event_study"
+   "event_study",
+   "other"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -120,12 +122,12 @@
   "year": 2021,
   "journal": "American Economic Journal Applied Economics",
   "doi": "10.1257/app.20170604",
-  "n_claims": 8,
-  "n_claims_total": 8,
+  "n_claims": 11,
+  "n_claims_total": 11,
   "claim_scope": "headline",
   "designs": [
-   "event_study",
-   "difference_in_differences"
+   "diff_in_diff",
+   "event_study"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -143,12 +145,11 @@
   "year": 2023,
   "journal": "Journal of International Economics",
   "doi": "10.1016/j.jinteco.2023.103810",
-  "n_claims": 7,
-  "n_claims_total": 7,
+  "n_claims": 12,
+  "n_claims_total": 12,
   "claim_scope": "headline",
   "designs": [
-   "difference_in_differences",
-   "panel_fixed_effects"
+   "diff_in_diff"
   ],
   "abstract": null,
   "abstract_source": null,
@@ -166,11 +167,12 @@
   "year": 2026,
   "journal": "American Economic Review",
   "doi": "10.1257/aer.20240432",
-  "n_claims": 5,
-  "n_claims_total": 5,
+  "n_claims": 9,
+  "n_claims_total": 9,
   "claim_scope": "headline",
   "designs": [
-   "difference_in_differences"
+   "diff_in_diff",
+   "event_study"
   ],
   "abstract": null,
   "abstract_source": null,

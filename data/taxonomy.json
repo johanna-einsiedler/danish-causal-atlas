@@ -1,0 +1,1607 @@
+{
+ "vocabularies": [
+  {
+   "unit": "claims",
+   "column": "cause",
+   "version": 1,
+   "committed_at": "2026-10-04T23:10:18+02:00",
+   "concepts": [
+    {
+     "id": "behavioral.tax_salience",
+     "label": "Tax salience",
+     "parent": "behavioral",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The prominence or visibility of taxes to taxpayers when making economic decisions.",
+     "more_means": "higher awareness or visibility of taxes",
+     "member_values": [
+      "V021"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "tax salience"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "employment.public_sector",
+     "label": "Public sector employment",
+     "parent": "employment",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Employment within government-owned or controlled organizations.",
+     "more_means": "working in the public sector",
+     "member_values": [
+      "V018"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "public sector employment"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "family.children",
+     "label": "Children and fertility",
+     "parent": "family",
+     "aliases": [
+      "childbirth",
+      "presence of children"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The presence, number, or addition of children in a household.",
+     "more_means": "having more children or experiencing childbirth",
+     "member_values": [
+      "V003",
+      "V006",
+      "V014",
+      "V016"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "children",
+      "fertility",
+      "having additional children",
+      "having children"
+     ],
+     "n_claims": 14,
+     "papers": [
+      "dk_W2566343964",
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "family.grandparental_labor_supply",
+     "label": "Grandparental labor supply",
+     "parent": "family",
+     "aliases": [],
+     "direction": "not_ordered",
+     "rationale": "",
+     "definition": "The relative labor supply or employment status of maternal versus paternal grandparents.",
+     "more_means": "higher relative labor supply of grandparents",
+     "member_values": [
+      "V019",
+      "V020"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "relative labor supply of the maternal grandparents",
+      "relative labor supply of the paternal grandparents"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "family.parental_death",
+     "label": "Parental death",
+     "parent": "family",
+     "aliases": [
+      "death of parent"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The occurrence of a parent's death.",
+     "more_means": "experiencing the death of a parent",
+     "member_values": [
+      "V002"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "parental death"
+     ],
+     "n_claims": 9,
+     "papers": [
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "finance.liquidity_constraints",
+     "label": "Liquidity constraints",
+     "parent": "finance",
+     "aliases": [
+      "borrowing constraints"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The inability of an individual or firm to raise cash quickly to meet financial obligations or opportunities.",
+     "more_means": "being more liquidity constrained",
+     "member_values": [
+      "V017"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "liquidity constraints"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "firm.size",
+     "label": "Firm size",
+     "parent": "firm",
+     "aliases": [
+      "number of employees"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The scale of a firm, typically measured by its number of employees.",
+     "more_means": "larger firm size",
+     "member_values": [
+      "V015"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "firm size"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "health.shock",
+     "label": "Health shock",
+     "parent": "health",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "An unexpected and severe adverse health event.",
+     "more_means": "experiencing a severe health shock",
+     "member_values": [],
+     "member_polarity": {},
+     "phrases": [],
+     "n_claims": 0,
+     "papers": []
+    },
+    {
+     "id": "health.shock.fatal",
+     "label": "Fatal health shock",
+     "parent": "health.shock",
+     "aliases": [
+      "sudden death"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "A sudden health event resulting in death.",
+     "more_means": "experiencing a fatal health shock",
+     "member_values": [
+      "V004"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "fatal health shock"
+     ],
+     "n_claims": 7,
+     "papers": [
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "health.shock.nonfatal",
+     "label": "Severe nonfatal health shock",
+     "parent": "health.shock",
+     "aliases": [
+      "nonfatal shock"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "A severe health event that does not result in death.",
+     "more_means": "experiencing a severe nonfatal health shock",
+     "member_values": [
+      "V011"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "severe nonfatal health shock"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "individual.firm_rank",
+     "label": "Within-firm earner rank",
+     "parent": "individual",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "An individual's relative earnings position within their employing firm.",
+     "more_means": "higher rank or status within the firm's earnings distribution",
+     "member_values": [
+      "V022"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "top-five earner status within the firm"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "taxes.enforcement",
+     "label": "Tax enforcement",
+     "parent": "taxes",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Actions taken by tax authorities to monitor or enforce compliance.",
+     "more_means": "greater exposure to tax enforcement actions",
+     "member_values": [],
+     "member_polarity": {},
+     "phrases": [],
+     "n_claims": 0,
+     "papers": []
+    },
+    {
+     "id": "taxes.enforcement.audit",
+     "label": "Tax audits",
+     "parent": "taxes.enforcement",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Formal examinations of tax returns by tax authorities.",
+     "more_means": "being subjected to a prior tax audit",
+     "member_values": [
+      "V012"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "prior audits"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "taxes.enforcement.threat",
+     "label": "Threat-of-audit letters",
+     "parent": "taxes.enforcement",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Communications from tax authorities warning of a potential audit.",
+     "more_means": "receiving a threat-of-audit letter",
+     "member_values": [
+      "V013"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "threat-of-audit letters"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "taxes.net_of_tax_rate",
+     "label": "Net-of-tax rate",
+     "parent": "taxes",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Marginal tax rate and net-of-tax rate are mirror images of the same concept.",
+     "definition": "The share of income kept by the taxpayer after taxes (1 minus the marginal tax rate).",
+     "more_means": "keeping a larger share of marginal income",
+     "member_values": [
+      "V009",
+      "V010"
+     ],
+     "member_polarity": {
+      "V009": "higher_is_less"
+     },
+     "phrases": [
+      "marginal tax rate",
+      "net-of-tax rate"
+     ],
+     "n_claims": 6,
+     "papers": [
+      "dk_W2088663850",
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "taxes.net_of_tax_rate.capital",
+     "label": "Net-of-tax rate on capital income",
+     "parent": "taxes.net_of_tax_rate",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The net-of-tax rate applied specifically to capital gains or investment income.",
+     "more_means": "keeping a larger share of marginal capital income",
+     "member_values": [
+      "V008"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "marginal net-of-tax rate on capital income"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    },
+    {
+     "id": "taxes.net_of_tax_rate.labor",
+     "label": "Net-of-tax rate on labor income",
+     "parent": "taxes.net_of_tax_rate",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "V007 represents a tax reform that reduces marginal tax rates, which increases the net-of-tax rate on labor income.",
+     "definition": "The net-of-tax rate applied specifically to labor earnings.",
+     "more_means": "keeping a larger share of marginal labor earnings",
+     "member_values": [
+      "V005",
+      "V007"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "marginal net-of-tax rate on labor income",
+      "tax reform reducing marginal tax rates"
+     ],
+     "n_claims": 10,
+     "papers": [
+      "dk_W1992237160",
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "trade.import_competition",
+     "label": "Import competition",
+     "parent": "trade",
+     "aliases": [
+      "chinese import competition"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "The level of exposure of local markets or firms to foreign import competition.",
+     "more_means": "greater exposure to foreign imports",
+     "member_values": [
+      "V001"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "import competition"
+     ],
+     "n_claims": 11,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    }
+   ],
+   "left_out": []
+  },
+  {
+   "unit": "claims",
+   "column": "effect",
+   "version": 1,
+   "committed_at": "2026-10-04T23:38:51+02:00",
+   "concepts": [
+    {
+     "id": "gender_inequality.gender_gap_earnings",
+     "label": "Gender gap in earnings",
+     "parent": "gender_inequality",
+     "aliases": [
+      "earnings gender gap",
+      "child penalty in earnings"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases represent the relative earnings gap between genders, including the child penalty which is a key driver of this gap.",
+     "definition": "The difference in earnings between men and women, including child penalties.",
+     "more_means": "larger earnings gap or child penalty for women relative to men",
+     "member_values": [
+      "V010",
+      "V018"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "female child penalty in earnings",
+      "gender gap in earnings"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.gender_gap_hours",
+     "label": "Gender gap in hours worked",
+     "parent": "gender_inequality",
+     "aliases": [
+      "hours gender gap"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the gender gap in the intensive margin of labor supply.",
+     "definition": "The difference in weekly hours worked between men and women.",
+     "more_means": "larger gap in hours worked between men and women",
+     "member_values": [
+      "V019"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "gender gap in hours worked"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.gender_gap_participation",
+     "label": "Gender gap in labor force participation",
+     "parent": "gender_inequality",
+     "aliases": [
+      "participation gender gap"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the gender gap in the extensive margin of labor supply.",
+     "definition": "The difference in labor force participation rates between men and women.",
+     "more_means": "larger gap in labor force participation between men and women",
+     "member_values": [
+      "V020"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "gender gap in participation"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.gender_gap_wage",
+     "label": "Gender gap in wage rates",
+     "parent": "gender_inequality",
+     "aliases": [
+      "wage gender gap"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the gender gap in hourly wage rates.",
+     "definition": "The difference in hourly wage rates between men and women.",
+     "more_means": "larger gap in hourly wage rates between men and women",
+     "member_values": [
+      "V021"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "gender gap in wage rates"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.relative_family_friendly_prob",
+     "label": "Relative probability of working in a family-friendly firm",
+     "parent": "gender_inequality",
+     "aliases": [
+      "relative family-friendly firm employment"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the sorting of women into family-friendly firms relative to men.",
+     "definition": "The probability of women working in family-friendly firms relative to men.",
+     "more_means": "higher relative probability of women working in family-friendly firms",
+     "member_values": [
+      "V028"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "probability of working in a family-friendly firm for women relative to men"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.relative_manager_prob",
+     "label": "Relative probability of becoming manager",
+     "parent": "gender_inequality",
+     "aliases": [
+      "relative manager likelihood"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the gender gap in the likelihood of holding managerial positions.",
+     "definition": "The probability of women becoming managers relative to men.",
+     "more_means": "higher relative probability of women becoming managers",
+     "member_values": [
+      "V027"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "probability of becoming manager for women relative to men"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.relative_occupation_rank",
+     "label": "Relative occupational rank",
+     "parent": "gender_inequality",
+     "aliases": [
+      "relative career rank"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the relative position of women in occupational hierarchies compared to men.",
+     "definition": "The occupational rank of women relative to men.",
+     "more_means": "higher occupational rank of women relative to men",
+     "member_values": [
+      "V026"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "occupational rank of women relative to men"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "gender_inequality.relative_public_sector_prob",
+     "label": "Relative probability of working in the public sector",
+     "parent": "gender_inequality",
+     "aliases": [
+      "relative public sector employment"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the sorting of women into public sector employment relative to men.",
+     "definition": "The probability of women working in the public sector relative to men.",
+     "more_means": "higher relative probability of women working in the public sector",
+     "member_values": [
+      "V029"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "probability of working in the public sector for women relative to men"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "health.mental_health",
+     "label": "Mental health service use",
+     "parent": "health",
+     "aliases": [
+      "mental health care utilization"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases measure the utilization of healthcare resources for mental health conditions.",
+     "definition": "The utilization of mental health treatments, prescriptions, or psychological assistance.",
+     "more_means": "greater use of mental health services or prescriptions",
+     "member_values": [
+      "V012",
+      "V017"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "prescriptions for mental health conditions",
+      "use of psychological assistance"
+     ],
+     "n_claims": 4,
+     "papers": [
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "health.opioid_use",
+     "label": "Opioid prescriptions",
+     "parent": "health",
+     "aliases": [
+      "opioid prescription rate"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the volume or likelihood of receiving opioid prescriptions.",
+     "definition": "The prescription and use of opioid medications.",
+     "more_means": "more opioid prescriptions",
+     "member_values": [
+      "V011"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "opioid prescriptions"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "income_tax.avoidance_behavior",
+     "label": "Legal tax avoidance",
+     "parent": "income_tax",
+     "aliases": [
+      "tax avoidance"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures legal behavioral responses to minimize tax liability.",
+     "definition": "The use of legal methods to minimize the amount of income tax owed.",
+     "more_means": "more legal tax avoidance",
+     "member_values": [
+      "V025"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "legal avoidance and behavioral responses"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "income_tax.capital_income",
+     "label": "Capital income",
+     "parent": "income_tax",
+     "aliases": [
+      "investment income"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures income generated from capital rather than labor.",
+     "definition": "Income derived from capital assets, such as dividends, interest, or capital gains.",
+     "more_means": "higher capital income",
+     "member_values": [
+      "V007"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "capital income"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    },
+    {
+     "id": "income_tax.household_income",
+     "label": "Household post-transfer income",
+     "parent": "income_tax",
+     "aliases": [
+      "household disposable income"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures household-level income after taxes and transfers.",
+     "definition": "The total disposable income of a household after receiving government transfers.",
+     "more_means": "higher household post-transfer income",
+     "member_values": [
+      "V023"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "household post-transfer income"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "income_tax.reported_income",
+     "label": "Reported income",
+     "parent": "income_tax",
+     "aliases": [
+      "declared income"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Income reported to tax authorities, categorized by reporting source.",
+     "more_means": "higher reported income",
+     "member_values": [],
+     "member_polarity": {},
+     "phrases": [],
+     "n_claims": 0,
+     "papers": []
+    },
+    {
+     "id": "income_tax.reported_income.self",
+     "label": "Self-reported income",
+     "parent": "income_tax.reported_income",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures income that is self-reported by the taxpayer, which is more prone to evasion.",
+     "definition": "Income reported to tax authorities directly by the taxpayer.",
+     "more_means": "higher self-reported income",
+     "member_values": [
+      "V013"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "self-reported income"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "income_tax.reported_income.third_party",
+     "label": "Third-party reported income",
+     "parent": "income_tax.reported_income",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures income reported by third parties, which is highly verifiable.",
+     "definition": "Income reported to tax authorities by a third party, such as an employer.",
+     "more_means": "higher third-party reported income",
+     "member_values": [
+      "V016"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "third-party reported income"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "income_tax.shifting_behavior",
+     "label": "Income shifting",
+     "parent": "income_tax",
+     "aliases": [
+      "intertemporal shifting"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases represent the behavior, share, and prevalence of shifting income to minimize tax liability.",
+     "definition": "The practice of moving income across tax periods or categories to minimize tax liability.",
+     "more_means": "more active income shifting behavior",
+     "member_values": [
+      "V004",
+      "V009",
+      "V030"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "share of employees shifting income",
+      "share of income shifted",
+      "shifting behavior"
+     ],
+     "n_claims": 9,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "income_tax.tax_evasion",
+     "label": "Tax evasion",
+     "parent": "income_tax",
+     "aliases": [
+      "underreported tax"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Measures the extent of illegal tax evasion on self-reported income.",
+     "definition": "The illegal non-payment or underpayment of tax.",
+     "more_means": "greater tax evasion",
+     "member_values": [
+      "V014"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "tax evasion for self-reported income"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "income_tax.taxable_income",
+     "label": "Taxable income",
+     "parent": "income_tax",
+     "aliases": [
+      "income subject to tax"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases measure income that is subject to taxation, with or without adjustment for shifting.",
+     "definition": "The amount of income used to calculate an individual's or household's income tax liability.",
+     "more_means": "higher taxable income",
+     "member_values": [
+      "V015",
+      "V031"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "taxable income",
+      "taxable income excluding the shifting component"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "labor_market.earnings",
+     "label": "Earnings",
+     "parent": "labor_market",
+     "aliases": [
+      "wage earnings",
+      "labor market earnings"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases all describe individual earnings or labor income from employment.",
+     "definition": "The financial compensation received by an individual in exchange for their labor.",
+     "more_means": "higher individual earnings",
+     "member_values": [
+      "V001",
+      "V002",
+      "V022"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "earnings",
+      "hourly earnings",
+      "labor income"
+     ],
+     "n_claims": 17,
+     "papers": [
+      "dk_W1992237160",
+      "dk_W2566343964",
+      "dk_W3174613487",
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "labor_market.labor_supply",
+     "label": "Labor supply",
+     "parent": "labor_market",
+     "aliases": [
+      "work hours",
+      "employment participation"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases represent different ways of measuring labor supply, either on the intensive margin (hours) or extensive margin (participation).",
+     "definition": "The amount of individual effort or time offered for paid work, including participation and hours.",
+     "more_means": "greater labor force participation or hours worked",
+     "member_values": [
+      "V003",
+      "V024",
+      "V032"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "labor force participation",
+      "labor supply",
+      "weekly hours worked"
+     ],
+     "n_claims": 7,
+     "papers": [
+      "dk_W2566343964",
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "labor_market.occupational_employment",
+     "label": "Occupational employment",
+     "parent": "labor_market",
+     "aliases": [
+      "employment by occupation type"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "",
+     "definition": "Employment levels across different occupational categories.",
+     "more_means": "higher employment in specific occupations",
+     "member_values": [],
+     "member_polarity": {},
+     "phrases": [],
+     "n_claims": 0,
+     "papers": []
+    },
+    {
+     "id": "labor_market.occupational_employment.high_wage",
+     "label": "Employment in high-wage occupations",
+     "parent": "labor_market.occupational_employment",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures employment specifically in high-wage occupations.",
+     "definition": "Employment in occupations that pay high average wages.",
+     "more_means": "more employment in high-wage occupations",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "employment in high-wage occupations"
+     ],
+     "n_claims": 4,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    },
+    {
+     "id": "labor_market.occupational_employment.low_wage",
+     "label": "Employment in low-wage occupations",
+     "parent": "labor_market.occupational_employment",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures employment specifically in low-wage occupations.",
+     "definition": "Employment in occupations that pay low average wages.",
+     "more_means": "more employment in low-wage occupations",
+     "member_values": [
+      "V008"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "employment in low-wage occupations"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    },
+    {
+     "id": "labor_market.occupational_employment.mid_wage",
+     "label": "Employment in mid-wage occupations",
+     "parent": "labor_market.occupational_employment",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures employment specifically in mid-wage occupations.",
+     "definition": "Employment in occupations that pay middle-range average wages.",
+     "more_means": "more employment in mid-wage occupations",
+     "member_values": [
+      "V006"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "employment in mid-wage occupations"
+     ],
+     "n_claims": 4,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    }
+   ],
+   "left_out": []
+  },
+  {
+   "unit": "claims",
+   "column": "identifying_variation",
+   "version": 1,
+   "committed_at": "2026-10-04T23:38:51+02:00",
+   "concepts": [
+    {
+     "id": "family.fertility_timing",
+     "label": "Timing of first birth",
+     "parent": "family",
+     "aliases": [
+      "age at first birth"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Captures individual-level variation in the timing of transition to parenthood.",
+     "definition": "The specific timing or age at which an individual has their first child.",
+     "more_means": "later timing of first birth",
+     "member_values": [
+      "V002"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "timing of first births"
+     ],
+     "n_claims": 9,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "family.ivf_success",
+     "label": "IVF treatment success",
+     "parent": "family",
+     "aliases": [
+      "IVF success"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both phrases leverage IVF success at the first treatment as a natural experiment; the sub-populations (childless women vs mothers) represent sample stratifications rather than different variables.",
+     "definition": "Whether the first IVF treatment was successful in resulting in a birth.",
+     "more_means": "successful IVF treatment",
+     "member_values": [
+      "V007",
+      "V013"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "ivf treatment success at the first ivf treatment among childless women",
+      "ivf treatment success at the first ivf treatment among childless women and among mothers"
+     ],
+     "n_claims": 5,
+     "papers": [
+      "dk_W2566343964"
+     ]
+    },
+    {
+     "id": "family.parental_death",
+     "label": "Parental death shock",
+     "parent": "family",
+     "aliases": [
+      "sudden parental death"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Captures the sudden loss of a parent as an exogenous family shock.",
+     "definition": "The occurrence and timing of a sudden first parental death.",
+     "more_means": "experiencing a parental death shock",
+     "member_values": [
+      "V003"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "timing of sudden first parental deaths"
+     ],
+     "n_claims": 9,
+     "papers": [
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "family.spousal_death",
+     "label": "Spousal death shock",
+     "parent": "family",
+     "aliases": [
+      "widowhood shock"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Captures the sudden loss of a spouse as an exogenous family shock.",
+     "definition": "The occurrence and timing of a spouse's death.",
+     "more_means": "experiencing a spousal death shock",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "timing of spousal death within a short window"
+     ],
+     "n_claims": 7,
+     "papers": [
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "family.spousal_health_shock",
+     "label": "Spousal health shock",
+     "parent": "family",
+     "aliases": [
+      "spousal cardiovascular event"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Captures non-fatal sudden health shocks to a spouse.",
+     "definition": "The occurrence of a sudden severe health event in a spouse, such as a heart attack or stroke.",
+     "more_means": "experiencing a spousal health shock",
+     "member_values": [
+      "V010"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "timing of a spouse's first heart attack or stroke within a short window"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "policy.marginal_tax_rate",
+     "label": "Marginal tax rate changes",
+     "parent": "policy",
+     "aliases": [
+      "tax reform bracket changes",
+      "tax schedule kinks"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases all capture variation in marginal tax rates, whether through specific historical Danish tax reforms (1987, 1994, 1999, 2004, 2010) or kinks in the tax schedule.",
+     "definition": "Changes in marginal tax rates induced by legislative tax reforms or tax schedule kinks.",
+     "more_means": "larger changes or higher marginal tax rates",
+     "member_values": [
+      "V004",
+      "V006",
+      "V008",
+      "V009",
+      "V015"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "jumps in marginal tax rates at large kinks in the danish income tax and stock income tax schedules",
+      "the 1987 reform's differential changes in marginal tax rates",
+      "the 1987, 1994, 1999 and 2004 reforms' differential changes in marginal tax rates",
+      "the 1994, 1999 and 2004 reforms' differential changes in marginal tax rates",
+      "the danish 2010 tax reform's differential cut in marginal tax rates for high-wage earners"
+     ],
+     "n_claims": 20,
+     "papers": [
+      "dk_W1992237160",
+      "dk_W2088663850",
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "policy.tax_audit",
+     "label": "Tax audit exposure",
+     "parent": "policy",
+     "aliases": [
+      "audit probability"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both phrases capture randomized assignment to audits or threat-of-audit letters, which manipulate the perceived or actual probability of being audited.",
+     "definition": "The assignment to or threat of a tax audit.",
+     "more_means": "higher probability of being audited or receiving an audit threat letter",
+     "member_values": [
+      "V011",
+      "V012"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "randomized assignment of threat-of-audit letters",
+      "randomized audit assignment"
+     ],
+     "n_claims": 4,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "trade.import_competition",
+     "label": "Import competition exposure",
+     "parent": "trade",
+     "aliases": [
+      "import quotas dismantling",
+      "WTO entry trade shock"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This represents the exogenous shock of trade liberalization from China's WTO entry.",
+     "definition": "Exposure to increased foreign trade competition, specifically from the removal of import quotas.",
+     "more_means": "greater exposure to import competition",
+     "member_values": [
+      "V001"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "removal of multi-fiber arrangement import quotas on chinese textiles and clothing upon china's wto entry"
+     ],
+     "n_claims": 11,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    }
+   ],
+   "left_out": [
+    {
+     "why": "This phrase combines two distinct sources of exogenous variation (IVF treatment success and twin births) into a single description.",
+     "value": "V014",
+     "reason": "compound_variable"
+    }
+   ]
+  },
+  {
+   "unit": "paper",
+   "column": "theory_model",
+   "version": 1,
+   "committed_at": "2026-10-04T23:38:51+02:00",
+   "concepts": [
+    {
+     "id": "theory_model.family_economics",
+     "label": "Family economics and household production",
+     "parent": "theory_model",
+     "aliases": [
+      "household production",
+      "family support channels"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both phrases describe theoretical mechanisms operating at the household or family level, including support channels, child quality, and household production.",
+     "definition": "Theories of household production, child quality, economies of scale, and family support channels.",
+     "more_means": "greater alignment with family economics and household production theories",
+     "member_values": [
+      "V006",
+      "V008"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "mental health and family support channels",
+      "standard theories of household production, child quality, and economies of scale"
+     ],
+     "n_claims": 15,
+     "papers": [
+      "dk_W2566343964",
+      "dk_W7160055634"
+     ]
+    },
+    {
+     "id": "theory_model.income_shifting",
+     "label": "Income shifting models",
+     "parent": "theory_model",
+     "aliases": [
+      "intertemporal shifting"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents models of intertemporal income shifting.",
+     "definition": "Theoretical models describing the intertemporal or cross-category shifting of income for tax optimization.",
+     "more_means": "greater alignment with income shifting models",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "intertemporal income shifting"
+     ],
+     "n_claims": 12,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "theory_model.labor_supply",
+     "label": "Labor supply models",
+     "parent": "theory_model",
+     "aliases": [
+      "family labor supply",
+      "traditional labor supply"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both phrases represent theoretical models of labor supply, either traditional extensions or family-level self-insurance.",
+     "definition": "Theoretical models of labor supply, including traditional extensions and family self-insurance mechanisms.",
+     "more_means": "greater alignment with labor supply theory",
+     "member_values": [
+      "V003",
+      "V007"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "family labor supply as a self-insurance mechanism",
+      "simple extension of the traditional labor supply model"
+     ],
+     "n_claims": 21,
+     "papers": [
+      "dk_W1992237160",
+      "dk_W3174613487"
+     ]
+    },
+    {
+     "id": "theory_model.social_norms",
+     "label": "Social and gender norms",
+     "parent": "theory_model",
+     "aliases": [
+      "gender identity norms"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents models incorporating gender identity and social norms.",
+     "definition": "Theoretical frameworks incorporating social norms, identity, and gender roles into economic models.",
+     "more_means": "greater emphasis on social and gender identity norms",
+     "member_values": [
+      "V004"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "gender identity norms"
+     ],
+     "n_claims": 11,
+     "papers": [
+      "dk_W2784402791"
+     ]
+    },
+    {
+     "id": "theory_model.tax_evasion",
+     "label": "Tax evasion and compliance models",
+     "parent": "theory_model",
+     "aliases": [
+      "Allingham-Sandmo model",
+      "tax evasion model"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents the Allingham-Sandmo tax evasion model.",
+     "definition": "Theoretical frameworks explaining tax evasion behavior, such as the Allingham-Sandmo model with risk considerations.",
+     "more_means": "greater alignment with tax evasion and compliance theory",
+     "member_values": [
+      "V001"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "allingham–sandmo (henceforth as) model with risk-neutral taxpayers and an endogenous audit probability"
+     ],
+     "n_claims": 10,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "theory_model.trade_theory",
+     "label": "Trade theory models",
+     "parent": "theory_model",
+     "aliases": [
+      "factor service trade"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents the factor service trade perspective in trade theory.",
+     "definition": "Theoretical frameworks analyzing international trade, such as the factor service trade perspective.",
+     "more_means": "greater alignment with trade theory models",
+     "member_values": [
+      "V002"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "factor service trade perspective"
+     ],
+     "n_claims": 12,
+     "papers": [
+      "dk_W2213841331"
+     ]
+    }
+   ],
+   "left_out": []
+  },
+  {
+   "unit": "results",
+   "column": "theory_parameter",
+   "version": 1,
+   "committed_at": "2026-10-04T23:38:51+02:00",
+   "concepts": [
+    {
+     "id": "taxation.avoidance_elasticity",
+     "label": "Elasticity of tax avoidance and evasion",
+     "parent": "taxation",
+     "aliases": [
+      "sheltering elasticity"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both tax evasion and tax avoidance represent behavioral sheltering responses to reduce tax liability.",
+     "definition": "The responsiveness of tax avoidance or evasion behaviors to changes in tax rates.",
+     "more_means": "greater responsiveness of tax sheltering, avoidance, or evasion to tax rates",
+     "member_values": [
+      "V003",
+      "V004"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "compensated elasticity of tax evasion with respect to the net-of-tax rate",
+      "tax avoidance elasticity"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W2088663850"
+     ]
+    },
+    {
+     "id": "taxation.capital_elasticity",
+     "label": "Elasticity of capital income",
+     "parent": "taxation",
+     "aliases": [
+      "capital income elasticity"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Identifies the own-tax elasticity of capital income.",
+     "definition": "The percentage change in capital income in response to a one percent change in the marginal net-of-tax rate on capital income.",
+     "more_means": "greater responsiveness of capital income to capital tax rate changes",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "elasticity of capital income with respect to the marginal net-of-tax rate"
+     ],
+     "n_claims": 2,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    },
+    {
+     "id": "taxation.cross_elasticity_capital_labor",
+     "label": "Cross-tax elasticity of capital income to labor tax rate",
+     "parent": "taxation",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Identifies the cross-tax elasticity of capital income with respect to the labor tax rate.",
+     "definition": "The percentage change in capital income in response to a one percent change in the marginal net-of-tax rate on labor income.",
+     "more_means": "greater cross-responsiveness of capital income to labor tax rates",
+     "member_values": [
+      "V006"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "cross-tax elasticity of capital income with respect to the marginal net-of-tax rate on labor income"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    },
+    {
+     "id": "taxation.cross_elasticity_labor_capital",
+     "label": "Cross-tax elasticity of labor income to capital tax rate",
+     "parent": "taxation",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Identifies the cross-tax elasticity of labor income with respect to the capital tax rate.",
+     "definition": "The percentage change in labor income in response to a one percent change in the marginal net-of-tax rate on capital income.",
+     "more_means": "greater cross-responsiveness of labor income to capital tax rates",
+     "member_values": [
+      "V007"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "cross-tax elasticity of labor income with respect to the marginal net-of-tax rate on capital income"
+     ],
+     "n_claims": 1,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    },
+    {
+     "id": "taxation.eti",
+     "label": "Elasticity of taxable income",
+     "parent": "taxation",
+     "aliases": [
+      "ETI"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This is the standard elasticity of taxable income (ETI) parameter.",
+     "definition": "The percentage change in taxable income in response to a one percent change in the net-of-tax rate.",
+     "more_means": "greater responsiveness of taxable income to tax rate changes",
+     "member_values": [
+      "V001"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "elasticity of taxable income"
+     ],
+     "n_claims": 3,
+     "papers": [
+      "dk_W2114357420"
+     ]
+    },
+    {
+     "id": "taxation.labor_elasticity",
+     "label": "Elasticity of labor income",
+     "parent": "taxation",
+     "aliases": [
+      "labor income elasticity"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Identifies the own-tax elasticity of labor income.",
+     "definition": "The percentage change in labor income in response to a one percent change in the marginal net-of-tax rate on labor income.",
+     "more_means": "greater responsiveness of labor income to labor tax rate changes",
+     "member_values": [
+      "V002"
+     ],
+     "member_polarity": {},
+     "phrases": [
+      "elasticity of labor income with respect to the marginal net-of-tax rate"
+     ],
+     "n_claims": 5,
+     "papers": [
+      "dk_W1992237160"
+     ]
+    }
+   ],
+   "left_out": []
+  }
+ ],
+ "provenance": {
+  "source": "metalens release",
+  "dataset": {
+   "title": "Register-data claims — v6.1 (Danish)",
+   "slug": "register-data-claims-v6-1-danish-5efdc68d",
+   "author": "Johanna Einsiedler",
+   "citation": "Johanna Einsiedler (2026). Register-data claims — v6.1 (Danish) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=5efdc68d-a169-4c29-a7e0-99fa57d54b83",
+   "published_url": null,
+   "description": "The nine seed papers extracted under the v6.1 agent contract: abstract-anchored claims with intro-level granularity, numeric horizons, structured identification (design, identifying variation, instrument), estimating equations, named theory parameters, and a sourced paper-level read (three summaries + theory coding).",
+   "keywords": []
+  },
+  "release": {
+   "number": 1,
+   "created_at": "2026-10-05T00:07:42+02:00",
+   "content_sha": "1d7bdb593500752ace7cc11a8bf2af0ee6cc8a0abe432a2994c0fe0275ecf77a",
+   "notes": null,
+   "changes": {
+    "first": true,
+    "status": {
+     "newly_flagged": 0,
+     "newly_verified": 0
+    },
+    "records": {
+     "added": 81,
+     "changed": 0,
+     "removed": 0
+    },
+    "n_papers": 8,
+    "n_records": 81,
+    "papers_added": [
+     {
+      "doi": "10.3982/ecta9113",
+      "study": "Kleven et al. (2011)",
+      "title": "Unwilling or Unable to Cheat? Evidence From a Tax Audit Experiment in Denmark",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/pol.6.4.271",
+      "study": "Kleven & Schultz (2014)",
+      "title": "Estimating Taxable Income Responses Using Danish Tax Reforms",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/pol.20140233",
+      "study": "Kreiner et al. (2016)",
+      "title": "Tax Reforms and Intertemporal Shifting of Wage Income: Evidence from Danish Monthly Payroll Records",
+      "records": 12
+     },
+     {
+      "doi": "10.1257/aer.20141467",
+      "study": "Lundborg et al. (2017)",
+      "title": "Can Women Have Children and a Career? IV Evidence from IVF Treatments",
+      "records": 6
+     },
+     {
+      "doi": "10.1257/app.20180010",
+      "study": "Kleven et al. (2019)",
+      "title": "Children and Gender Inequality: Evidence from Denmark",
+      "records": 11
+     },
+     {
+      "doi": "10.1257/app.20170604",
+      "study": "Fadlon & Nielsen (2021)",
+      "title": "Family Labor Supply Responses to Severe Health Shocks: Evidence from Danish Administrative Records",
+      "records": 11
+     },
+     {
+      "doi": "10.1016/j.jinteco.2023.103810",
+      "study": "Keller & Utar (2023)",
+      "title": "International trade and job polarization: Evidence at the worker level",
+      "records": 12
+     },
+     {
+      "doi": "10.1257/aer.20240432",
+      "study": "Jensen & Zhang (2026)",
+      "title": "Effects of Parental Death on Labor Market Outcomes",
+      "records": 9
+     }
+    ],
+    "papers_removed": [],
+    "preset_changed": false
+   },
+   "doi": null,
+   "concept_doi": null
+  },
+  "credibility": {
+   "tier": "ai_only",
+   "label": "AI-only",
+   "audited": 0,
+   "n_records": 81
+  },
+  "note": "AI-extracted stated claims; no record has been individually human-verified yet."
+ }
+}

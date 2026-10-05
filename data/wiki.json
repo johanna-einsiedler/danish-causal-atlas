@@ -1,0 +1,1319 @@
+{
+ "pages": [
+  {
+   "group": "design",
+   "key": "bunching",
+   "version": 1,
+   "title": "Bunching and Tax Responses",
+   "label": "Bunching",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Quasi-experimental variation created by large kinks in the nonlinear income tax schedule indicates that marginal tax rates have a positive impact on tax evasion for self-reported income.",
+     "sources": [
+      "dk_W2088663850_S4"
+     ]
+    },
+    {
+     "text": "Marginal tax rates also have a positive impact on legal avoidance and behavioral responses. The evasion elasticities for self-reported income are positive but small relative to the total elasticity.",
+     "sources": [
+      "dk_W2088663850_S5"
+     ]
+    },
+    {
+     "text": "A comparison of these behavioral adjustments shows that marginal tax rates increase tax evasion for self-reported income by less than they increase legal avoidance and behavioral responses.",
+     "sources": [
+      "dk_W2088663850_S6"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:01:46+02:00",
+   "claims": [
+    "dk_W2088663850_S4",
+    "dk_W2088663850_S5",
+    "dk_W2088663850_S6"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "design",
+   "key": "diff_in_diff",
+   "version": 1,
+   "title": "Difference-in-Differences",
+   "label": "Difference-in-differences",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Tax reforms in Denmark have been studied to identify behavioral responses in taxable income. Research on a major tax reform in the 1980s shows that increases in the marginal net-of-tax rate on labor income and capital income lead to increases in labor income and capital income, respectively. In the context of the 2010 tax reform, which reduced marginal tax rates, studies find that the reform increased the share of income shifted intertemporally, as well as the share of employees participating in such shifting, particularly among high-income earners. While a standard difference-in-differences estimation that ignores this shifting yields an overall elasticity of taxable income of approximately 0.1—with higher elasticities at higher earnings levels—removing the shifting component reduces the estimated short-run elasticity of taxable income to near zero across all earnings levels.",
+     "sources": [
+      "dk_W1992237160_S1",
+      "dk_W1992237160_S2",
+      "dk_W2114357420_S1",
+      "dk_W2114357420_S2",
+      "dk_W2114357420_S3",
+      "dk_W2114357420_S4",
+      "dk_W2114357420_S5",
+      "dk_W2114357420_S6",
+      "dk_W2114357420_S7"
+     ]
+    },
+    {
+     "text": "The impact of health shocks on spousal labor supply has been evaluated using Danish administrative registers. Fatal health shocks lead to substantial increases in the labor force participation and annual earnings of surviving spouses, particularly for widows and within households experiencing substantial income losses, whereas widowers exhibit a slight decrease in labor supply. In contrast, severe nonfatal health shocks, such as a first heart attack or stroke, result in no notable changes in spousal labor force participation or earnings, even though they lead to a small average decline in household post-transfer income.",
+     "sources": [
+      "dk_W3174613487_S1",
+      "dk_W3174613487_S10",
+      "dk_W3174613487_S2",
+      "dk_W3174613487_S3",
+      "dk_W3174613487_S4",
+      "dk_W3174613487_S5",
+      "dk_W3174613487_S6",
+      "dk_W3174613487_S7",
+      "dk_W3174613487_S8",
+      "dk_W3174613487_S9"
+     ]
+    },
+    {
+     "text": "Difference-in-differences designs have also been applied to study the labor market consequences of rising import competition from China. Increased import competition reduces employment in mid-wage occupations while increasing employment in both low-wage and high-wage occupations, contributing to job polarization. Mid-wage workers affected by trade transition disproportionately to low-wage occupations, though some transition to high-wage occupations, and low-wage workers also transition to high-wage occupations. College education is a key determinant for mid-wage workers to transition upward, whereas those with a high-school education move disproportionately downward. Additionally, the negative employment effects in mid-wage occupations are concentrated among workers performing manual tasks, whereas those in cognitive task-intensive occupations are less affected.",
+     "sources": [
+      "dk_W2213841331_S1",
+      "dk_W2213841331_S10",
+      "dk_W2213841331_S11",
+      "dk_W2213841331_S2",
+      "dk_W2213841331_S3",
+      "dk_W2213841331_S4",
+      "dk_W2213841331_S5",
+      "dk_W2213841331_S6",
+      "dk_W2213841331_S7",
+      "dk_W2213841331_S8",
+      "dk_W2213841331_S9"
+     ]
+    },
+    {
+     "text": "The consequences of a first parental death on adult children have been analyzed using a matched-control difference-in-differences strategy. Following a parental death, both men and women experience a persistent decline in earnings, with women who have young children experiencing a comparatively larger earnings drop. The event also leads to a deterioration in mental health, as evidenced by an increased use of psychological assistance, a higher share of individuals receiving prescriptions for mental health conditions, and an increase in opioid prescriptions for both men and women.",
+     "sources": [
+      "dk_W7160055634_S1",
+      "dk_W7160055634_S2",
+      "dk_W7160055634_S3",
+      "dk_W7160055634_S4",
+      "dk_W7160055634_S5",
+      "dk_W7160055634_S6",
+      "dk_W7160055634_S7",
+      "dk_W7160055634_S8",
+      "dk_W7160055634_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:02:39+02:00",
+   "claims": [
+    "dk_W1992237160_S1",
+    "dk_W1992237160_S2",
+    "dk_W2114357420_S1",
+    "dk_W2114357420_S2",
+    "dk_W2114357420_S3",
+    "dk_W2114357420_S4",
+    "dk_W2114357420_S5",
+    "dk_W2114357420_S6",
+    "dk_W2114357420_S7",
+    "dk_W3174613487_S1",
+    "dk_W3174613487_S2",
+    "dk_W3174613487_S3",
+    "dk_W3174613487_S4",
+    "dk_W3174613487_S5",
+    "dk_W3174613487_S6",
+    "dk_W3174613487_S7",
+    "dk_W3174613487_S8",
+    "dk_W3174613487_S9",
+    "dk_W3174613487_S10",
+    "dk_W2213841331_S1",
+    "dk_W2213841331_S2",
+    "dk_W2213841331_S3",
+    "dk_W2213841331_S4",
+    "dk_W2213841331_S5",
+    "dk_W2213841331_S6",
+    "dk_W2213841331_S7",
+    "dk_W2213841331_S8",
+    "dk_W2213841331_S9",
+    "dk_W2213841331_S10",
+    "dk_W2213841331_S11",
+    "dk_W7160055634_S1",
+    "dk_W7160055634_S2",
+    "dk_W7160055634_S3",
+    "dk_W7160055634_S4",
+    "dk_W7160055634_S5",
+    "dk_W7160055634_S6",
+    "dk_W7160055634_S7",
+    "dk_W7160055634_S8",
+    "dk_W7160055634_S9"
+   ],
+   "papers": [
+    "dk_W1992237160",
+    "dk_W2114357420",
+    "dk_W2213841331",
+    "dk_W3174613487",
+    "dk_W7160055634"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "design",
+   "key": "event_study",
+   "version": 1,
+   "title": "Event Study Designs",
+   "label": "Event study",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "The arrival of children increases the gender gap in earnings, hours worked, labor force participation, and wage rates. Following the birth of a first child, women fall behind men in occupational rank and in their probability of becoming a manager, while their probability of working in the public sector or in family-friendly firms increases. Over the last three to four decades, the fraction of gender inequality in earnings caused by child penalties has increased dramatically. These child penalties are also transmitted intergenerationally: a higher relative labor supply of maternal grandparents decreases the female child penalty in earnings, whereas the relative labor supply of paternal grandparents has no effect.",
+     "sources": [
+      "dk_W2784402791_S1",
+      "dk_W2784402791_S10",
+      "dk_W2784402791_S11",
+      "dk_W2784402791_S2",
+      "dk_W2784402791_S3",
+      "dk_W2784402791_S4",
+      "dk_W2784402791_S5",
+      "dk_W2784402791_S6",
+      "dk_W2784402791_S7",
+      "dk_W2784402791_S8",
+      "dk_W2784402791_S9"
+     ]
+    },
+    {
+     "text": "Spousal labor supply responses differ significantly depending on whether a health shock is fatal or nonfatal. A fatal health shock to a spouse increases the surviving spouse's labor force participation and earnings, with the effect being stronger in families that experience significant income losses. This increase is driven by widows, who raise both their labor force participation and earnings. Conversely, widowers experience a decrease in labor force participation and earnings following the death of a spouse. In the case of severe nonfatal health shocks, there is no effect on the surviving spouse's labor force participation or earnings, even though such shocks decrease household post-transfer income.",
+     "sources": [
+      "dk_W3174613487_S1",
+      "dk_W3174613487_S10",
+      "dk_W3174613487_S2",
+      "dk_W3174613487_S3",
+      "dk_W3174613487_S4",
+      "dk_W3174613487_S5",
+      "dk_W3174613487_S6",
+      "dk_W3174613487_S7",
+      "dk_W3174613487_S8",
+      "dk_W3174613487_S9"
+     ]
+    },
+    {
+     "text": "The death of a parent also has persistent negative impacts on the earnings of adult children. Following a first, sudden parental death, both men and women experience a decline in earnings, with women experiencing a slightly larger reduction in earnings than men.",
+     "sources": [
+      "dk_W7160055634_S1",
+      "dk_W7160055634_S2"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:03:06+02:00",
+   "claims": [
+    "dk_W2784402791_S1",
+    "dk_W2784402791_S2",
+    "dk_W2784402791_S3",
+    "dk_W2784402791_S4",
+    "dk_W2784402791_S5",
+    "dk_W2784402791_S6",
+    "dk_W2784402791_S7",
+    "dk_W2784402791_S8",
+    "dk_W2784402791_S9",
+    "dk_W2784402791_S10",
+    "dk_W2784402791_S11",
+    "dk_W3174613487_S1",
+    "dk_W3174613487_S2",
+    "dk_W3174613487_S3",
+    "dk_W3174613487_S4",
+    "dk_W3174613487_S5",
+    "dk_W3174613487_S6",
+    "dk_W3174613487_S7",
+    "dk_W3174613487_S8",
+    "dk_W3174613487_S9",
+    "dk_W3174613487_S10",
+    "dk_W7160055634_S1",
+    "dk_W7160055634_S2"
+   ],
+   "papers": [
+    "dk_W2784402791",
+    "dk_W3174613487",
+    "dk_W7160055634"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "design",
+   "key": "iv",
+   "version": 1,
+   "title": "Taxation and Fertility in Denmark",
+   "label": "Instrumental variables",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Analysis of Danish administrative registers from 1982 to 1993 shows that the marginal net-of-tax rate on labor income increases labor income, and the marginal net-of-tax rate on capital income increases capital income. Further panel regression analysis covering 1984 to 2005 confirms that an increase in the marginal net-of-tax rate on labor income increases labor income for both wage earners and self-employed individuals. Similarly, the marginal net-of-tax rate on capital income positively affects capital income. These behavioral responses are evident across various tax reform periods, indicating that taxable income components respond positively to marginal net-of-tax rates.",
+     "sources": [
+      "dk_W1992237160_S1",
+      "dk_W1992237160_S2",
+      "dk_W1992237160_S3",
+      "dk_W1992237160_S4",
+      "dk_W1992237160_S5",
+      "dk_W1992237160_S6",
+      "dk_W1992237160_S7"
+     ]
+    },
+    {
+     "text": "Cross-tax elasticity estimates suggest that labor and capital income act as substitutes, as an increase in the marginal net-of-tax rate on capital income decreases labor income, while an increase in the marginal net-of-tax rate on labor income decreases capital income. This pattern is consistent with income-shifting behavior. Additionally, the panel regression elasticity estimates demonstrating these relationships are robust to empirical specifications, including the addition of socioeconomic controls and pre-reform income controls.",
+     "sources": [
+      "dk_W1992237160_S10",
+      "dk_W1992237160_S8",
+      "dk_W1992237160_S9"
+     ]
+    },
+    {
+     "text": "In the context of family and labor market outcomes, evidence from Danish administrative registers indicates that having children has a negative, long-lasting impact on women's earnings. This decline is driven by decreases in hourly earnings as well as reductions in labor supply, including lower labor force participation and fewer weekly hours worked.",
+     "sources": [
+      "dk_W2566343964_S1",
+      "dk_W2566343964_S2",
+      "dk_W2566343964_S3",
+      "dk_W2566343964_S4"
+     ]
+    },
+    {
+     "text": "The negative effect of fertility on earnings is more pronounced at the extensive margin than at the intensive margin. Specifically, the decline in annual earnings associated with having a first child is greater than the decline in earnings associated with having additional children among women who are already mothers.",
+     "sources": [
+      "dk_W2566343964_S5",
+      "dk_W2566343964_S6"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:03:27+02:00",
+   "claims": [
+    "dk_W1992237160_S1",
+    "dk_W1992237160_S2",
+    "dk_W1992237160_S3",
+    "dk_W1992237160_S4",
+    "dk_W1992237160_S5",
+    "dk_W1992237160_S6",
+    "dk_W1992237160_S7",
+    "dk_W1992237160_S8",
+    "dk_W1992237160_S9",
+    "dk_W1992237160_S10",
+    "dk_W2566343964_S1",
+    "dk_W2566343964_S2",
+    "dk_W2566343964_S3",
+    "dk_W2566343964_S4",
+    "dk_W2566343964_S5",
+    "dk_W2566343964_S6"
+   ],
+   "papers": [
+    "dk_W1992237160",
+    "dk_W2566343964"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "design",
+   "key": "panel_fe",
+   "version": 1,
+   "title": "Taxable Income Elasticities",
+   "label": "Panel fixed effects",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Analysis of Danish administrative registers from 1984 to 2005 indicates that an increase in the marginal net-of-tax rate on labor income increases labor income, with estimated elasticities of approximately 0.05 for wage earners and 0.10 for self-employed individuals. Similarly, an increase in the marginal net-of-tax rate on capital income increases capital income. The estimated elasticities for capital income are approximately two to three times larger than those for labor income.",
+     "sources": [
+      "dk_W1992237160_S3",
+      "dk_W1992237160_S4",
+      "dk_W1992237160_S5"
+     ]
+    },
+    {
+     "text": "The responsiveness of labor income to marginal net-of-tax rates varies depending on the scale of the tax reform. Large tax reform variations in the 1980s are associated with a population-wide labor income elasticity of 0.12, which increases to about twice that level when focusing on the largest tax variations. Conversely, the smaller tax reform variations observed during the 1990s and 2000s are associated with a lower labor income elasticity of 0.02.",
+     "sources": [
+      "dk_W1992237160_S6",
+      "dk_W1992237160_S7"
+     ]
+    },
+    {
+     "text": "Evidence from Danish tax registers suggests that labor income and capital income act as substitutes, pointing to income-shifting behavior among taxpayers. Specifically, an increase in the marginal net-of-tax rate on capital income is associated with a decrease in labor income, while an increase in the marginal net-of-tax rate on labor income is associated with a decrease in capital income.",
+     "sources": [
+      "dk_W1992237160_S8",
+      "dk_W1992237160_S9"
+     ]
+    },
+    {
+     "text": "The panel regression elasticity estimates derived from these administrative registers demonstrate robustness across various empirical specifications. These estimates remain consistent when incorporating socioeconomic controls as well as different specifications for pre-reform income controls.",
+     "sources": [
+      "dk_W1992237160_S10"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:03:39+02:00",
+   "claims": [
+    "dk_W1992237160_S3",
+    "dk_W1992237160_S4",
+    "dk_W1992237160_S5",
+    "dk_W1992237160_S6",
+    "dk_W1992237160_S7",
+    "dk_W1992237160_S8",
+    "dk_W1992237160_S9",
+    "dk_W1992237160_S10"
+   ],
+   "papers": [
+    "dk_W1992237160"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "design",
+   "key": "randomized_experiment",
+   "version": 1,
+   "title": "Tax Enforcement Field Experiment",
+   "label": "Randomized experiment",
+   "definition": null,
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "In a tax enforcement field experiment implemented by the Danish tax collection agency (SKAT), researchers examined the behavioral consequences of tax audits. The study found that prior audits have a significant positive impact on self-reported income in the subsequent year. Conversely, prior audits were found to have no effect on third-party reported income.",
+     "sources": [
+      "dk_W2088663850_S7",
+      "dk_W2088663850_S9"
+     ]
+    },
+    {
+     "text": "The field experiment also investigated the impact of threat-of-audit letters sent to taxpayers. These letters had a positive impact on self-reported income, with the effects being stronger for a 100% threat than for a 50% threat. However, the threat-of-audit letters had no effect on third-party reported income.",
+     "sources": [
+      "dk_W2088663850_S10",
+      "dk_W2088663850_S8"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:03:48+02:00",
+   "claims": [
+    "dk_W2088663850_S1",
+    "dk_W2088663850_S2",
+    "dk_W2088663850_S3",
+    "dk_W2088663850_S7",
+    "dk_W2088663850_S8",
+    "dk_W2088663850_S9",
+    "dk_W2088663850_S10"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.family_economics",
+   "version": 1,
+   "title": "Family Economics",
+   "label": "Family economics and household production",
+   "definition": "Theories of household production, child quality, economies of scale, and family support channels.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Having children has a negative, large, and long-lasting effect on women's earnings. This decline is driven by decreases in hourly earnings, labor force participation, and weekly hours worked. Furthermore, the negative impact on earnings is much stronger at the extensive margin of having any children compared to the intensive margin of having additional children.",
+     "sources": [
+      "dk_W2566343964_S1",
+      "dk_W2566343964_S2",
+      "dk_W2566343964_S3",
+      "dk_W2566343964_S4",
+      "dk_W2566343964_S5",
+      "dk_W2566343964_S6"
+     ]
+    },
+    {
+     "text": "The death of a parent leads to a persistent decline in earnings for both men and women. This earnings reduction is comparatively larger for women with young children, a pattern that is likely associated with the loss of informal childcare support.",
+     "sources": [
+      "dk_W7160055634_S1",
+      "dk_W7160055634_S2",
+      "dk_W7160055634_S9"
+     ]
+    },
+    {
+     "text": "Parental death also results in a deterioration of mental health for both men and women. This is manifested by an increased use of psychological assistance, a higher share of individuals receiving prescriptions for mental health conditions, and an increase in opioid prescriptions.",
+     "sources": [
+      "dk_W7160055634_S3",
+      "dk_W7160055634_S4",
+      "dk_W7160055634_S5",
+      "dk_W7160055634_S6",
+      "dk_W7160055634_S7",
+      "dk_W7160055634_S8"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:05:47+02:00",
+   "claims": [
+    "dk_W2566343964_S1",
+    "dk_W2566343964_S2",
+    "dk_W2566343964_S3",
+    "dk_W2566343964_S4",
+    "dk_W2566343964_S5",
+    "dk_W2566343964_S6",
+    "dk_W7160055634_S1",
+    "dk_W7160055634_S2",
+    "dk_W7160055634_S3",
+    "dk_W7160055634_S4",
+    "dk_W7160055634_S5",
+    "dk_W7160055634_S6",
+    "dk_W7160055634_S7",
+    "dk_W7160055634_S8",
+    "dk_W7160055634_S9"
+   ],
+   "papers": [
+    "dk_W2566343964",
+    "dk_W7160055634"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.income_shifting",
+   "version": 1,
+   "title": "Income Shifting Models",
+   "label": "Income shifting models",
+   "definition": "Theoretical models describing the intertemporal or cross-category shifting of income for tax optimization.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Tax reforms that reduce marginal tax rates increase the intertemporal shifting of labor income. In Denmark, a reform reducing marginal tax rates led to reported wage income being nearly 10 percent higher in January 2010 and correspondingly lower in November and December 2009. While less than 5 percent of employees with an incentive to shift actually exploited this opportunity, those who did shifted large amounts. Specifically, individuals in the 95th to 99th percentiles of the wage distribution shifted 15 percent of their average monthly wage income, while the top 1 percent of wage earners shifted close to 30 percent.",
+     "sources": [
+      "dk_W2114357420_S1",
+      "dk_W2114357420_S2",
+      "dk_W2114357420_S3",
+      "dk_W2114357420_S4"
+     ]
+    },
+    {
+     "text": "Increases in the net-of-tax rate are associated with increases in reported taxable income, with an overall elasticity of taxable income estimated at approximately 0.1 when intertemporal shifting is ignored. This elasticity increases with earnings, ranging from zero for the lowest income levels within the treatment group to 0.25 for taxpayers in the top 1 percent of the income distribution. However, when the intertemporal shifting component is removed, the net-of-tax rate has no effect on taxable income, and short-run elasticities are close to zero across all earnings levels.",
+     "sources": [
+      "dk_W2114357420_S5",
+      "dk_W2114357420_S6",
+      "dk_W2114357420_S7"
+     ]
+    },
+    {
+     "text": "Income shifting behavior is influenced by tax salience, liquidity constraints, and firm characteristics. Tax salience increases shifting, which is concentrated among informed individuals, though less than 10 percent of informed taxpayers actually engage in shifting. Conversely, liquidity constraints reduce shifting, as the behavior is less pronounced among individuals with low levels of liquid assets relative to income. Additionally, shifting is negligible among public sector employees, more common in small private firms than in large firms, and much more common among the top-five earners within a firm, indicating that firm size, public employment, and top-earner status affect the willingness or ability to cooperate in shifting.",
+     "sources": [
+      "dk_W2114357420_S10",
+      "dk_W2114357420_S11",
+      "dk_W2114357420_S12",
+      "dk_W2114357420_S8",
+      "dk_W2114357420_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:05:59+02:00",
+   "claims": [
+    "dk_W2114357420_S1",
+    "dk_W2114357420_S2",
+    "dk_W2114357420_S3",
+    "dk_W2114357420_S4",
+    "dk_W2114357420_S5",
+    "dk_W2114357420_S6",
+    "dk_W2114357420_S7",
+    "dk_W2114357420_S8",
+    "dk_W2114357420_S9",
+    "dk_W2114357420_S10",
+    "dk_W2114357420_S11",
+    "dk_W2114357420_S12"
+   ],
+   "papers": [
+    "dk_W2114357420"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.labor_supply",
+   "version": 1,
+   "title": "Labor Supply Dynamics",
+   "label": "Labor supply models",
+   "definition": "Theoretical models of labor supply, including traditional extensions and family self-insurance mechanisms.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Empirical evidence indicates that marginal net-of-tax rates influence taxable income components. An increase in the marginal net-of-tax rate on labor income increases labor income, with estimated elasticities of approximately 0.05 for wage earners and 0.10 for self-employed individuals. Similarly, an increase in the marginal net-of-tax rate on capital income increases capital income, yielding elasticities that are two to three times larger than those for labor income. The magnitude of these responses varies with the scale of the tax policy changes, as larger tax reform variations are associated with higher labor income elasticities than smaller variations. These elasticity estimates remain robust across different empirical specifications, including those incorporating socioeconomic controls and pre-reform income controls.",
+     "sources": [
+      "dk_W1992237160_S1",
+      "dk_W1992237160_S10",
+      "dk_W1992237160_S2",
+      "dk_W1992237160_S3",
+      "dk_W1992237160_S4",
+      "dk_W1992237160_S5",
+      "dk_W1992237160_S6",
+      "dk_W1992237160_S7"
+     ]
+    },
+    {
+     "text": "Labor and capital income exhibit substitution patterns, reflecting income-shifting behavior. Specifically, an increase in the marginal net-of-tax rate on capital income leads to a decrease in labor income, while an increase in the marginal net-of-tax rate on labor income leads to a decrease in capital income.",
+     "sources": [
+      "dk_W1992237160_S8",
+      "dk_W1992237160_S9"
+     ]
+    },
+    {
+     "text": "Family labor supply serves as a self-insurance mechanism in response to severe household shocks, such as the death of a spouse. Following a fatal health shock, surviving spouses generally increase their labor force participation and annual earnings, particularly in households that experience substantial income losses. This response varies significantly by gender: widows experience substantial income losses and meaningfully increase both their labor force participation and earnings, whereas widowers, who are typically primary earners, tend to slightly decrease their labor supply.",
+     "sources": [
+      "dk_W3174613487_S1",
+      "dk_W3174613487_S11",
+      "dk_W3174613487_S2",
+      "dk_W3174613487_S3",
+      "dk_W3174613487_S4",
+      "dk_W3174613487_S5",
+      "dk_W3174613487_S6",
+      "dk_W3174613487_S7"
+     ]
+    },
+    {
+     "text": "In contrast to fatal events, severe nonfatal health shocks, such as a heart attack or stroke, do not lead to meaningful changes in spousal labor force participation or earnings. This lack of a spousal labor supply response aligns with the presence of adequate insurance coverage, as these nonfatal shocks result in only a minor decline in total household post-transfer income. These patterns collectively support the role of family labor supply as a self-insurance mechanism that is activated primarily when formal insurance is absent or insufficient.",
+     "sources": [
+      "dk_W3174613487_S10",
+      "dk_W3174613487_S11",
+      "dk_W3174613487_S8",
+      "dk_W3174613487_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:06:25+02:00",
+   "claims": [
+    "dk_W1992237160_S1",
+    "dk_W1992237160_S2",
+    "dk_W1992237160_S3",
+    "dk_W1992237160_S4",
+    "dk_W1992237160_S5",
+    "dk_W1992237160_S6",
+    "dk_W1992237160_S7",
+    "dk_W1992237160_S8",
+    "dk_W1992237160_S9",
+    "dk_W1992237160_S10",
+    "dk_W3174613487_S1",
+    "dk_W3174613487_S2",
+    "dk_W3174613487_S3",
+    "dk_W3174613487_S4",
+    "dk_W3174613487_S5",
+    "dk_W3174613487_S6",
+    "dk_W3174613487_S7",
+    "dk_W3174613487_S8",
+    "dk_W3174613487_S9",
+    "dk_W3174613487_S10",
+    "dk_W3174613487_S11"
+   ],
+   "papers": [
+    "dk_W1992237160",
+    "dk_W3174613487"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.social_norms",
+   "version": 1,
+   "title": "Social and Gender Norms",
+   "label": "Social and gender norms",
+   "definition": "Theoretical frameworks incorporating social norms, identity, and gender roles into economic models.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "The arrival of children increases the gender gap in labor market outcomes. This effect is manifested through an increase in the gender gap in earnings, hours worked, labor force participation, and wage rates.",
+     "sources": [
+      "dk_W2784402791_S1",
+      "dk_W2784402791_S2",
+      "dk_W2784402791_S3",
+      "dk_W2784402791_S4"
+     ]
+    },
+    {
+     "text": "Following the birth of a first child, women experience a decline in occupational rank and a lower probability of becoming a manager relative to men. Concurrently, children increase the probability that women, relative to men, switch to more family-friendly work environments, such as the public sector or firms with family-friendly policies.",
+     "sources": [
+      "dk_W2784402791_S5",
+      "dk_W2784402791_S6",
+      "dk_W2784402791_S7",
+      "dk_W2784402791_S8"
+     ]
+    },
+    {
+     "text": "The fraction of gender inequality in earnings caused by child penalties has increased over the last three to four decades, doubling from approximately 40 percent in 1980 to about 80 percent in 2013.",
+     "sources": [
+      "dk_W2784402791_S9"
+     ]
+    },
+    {
+     "text": "Child penalties in earnings are transmitted across generations from parents to daughters, indicating that the childhood environment influences gender identity. Specifically, a higher relative labor supply of maternal grandparents is associated with a smaller child penalty for their daughters, whereas the relative labor supply of paternal grandparents has no detectable effect on the daughter's child penalty.",
+     "sources": [
+      "dk_W2784402791_S10",
+      "dk_W2784402791_S11"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:06:39+02:00",
+   "claims": [
+    "dk_W2784402791_S1",
+    "dk_W2784402791_S2",
+    "dk_W2784402791_S3",
+    "dk_W2784402791_S4",
+    "dk_W2784402791_S5",
+    "dk_W2784402791_S6",
+    "dk_W2784402791_S7",
+    "dk_W2784402791_S8",
+    "dk_W2784402791_S9",
+    "dk_W2784402791_S10",
+    "dk_W2784402791_S11"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.tax_evasion",
+   "version": 1,
+   "title": "Tax Evasion and Compliance",
+   "label": "Tax evasion and compliance models",
+   "definition": "Theoretical frameworks explaining tax evasion behavior, such as the Allingham-Sandmo model with risk considerations.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "The rate of tax evasion is heavily influenced by the reporting environment. For income subject to third-party reporting, the tax evasion rate is close to zero, whereas the evasion rate for self-reported income is substantial. Because the vast majority of income is subject to third-party reporting, the overall tax evasion rate remains modest.",
+     "sources": [
+      "dk_W2088663850_S1",
+      "dk_W2088663850_S2",
+      "dk_W2088663850_S3"
+     ]
+    },
+    {
+     "text": "Higher marginal tax rates increase tax evasion for self-reported income. Additionally, marginal tax rate increases lead to greater legal avoidance and other behavioral responses. However, the positive impact of marginal tax rates on tax evasion for self-reported income is small in comparison to its effect on legal avoidance and behavioral responses.",
+     "sources": [
+      "dk_W2088663850_S4",
+      "dk_W2088663850_S5",
+      "dk_W2088663850_S6"
+     ]
+    },
+    {
+     "text": "Tax enforcement mechanisms, such as prior audits and threat-of-audit letters, have distinct effects depending on how income is reported. Both prior audits and threat-of-audit letters significantly increase self-reported income, which represents a reduction in tax evasion. Conversely, neither prior audits nor threat-of-audit letters have any effect on third-party reported income.",
+     "sources": [
+      "dk_W2088663850_S10",
+      "dk_W2088663850_S7",
+      "dk_W2088663850_S8",
+      "dk_W2088663850_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:06:52+02:00",
+   "claims": [
+    "dk_W2088663850_S1",
+    "dk_W2088663850_S2",
+    "dk_W2088663850_S3",
+    "dk_W2088663850_S4",
+    "dk_W2088663850_S5",
+    "dk_W2088663850_S6",
+    "dk_W2088663850_S7",
+    "dk_W2088663850_S8",
+    "dk_W2088663850_S9",
+    "dk_W2088663850_S10"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "theory",
+   "key": "theory_model.trade_theory",
+   "version": 1,
+   "title": "Trade-Induced Job Polarization",
+   "label": "Trade theory models",
+   "definition": "Theoretical frameworks analyzing international trade, such as the factor service trade perspective.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Import competition drives job polarization by reducing employment in mid-wage occupations while simultaneously increasing employment in both low-wage and high-wage occupations. This dynamic contributes to the hollowing out of mid-wage jobs, yielding a U-shaped job polarization pattern in the aggregate.",
+     "sources": [
+      "dk_W2213841331_S1",
+      "dk_W2213841331_S2",
+      "dk_W2213841331_S3"
+     ]
+    },
+    {
+     "text": "The transition of workers across the wage spectrum in response to import competition is heavily mediated by education. Mid-wage workers affected by import competition transition disproportionately to low-wage occupations, though some move into high-wage occupations. College education is key for mid-wage workers to move up into high-wage occupations, whereas those with a high-school education move disproportionately down into low-wage occupations. Additionally, import competition can facilitate the transition of low-wage workers into high-wage occupations.",
+     "sources": [
+      "dk_W2213841331_S4",
+      "dk_W2213841331_S5",
+      "dk_W2213841331_S6",
+      "dk_W2213841331_S7",
+      "dk_W2213841331_S8"
+     ]
+    },
+    {
+     "text": "The impact of import competition is highly dependent on the task content of occupations, with workers in manual task-intensive occupations being the most negatively affected. Conversely, workers in non-manual or cognitive task-intensive occupations are disproportionately less affected. This polarizing impact of import competition operates independently of the routine-task intensity of occupations, demonstrating that the effects of international trade are distinct from those of routine task-replacing technological change.",
+     "sources": [
+      "dk_W2213841331_S10",
+      "dk_W2213841331_S11",
+      "dk_W2213841331_S12",
+      "dk_W2213841331_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:07:07+02:00",
+   "claims": [
+    "dk_W2213841331_S1",
+    "dk_W2213841331_S2",
+    "dk_W2213841331_S3",
+    "dk_W2213841331_S4",
+    "dk_W2213841331_S5",
+    "dk_W2213841331_S6",
+    "dk_W2213841331_S7",
+    "dk_W2213841331_S8",
+    "dk_W2213841331_S9",
+    "dk_W2213841331_S10",
+    "dk_W2213841331_S11",
+    "dk_W2213841331_S12"
+   ],
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "phrases": []
+  },
+  {
+   "group": "variation",
+   "key": "family.fertility_timing",
+   "version": 1,
+   "title": "Timing of First Birth",
+   "label": "Timing of first birth",
+   "definition": "The specific timing or age at which an individual has their first child.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "The arrival of a first child initiates a long-run gender gap in earnings of approximately 20 percent. This gap is driven by sharp, roughly equal effects across three distinct labor market margins: labor force participation, hours of work, and hourly wage rates.",
+     "sources": [
+      "dk_W2784402791_S1",
+      "dk_W2784402791_S2",
+      "dk_W2784402791_S3",
+      "dk_W2784402791_S4"
+     ]
+    },
+    {
+     "text": "Following the birth of their first child, women experience a decline in occupational rank and a lower probability of becoming a manager relative to men. To accommodate family needs, women frequently transition to more family-friendly work environments, which is reflected in an increased probability of working in the public sector or in firms characterized by family-friendly practices, such as having women with young children in management.",
+     "sources": [
+      "dk_W2784402791_S5",
+      "dk_W2784402791_S6",
+      "dk_W2784402791_S7",
+      "dk_W2784402791_S8"
+     ]
+    },
+    {
+     "text": "Over the span of three to four decades, the proportion of total gender inequality in earnings that is attributable to child penalties has risen substantially. This contribution doubled from approximately 40 percent in 1980 to about 80 percent in 2013.",
+     "sources": [
+      "dk_W2784402791_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:03:58+02:00",
+   "claims": [
+    "dk_W2784402791_S1",
+    "dk_W2784402791_S2",
+    "dk_W2784402791_S3",
+    "dk_W2784402791_S4",
+    "dk_W2784402791_S5",
+    "dk_W2784402791_S6",
+    "dk_W2784402791_S7",
+    "dk_W2784402791_S8",
+    "dk_W2784402791_S9"
+   ],
+   "papers": [
+    "dk_W2784402791"
+   ],
+   "phrases": [
+    "timing of first births"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "family.ivf_success",
+   "version": 1,
+   "title": "IVF Treatment Success",
+   "label": "IVF treatment success",
+   "definition": "Whether the first IVF treatment was successful in resulting in a birth.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "In Danish administrative registers, the success of a woman's first in vitro fertilization (IVF) treatment is utilized as a natural experiment. This instrumental variable strategy compares childless women who had a successful first IVF treatment resulting in a birth with those whose first treatment was unsuccessful. The data links the IVF register with tax and employer-employee registers at Statistics Denmark, covering first treatments from 1995 to 2005 and tracking outcomes from 1991 to 2009.",
+     "sources": [
+      "dk_W2566343964_S1",
+      "dk_W2566343964_S2",
+      "dk_W2566343964_S3",
+      "dk_W2566343964_S4"
+     ]
+    },
+    {
+     "text": "Estimates from this natural experiment indicate that having children leads to a persistent, negative, and long-lasting effect on women's annual earnings. This decline is driven by reductions in hourly earnings as well as decreases in labor supply, specifically through lower labor force participation and fewer weekly hours worked.",
+     "sources": [
+      "dk_W2566343964_S1",
+      "dk_W2566343964_S2",
+      "dk_W2566343964_S3",
+      "dk_W2566343964_S4"
+     ]
+    },
+    {
+     "text": "The negative impact of fertility on earnings is much stronger at the extensive margin than at the intensive margin. Comparing IVF-treated women in Denmark reveals that the decline in annual earnings associated with having a first child is far greater than the decline associated with having additional children among women who already have children.",
+     "sources": [
+      "dk_W2566343964_S6"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:04:10+02:00",
+   "claims": [
+    "dk_W2566343964_S1",
+    "dk_W2566343964_S2",
+    "dk_W2566343964_S3",
+    "dk_W2566343964_S4",
+    "dk_W2566343964_S6"
+   ],
+   "papers": [
+    "dk_W2566343964"
+   ],
+   "phrases": [
+    "IVF treatment success at the first IVF treatment among childless women",
+    "IVF treatment success at the first IVF treatment among childless women and among mothers"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "family.parental_death",
+   "version": 1,
+   "title": "Parental Death Shock",
+   "label": "Parental death shock",
+   "definition": "The occurrence and timing of a sudden first parental death.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "A sudden first parental death leads to a persistent decline in earnings for adult children in Denmark. Following the shock, men's earnings decline by 2 percent by the fifth year, while women's earnings experience a continuous drop of almost 3 percent. This earning penalty is particularly pronounced for women with young children under the age of six, who experience an earnings drop of almost 4 percent after losing their mothers and 3.5 percent after losing their fathers, compared to a decline of around 1 percent for men with young children.",
+     "sources": [
+      "dk_W7160055634_S1",
+      "dk_W7160055634_S2",
+      "dk_W7160055634_S9"
+     ]
+    },
+    {
+     "text": "The shock of a parental death also deteriorates mental health, resulting in increased healthcare utilization and prescription rates for both men and women. Following a parent's death, women visit psychologists 0.10 more times per year after a mother's death and 0.06 more times after a father's death, while men's visits increase by 0.031 and 0.018, respectively. Additionally, the share of individuals receiving mental health-related prescriptions rises by 1.5 percentage points for women and 1 percentage point for men after a mother's death, and by 0.9 and 0.6 percentage points, respectively, after a father's death. Opioid prescriptions also rise by approximately 5 percent for women and 6 percent for men relative to baseline means.",
+     "sources": [
+      "dk_W7160055634_S3",
+      "dk_W7160055634_S4",
+      "dk_W7160055634_S5",
+      "dk_W7160055634_S6",
+      "dk_W7160055634_S7",
+      "dk_W7160055634_S8"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:04:25+02:00",
+   "claims": [
+    "dk_W7160055634_S1",
+    "dk_W7160055634_S2",
+    "dk_W7160055634_S3",
+    "dk_W7160055634_S4",
+    "dk_W7160055634_S5",
+    "dk_W7160055634_S6",
+    "dk_W7160055634_S7",
+    "dk_W7160055634_S8",
+    "dk_W7160055634_S9"
+   ],
+   "papers": [
+    "dk_W7160055634"
+   ],
+   "phrases": [
+    "timing of sudden first parental deaths"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "family.spousal_death",
+   "version": 1,
+   "title": "Spousal Death Shock",
+   "label": "Spousal death shock",
+   "definition": "The occurrence and timing of a spouse's death.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Fatal health shocks in the form of a spouse's death lead to overall increases in the labor supply of surviving spouses. In Denmark, administrative register data tracking married or cohabiting couples where a spouse died between 1985 and 2011 at ages 45 to 80 reveals that survivors' labor force participation increases by an average of 7.6 percent by the fourth year after the event. Over the same period, survivors' annual labor income increases by an average of 6.8 percent.",
+     "sources": [
+      "dk_W3174613487_S1",
+      "dk_W3174613487_S2"
+     ]
+    },
+    {
+     "text": "The labor supply response to a spouse's death varies significantly by gender. Widows experience substantial increases in labor supply, raising their labor force participation by 11.3 percent and their annual earnings by 10.1 percent by the fourth year after their husbands die. In contrast, widowers, who are more likely to be primary earners and have one fewer person to support financially, show a weak tendency to decrease both their labor force participation and their annual earnings.",
+     "sources": [
+      "dk_W3174613487_S3",
+      "dk_W3174613487_S4",
+      "dk_W3174613487_S5",
+      "dk_W3174613487_S6"
+     ]
+    },
+    {
+     "text": "The observed increases in labor supply are primarily driven by households facing heightened financial vulnerability. Evidence indicates that the average labor supply responses to a spousal death are concentrated among families that experience significant income losses and substantial income shocks, suggesting a reliance on labor supply as a mechanism for self-insurance.",
+     "sources": [
+      "dk_W3174613487_S7"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:04:36+02:00",
+   "claims": [
+    "dk_W3174613487_S1",
+    "dk_W3174613487_S2",
+    "dk_W3174613487_S3",
+    "dk_W3174613487_S4",
+    "dk_W3174613487_S5",
+    "dk_W3174613487_S6",
+    "dk_W3174613487_S7"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "phrases": [
+    "timing of spousal death within a short window"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "family.spousal_health_shock",
+   "version": 1,
+   "title": "Spousal Health Shock",
+   "label": "Spousal health shock",
+   "definition": "The occurrence of a sudden severe health event in a spouse, such as a heart attack or stroke.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Evidence from Danish administrative registers shows that a spouse's severe nonfatal health shock, such as a first heart attack or stroke, has no notable effect on the other partner's labor supply. Specifically, there are no meaningful changes in the labor force participation or annual earnings of spouses under age 60 whose partner experienced and survived such a health event. This lack of labor supply response suggests that there is no substantial need for self-insurance through increased work on average.",
+     "sources": [
+      "dk_W3174613487_S8",
+      "dk_W3174613487_S9"
+     ]
+    },
+    {
+     "text": "While spousal labor supply remains stable, a severe nonfatal health shock does lead to a small decrease in household post-transfer income. In Danish households where a spouse suffered a first heart attack or stroke and survived at least three years, the average decline in post-transfer income, which includes social and private transfers, is only 3.4 percent. This modest reduction is consistent with adequate insurance coverage.",
+     "sources": [
+      "dk_W3174613487_S10"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:04:45+02:00",
+   "claims": [
+    "dk_W3174613487_S8",
+    "dk_W3174613487_S9",
+    "dk_W3174613487_S10"
+   ],
+   "papers": [
+    "dk_W3174613487"
+   ],
+   "phrases": [
+    "timing of a spouse's first heart attack or stroke within a short window"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "policy.marginal_tax_rate",
+   "version": 1,
+   "title": "Marginal Tax Rate",
+   "label": "Marginal tax rate changes",
+   "definition": "Changes in marginal tax rates induced by legislative tax reforms or tax schedule kinks.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Marginal tax rates have a positive impact on tax evasion for self-reported income, but this effect is small compared to legal avoidance and other behavioral responses.",
+     "sources": [
+      "dk_W2088663850_S4",
+      "dk_W2088663850_S5",
+      "dk_W2088663850_S6"
+     ]
+    },
+    {
+     "text": "Increases in the marginal net-of-tax rate on labor income increase labor income, while increases in the marginal net-of-tax rate on capital income increase capital income. These responses are observed graphically around major tax reforms and in robust panel regressions. The labor income elasticity is estimated to be around 0.05 for wage earners and 0.10 for self-employed individuals, and capital income elasticities are two to three times larger. Large tax reform variations are associated with larger elasticities than smaller variations. Furthermore, cross-tax effects suggest that labor and capital income act as substitutes, with a higher net-of-tax rate on capital income decreasing labor income, and a higher net-of-tax rate on labor income decreasing capital income. These panel regression elasticity estimates are highly robust to socioeconomic and pre-reform income controls.",
+     "sources": [
+      "dk_W1992237160_S1",
+      "dk_W1992237160_S10",
+      "dk_W1992237160_S2",
+      "dk_W1992237160_S3",
+      "dk_W1992237160_S4",
+      "dk_W1992237160_S5",
+      "dk_W1992237160_S6",
+      "dk_W1992237160_S7",
+      "dk_W1992237160_S8",
+      "dk_W1992237160_S9"
+     ]
+    },
+    {
+     "text": "Tax reforms that reduce marginal tax rates lead to widespread intertemporal shifting of labor income. While only a small share of eligible employees (less than 5 percent) actively exploit the opportunity to shift income, those who do shift substantial amounts. The share of income shifted is particularly high among top earners, reaching 15 percent for individuals in percentiles 95–99 and nearly 30 percent for the top 1 percent of wage earners. When ignoring this shifting behavior, the overall elasticity of taxable income with respect to the net-of-tax rate is estimated at around 0.1, with the elasticity increasing at higher earnings levels. However, once the intertemporal shifting component is removed, the net-of-tax rate has virtually no effect on taxable income, with short-run elasticities close to zero across all earnings levels.",
+     "sources": [
+      "dk_W2114357420_S1",
+      "dk_W2114357420_S2",
+      "dk_W2114357420_S3",
+      "dk_W2114357420_S4",
+      "dk_W2114357420_S5",
+      "dk_W2114357420_S6",
+      "dk_W2114357420_S7"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:05:10+02:00",
+   "claims": [
+    "dk_W2088663850_S4",
+    "dk_W2088663850_S5",
+    "dk_W2088663850_S6",
+    "dk_W1992237160_S1",
+    "dk_W1992237160_S2",
+    "dk_W1992237160_S3",
+    "dk_W1992237160_S4",
+    "dk_W1992237160_S5",
+    "dk_W1992237160_S6",
+    "dk_W1992237160_S7",
+    "dk_W1992237160_S8",
+    "dk_W1992237160_S9",
+    "dk_W1992237160_S10",
+    "dk_W2114357420_S1",
+    "dk_W2114357420_S2",
+    "dk_W2114357420_S3",
+    "dk_W2114357420_S4",
+    "dk_W2114357420_S5",
+    "dk_W2114357420_S6",
+    "dk_W2114357420_S7"
+   ],
+   "papers": [
+    "dk_W1992237160",
+    "dk_W2088663850",
+    "dk_W2114357420"
+   ],
+   "phrases": [
+    "jumps in marginal tax rates at large kinks in the Danish income tax and stock income tax schedules",
+    "the 1987 reform's differential changes in marginal tax rates",
+    "the 1987, 1994, 1999 and 2004 reforms' differential changes in marginal tax rates",
+    "the 1994, 1999 and 2004 reforms' differential changes in marginal tax rates",
+    "the Danish 2010 tax reform's differential cut in marginal tax rates for high-wage earners"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "policy.tax_audit",
+   "version": 1,
+   "title": "Tax Audit Exposure",
+   "label": "Tax audit exposure",
+   "definition": "The assignment to or threat of a tax audit.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "In a tax enforcement field experiment conducted in Denmark, the assignment of prior audits was found to increase self-reported income in the following year. However, these prior audits had no effect on third-party reported income.",
+     "sources": [
+      "dk_W2088663850_S7",
+      "dk_W2088663850_S9"
+     ]
+    },
+    {
+     "text": "The threat of a tax audit, communicated via threat-of-audit letters, similarly increases self-reported income. This effect is stronger for a 100% threat than for a 50% threat, while having no impact on third-party reported income.",
+     "sources": [
+      "dk_W2088663850_S10",
+      "dk_W2088663850_S8"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:05:17+02:00",
+   "claims": [
+    "dk_W2088663850_S7",
+    "dk_W2088663850_S8",
+    "dk_W2088663850_S9",
+    "dk_W2088663850_S10"
+   ],
+   "papers": [
+    "dk_W2088663850"
+   ],
+   "phrases": [
+    "randomized assignment of threat-of-audit letters",
+    "randomized audit assignment"
+   ]
+  },
+  {
+   "group": "variation",
+   "key": "trade.import_competition",
+   "version": 1,
+   "title": "Import Competition Exposure",
+   "label": "Import competition exposure",
+   "definition": "Exposure to increased foreign trade competition, specifically from the removal of import quotas.",
+   "curated_md": null,
+   "sections": [
+    {
+     "text": "Exposure to rising import competition, driven by the dismantling of import quotas as China entered the World Trade Organization, leads to job polarization. Analysis of Danish employer-employee matched administrative registers from 1999 to 2009 shows that increased import competition reduces employment in mid-wage occupations. This decline is accompanied by an increased likelihood of employment in both low-wage and high-wage occupations. While affected mid-wage workers transition disproportionately to low-wage occupations, a smaller portion move into high-wage occupations, and the trade exposure also facilitates the transition of some low-wage workers into high-wage occupations.",
+     "sources": [
+      "dk_W2213841331_S1",
+      "dk_W2213841331_S2",
+      "dk_W2213841331_S3",
+      "dk_W2213841331_S4",
+      "dk_W2213841331_S5",
+      "dk_W2213841331_S6"
+     ]
+    },
+    {
+     "text": "The direction of occupational transitions under import competition is strongly mediated by worker education. Among Danish textile and clothing workers in mid-wage occupations, college education is key for moving upward into high-wage occupations. Conversely, mid-wage workers with a high-school education move disproportionately downward in the occupational wage hierarchy into low-wage occupations.",
+     "sources": [
+      "dk_W2213841331_S7",
+      "dk_W2213841331_S8"
+     ]
+    },
+    {
+     "text": "The impact of import competition on mid-wage employment also depends on the task content of occupations. Workers performing manual tasks are the most negatively affected by trade-induced job polarization. This negative impact on manual task-intensive occupations occurs independently of the routine-task intensity of the occupations, distinguishing the effects of international trade openness from those of technological change. Meanwhile, workers in non-manual or cognitive task-intensive occupations are disproportionately less affected.",
+     "sources": [
+      "dk_W2213841331_S10",
+      "dk_W2213841331_S11",
+      "dk_W2213841331_S9"
+     ]
+    }
+   ],
+   "model": "gemini-3.5-flash",
+   "committed_at": "2026-10-05T00:05:33+02:00",
+   "claims": [
+    "dk_W2213841331_S1",
+    "dk_W2213841331_S2",
+    "dk_W2213841331_S3",
+    "dk_W2213841331_S4",
+    "dk_W2213841331_S5",
+    "dk_W2213841331_S6",
+    "dk_W2213841331_S7",
+    "dk_W2213841331_S8",
+    "dk_W2213841331_S9",
+    "dk_W2213841331_S10",
+    "dk_W2213841331_S11"
+   ],
+   "papers": [
+    "dk_W2213841331"
+   ],
+   "phrases": [
+    "removal of Multi-Fiber Arrangement import quotas on Chinese textiles and clothing upon China's WTO entry"
+   ]
+  }
+ ],
+ "design_label": {
+  "diff_in_diff": "Difference-in-differences",
+  "event_study": "Event study",
+  "iv": "Instrumental variables",
+  "rd": "Regression discontinuity",
+  "bunching": "Bunching",
+  "randomized_experiment": "Randomized experiment",
+  "panel_fe": "Panel fixed effects",
+  "synthetic_control": "Synthetic control",
+  "matching": "Matching",
+  "other": "Other"
+ },
+ "provenance": {
+  "source": "metalens release",
+  "dataset": {
+   "title": "Register-data claims — v6.1 (Danish)",
+   "slug": "register-data-claims-v6-1-danish-5efdc68d",
+   "author": "Johanna Einsiedler",
+   "citation": "Johanna Einsiedler (2026). Register-data claims — v6.1 (Danish) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=5efdc68d-a169-4c29-a7e0-99fa57d54b83",
+   "published_url": null,
+   "description": "The nine seed papers extracted under the v6.1 agent contract: abstract-anchored claims with intro-level granularity, numeric horizons, structured identification (design, identifying variation, instrument), estimating equations, named theory parameters, and a sourced paper-level read (three summaries + theory coding).",
+   "keywords": []
+  },
+  "release": {
+   "number": 1,
+   "created_at": "2026-10-05T00:07:42+02:00",
+   "content_sha": "1d7bdb593500752ace7cc11a8bf2af0ee6cc8a0abe432a2994c0fe0275ecf77a",
+   "notes": null,
+   "changes": {
+    "first": true,
+    "status": {
+     "newly_flagged": 0,
+     "newly_verified": 0
+    },
+    "records": {
+     "added": 81,
+     "changed": 0,
+     "removed": 0
+    },
+    "n_papers": 8,
+    "n_records": 81,
+    "papers_added": [
+     {
+      "doi": "10.3982/ecta9113",
+      "study": "Kleven et al. (2011)",
+      "title": "Unwilling or Unable to Cheat? Evidence From a Tax Audit Experiment in Denmark",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/pol.6.4.271",
+      "study": "Kleven & Schultz (2014)",
+      "title": "Estimating Taxable Income Responses Using Danish Tax Reforms",
+      "records": 10
+     },
+     {
+      "doi": "10.1257/pol.20140233",
+      "study": "Kreiner et al. (2016)",
+      "title": "Tax Reforms and Intertemporal Shifting of Wage Income: Evidence from Danish Monthly Payroll Records",
+      "records": 12
+     },
+     {
+      "doi": "10.1257/aer.20141467",
+      "study": "Lundborg et al. (2017)",
+      "title": "Can Women Have Children and a Career? IV Evidence from IVF Treatments",
+      "records": 6
+     },
+     {
+      "doi": "10.1257/app.20180010",
+      "study": "Kleven et al. (2019)",
+      "title": "Children and Gender Inequality: Evidence from Denmark",
+      "records": 11
+     },
+     {
+      "doi": "10.1257/app.20170604",
+      "study": "Fadlon & Nielsen (2021)",
+      "title": "Family Labor Supply Responses to Severe Health Shocks: Evidence from Danish Administrative Records",
+      "records": 11
+     },
+     {
+      "doi": "10.1016/j.jinteco.2023.103810",
+      "study": "Keller & Utar (2023)",
+      "title": "International trade and job polarization: Evidence at the worker level",
+      "records": 12
+     },
+     {
+      "doi": "10.1257/aer.20240432",
+      "study": "Jensen & Zhang (2026)",
+      "title": "Effects of Parental Death on Labor Market Outcomes",
+      "records": 9
+     }
+    ],
+    "papers_removed": [],
+    "preset_changed": false
+   },
+   "doi": null,
+   "concept_doi": null
+  },
+  "credibility": {
+   "tier": "ai_only",
+   "label": "AI-only",
+   "audited": 0,
+   "n_records": 81
+  },
+  "note": "AI-extracted stated claims; no record has been individually human-verified yet."
+ }
+}

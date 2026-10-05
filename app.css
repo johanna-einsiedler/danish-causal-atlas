@@ -106,3 +106,18 @@ code{font-size:.82em;background:#f4f2e8;padding:.05em .35em}
 .abstract{max-width:40em;font-size:1.02rem;color:#2b2a26;margin:.9rem 0 1.4rem;
           padding-left:1rem;border-left:2px solid var(--rule)}
 .abstract .src{color:var(--muted);font-size:.78rem;font-family:var(--sans)}
+
+/* ---- wiki, taxonomy, corrections ---- */
+.wikisec{margin:1.3rem 0;padding:0 0 .9rem;border-bottom:1px solid var(--rule)}
+.wikisec:last-of-type{border-bottom:0}
+.wikisec h4{margin:.2rem 0 .3rem}
+.wikisec h4 .cnt{color:var(--muted);font-weight:400;font-family:var(--sans);font-size:.76rem}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.45rem}
+.chips .chip{font-family:var(--sans);font-size:.72rem;color:var(--muted);
+             border:1px solid var(--rule);border-radius:999px;padding:.08rem .6rem;
+             background:#faf9f3;cursor:default}
+.chips a.chip{color:var(--accent);cursor:pointer;text-decoration:none}
+.chips a.chip:hover{border-color:var(--accent)}
+.correct{margin:2rem 0 .6rem;padding:.7rem .95rem;font-family:var(--sans);font-size:.8rem;
+         color:#5b5747;background:#fbf8ec;border:1px solid #e8e2cb;border-radius:4px}
+.correct a{color:var(--accent)}

@@ -28,15 +28,17 @@ function mathy(str) {
     .replace(/([A-Za-z0-9\)\]])\^([A-Za-z0-9+\-]{1,4})/g, '$1<sup>$2</sup>');
 }
 
-let G, CLAIMS, PAPERS, SEARCH, NODE = {}, EDGE = {}, BY_CLAIM = {}, DEG = {};
+let G, CLAIMS, PAPERS, WIKI, TAX, RELIABILITY, SEARCH,
+    NODE = {}, EDGE = {}, BY_CLAIM = {}, DEG = {};
 const PAPER_YEAR = {};
 
 /* ================= load ================= */
 (async function init() {
-  const [g, c, p] = await Promise.all(
-    ['data/graph.json', 'data/claims.json', 'data/papers.json']
-      .map(u => fetch(u).then(r => r.json())));
-  G = g; CLAIMS = c; PAPERS = p;
+  const [g, c, p, wk, tx, rel] = await Promise.all(
+    ['data/graph.json', 'data/claims.json', 'data/papers.json',
+     'data/wiki.json', 'data/taxonomy.json', 'data/reliability.json']
+      .map(u => fetch(u).then(r => r.ok ? r.json() : null).catch(() => null)));
+  G = g; CLAIMS = c; PAPERS = p; WIKI = wk; TAX = tx; RELIABILITY = rel;
   G.nodes.forEach(n => NODE[n.id] = n);
   G.edges.forEach(e => { EDGE[e.from + ' ' + e.to] = e;
     DEG[e.from] = (DEG[e.from] || 0) + 1; DEG[e.to] = (DEG[e.to] || 0) + 1; });
@@ -73,6 +75,12 @@ function route() {
   if (head === 'edge') return viewEdge(app, arg);
   if (head === 'claim') return viewClaim(app, arg);
   if (head === 'paper') return viewPaper(app, arg);
+  if (head === 'wiki') return viewWiki(app);
+  if (head === 'design' || head === 'variation' || head === 'theory')
+    return viewWikiPage(app, head, arg);
+  if (head === 'taxonomy') return arg ? viewTaxonomyCol(app, arg) : viewTaxonomy(app);
+  if (head === 'reliability') return viewReliability(app);
+  if (head === 'corrections') return viewCorrections(app);
   if (head === 'about') return viewAbout(app);
   return viewLanding(app);
 }
@@ -135,7 +143,9 @@ function viewLanding(app) {
    ['Search variables', 'Every concept the corpus measures, with the relations ' +
       'running into and out of it, and who studied them.', '#/variables'],
    ['Search papers', 'All ' + PAPERS.length + ' extracted papers: their claims, their ' +
-      'identification strategy, and their own causal graph.', '#/papers']
+      'identification strategy, and their own causal graph.', '#/papers'],
+   ['Read the wiki', 'Living pages on every design, source of identifying variation and ' +
+      'theory in the corpus — each paragraph citing the claims it was written from.', '#/wiki']
   ].forEach(([t, d, h]) => {
     const c = el('div', 'door',
       '<h4>' + t + '</h4><p>' + d + '</p><span class="arr">' + t + ' ' + ARROW + '</span>');
@@ -725,9 +735,17 @@ function viewClaim(app, id) {
   row('Estimate', c.estimate != null ? '<b>' + esc(c.estimate) + '</b>' +
       (c.se ? ' ' + esc(c.se) : '') + ' ' + esc(c.units || '') : null);
   row('Significant', c.significant == null ? 'not reported' : (c.significant ? 'yes' : 'no'));
-  row('Design', esc(nice(c.design)));
+  row('Design', (c.designs && c.designs.length ? c.designs : (c.design ? [c.design] : []))
+    .map(d => (WIKI && (WIKI.pages || []).some(p => p.group === 'design' && p.key === d))
+      ? '<a href="#/design/' + encodeURIComponent(d) + '">' + esc(nice(d)) + '</a>'
+      : esc(nice(d))).join(' · ') || null);
   row('Estimand', esc(c.estimand));
   row('Variation', mathy(c.source_of_variation));
+  row('Identifying variation', c.identifying_variation == null ? null :
+    mathy(c.identifying_variation) + (c.identifying_variation_concept
+      ? ' · <a href="#/variation/' + encodeURIComponent(c.identifying_variation_concept) +
+        '"><code>' + esc(c.identifying_variation_concept) + '</code></a>' : ''));
+  row('Instrument', mathy(c.instrument));
   row('Population', mathy(c.population.description));
   row('Period', esc(c.population.period));
   row('Sample N', esc(c.sample_n));
@@ -763,6 +781,29 @@ function viewClaim(app, id) {
     const ul = el('ul'); c.assumptions.forEach(a =>
       ul.appendChild(el('li', null, mathy(a)))); w.appendChild(ul);
   }
+  const rr = (c.results || []).filter(r => r.point_estimate != null || r.equation_formula);
+  if (rr.length) {
+    w.appendChild(el('h3', null, 'Reported estimates (' + rr.length + ')'));
+    const rt = el('table');
+    rt.innerHTML = '<tr><th>outcome</th><th class="num">estimate</th><th>horizon</th>' +
+                   '<th>where</th><th>specification</th></tr>';
+    rr.forEach(r => {
+      const tr = el('tr');
+      tr.innerHTML = '<td>' + mathy(r.outcome_variable || '') +
+        (r.subgroup ? '<br><span class="sub">' + esc(r.subgroup) + '</span>' : '') + '</td>' +
+        '<td class="num">' + (r.point_estimate != null ? '<b>' + esc(r.point_estimate) + '</b>' : DASH) +
+        (r.estimate_se != null ? ' (' + esc(r.estimate_se) + ')' : '') +
+        (r.theory_parameter ? '<br><span class="sub">' + esc(r.theory_parameter) + '</span>' : '') + '</td>' +
+        '<td>' + esc(r.horizon || DASH) + '</td>' +
+        '<td>' + esc([r.source_table, r.panel, r.column].filter(Boolean).join(' · ') || DASH) +
+        (r._crosscheck ? '<br><span class="sub">cross-check: ' + esc(r._crosscheck) + '</span>' : '') + '</td>' +
+        '<td>' + (r.equation_formula ? '<code>' + esc(r.equation_formula) + '</code>' : DASH) + '</td>';
+      rt.appendChild(tr);
+    });
+    w.appendChild(rt);
+    const eq = rr.find(r => r.equation_tex);
+    if (eq) w.appendChild(el('p', 'sub', 'Equation as printed: ' + mathy(eq.equation_tex)));
+  }
   w.appendChild(el('h3', null, 'Evidence in the paper'));
   if (!c.evidence.length) w.appendChild(el('p', 'empty', 'No quotes recorded.'));
   c.evidence.forEach(ev => {
@@ -773,6 +814,9 @@ function viewClaim(app, id) {
         (ev.located_ratio * 100).toFixed(0) + '% match' : '') + '</span>'));
 
   });
+  correctionBox(w, 'claim', c.claim_id,
+    'Claim: ' + (c.treatment.label || '') + ' → ' + (c.outcome.label || '') +
+    ' (' + (c.paper.title || '') + ')');
 }
 
 /* ================= paper ================= */
@@ -867,4 +911,277 @@ function viewAbout(app) {
     '<a href="https://github.com/johanna-einsiedler/metalens" target="_blank" rel="noopener">Metalens itself</a>. ' +
     'Maintained by Claude and ' +
     '<a href="https://johannaeinsiedler.com" target="_blank" rel="noopener">Johanna Einsiedler</a>.'));
+  w.appendChild(el('h3', null, 'How reliable is the extraction?'));
+  w.appendChild(el('p', null,
+    'Every paper was extracted three times by independent blind agent runs and the runs ' +
+    'were compared claim by claim: signs agreed 44/44, coded designs 42/44, and wherever ' +
+    'two runs read the same estimate they never disagreed on its value. ' +
+    'The full tables are on the <a href="#/reliability">reliability page</a>.'));
+  w.appendChild(el('h3', null, 'Something looks wrong?'));
+  w.appendChild(el('p', null,
+    'Every claim and wiki page has a “suggest a correction” link that opens a prefilled ' +
+    'GitHub issue or pull request — see <a href="#/corrections">how corrections work</a>.'));
+}
+
+/* ================= corrections: issue or PR, prefilled ================= */
+const REPO = 'https://github.com/johanna-einsiedler/danish-causal-atlas';
+function issueURL(title, body) {
+  return REPO + '/issues/new?labels=correction&title=' + encodeURIComponent(title) +
+         '&body=' + encodeURIComponent(body);
+}
+function prURL(path, content) {
+  // GitHub's new-file flow: for non-collaborators it forks the repo and turns
+  // the saved file into a pull request — no backend needed on a static site.
+  return REPO + '/new/main?filename=' + encodeURIComponent(path) +
+         '&value=' + encodeURIComponent(content);
+}
+function correctionBox(w, what, ref, context) {
+  const stamp = new Date().toISOString().slice(0, 10);
+  const body = '**What is wrong?**\n\n(describe the error — wrong sign, wrong number, ' +
+    'misread quote, wrong variable, missing claim …)\n\n**What should it say instead?**\n\n' +
+    '\n\n---\nReference: `' + ref + '`\n' + (context ? context + '\n' : '') +
+    'Page: ' + location.href + '\n';
+  const file = 'corrections/' + stamp + '-' + ref.replace(/[^A-Za-z0-9_.-]+/g, '_') + '.md';
+  const md = '---\nref: ' + ref + '\ndate: ' + stamp + '\nstatus: proposed\n---\n\n' + body;
+  const d = el('div', 'correct');
+  d.innerHTML = '<b>Spotted an error in this ' + esc(what) + '?</b> ' +
+    'Corrections are welcome and reviewed against the paper itself: ' +
+    '<a href="' + issueURL('Correction: ' + ref, body) + '" target="_blank" rel="noopener">open an issue</a> or ' +
+    '<a href="' + prURL(file, md) + '" target="_blank" rel="noopener">propose it as a pull request</a> ' +
+    '(GitHub forks this repository for you; the file lands under <code>corrections/</code>).';
+  w.appendChild(d);
+}
+function viewCorrections(app) {
+  const w = wrap(app);
+  crumb(w, [['Atlas', '#/'], ['Corrections', null]]);
+  w.appendChild(el('h2', null, 'Suggesting a correction'));
+  w.appendChild(el('p', null,
+    'Everything on this site was extracted from the papers by an AI agent, with verbatim ' +
+    'quotes back to the source — and none of it is individually human-verified. ' +
+    'If you know a paper and see a misreading, you can fix it.'));
+  w.appendChild(el('p', null,
+    'Every claim page and wiki page carries a <b>“suggest a correction”</b> box with two routes:'));
+  const ul = el('ul');
+  ul.appendChild(el('li', null, '<b>Open an issue</b> — the quickest way: a prefilled GitHub ' +
+    'issue naming the claim or page, where you describe what is wrong.'));
+  ul.appendChild(el('li', null, '<b>Propose a pull request</b> — GitHub forks this repository ' +
+    'and your note lands as a file under <code>corrections/</code>. Merging it records the ' +
+    'proposal; the data itself is then corrected upstream in the Metalens dataset (where every ' +
+    'change is reviewed against the paper and logged), and the site is rebuilt from the next release.'));
+  w.appendChild(ul);
+  w.appendChild(el('p', 'sub',
+    'Corrections never edit the generated data files directly: the dataset is the source of ' +
+    'truth, and its audit trail is the point.'));
+  correctionBox(w, 'site', 'general', null);
+}
+
+/* ================= wiki ================= */
+const GROUP_META = {
+  design:    { title: 'Designs', one: 'design', lede: 'One living page per identification ' +
+               'design: what identifies the effect, how the corpus applies it, and what to watch for.' },
+  variation: { title: 'Identifying variation', one: 'variation', lede: 'One page per source of ' +
+               'exogenous variation the corpus leans on — the actual event or policy quirk, ' +
+               'across every paper that uses it.' },
+  theory:    { title: 'Theories', one: 'theory', lede: 'One page per theory model family the ' +
+               'papers name, with the mechanisms they argue and the parameters they estimate.' },
+};
+function wikiHref(p) { return '#/' + p.group + '/' + encodeURIComponent(p.key); }
+
+function viewWiki(app) {
+  const w = wrap(app);
+  crumb(w, [['Atlas', '#/'], ['Wiki', null]]);
+  w.appendChild(el('h2', null, 'The methods wiki'));
+  w.appendChild(el('p', 'lede',
+    'Prose with an audit trail: every page below was written by one model call from the ' +
+    'dataset’s own rows, every paragraph names the claims it was written from, and ' +
+    'pages are versioned with each release.'));
+  if (!WIKI || !WIKI.pages || !WIKI.pages.length) {
+    w.appendChild(el('p', 'empty', 'No pages in this release.')); return;
+  }
+  ['design', 'variation', 'theory'].forEach(g => {
+    const ps = WIKI.pages.filter(p => p.group === g);
+    if (!ps.length) return;
+    const m = GROUP_META[g];
+    w.appendChild(el('h3', null, m.title + ' (' + ps.length + ')'));
+    w.appendChild(el('p', 'sub', m.lede));
+    const t = el('table');
+    t.innerHTML = '<tr><th>' + m.one + '</th><th class="num">claims</th>' +
+                  '<th class="num">papers</th><th>opening</th></tr>';
+    ps.forEach(p => {
+      const tr = el('tr', 'clickable');
+      const first = ((p.sections[0] || {}).text || '').slice(0, 110);
+      tr.innerHTML = '<td><b>' + esc(p.label) + '</b><br><code>' + esc(p.key) + '</code></td>' +
+        '<td class="num">' + p.claims.length + '</td><td class="num">' + p.papers.length + '</td>' +
+        '<td class="sub">' + esc(first) + '…</td>';
+      tr.onclick = () => go(wikiHref(p)); t.appendChild(tr);
+    });
+    w.appendChild(t);
+  });
+}
+
+function viewWikiPage(app, group, key) {
+  const w = wrap(app);
+  const p = (WIKI && WIKI.pages || []).find(x => x.group === group && x.key === key);
+  const m = GROUP_META[group];
+  if (!p) { crumb(w, [['Atlas', '#/'], ['Wiki', '#/wiki']]);
+    w.appendChild(el('p', 'empty', 'No such page in this release.')); return; }
+  crumb(w, [['Atlas', '#/'], ['Wiki', '#/wiki'], [m.title, '#/wiki'], [p.label, null]]);
+  w.appendChild(el('h2', null, esc(p.title || p.label)));
+  w.appendChild(el('p', 'sub', '<code>' + esc(p.key) + '</code> · ' + p.claims.length +
+    ' claims in ' + p.papers.length + ' paper' + (p.papers.length === 1 ? '' : 's') +
+    ' · page v' + (p.version || 1) + ', generated by ' + esc(p.model || 'a model') +
+    ' from the rows below — each paragraph cites the claims it was written from.'));
+  if (p.definition) w.appendChild(el('p', 'lede', esc(p.definition)));
+  if (p.curated_md) w.appendChild(el('p', 'abstract', esc(p.curated_md)));
+
+  p.sections.forEach(s => {
+    const sec = el('div', 'wikisec');
+    sec.appendChild(el('p', null, mathy(s.text)));
+    const chips = el('div', 'chips');
+    (s.sources || []).forEach(cid => {
+      const c = BY_CLAIM[cid];
+      const a = el('a', 'chip src', esc(c ? (c.treatment.label + ' ' + ARROW + ' ' +
+        c.outcome.label).slice(0, 48) : cid));
+      a.href = '#/claim/' + encodeURIComponent(cid);
+      a.title = c ? (c.paper.title || '') : cid;
+      chips.appendChild(a);
+    });
+    sec.appendChild(chips);
+    w.appendChild(sec);
+  });
+
+  if (group === 'variation' && (p.phrases || []).length) {
+    w.appendChild(el('h3', null, 'As the papers put it'));
+    const ul = el('ul'); p.phrases.forEach(x => ul.appendChild(el('li', null, '“' + esc(x) + '”')));
+    w.appendChild(ul);
+  }
+
+  const members = p.claims.map(id => BY_CLAIM[id]).filter(Boolean);
+  if (members.length) {
+    w.appendChild(el('h3', null, 'Claims using this ' + m.one + ' (' + members.length + ')'));
+    const t = el('table');
+    t.innerHTML = '<tr><th></th><th>relation</th><th>estimate</th><th>paper</th></tr>';
+    members.forEach(c => { const s = sgn(c.sign); const tr = el('tr', 'clickable');
+      tr.innerHTML = '<td class="sign ' + s[1] + '">' + s[0] + '</td><td>' +
+        mathy(c.treatment.label) + ' ' + ARROW + ' ' + mathy(c.outcome.label) + '</td><td>' +
+        (c.estimate != null ? esc(c.estimate) : DASH) + '</td><td>' +
+        esc((c.paper.title || '').slice(0, 60)) + '</td>';
+      tr.onclick = () => go('#/claim/' + c.claim_id); t.appendChild(tr); });
+    w.appendChild(t);
+  }
+  correctionBox(w, m.one + ' page', group + '/' + key, 'Wiki page: ' + (p.title || p.label));
+}
+
+/* ================= taxonomy ================= */
+const TAX_META = {
+  cause: ['Causes', 'treatment-side variables: what the papers shift'],
+  effect: ['Outcomes', 'outcome-side variables: what the papers measure'],
+  identifying_variation: ['Identifying variation', 'the sources of exogenous variation'],
+  theory_model: ['Theory models', 'the model families papers name'],
+  theory_parameter: ['Theory parameters', 'the structural parameters estimates carry'],
+};
+function viewTaxonomy(app) {
+  const w = wrap(app);
+  crumb(w, [['Atlas', '#/'], ['Taxonomy', null]]);
+  w.appendChild(el('h2', null, 'The taxonomies'));
+  w.appendChild(el('p', 'lede',
+    'The committed vocabularies the corpus is coded with. Every phrase a paper uses is ' +
+    'assigned to a concept under review; the graph, the wiki and the tables all key on ' +
+    'these concept ids.'));
+  if (!TAX || !TAX.vocabularies) { w.appendChild(el('p', 'empty', 'No taxonomy shipped.')); return; }
+  const t = el('table');
+  t.innerHTML = '<tr><th>vocabulary</th><th class="num">concepts</th>' +
+                '<th class="num">phrases</th><th>covers</th></tr>';
+  TAX.vocabularies.forEach(v => {
+    const m = TAX_META[v.column] || [v.column, ''];
+    const tr = el('tr', 'clickable');
+    tr.innerHTML = '<td><b>' + esc(m[0]) + '</b><br><code>' + esc(v.column) + '</code> v' +
+      v.version + '</td><td class="num">' + v.concepts.length + '</td><td class="num">' +
+      v.concepts.reduce((n, c) => n + (c.phrases || []).length, 0) + '</td><td class="sub">' +
+      esc(m[1]) + '</td>';
+    tr.onclick = () => go('#/taxonomy/' + v.column); t.appendChild(tr);
+  });
+  w.appendChild(t);
+}
+
+function viewTaxonomyCol(app, column) {
+  const w = wrap(app);
+  const v = (TAX && TAX.vocabularies || []).find(x => x.column === column);
+  if (!v) { crumb(w, [['Atlas', '#/'], ['Taxonomy', '#/taxonomy']]);
+    w.appendChild(el('p', 'empty', 'No such vocabulary.')); return; }
+  const m = TAX_META[column] || [column, ''];
+  crumb(w, [['Atlas', '#/'], ['Taxonomy', '#/taxonomy'], [m[0], null]]);
+  w.appendChild(el('h2', null, esc(m[0])));
+  w.appendChild(el('p', 'sub', '<code>' + esc(column) + '</code> · vocabulary v' + v.version +
+    ' · ' + v.concepts.length + ' concepts. Click a variable concept for its graph node; ' +
+    'variation and theory concepts link to their wiki page.'));
+  v.concepts.slice().sort((a, b) => b.n_claims - a.n_claims).forEach(c => {
+    const d = el('div', 'wikisec');
+    let link = null;
+    if (column === 'cause' || column === 'effect') link = NODE[c.id] ? '#/node/' + encodeURIComponent(c.id) : null;
+    if (column === 'identifying_variation') link = '#/variation/' + encodeURIComponent(c.id);
+    if (column === 'theory_model') link = '#/theory/' + encodeURIComponent(c.id);
+    d.appendChild(el('h4', null, (link ? '<a href="' + link + '">' + esc(c.label) + '</a>'
+                                       : esc(c.label)) +
+      ' <code>' + esc(c.id) + '</code>' +
+      (c.n_claims ? ' <span class="cnt">' + c.n_claims + ' claim' + (c.n_claims === 1 ? '' : 's') +
+        ' · ' + (c.papers || []).length + ' paper' + ((c.papers || []).length === 1 ? '' : 's') +
+        '</span>' : '')));
+    if (c.definition) d.appendChild(el('p', 'sub', esc(c.definition)));
+    if ((c.phrases || []).length) {
+      const ch = el('div', 'chips');
+      c.phrases.forEach(ph => ch.appendChild(el('span', 'chip', '“' + esc(ph) + '”')));
+      d.appendChild(ch);
+    }
+    w.appendChild(d);
+  });
+  if ((v.left_out || []).length) {
+    w.appendChild(el('h3', null, 'Left out'));
+    w.appendChild(el('p', 'sub', 'Values the review left unassigned: ' +
+      v.left_out.map(x => '“' + esc(typeof x === 'string' ? x : x.value || '') + '”').join(' · ')));
+  }
+  correctionBox(w, 'taxonomy', 'taxonomy/' + column, null);
+}
+
+/* ================= reliability ================= */
+function viewReliability(app) {
+  const w = wrap(app);
+  crumb(w, [['Atlas', '#/'], ['Reliability', null]]);
+  w.appendChild(el('h2', null, 'How stable is the extraction?'));
+  if (!RELIABILITY) { w.appendChild(el('p', 'empty', 'No reliability data shipped.')); return; }
+  const R = RELIABILITY;
+  w.appendChild(el('p', 'lede', esc(R.note)));
+  const c = R.corpus;
+  w.appendChild(el('p', null, 'Of the <b>' + c.claim_keys_in_all_runs[1] + '</b> distinct claims ' +
+    'any run found, <b>' + c.claim_keys_in_all_runs[0] + '</b> were found independently by all ' +
+    R.runs_per_paper + ' runs. Over those shared claims:'));
+  const t = el('table');
+  t.innerHTML = '<tr><th>dimension</th><th class="num">agree</th><th>note</th></tr>';
+  c.dimensions.forEach(d => {
+    const tr = el('tr');
+    tr.innerHTML = '<td>' + esc(d.name) + '</td><td class="num"><b>' + d.agree + '/' + d.of +
+      '</b></td><td class="sub">' + esc(d.comment) + '</td>';
+    t.appendChild(tr);
+  });
+  w.appendChild(t);
+  w.appendChild(el('p', null, '<b>Numbers:</b> ' + esc(c.numeric_pairs.comment) +
+    ' (' + c.numeric_pairs.in_all_runs + ' of ' + c.numeric_pairs.union + ' (outcome, value) pairs ' +
+    'appear in all three runs).'));
+  w.appendChild(el('p', null, '<b>Theory:</b> the paper’s theory role and named model were ' +
+    'unanimous on ' + c.theory_unanimous_papers[0] + ' of ' + c.theory_unanimous_papers[1] + ' papers.'));
+  w.appendChild(el('p', null, '<b>Quotes:</b> ' + esc(c.verbatim_snippets.comment) + '.'));
+  w.appendChild(el('h3', null, 'Per paper'));
+  const t2 = el('table');
+  t2.innerHTML = '<tr><th>paper</th><th>claims found by all runs</th><th>notable</th></tr>';
+  (R.papers || []).forEach(p => {
+    const pp = PAPERS.find(x => x.artid === p.artid);
+    const tr = el('tr', 'clickable');
+    tr.innerHTML = '<td>' + esc(pp ? (pp.title || p.artid).slice(0, 56) : p.artid) + '</td>' +
+      '<td>' + esc(p.structural) + '</td><td class="sub">' + esc(p.highlight) + '</td>';
+    tr.onclick = () => go('#/paper/' + p.artid); t2.appendChild(tr);
+  });
+  w.appendChild(t2);
+  w.appendChild(el('p', 'sub', 'Checked on ' + esc(R.date) + '. Agreement is measured over ' +
+    'claims matched on (cause concept, effect concept, population, type); phrasing-only ' +
+    'divergence in free-text fields is reported as disagreement, so these numbers are lower bounds.'));
 }
