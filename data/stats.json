@@ -7,13 +7,11 @@
    "parent": null,
    "n_papers": 22,
    "papers": [
+    "dk_W2951412023",
+    "dk_W7138836206",
     "dk_W1992237160",
     "dk_W4384520838",
-    "dk_W4296010520",
-    "dk_W4413790562",
-    "dk_W7138836206",
     "dk_W4297509759",
-    "dk_W2951412023",
     "dk_W4409963010",
     "dk_W4229370254",
     "dk_W3032946770",
@@ -26,6 +24,8 @@
     "dk_W3216346448",
     "dk_W3027650922",
     "dk_W4386325880",
+    "dk_W4413790562",
+    "dk_W4296010520",
     "dk_W3194349625",
     "dk_W4404705858",
     "dk_W3125335889"
@@ -84,6 +84,22 @@
    ]
   },
   {
+   "id": "health.mental_health",
+   "label": "Mental health",
+   "domain": "health",
+   "parent": null,
+   "n_papers": 7,
+   "papers": [
+    "dk_W7160055634",
+    "dk_W3123871901",
+    "dk_W4406606478",
+    "dk_W4408147308",
+    "dk_W3155712319",
+    "dk_W4306789942",
+    "dk_W4412528527"
+   ]
+  },
+  {
    "id": "labor.labor_supply.hours",
    "label": "Hours of work",
    "domain": "labor",
@@ -113,21 +129,6 @@
     "dk_W7167592887",
     "dk_W4403134807",
     "dk_W4400146932"
-   ]
-  },
-  {
-   "id": "health.mental_health",
-   "label": "Mental health",
-   "domain": "health",
-   "parent": null,
-   "n_papers": 6,
-   "papers": [
-    "dk_W7160055634",
-    "dk_W3123871901",
-    "dk_W4406606478",
-    "dk_W4408147308",
-    "dk_W3155712319",
-    "dk_W4412528527"
    ]
   },
   {
@@ -167,8 +168,8 @@
    "papers": [
     "dk_W4398782147",
     "dk_W4412178202",
-    "dk_W4309550482",
     "dk_W2951412023",
+    "dk_W4309550482",
     "dk_W2594576665"
    ]
   },
@@ -255,6 +256,32 @@
    ]
   },
   {
+   "id": "family.intergenerational_income_persistence",
+   "label": "Intergenerational persistence of income",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 4,
+   "papers": [
+    "dk_W4416525442",
+    "dk_W7167798840",
+    "dk_W7127146382",
+    "dk_W3163153651"
+   ]
+  },
+  {
+   "id": "income.household",
+   "label": "Household disposable income",
+   "domain": "income",
+   "parent": null,
+   "n_papers": 4,
+   "papers": [
+    "dk_W4285059352",
+    "dk_W4385771522",
+    "dk_W4406606478",
+    "dk_W3174613487"
+   ]
+  },
+  {
    "id": "labor.labor_supply",
    "label": "Labor supply",
    "domain": "labor",
@@ -274,10 +301,10 @@
    "parent": null,
    "n_papers": 4,
    "papers": [
-    "dk_W7160825662",
     "dk_W4404705858",
     "dk_W3005691992",
-    "dk_W3163153651"
+    "dk_W3163153651",
+    "dk_W7160825662"
    ]
   },
   {
@@ -375,8 +402,8 @@
    "parent": null,
    "n_papers": 3,
    "papers": [
-    "dk_W7160336764",
     "dk_W3122075783",
+    "dk_W7160336764",
     "dk_W4403266133"
    ]
   },
@@ -402,6 +429,30 @@
     "dk_W4321767420",
     "dk_W4229370254",
     "dk_W3216346448"
+   ]
+  },
+  {
+   "id": "family.adoption",
+   "label": "Adoption rather than out-of-home care",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 3,
+   "papers": [
+    "dk_W4408147308",
+    "dk_W7167491644",
+    "dk_W7116973036"
+   ]
+  },
+  {
+   "id": "family.cohabitation",
+   "label": "Cohabitation",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 3,
+   "papers": [
+    "dk_W3122075783",
+    "dk_W4408147308",
+    "dk_W7160990014"
    ]
   },
   {
@@ -474,18 +525,6 @@
     "dk_W4400146932",
     "dk_W3144434094",
     "dk_W4391218902"
-   ]
-  },
-  {
-   "id": "income.household",
-   "label": "Household disposable income",
-   "domain": "income",
-   "parent": null,
-   "n_papers": 3,
-   "papers": [
-    "dk_W4385771522",
-    "dk_W4406606478",
-    "dk_W3174613487"
    ]
   },
   {
@@ -606,6 +645,17 @@
    ]
   },
   {
+   "id": "education.preschool_access",
+   "label": "Access to preschool",
+   "domain": "education",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W2951412023",
+    "dk_W7138836206"
+   ]
+  },
+  {
    "id": "education.school_absence",
    "label": "School absence",
    "domain": "education",
@@ -623,8 +673,8 @@
    "parent": null,
    "n_papers": 2,
    "papers": [
-    "dk_W7160825662",
-    "dk_W3163153651"
+    "dk_W3163153651",
+    "dk_W7160825662"
    ]
   },
   {
@@ -650,17 +700,6 @@
    ]
   },
   {
-   "id": "family.adoption",
-   "label": "Adoption rather than out-of-home care",
-   "domain": "family",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W7116973036",
-    "dk_W4408147308"
-   ]
-  },
-  {
    "id": "family.childbearing_age_window",
    "label": "Child-bearing age window",
    "domain": "family",
@@ -672,14 +711,25 @@
    ]
   },
   {
-   "id": "family.cohabitation",
-   "label": "Cohabitation",
+   "id": "family.divorce",
+   "label": "Divorce",
    "domain": "family",
    "parent": null,
    "n_papers": 2,
    "papers": [
-    "dk_W3122075783",
-    "dk_W4408147308"
+    "dk_W7138836206",
+    "dk_W3125335889"
+   ]
+  },
+  {
+   "id": "family.educational_assortative_mating",
+   "label": "Assortative mating on education",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W3173049983",
+    "dk_W7127146382"
    ]
   },
   {
@@ -694,17 +744,6 @@
    ]
   },
   {
-   "id": "family.fertility.advantaged_mother_share",
-   "label": "Share of births to more-advantaged mothers",
-   "domain": "family",
-   "parent": "family.fertility",
-   "n_papers": 2,
-   "papers": [
-    "dk_W4306789942",
-    "dk_W3131143603"
-   ]
-  },
-  {
    "id": "family.intergenerational_default_persistence",
    "label": "Intergenerational persistence of financial trouble",
    "domain": "family",
@@ -713,17 +752,6 @@
    "papers": [
     "dk_W3173049983",
     "dk_W3122686460"
-   ]
-  },
-  {
-   "id": "family.intergenerational_income_persistence",
-   "label": "Intergenerational persistence of income",
-   "domain": "family",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W7167798840",
-    "dk_W3163153651"
    ]
   },
   {
@@ -815,28 +843,6 @@
    ]
   },
   {
-   "id": "income.benefit_dependence",
-   "label": "Dependence on public benefits",
-   "domain": "income",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W7167491644",
-    "dk_W3194349625"
-   ]
-  },
-  {
-   "id": "income.replacement_rate",
-   "label": "Income replacement rate",
-   "domain": "income",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W4401758291",
-    "dk_W7167517776"
-   ]
-  },
-  {
    "id": "income.taxable",
    "label": "Taxable income reported to the tax authority",
    "domain": "income",
@@ -845,6 +851,17 @@
    "papers": [
     "dk_W2114357420",
     "dk_W4384520838"
+   ]
+  },
+  {
+   "id": "income.transfer_receipt",
+   "label": "Receipt of public transfers",
+   "domain": "income",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W4309550482",
+    "dk_W3194349625"
    ]
   },
   {
@@ -947,17 +964,6 @@
    ]
   },
   {
-   "id": "labor.time_in_retirement",
-   "label": "Time spent in retirement",
-   "domain": "labor",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W4398782147",
-    "dk_W4414214471"
-   ]
-  },
-  {
    "id": "macro.recession",
    "label": "Recession",
    "domain": "macro",
@@ -988,6 +994,17 @@
    "papers": [
     "dk_W4412528527",
     "dk_W2915742260"
+   ]
+  },
+  {
+   "id": "migration.internal_migration",
+   "label": "Internal migration",
+   "domain": "migration",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W7160825662",
+    "dk_W4309550482"
    ]
   },
   {
@@ -1079,6 +1096,17 @@
    ]
   },
   {
+   "id": "wealth.retirement_saving_adequacy",
+   "label": "Adequacy of retirement savings",
+   "domain": "wealth",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W7167517776",
+    "dk_W4414214471"
+   ]
+  },
+  {
    "id": "wealth.saving",
    "label": "Saving",
    "domain": "wealth",
@@ -1165,6 +1193,16 @@
   {
    "id": "beliefs.others_income_underestimation",
    "label": "Underestimation of others' incomes",
+   "domain": "beliefs",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4320855144"
+   ]
+  },
+  {
+   "id": "beliefs.perceived_unfairness_of_inequality",
+   "label": "Perceived unfairness of income differences",
    "domain": "beliefs",
    "parent": null,
    "n_papers": 1,
@@ -1383,16 +1421,6 @@
    ]
   },
   {
-   "id": "education.preschool_access",
-   "label": "Access to preschool",
-   "domain": "education",
-   "parent": null,
-   "n_papers": 1,
-   "papers": [
-    "dk_W2951412023"
-   ]
-  },
-  {
    "id": "education.school_absence.legal_planned",
    "label": "Planned (legal) school absence",
    "domain": "education",
@@ -1443,13 +1471,33 @@
    ]
   },
   {
-   "id": "family.divorce",
-   "label": "Divorce",
+   "id": "family.birth_spacing",
+   "label": "Birth spacing",
    "domain": "family",
    "parent": null,
    "n_papers": 1,
    "papers": [
-    "dk_W3125335889"
+    "dk_W7138836206"
+   ]
+  },
+  {
+   "id": "family.carer_marriage",
+   "label": "Carer-wife marriage",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4285059352"
+   ]
+  },
+  {
+   "id": "family.child_protection_registration",
+   "label": "Being on the child protection register",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7167491644"
    ]
   },
   {
@@ -1463,16 +1511,6 @@
    ]
   },
   {
-   "id": "family.educational_assortative_mating",
-   "label": "Assortative mating on education",
-   "domain": "family",
-   "parent": null,
-   "n_papers": 1,
-   "papers": [
-    "dk_W3173049983"
-   ]
-  },
-  {
    "id": "family.family_interaction_quality",
    "label": "Quality of interactions within the family",
    "domain": "family",
@@ -1480,6 +1518,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W3123871901"
+   ]
+  },
+  {
+   "id": "family.fertility.advantaged_mother_share",
+   "label": "Share of births to more-advantaged mothers",
+   "domain": "family",
+   "parent": "family.fertility",
+   "n_papers": 1,
+   "papers": [
+    "dk_W3131143603"
    ]
   },
   {
@@ -1663,6 +1711,16 @@
    ]
   },
   {
+   "id": "family.placement_instability",
+   "label": "Instability of out-of-home care placements",
+   "domain": "family",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7167459045"
+   ]
+  },
+  {
    "id": "family.sibling_sex_composition",
    "label": "Sibling sex composition",
    "domain": "family",
@@ -1723,6 +1781,36 @@
    ]
   },
   {
+   "id": "firm.beneficial_owner_age_outlier",
+   "label": "Implausible age of the beneficial owner",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
+   ]
+  },
+  {
+   "id": "firm.beneficial_owner_company_count",
+   "label": "Number of companies per beneficial owner",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
+   ]
+  },
+  {
+   "id": "firm.beneficial_owner_information_change",
+   "label": "Frequency of changes in registered beneficial ownership",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
+   ]
+  },
+  {
    "id": "firm.innovation",
    "label": "Innovation",
    "domain": "firm",
@@ -1740,6 +1828,36 @@
    "n_papers": 1,
    "papers": [
     "dk_W3138953291"
+   ]
+  },
+  {
+   "id": "firm.owner_jurisdiction_risk",
+   "label": "Risk level of the beneficial owner's jurisdiction",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
+   ]
+  },
+  {
+   "id": "firm.ownership_data_missing",
+   "label": "Missing beneficial-ownership data",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
+   ]
+  },
+  {
+   "id": "firm.political_connections",
+   "label": "Political connections of the firm's owners",
+   "domain": "firm",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
    ]
   },
   {
@@ -1790,6 +1908,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W2114357420"
+   ]
+  },
+  {
+   "id": "governance.procurement_corruption_risk",
+   "label": "Corruption risk in public procurement",
+   "domain": "governance",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7160336764"
    ]
   },
   {
@@ -2033,6 +2161,36 @@
    ]
   },
   {
+   "id": "health.mental_health.mood_disorder",
+   "label": "Mood disorder",
+   "domain": "health",
+   "parent": "health.mental_health",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4306789942"
+   ]
+  },
+  {
+   "id": "health.mental_health.neurotic_disorder",
+   "label": "Neurotic and stress-related disorder",
+   "domain": "health",
+   "parent": "health.mental_health",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4306789942"
+   ]
+  },
+  {
+   "id": "health.mental_health.organic_disorder",
+   "label": "Organic mental disorder",
+   "domain": "health",
+   "parent": "health.mental_health",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4306789942"
+   ]
+  },
+  {
    "id": "health.mental_health.schizophrenia",
    "label": "Schizophrenia",
    "domain": "health",
@@ -2040,6 +2198,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W217365405"
+   ]
+  },
+  {
+   "id": "health.mental_health.substance_use_disorder",
+   "label": "Substance use disorder",
+   "domain": "health",
+   "parent": "health.mental_health",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4306789942"
    ]
   },
   {
@@ -2233,6 +2401,16 @@
    ]
   },
   {
+   "id": "income.benefit_dependence",
+   "label": "Dependence on public benefits",
+   "domain": "income",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7167491644"
+   ]
+  },
+  {
    "id": "income.capital",
    "label": "Capital income",
    "domain": "income",
@@ -2270,6 +2448,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W4320855144"
+   ]
+  },
+  {
+   "id": "income.replacement_rate",
+   "label": "Income replacement rate",
+   "domain": "income",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4401758291"
    ]
   },
   {
@@ -2350,6 +2538,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W4403383968"
+   ]
+  },
+  {
+   "id": "labor.collective_identity_distance",
+   "label": "Distance from traditional industrial-relations collective identities",
+   "domain": "labor",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4309042652"
    ]
   },
   {
@@ -2463,6 +2661,26 @@
    ]
   },
   {
+   "id": "labor.individual_strategy_orientation",
+   "label": "Pursuit of individual rather than collective strategies",
+   "domain": "labor",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4309042652"
+   ]
+  },
+  {
+   "id": "labor.intrinsic_work_motivation",
+   "label": "Intrinsic work motivation",
+   "domain": "labor",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4309042652"
+   ]
+  },
+  {
    "id": "labor.job_finding",
    "label": "Job finding",
    "domain": "labor",
@@ -2553,6 +2771,16 @@
    ]
   },
   {
+   "id": "labor.occupational_identity_appeal",
+   "label": "Appeal of occupational identity",
+   "domain": "labor",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4309042652"
+   ]
+  },
+  {
    "id": "labor.occupational_mobility",
    "label": "Occupational mobility",
    "domain": "labor",
@@ -2633,6 +2861,16 @@
    ]
   },
   {
+   "id": "labor.time_in_retirement",
+   "label": "Time spent in retirement",
+   "domain": "labor",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4398782147"
+   ]
+  },
+  {
    "id": "labor.unemployment",
    "label": "Unemployment",
    "domain": "labor",
@@ -2650,6 +2888,26 @@
    "n_papers": 1,
    "papers": [
     "dk_W2114357420"
+   ]
+  },
+  {
+   "id": "labor.work_experience.student_high_skill",
+   "label": "Student work experience in a high-skill job",
+   "domain": "labor",
+   "parent": "labor.work_experience",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4296010520"
+   ]
+  },
+  {
+   "id": "labor.work_experience.student_study_relevant",
+   "label": "Student work experience in a study-relevant job",
+   "domain": "labor",
+   "parent": "labor.work_experience",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4296010520"
    ]
   },
   {
@@ -2680,6 +2938,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W2594576665"
+   ]
+  },
+  {
+   "id": "migration.internal_migration.transfer_recipient_inflow",
+   "label": "In-migration of people on public support",
+   "domain": "migration",
+   "parent": "migration.internal_migration",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4309550482"
    ]
   },
   {
@@ -2803,6 +3071,16 @@
    ]
   },
   {
+   "id": "social.indigenous_status",
+   "label": "Indigenous status",
+   "domain": "social",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W7116973036"
+   ]
+  },
+  {
    "id": "social.isolation",
    "label": "Social isolation",
    "domain": "social",
@@ -2810,6 +3088,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W4285059352"
+   ]
+  },
+  {
+   "id": "survey.participation",
+   "label": "Survey participation",
+   "domain": "survey",
+   "parent": null,
+   "n_papers": 1,
+   "papers": [
+    "dk_W4306789942"
    ]
   },
   {
@@ -2850,6 +3138,16 @@
    "n_papers": 1,
    "papers": [
     "dk_W2088663850"
+   ]
+  },
+  {
+   "id": "tax.marginal_tax_rate.on_labor_income",
+   "label": "Marginal tax rate on labor income",
+   "domain": "tax",
+   "parent": "tax.marginal_tax_rate",
+   "n_papers": 1,
+   "papers": [
+    "dk_W4413790562"
    ]
   },
   {
@@ -7742,11 +8040,11 @@
  ],
  "totals": {
   "papers": 118,
-  "records_accepted": 424,
+  "records_accepted": 425,
   "records_rejected": 28,
   "edges": 443,
   "contradictions": 2,
-  "concepts_touched": 277,
+  "concepts_touched": 306,
   "designs": 4008,
   "headline": 471,
   "headline_with_t": 402

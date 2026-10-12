@@ -4907,8 +4907,8 @@
   ],
   "concepts": [
    "health.health_care_use",
-   "income.benefit_dependence",
    "income.labor",
+   "income.transfer_receipt",
    "labor.labor_supply.participation",
    "organization.outsourcing"
   ],
@@ -6106,9 +6106,7 @@
    "women"
   ],
   "concepts": [
-   "?dk_W4285059352:V7",
-   "?dk_W4285059352:V8",
-   "?dk_W4285059352:V9",
+   "family.carer_marriage",
    "family.economic_dependence",
    "family.informal_care_from_children",
    "family.marriage_market_disadvantage",
@@ -6116,10 +6114,11 @@
    "family.unpaid_care_work",
    "health.health_care_use.eldercare",
    "health.unmet_care_need",
+   "income.household",
    "migration.linguistic_cultural_barrier",
    "social.isolation"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6160,11 +6159,11 @@
    "young adults"
   ],
   "concepts": [
-   "?dk_W4296010520:V1",
-   "?dk_W4296010520:V2",
-   "income.labor"
+   "income.labor",
+   "labor.work_experience.student_high_skill",
+   "labor.work_experience.student_study_relevant"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6279,18 +6278,16 @@
    "Weighted vs unweighted survey sample"
   ],
   "concepts": [
-   "?dk_W4306789942:V1",
    "?dk_W4306789942:V10",
-   "?dk_W4306789942:V2",
-   "?dk_W4306789942:V3",
-   "?dk_W4306789942:V4",
-   "?dk_W4306789942:V5",
-   "?dk_W4306789942:V6",
    "?dk_W4306789942:V8",
-   "?dk_W4306789942:V9",
-   "family.fertility.advantaged_mother_share"
+   "health.mental_health",
+   "health.mental_health.mood_disorder",
+   "health.mental_health.neurotic_disorder",
+   "health.mental_health.organic_disorder",
+   "health.mental_health.substance_use_disorder",
+   "survey.participation"
   ],
-  "n_unplaced": 9,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6334,13 +6331,13 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W4309042652:V2",
-   "?dk_W4309042652:V3",
-   "?dk_W4309042652:V4",
-   "?dk_W4309042652:V5",
+   "labor.collective_identity_distance",
+   "labor.individual_strategy_orientation",
+   "labor.intrinsic_work_motivation",
+   "labor.occupational_identity_appeal",
    "wealth.mandated_pension_savings"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6383,12 +6380,12 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4309550482:V1",
-   "?dk_W4309550482:V3",
-   "?dk_W4309550482:V4",
-   "health.mortality"
+   "health.mortality",
+   "income.transfer_receipt",
+   "migration.internal_migration",
+   "migration.internal_migration.transfer_recipient_inflow"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6441,18 +6438,18 @@
    "middle-aged adults"
   ],
   "concepts": [
-   "?dk_W4320855144:V11",
    "?dk_W4320855144:V14",
    "beliefs.coworker_reference_group",
    "beliefs.income_rank_misperception",
    "beliefs.income_rank_misperception.overestimation",
    "beliefs.others_income_underestimation",
+   "beliefs.perceived_unfairness_of_inequality",
    "consumption.visible_consumption",
    "income.pay_transparency_norms",
    "place.physical_proximity_to_others",
    "wealth.wealth_inequality.relative"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4320855144_c6",
@@ -9012,7 +9009,7 @@
    "all"
   ],
   "concepts": [],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -9054,12 +9051,12 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W4413790562:V6",
    "income.labor",
    "labor.labor_supply.hours",
-   "labor.occupational_rank.manager"
+   "labor.occupational_rank.manager",
+   "tax.marginal_tax_rate.on_labor_income"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -9084,7 +9081,7 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 4,
+  "n_accepted": 3,
   "n_rejected": 1,
   "n_designs": 0,
   "n_headline": 0,
@@ -9100,14 +9097,13 @@
    "elderly"
   ],
   "concepts": [
-   "?dk_W4414214471:V3",
    "consumption.household_consumption",
-   "labor.time_in_retirement",
    "wealth.mandated_pension_savings",
+   "wealth.retirement_saving_adequacy",
    "wealth.saving.employer_pension_contribution",
    "wealth.saving.personal_pension_contribution"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -9131,7 +9127,7 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 2,
+  "n_accepted": 4,
   "n_rejected": 0,
   "n_designs": 48,
   "n_headline": 9,
@@ -9153,6 +9149,7 @@
   ],
   "concepts": [
    "?dk_W4416525442:V1",
+   "family.intergenerational_income_persistence",
    "labor.occupational_mobility"
   ],
   "n_unplaced": 0,
@@ -9287,10 +9284,10 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7116973036:V1",
-   "family.adoption"
+   "family.adoption",
+   "social.indigenous_status"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -9329,10 +9326,10 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7127146382:V1",
-   "?dk_W7127146382:V2"
+   "family.educational_assortative_mating",
+   "family.intergenerational_income_persistence"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -9789,9 +9786,9 @@
    "women"
   ],
   "concepts": [
-   "?dk_W7138836206:V1",
-   "?dk_W7138836206:V5",
-   "?dk_W7138836206:V9",
+   "education.preschool_access",
+   "family.birth_spacing",
+   "family.divorce",
    "family.fertility",
    "family.fertility.additional",
    "family.fertility.extensive",
@@ -9799,7 +9796,7 @@
    "labor.labor_supply.hours",
    "labor.labor_supply.participation"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W7138836206_c34",
@@ -10244,16 +10241,16 @@
    "firms"
   ],
   "concepts": [
-   "?dk_W7160336764:V1",
-   "?dk_W7160336764:V2",
-   "?dk_W7160336764:V3",
-   "?dk_W7160336764:V4",
-   "?dk_W7160336764:V5",
-   "?dk_W7160336764:V6",
-   "?dk_W7160336764:V8",
-   "education.relative_age_in_cohort"
+   "education.relative_age_in_cohort",
+   "firm.beneficial_owner_age_outlier",
+   "firm.beneficial_owner_company_count",
+   "firm.beneficial_owner_information_change",
+   "firm.owner_jurisdiction_risk",
+   "firm.ownership_data_missing",
+   "firm.political_connections",
+   "governance.procurement_corruption_risk"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10295,12 +10292,12 @@
    "immigrants"
   ],
   "concepts": [
-   "?dk_W7160825662:V8",
    "crime.drug_offense",
    "education.school_quality",
-   "labor.local_labor_market_conditions"
+   "labor.local_labor_market_conditions",
+   "migration.internal_migration"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10340,12 +10337,12 @@
    "women"
   ],
   "concepts": [
-   "?dk_W7160990014:V3",
    "?dk_W7160990014:V6",
+   "family.cohabitation",
    "family.marriage",
    "macro.recession"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10390,16 +10387,16 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7167459045:V7",
    "education.attainment",
    "education.dropout",
    "education.educational_inequality",
    "education.school_absence",
    "education.tertiary_enrollment",
+   "family.placement_instability",
    "labor.labor_supply.paid_absence",
    "labor.work_experience"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10445,13 +10442,13 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7167491644:V1",
-   "?dk_W7167491644:V2",
+   "family.adoption",
+   "family.child_protection_registration",
    "health.health_care_use.emergency_department",
    "income.benefit_dependence",
    "labor.unemployment"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10501,8 +10498,8 @@
    "taxpayers"
   ],
   "concepts": [
-   "income.replacement_rate",
-   "wealth.home_equity_extraction"
+   "wealth.home_equity_extraction",
+   "wealth.retirement_saving_adequacy"
   ],
   "n_unplaced": 0,
   "headline": [
