@@ -3667,14 +3667,14 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3131143603:V4",
-   "?dk_W3131143603:V5",
-   "?dk_W3131143603:V6",
    "family.fertility",
+   "family.fertility.advantaged_mother_share",
    "health.birth_weight",
+   "health.general_health",
+   "health.preterm_birth",
    "housing.house_price"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3131143603_c1",
@@ -3890,18 +3890,18 @@
    "prisoners"
   ],
   "concepts": [
-   "?dk_W3135595892:V10",
-   "?dk_W3135595892:V11",
-   "?dk_W3135595892:V12",
-   "?dk_W3135595892:V6",
-   "?dk_W3135595892:V7",
-   "?dk_W3135595892:V9",
    "crime.criminal_history",
+   "crime.facility_distance_from_home",
+   "crime.facility_transfer",
+   "crime.jail_placement",
+   "crime.open_prison_placement",
+   "crime.sentence_length",
    "family.family_background",
    "family.fertility.extensive",
+   "labor.labor_market_history",
    "migration.years_since_migration"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -3946,11 +3946,11 @@
    "Manufacturing and services"
   ],
   "concepts": [
-   "?dk_W3138953291:V1",
-   "?dk_W3138953291:V3",
-   "firm.productivity"
+   "firm.organizational_capital",
+   "firm.productivity",
+   "firm.rd_capital"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3138953291_c8",
@@ -4051,11 +4051,11 @@
    "students"
   ],
   "concepts": [
-   "?dk_W3144434094:V3",
+   "education.dropout",
    "health.work_capacity",
    "labor.labor_market_history"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4152,7 +4152,7 @@
   ],
   "rule": "strict",
   "n_stated": 9,
-  "n_accepted": 5,
+  "n_accepted": 4,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -4169,13 +4169,12 @@
    "Manufacturing"
   ],
   "concepts": [
-   "?dk_W3150066078:V2",
-   "?dk_W3150066078:V3",
-   "?dk_W3150066078:V5",
-   "labor.within_firm_earnings_rank",
+   "firm.innovation",
+   "firm.rd_worker_share",
+   "labor.between_firm_worker_reallocation",
    "trade.import_competition"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4220,12 +4219,12 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3153123968:V4",
+   "labor.coworker_work_hours",
    "labor.labor_supply.hours",
    "tax.tax_salience",
    "wealth.mandated_pension_savings"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4281,11 +4280,11 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3155712319:V3",
    "health.mental_health",
+   "income.sickness_benefit",
    "labor.cost_of_labor_supply"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3155712319_c1",
@@ -4350,15 +4349,15 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W3162839958:V6",
-   "?dk_W3162839958:V8",
-   "?dk_W3162839958:V9",
    "labor.labor_supply.participation",
    "labor.statutory_retirement_age",
+   "wealth.debt",
    "wealth.net_wealth",
-   "wealth.saving"
+   "wealth.saving",
+   "wealth.saving.employer_pension_contribution",
+   "wealth.saving.personal_pension_contribution"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4408,15 +4407,15 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W3163153651:V2",
-   "?dk_W3163153651:V3",
-   "?dk_W3163153651:V5",
+   "education.school_quality",
    "family.family_background",
    "family.intergenerational_income_persistence",
+   "income.labor",
    "labor.local_labor_market_conditions",
-   "labor.occupational_mobility.upward"
+   "labor.occupational_mobility.upward",
+   "place.region_of_upbringing"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3163153651_c1",
@@ -4553,12 +4552,12 @@
   ],
   "concepts": [
    "?dk_W3167298212:V1",
-   "?dk_W3167298212:V2",
-   "?dk_W3167298212:V3",
-   "?dk_W3167298212:V5",
-   "education.tertiary_enrollment"
+   "education.dropout",
+   "education.educational_inequality",
+   "education.tertiary_enrollment",
+   "income.socioeconomic_status"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3167298212_c1",
@@ -4670,12 +4669,12 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W3173049983:V3",
    "family.birth_order",
+   "family.educational_assortative_mating",
    "family.intergenerational_default_persistence",
    "family.parent_specific_transmission"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4858,10 +4857,10 @@
    "all"
   ],
   "concepts": [
-   "?dk_W3194211137:V1",
-   "migration.emigration"
+   "migration.emigration",
+   "migration.local_immigrant_share"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4907,13 +4906,13 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3194349625:V1",
-   "?dk_W3194349625:V2",
    "health.health_care_use",
-   "income.household",
-   "labor.labor_supply.participation"
+   "income.benefit_dependence",
+   "income.labor",
+   "labor.labor_supply.participation",
+   "organization.outsourcing"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -4944,7 +4943,7 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 157,
   "n_headline": 16,
@@ -4969,11 +4968,10 @@
    "genotyped study participants"
   ],
   "concepts": [
-   "?dk_W3195462145:V1",
-   "?dk_W3195462145:V2",
-   "education.attainment"
+   "education.genetic_endowment_returns",
+   "income.socioeconomic_status"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3195462145_c21",
@@ -5472,7 +5470,7 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 4,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -5489,15 +5487,12 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4210271185:V1",
    "?dk_W4210271185:V2",
-   "?dk_W4210271185:V3",
-   "?dk_W4210271185:V4",
    "?dk_W4210271185:V5",
-   "?dk_W4210271185:V6",
-   "?dk_W4210271185:V7"
+   "labor.quit_propensity",
+   "macro.recession"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -5539,10 +5534,10 @@
    "parents"
   ],
   "concepts": [
-   "?dk_W4214667019:V1",
+   "health.health_care_use.preventive_home_visit",
    "health.health_care_use.vaccination"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -5565,7 +5560,7 @@
   ],
   "rule": "strict",
   "n_stated": 8,
-  "n_accepted": 8,
+  "n_accepted": 5,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -5586,17 +5581,13 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4221038210:V1",
-   "?dk_W4221038210:V2",
-   "?dk_W4221038210:V3",
-   "?dk_W4221038210:V5",
-   "?dk_W4221038210:V6",
-   "?dk_W4221038210:V7",
-   "?dk_W4221038210:V8",
+   "labor.board_appointment",
+   "labor.elite_network_embeddedness",
+   "labor.network_male_share",
    "labor.work_experience",
    "tax.tax_enforcement.audit"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -5662,11 +5653,11 @@
    "Elise Stenholt Lange"
   ],
   "year": 2022,
-  "journal": "The Journal of Human Resources",
-  "doi": "10.3368/jhr.0221-11497r2",
+  "journal": "Journal of Human Resources",
+  "doi": "10.3368/jhr.0221-11497R2",
   "url": "https://doi.org/10.3368/jhr.0221-11497r2",
   "citations": 9,
-  "journal_key": "thejournalofhumanresources",
+  "journal_key": "journalofhumanresources",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -5676,15 +5667,20 @@
   "n_stated": 9,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 52,
+  "n_headline": 15,
+  "strategies": {
+   "instrumental_variables": 15
+  },
+  "strategies_all": {
+   "selection_on_observables": 12,
+   "instrumental_variables": 40
+  },
+  "main_strategy": "instrumental_variables",
   "period": {
-   "from": 2022,
-   "to": 2022,
-   "source": "publication"
+   "from": 2002,
+   "to": 2018,
+   "source": "design"
   },
   "scope_tags": [
    "students",
@@ -5696,7 +5692,158 @@
    "income.labor"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4229370254_c13",
+    "t": 5.77,
+    "approx": false,
+    "estimate": 8.036,
+    "se": 1.393,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C1",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for males, as measured by the average treatment effect (ATE), is positive and sta…"
+   },
+   {
+    "record_id": "dk_W4229370254_c14",
+    "t": -8.25,
+    "approx": false,
+    "estimate": -8.682,
+    "se": 1.053,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C2",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for males, as measured by the average treatment effect (ATE), is negati…"
+   },
+   {
+    "record_id": "dk_W4229370254_c15",
+    "t": -3.26,
+    "approx": false,
+    "estimate": -6.739,
+    "se": 2.066,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C3",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for females, as measured by the average treatment effect (ATE), is negative and s…"
+   },
+   {
+    "record_id": "dk_W4229370254_c16",
+    "t": -4.59,
+    "approx": false,
+    "estimate": -12.195,
+    "se": 2.656,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C4",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for females, as measured by the average treatment effect (ATE), is nega…"
+   },
+   {
+    "record_id": "dk_W4229370254_c17",
+    "t": 9.45,
+    "approx": false,
+    "estimate": 14.946,
+    "se": 1.581,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C1",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for males, as measured by the average treatment effect on the treated (ATT), is p…"
+   },
+   {
+    "record_id": "dk_W4229370254_c18",
+    "t": 2.48,
+    "approx": false,
+    "estimate": 3.701,
+    "se": 1.494,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C2",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for males, as measured by the average treatment effect on the treated (…"
+   },
+   {
+    "record_id": "dk_W4229370254_c19",
+    "t": 4.32,
+    "approx": false,
+    "estimate": 5.131,
+    "se": 1.187,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C3",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for females, as measured by the average treatment effect on the treated (ATT), is…"
+   },
+   {
+    "record_id": "dk_W4229370254_c20",
+    "t": 4.3,
+    "approx": false,
+    "estimate": 8.138,
+    "se": 1.891,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C4",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for females, as measured by the average treatment effect on the treated…"
+   },
+   {
+    "record_id": "dk_W4229370254_c21",
+    "t": 1.52,
+    "approx": false,
+    "estimate": 3.254,
+    "se": 2.137,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C1",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for males, as measured by the average treatment effect on the untreated (ATUT), i…"
+   },
+   {
+    "record_id": "dk_W4229370254_c22",
+    "t": -12.24,
+    "approx": false,
+    "estimate": -17.251,
+    "se": 1.409,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C2",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for males, as measured by the average treatment effect on the untreated…"
+   },
+   {
+    "record_id": "dk_W4229370254_c23",
+    "t": -3.87,
+    "approx": false,
+    "estimate": -10.189,
+    "se": 2.632,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C3",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on earnings at age 28 for females, as measured by the average treatment effect on the untreated (ATUT),…"
+   },
+   {
+    "record_id": "dk_W4229370254_c24",
+    "t": -5.35,
+    "approx": false,
+    "estimate": -18.108,
+    "se": 3.384,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C4",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for females, as measured by the average treatment effect on the untreat…"
+   },
+   {
+    "record_id": "dk_W4229370254_c28",
+    "t": 0.38,
+    "approx": false,
+    "estimate": 1.009,
+    "se": 2.683,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C4",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for females, as measured by the policy-relevant treatment effect of rai…"
+   },
+   {
+    "record_id": "dk_W4229370254_c34",
+    "t": 0.69,
+    "approx": false,
+    "estimate": 0.785,
+    "se": 1.139,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C2",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for males, as measured by the policy-relevant treatment effect of raisi…"
+   },
+   {
+    "record_id": "dk_W4229370254_c42",
+    "t": -7.9,
+    "approx": false,
+    "estimate": -11.366,
+    "se": 1.438,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W4229370254::T6::_::C2",
+    "statement": "MTE model: the effect of completing a vocational instead of a general upper secondary education on predicted earnings at age 40 for males, as measured by the policy-relevant treatment effect of raisi…"
+   }
+  ]
  },
  {
   "artid": "dk_W4249057364",
@@ -5707,16 +5854,16 @@
    "David N. Figlio",
    "Jonathan Guryan",
    "Krzysztof Karbownik",
-   "H. S. Nielsen",
+   "Helena Skyt Nielsen",
    "Jeffrey Roth",
    "Marianne Simonsen"
   ],
   "year": 2017,
-  "journal": "National Bureau of Economic Research",
+  "journal": "NBER Working Paper Series, Working Paper No. 23062",
   "doi": "10.3386/w23062",
   "url": "https://doi.org/10.3386/w23062",
   "citations": 12,
-  "journal_key": "nationalbureauofeconomicresearch",
+  "journal_key": "nberworkingpaperseriesworkingpaperno23062",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -5724,13 +5871,18 @@
   ],
   "rule": "strict",
   "n_stated": 2,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 62,
+  "n_headline": 6,
+  "strategies": {
+   "difference_in_differences": 6
+  },
+  "strategies_all": {
+   "difference_in_differences": 55,
+   "descriptive": 7
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1990,
    "to": 2002,
@@ -5744,12 +5896,72 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4249057364:V3",
    "education.achievement",
    "family.sibling_disability"
   ],
-  "n_unplaced": 1,
-  "headline": []
+  "n_unplaced": 0,
+  "headline": [
+   {
+    "record_id": "dk_W4249057364_c1",
+    "t": -2.04,
+    "approx": false,
+    "estimate": -0.047,
+    "se": 0.023,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T3::A1::C1",
+    "statement": "In Florida, second-born children score lower on grades 3-8 standardized tests than their first-born siblings when the third-born child in the family is observed disabled by age five, relative to fami…"
+   },
+   {
+    "record_id": "dk_W4249057364_c2",
+    "t": -1.93,
+    "approx": false,
+    "estimate": -0.027,
+    "se": 0.014,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T3::B1::C1",
+    "statement": "In Denmark, second-born children have a lower cohort-standardized 9th grade exit exam GPA than their first-born siblings when the third-born child in the family is observed disabled by age five, rela…"
+   },
+   {
+    "record_id": "dk_W4249057364_c7",
+    "t": 0.31,
+    "approx": false,
+    "estimate": 0.008,
+    "se": 0.026,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T3::A2::C1",
+    "statement": "In Florida, a third-born sibling first observed disabled between ages five and ten has no detectable differential effect on the second-born's grades 3-8 test scores relative to the first-born's."
+   },
+   {
+    "record_id": "dk_W4249057364_c8",
+    "t": -0.32,
+    "approx": false,
+    "estimate": -0.007,
+    "se": 0.022,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T3::B2::C1",
+    "statement": "In Denmark, a third-born sibling first observed disabled between ages five and ten has no detectable differential effect on the second-born's 9th grade GPA relative to the first-born's."
+   },
+   {
+    "record_id": "dk_W4249057364_c19",
+    "t": -1.8,
+    "approx": false,
+    "estimate": -0.045,
+    "se": 0.025,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T5::_::C1",
+    "statement": "In Florida, second-born children score lower on grades 3-8 tests than their first-born siblings when the third-born sibling has substantial health problems recorded at birth."
+   },
+   {
+    "record_id": "dk_W4249057364_c20",
+    "t": -2.18,
+    "approx": false,
+    "estimate": -0.037,
+    "se": 0.017,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4249057364::T5::_::C3",
+    "statement": "In Denmark, second-born children have a lower 9th grade GPA than their first-born siblings when the third-born sibling has substantial health problems recorded at birth."
+   }
+  ]
  },
  {
   "artid": "dk_W4253358643",
@@ -5777,7 +5989,7 @@
   ],
   "rule": "strict",
   "n_stated": 2,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 68,
   "n_headline": 4,
@@ -5803,11 +6015,10 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4253358643:V3",
    "education.achievement",
    "family.sibling_disability"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4253358643_c1",
@@ -5895,20 +6106,20 @@
    "women"
   ],
   "concepts": [
-   "?dk_W4285059352:V1",
-   "?dk_W4285059352:V10",
-   "?dk_W4285059352:V11",
-   "?dk_W4285059352:V12",
-   "?dk_W4285059352:V2",
-   "?dk_W4285059352:V3",
-   "?dk_W4285059352:V4",
-   "?dk_W4285059352:V5",
-   "?dk_W4285059352:V6",
    "?dk_W4285059352:V7",
    "?dk_W4285059352:V8",
-   "?dk_W4285059352:V9"
+   "?dk_W4285059352:V9",
+   "family.economic_dependence",
+   "family.informal_care_from_children",
+   "family.marriage_market_disadvantage",
+   "family.transnational_marriage",
+   "family.unpaid_care_work",
+   "health.health_care_use.eldercare",
+   "health.unmet_care_need",
+   "migration.linguistic_cultural_barrier",
+   "social.isolation"
   ],
-  "n_unplaced": 12,
+  "n_unplaced": 3,
   "headline": []
  },
  {
@@ -6075,11 +6286,11 @@
    "?dk_W4306789942:V4",
    "?dk_W4306789942:V5",
    "?dk_W4306789942:V6",
-   "?dk_W4306789942:V7",
    "?dk_W4306789942:V8",
-   "?dk_W4306789942:V9"
+   "?dk_W4306789942:V9",
+   "family.fertility.advantaged_mother_share"
   ],
-  "n_unplaced": 10,
+  "n_unplaced": 9,
   "headline": []
  },
  {
@@ -8890,12 +9101,13 @@
   ],
   "concepts": [
    "?dk_W4414214471:V3",
-   "?dk_W4414214471:V4",
    "consumption.household_consumption",
    "labor.time_in_retirement",
-   "wealth.mandated_pension_savings"
+   "wealth.mandated_pension_savings",
+   "wealth.saving.employer_pension_contribution",
+   "wealth.saving.personal_pension_contribution"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -10085,7 +10297,7 @@
   "concepts": [
    "?dk_W7160825662:V8",
    "crime.drug_offense",
-   "education.upper_secondary_completion",
+   "education.school_quality",
    "labor.local_labor_market_conditions"
   ],
   "n_unplaced": 1,
@@ -10128,12 +10340,12 @@
    "women"
   ],
   "concepts": [
-   "?dk_W7160990014:V1",
    "?dk_W7160990014:V3",
    "?dk_W7160990014:V6",
-   "family.marriage"
+   "family.marriage",
+   "macro.recession"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 2,
   "headline": []
  },
  {
@@ -10178,16 +10390,16 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7167459045:V4",
    "?dk_W7167459045:V7",
    "education.attainment",
+   "education.dropout",
    "education.educational_inequality",
    "education.school_absence",
    "education.tertiary_enrollment",
    "labor.labor_supply.paid_absence",
    "labor.work_experience"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -10235,11 +10447,11 @@
   "concepts": [
    "?dk_W7167491644:V1",
    "?dk_W7167491644:V2",
-   "?dk_W7167491644:V3",
-   "?dk_W7167491644:V4",
-   "?dk_W7167491644:V5"
+   "health.health_care_use.emergency_department",
+   "income.benefit_dependence",
+   "labor.unemployment"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 2,
   "headline": []
  },
  {
@@ -10367,13 +10579,13 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W7167592887:V1",
+   "beliefs.reemployment_wage_information",
    "labor.applied_job_type.short_commute",
    "labor.job_finding",
    "labor.job_search_intensity",
    "labor.wage_rate"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
