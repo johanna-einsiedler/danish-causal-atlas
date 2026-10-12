@@ -470,7 +470,7 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 7,
+  "n_accepted": 6,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -491,17 +491,15 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W217365405:V1",
-   "?dk_W217365405:V3",
-   "?dk_W217365405:V4",
-   "?dk_W217365405:V5",
-   "?dk_W217365405:V6",
-   "?dk_W217365405:V7",
-   "?dk_W217365405:V8",
-   "?dk_W217365405:V9",
-   "income.labor"
+   "health.disability",
+   "health.mental_health.bipolar_disorder",
+   "health.mental_health.depression",
+   "health.mental_health.schizophrenia",
+   "health.treatment_access",
+   "income.labor",
+   "labor.labor_supply.participation"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -912,7 +910,7 @@
   ],
   "rule": "strict",
   "n_stated": 8,
-  "n_accepted": 7,
+  "n_accepted": 6,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -939,16 +937,15 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W2594576665:V1",
-   "?dk_W2594576665:V2",
-   "?dk_W2594576665:V3",
-   "?dk_W2594576665:V4",
-   "?dk_W2594576665:V6",
-   "?dk_W2594576665:V7",
-   "?dk_W2594576665:V8",
-   "labor.labor_supply.participation"
+   "education.training_capacity",
+   "health.hospital_readmission",
+   "health.mortality",
+   "labor.labor_supply.participation",
+   "labor.parental_leave",
+   "labor.parental_leave.take_up",
+   "migration.immigration_openness"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -1046,7 +1043,7 @@
   ],
   "rule": "strict",
   "n_stated": 2,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 30,
   "n_headline": 2,
@@ -1073,11 +1070,10 @@
    "immigrants"
   ],
   "concepts": [
-   "?dk_W2915742260:V1",
-   "?dk_W2915742260:V2",
-   "?dk_W2915742260:V4"
+   "migration.emigration",
+   "migration.immigration_openness.family_reunification_restrictions"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W2915742260_c7",
@@ -1137,10 +1133,10 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W2944982188:V1",
-   "?dk_W2944982188:V2"
+   "family.parental_health",
+   "health.general_health"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -1163,7 +1159,7 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 4,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 55,
   "n_headline": 10,
@@ -1189,14 +1185,12 @@
    "young adults"
   ],
   "concepts": [
-   "?dk_W2951412023:V1",
-   "?dk_W2951412023:V2",
-   "?dk_W2951412023:V3",
-   "?dk_W2951412023:V5",
-   "?dk_W2951412023:V6",
+   "education.attainment",
+   "education.preschool_access",
+   "health.mortality",
    "income.labor"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W2951412023_c2",
@@ -1356,8 +1350,8 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 4,
-  "n_rejected": 1,
+  "n_accepted": 2,
+  "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
   "strategies": {},
@@ -1378,13 +1372,11 @@
    "students"
   ],
   "concepts": [
-   "?dk_W2999882579:V1",
-   "?dk_W2999882579:V2",
-   "?dk_W2999882579:V4",
-   "?dk_W2999882579:V5",
-   "?dk_W2999882579:V6"
+   "education.achievement",
+   "family.intermarriage",
+   "migration.origin_country"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -1410,7 +1402,7 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 6,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 80,
   "n_headline": 3,
@@ -1435,15 +1427,12 @@
    "patients"
   ],
   "concepts": [
-   "?dk_W3001397820:V1",
-   "?dk_W3001397820:V2",
-   "?dk_W3001397820:V3",
-   "?dk_W3001397820:V4",
-   "?dk_W3001397820:V5",
-   "?dk_W3001397820:V6",
-   "?dk_W3001397820:V7"
+   "health.dental_care_regulation",
+   "health.health_care_use.dental_recall_frequency",
+   "health.health_care_use.diagnostic_service",
+   "health.health_care_use.preventive_dental_care"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3001397820_c10",
@@ -1498,7 +1487,7 @@
   ],
   "rule": "strict",
   "n_stated": 2,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 143,
   "n_headline": 6,
@@ -1521,11 +1510,10 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3005691992:V1",
-   "?dk_W3005691992:V2",
-   "labor.labor_supply.participation"
+   "labor.labor_supply.participation",
+   "labor.local_labor_market_conditions"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3005691992_c7",
@@ -1637,11 +1625,11 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3014661183:V1",
-   "?dk_W3014661183:V3",
+   "preferences.patience",
+   "wealth.saving",
    "wealth.wealth_inequality"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3014661183_c3",
@@ -1686,8 +1674,8 @@
   ],
   "rule": "strict",
   "n_stated": 10,
-  "n_accepted": 7,
-  "n_rejected": 2,
+  "n_accepted": 2,
+  "n_rejected": 1,
   "n_designs": 198,
   "n_headline": 18,
   "strategies": {
@@ -1711,21 +1699,12 @@
    "young adults"
   ],
   "concepts": [
-   "?dk_W3016333778:V1",
-   "?dk_W3016333778:V15",
-   "?dk_W3016333778:V16",
-   "?dk_W3016333778:V17",
-   "?dk_W3016333778:V18",
-   "?dk_W3016333778:V19",
-   "?dk_W3016333778:V21",
-   "?dk_W3016333778:V3",
-   "?dk_W3016333778:V4",
-   "?dk_W3016333778:V5",
-   "?dk_W3016333778:V6",
-   "?dk_W3016333778:V7",
-   "?dk_W3016333778:V8"
+   "crime.criminal_capital",
+   "crime.peer_exposure_other_type",
+   "crime.peer_exposure_same_type",
+   "crime.recidivism"
   ],
-  "n_unplaced": 21,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3016333778_c71",
@@ -1949,12 +1928,12 @@
    "women"
   ],
   "concepts": [
-   "?dk_W3027650922:V1",
-   "?dk_W3027650922:V2",
+   "health.type_1_diabetes",
    "income.labor",
-   "labor.family_friendly_employer.public_sector"
+   "labor.family_friendly_employer.public_sector",
+   "labor.labor_supply.hours"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -2061,13 +2040,13 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3097223093:V1",
-   "?dk_W3097223093:V2",
-   "?dk_W3097223093:V3",
-   "?dk_W3097223093:V4",
-   "?dk_W3097223093:V5"
+   "family.family_background",
+   "family.sibling_similarity_in_earnings",
+   "family.sibling_similarity_in_education",
+   "family.sibling_similarity_in_unemployment",
+   "place.community_background"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3097223093_c46",
@@ -2311,17 +2290,16 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3119269050:V1",
-   "?dk_W3119269050:V2",
-   "?dk_W3119269050:V3",
-   "?dk_W3119269050:V5",
-   "?dk_W3119269050:V7",
-   "?dk_W3119269050:V8",
-   "?dk_W3119269050:V9",
+   "education.achievement.language_over_math_advantage",
    "family.fertility.extensive",
-   "income.labor"
+   "family.gender_specialized_parenting",
+   "family.partner_gender_role_traditionalism",
+   "family.sibling_sex_composition",
+   "income.labor",
+   "labor.occupation_female_share",
+   "labor.work_experience"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3119269050_c1",
@@ -2434,18 +2412,18 @@
    "women"
   ],
   "concepts": [
-   "?dk_W3122075783:V10",
-   "?dk_W3122075783:V2",
-   "?dk_W3122075783:V3",
-   "?dk_W3122075783:V5",
-   "?dk_W3122075783:V6",
-   "?dk_W3122075783:V7",
-   "?dk_W3122075783:V8",
-   "?dk_W3122075783:V9",
-   "education.achievement",
-   "family.birth_order"
+   "education.relative_age_in_cohort",
+   "family.abortion",
+   "family.birth_order",
+   "family.cohabitation",
+   "family.fertility.extensive",
+   "health.alcohol_consumption",
+   "health.alcohol_poisoning",
+   "health.health_care_use.contraception",
+   "health.risky_sexual_behavior",
+   "health.sexually_transmitted_infection"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -2490,12 +2468,12 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3122484461:V3",
-   "?dk_W3122484461:V4",
-   "?dk_W3122484461:V5",
+   "consumption.household_consumption",
+   "consumption.marginal_propensity_to_consume",
+   "macro.real_interest_rate",
    "wealth.net_wealth"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3122484461_c4",
@@ -2753,13 +2731,13 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W3122686460:V1",
-   "?dk_W3122686460:V2",
-   "?dk_W3122686460:V3",
-   "?dk_W3122686460:V4",
-   "?dk_W3122686460:V6"
+   "family.intergenerational_default_persistence",
+   "family.parental_default",
+   "preferences.risk_tolerance",
+   "wealth.debt_default",
+   "wealth.financial_behavior"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3122686460_c3",
@@ -2856,7 +2834,7 @@
   ],
   "rule": "strict",
   "n_stated": 5,
-  "n_accepted": 5,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 117,
   "n_headline": 2,
@@ -2881,14 +2859,13 @@
    "owner-occupied housing"
   ],
   "concepts": [
-   "?dk_W3122820076:V2",
-   "?dk_W3122820076:V3",
-   "?dk_W3122820076:V4",
-   "?dk_W3122820076:V5",
-   "?dk_W3122820076:V6",
-   "income.household"
+   "housing.listing_price",
+   "housing.nominal_gain_vs_purchase_price",
+   "preferences.household_utility",
+   "preferences.reference_dependence",
+   "wealth.liquidity_constraint"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3122820076_c34",
@@ -2961,12 +2938,12 @@
    "siblings"
   ],
   "concepts": [
-   "?dk_W3122965561:V2",
-   "?dk_W3122965561:V3",
-   "?dk_W3122965561:V4",
-   "family.birth_order"
+   "education.attainment",
+   "education.human_capital",
+   "family.birth_order",
+   "family.fertility"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3122965561_c19",
@@ -3052,7 +3029,7 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 5,
+  "n_accepted": 6,
   "n_rejected": 0,
   "n_designs": 57,
   "n_headline": 7,
@@ -3078,13 +3055,14 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3123871901:V1",
-   "?dk_W3123871901:V5",
-   "?dk_W3123871901:V6",
    "education.achievement",
+   "family.family_interaction_quality",
+   "family.parental_compensating_investment",
+   "health.general_health",
+   "health.health_care_use.early_life_treatment",
    "health.mental_health"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3123871901_c1",
@@ -3178,7 +3156,7 @@
   ],
   "rule": "strict",
   "n_stated": 5,
-  "n_accepted": 3,
+  "n_accepted": 4,
   "n_rejected": 0,
   "n_designs": 81,
   "n_headline": 30,
@@ -3206,14 +3184,15 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W3124920828:V4",
-   "?dk_W3124920828:V7",
-   "?dk_W3124920828:V8",
+   "family.childbearing_age_window",
    "firm.productivity",
    "labor.gender_earnings_gap",
+   "labor.gender_productivity_gap",
+   "labor.gender_wage_gap",
+   "labor.pay_productivity_decoupling",
    "tax.tax_enforcement.audit"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3124920828_c08",
@@ -3560,17 +3539,17 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3125335889:V3",
-   "?dk_W3125335889:V4",
-   "?dk_W3125335889:V5",
-   "?dk_W3125335889:V6",
-   "?dk_W3125335889:V7",
-   "?dk_W3125335889:V8",
-   "?dk_W3125335889:V9",
+   "family.childbearing_age_window",
+   "family.divorce",
+   "family.fertility",
+   "family.marriage",
    "income.labor",
+   "labor.gender_earnings_gap",
+   "labor.job_displacement",
+   "labor.parental_leave.take_up",
    "trade.import_competition"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -3688,14 +3667,14 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W3131143603:V1",
-   "?dk_W3131143603:V2",
-   "?dk_W3131143603:V3",
    "?dk_W3131143603:V4",
    "?dk_W3131143603:V5",
-   "?dk_W3131143603:V6"
+   "?dk_W3131143603:V6",
+   "family.fertility",
+   "health.birth_weight",
+   "housing.house_price"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 3,
   "headline": [
    {
     "record_id": "dk_W3131143603_c1",
@@ -3890,7 +3869,7 @@
   ],
   "rule": "strict",
   "n_stated": 10,
-  "n_accepted": 10,
+  "n_accepted": 9,
   "n_rejected": 0,
   "n_designs": 55,
   "n_headline": 0,
@@ -3911,19 +3890,18 @@
    "prisoners"
   ],
   "concepts": [
-   "?dk_W3135595892:V1",
    "?dk_W3135595892:V10",
    "?dk_W3135595892:V11",
    "?dk_W3135595892:V12",
-   "?dk_W3135595892:V2",
-   "?dk_W3135595892:V4",
-   "?dk_W3135595892:V5",
    "?dk_W3135595892:V6",
    "?dk_W3135595892:V7",
    "?dk_W3135595892:V9",
-   "family.fertility.extensive"
+   "crime.criminal_history",
+   "family.family_background",
+   "family.fertility.extensive",
+   "migration.years_since_migration"
   ],
-  "n_unplaced": 11,
+  "n_unplaced": 6,
   "headline": []
  },
  {
@@ -4074,7 +4052,7 @@
   ],
   "concepts": [
    "?dk_W3144434094:V3",
-   "education.upper_secondary_completion",
+   "health.work_capacity",
    "labor.labor_market_history"
   ],
   "n_unplaced": 1,
@@ -4123,12 +4101,12 @@
    "parents"
   ],
   "concepts": [
-   "?dk_W3147600083:V1",
-   "?dk_W3147600083:V2",
-   "?dk_W3147600083:V3",
-   "?dk_W3147600083:V4"
+   "labor.parental_leave",
+   "labor.parental_leave.take_up",
+   "preferences.risk_tolerance",
+   "wealth.mandated_pension_savings"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W3147600083_c35",
@@ -4221,7 +4199,7 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 2,
+  "n_accepted": 3,
   "n_rejected": 1,
   "n_designs": 0,
   "n_headline": 0,
@@ -4244,7 +4222,8 @@
   "concepts": [
    "?dk_W3153123968:V4",
    "labor.labor_supply.hours",
-   "tax.tax_salience"
+   "tax.tax_salience",
+   "wealth.mandated_pension_savings"
   ],
   "n_unplaced": 2,
   "headline": []
@@ -4371,15 +4350,15 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W3162839958:V1",
-   "?dk_W3162839958:V2",
    "?dk_W3162839958:V6",
    "?dk_W3162839958:V8",
    "?dk_W3162839958:V9",
    "labor.labor_supply.participation",
-   "wealth.net_wealth"
+   "labor.statutory_retirement_age",
+   "wealth.net_wealth",
+   "wealth.saving"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 3,
   "headline": []
  },
  {
@@ -4429,15 +4408,15 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W3163153651:V1",
    "?dk_W3163153651:V2",
    "?dk_W3163153651:V3",
    "?dk_W3163153651:V5",
-   "?dk_W3163153651:V6",
-   "labor.labor_market_history",
+   "family.family_background",
+   "family.intergenerational_income_persistence",
+   "labor.local_labor_market_conditions",
    "labor.occupational_mobility.upward"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 3,
   "headline": [
    {
     "record_id": "dk_W3163153651_c1",
@@ -4576,10 +4555,10 @@
    "?dk_W3167298212:V1",
    "?dk_W3167298212:V2",
    "?dk_W3167298212:V3",
-   "?dk_W3167298212:V4",
-   "?dk_W3167298212:V5"
+   "?dk_W3167298212:V5",
+   "education.tertiary_enrollment"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 4,
   "headline": [
    {
     "record_id": "dk_W3167298212_c1",
@@ -4673,7 +4652,7 @@
   ],
   "rule": "strict",
   "n_stated": 3,
-  "n_accepted": 6,
+  "n_accepted": 5,
   "n_rejected": 1,
   "n_designs": 0,
   "n_headline": 0,
@@ -4691,13 +4670,12 @@
    "parents and adult children"
   ],
   "concepts": [
-   "?dk_W3173049983:V1",
-   "?dk_W3173049983:V2",
    "?dk_W3173049983:V3",
-   "?dk_W3173049983:V4",
-   "family.birth_order"
+   "family.birth_order",
+   "family.intergenerational_default_persistence",
+   "family.parent_specific_transmission"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -4881,9 +4859,9 @@
   ],
   "concepts": [
    "?dk_W3194211137:V1",
-   "?dk_W3194211137:V2"
+   "migration.emigration"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -4940,25 +4918,25 @@
  },
  {
   "artid": "dk_W3195462145",
-  "title": "Family Disadvantage, Gender, and the Returns to Genetic Human Capital",
+  "title": "Family Disadvantage, Gender and the Returns to Genetic Human Capital",
   "authors": [
    "Victor Ronda",
-   "E. Agerbo",
-   "D. Bleses",
-   "P. Mortensen",
-   "A. Børglum",
-   "D. Hougaard",
-   "O. Mors",
-   "M. Nordentoft",
-   "T. Werge",
-   "M. Rosholm"
+   "Esben Agerbo",
+   "Dorthe Bleses",
+   "Preben Bo Mortensen",
+   "Anders Borglum",
+   "David M. Hougaard",
+   "Ole Mors",
+   "Merete Nordentoft",
+   "Thomas Werge",
+   "Michael Rosholm"
   ],
-  "year": 2021,
-  "journal": "Scandinavian Journal of Economics",
+  "year": 2020,
+  "journal": "IZA Discussion Paper Series, IZA DP No. 13441 (IZA Institute of Labor Economics)",
   "doi": "10.1111/sjoe.12462",
   "url": "https://doi.org/10.1111/sjoe.12462",
   "citations": 38,
-  "journal_key": "scandinavianjournalofeconomics",
+  "journal_key": "izadiscussionpaperseriesizadpno13441izainstituteoflaboreconomics",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -4968,15 +4946,22 @@
   "n_stated": 7,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 157,
+  "n_headline": 16,
+  "strategies": {
+   "selection_on_observables": 12,
+   "sibling_family_comparison": 4
+  },
+  "strategies_all": {
+   "selection_on_observables": 116,
+   "sibling_family_comparison": 40,
+   "descriptive": 1
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2021,
-   "to": 2021,
-   "source": "publication"
+   "from": 1981,
+   "to": 2016,
+   "source": "design"
   },
   "scope_tags": [
    "Adolescents and young adults",
@@ -4986,10 +4971,171 @@
   "concepts": [
    "?dk_W3195462145:V1",
    "?dk_W3195462145:V2",
-   "?dk_W3195462145:V3"
+   "education.attainment"
   ],
-  "n_unplaced": 3,
-  "headline": []
+  "n_unplaced": 2,
+  "headline": [
+   {
+    "record_id": "dk_W3195462145_c21",
+    "t": 41.07,
+    "approx": false,
+    "estimate": 0.575,
+    "se": 0.014,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T4::A::C1",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 0.575 units of Years of Education at 25 in the Full iPSYCH analytic sample, non-disadvantaged group (between-…"
+   },
+   {
+    "record_id": "dk_W3195462145_c23",
+    "t": 40.67,
+    "approx": false,
+    "estimate": 0.122,
+    "se": 0.003,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T4::A::C3",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 0.122 units of Any Post Secondary Education by 25 in the Full iPSYCH analytic sample, non-disadvantaged group…"
+   },
+   {
+    "record_id": "dk_W3195462145_c25",
+    "t": 48.94,
+    "approx": false,
+    "estimate": 6.166,
+    "se": 0.126,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T4::A::C5",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 6.166 units of Danish school leaving exam percentile rank in the Full iPSYCH analytic sample, non-disadvantag…"
+   },
+   {
+    "record_id": "dk_W3195462145_c27",
+    "t": 48.63,
+    "approx": false,
+    "estimate": 7.197,
+    "se": 0.148,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T4::A::C7",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 7.197 units of Mathematics school leaving exam percentile rank in the Full iPSYCH analytic sample, non-disadv…"
+   },
+   {
+    "record_id": "dk_W3195462145_c33",
+    "t": 3.01,
+    "approx": false,
+    "estimate": 0.358,
+    "se": 0.119,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W3195462145::T4::B::C1",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 0.358 units of Years of Education at 25 in the Sibling sub-sample, non-disadvantaged group (within-family, co…"
+   },
+   {
+    "record_id": "dk_W3195462145_c35",
+    "t": 3.77,
+    "approx": false,
+    "estimate": 0.098,
+    "se": 0.026,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W3195462145::T4::B::C3",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 0.098 units of Any Post Secondary Education by 25 in the Sibling sub-sample, non-disadvantaged group (within-…"
+   },
+   {
+    "record_id": "dk_W3195462145_c37",
+    "t": 3.96,
+    "approx": false,
+    "estimate": 3.589,
+    "se": 0.906,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W3195462145::T4::B::C5",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 3.589 units of Danish school leaving exam percentile rank in the Sibling sub-sample, non-disadvantaged group…"
+   },
+   {
+    "record_id": "dk_W3195462145_c39",
+    "t": 4.67,
+    "approx": false,
+    "estimate": 5.159,
+    "se": 1.105,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W3195462145::T4::B::C7",
+    "statement": "A one standard deviation higher educational-attainment polygenic score is associated with 5.159 units of Mathematics school leaving exam percentile rank in the Sibling sub-sample, non-disadvantaged g…"
+   },
+   {
+    "record_id": "dk_W3195462145_c53",
+    "t": -6.89,
+    "approx": false,
+    "estimate": -0.262,
+    "se": 0.038,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T5::_::C1",
+    "statement": "The return to the educational-attainment polygenic score for Years of Education at 25 is -0.262 units different in the disadvantaged group than in the reference group (Table 5, col (1))."
+   },
+   {
+    "record_id": "dk_W3195462145_c54",
+    "t": -2.39,
+    "approx": false,
+    "estimate": -0.091,
+    "se": 0.038,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T5::_::C2",
+    "statement": "The return to the educational-attainment polygenic score for Years of Education at 25 is -0.091 units different in the disadvantaged group than in the reference group (Table 5, col (2))."
+   },
+   {
+    "record_id": "dk_W3195462145_c55",
+    "t": -9.14,
+    "approx": false,
+    "estimate": -0.064,
+    "se": 0.007,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T5::_::C3",
+    "statement": "The return to the educational-attainment polygenic score for Any Post Secondary Education by 25 is -0.064 units different in the disadvantaged group than in the reference group (Table 5, col (3))."
+   },
+   {
+    "record_id": "dk_W3195462145_c56",
+    "t": -4.88,
+    "approx": false,
+    "estimate": -0.039,
+    "se": 0.008,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T5::_::C4",
+    "statement": "The return to the educational-attainment polygenic score for Any Post Secondary Education by 25 is -0.039 units different in the disadvantaged group than in the reference group (Table 5, col (4))."
+   },
+   {
+    "record_id": "dk_W3195462145_c74",
+    "t": -4.4,
+    "approx": false,
+    "estimate": -0.132,
+    "se": 0.03,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T6::_::C2",
+    "statement": "The return to the educational-attainment polygenic score for Years of Education at 25 is -0.132 units different in the disadvantaged group than in the reference group (Table 6, col (2))."
+   },
+   {
+    "record_id": "dk_W3195462145_c76",
+    "t": -8.67,
+    "approx": false,
+    "estimate": -0.052,
+    "se": 0.006,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T6::_::C4",
+    "statement": "The return to the educational-attainment polygenic score for Any Post Secondary Education by 25 is -0.052 units different in the disadvantaged group than in the reference group (Table 6, col (4))."
+   },
+   {
+    "record_id": "dk_W3195462145_c78",
+    "t": -4.98,
+    "approx": false,
+    "estimate": -1.618,
+    "se": 0.325,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T6::_::C6",
+    "statement": "The return to the educational-attainment polygenic score for Danish school leaving exam percentile rank is -1.618 units different in the disadvantaged group than in the reference group (Table 6, col…"
+   },
+   {
+    "record_id": "dk_W3195462145_c80",
+    "t": -1.27,
+    "approx": false,
+    "estimate": -0.473,
+    "se": 0.373,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3195462145::T6::_::C8",
+    "statement": "The return to the educational-attainment polygenic score for Mathematics school leaving exam percentile rank is -0.473 units different in the disadvantaged group than in the reference group (Table 6,…"
+   }
+  ]
  },
  {
   "artid": "dk_W3196650205",
@@ -4997,7 +5143,7 @@
   "authors": [
    "Anne Kaag Andersen"
   ],
-  "year": 2020,
+  "year": 1999,
   "journal": "Trafikdage på <<Aalborg=Ålborg>> Universitet/Trafikdage på Aalborg Universitet",
   "doi": "10.5278/ojs.td.v6i1.4418",
   "url": "https://doi.org/10.5278/ojs.td.v6i1.4418",
@@ -5012,15 +5158,18 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 9,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "structural_model": 8,
+   "descriptive": 1
+  },
+  "main_strategy": "structural_model",
   "period": {
-   "from": 2020,
-   "to": 2020,
-   "source": "publication"
+   "from": 1995,
+   "to": 1995,
+   "source": "design"
   },
   "scope_tags": [],
   "concepts": [],
@@ -5031,14 +5180,14 @@
   "artid": "dk_W3216256880",
   "title": "Overview of European legislation in the field of creating and functioning of population registers",
   "authors": [
-   "Ирина Александровна ТРОФИМЕЦ"
+   "Irina A. Trofimets"
   ],
   "year": 2021,
-  "journal": "Вестник Российского университета дружбы народов. Серия: Юридические науки",
+  "journal": "RUDN Journal of Law",
   "doi": "10.22363/2313-2337-2021-25-4-935-945",
   "url": "https://doi.org/10.22363/2313-2337-2021-25-4-935-945",
   "citations": null,
-  "journal_key": "",
+  "journal_key": "rudnjournaloflaw",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -5048,11 +5197,15 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 2,
+  "n_headline": 1,
+  "strategies": {
+   "descriptive": 1
+  },
+  "strategies_all": {
+   "descriptive": 2
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2021,
    "to": 2021,
@@ -5061,7 +5214,18 @@
   "scope_tags": [],
   "concepts": [],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3216256880_c1",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Comparing the population-registration statutes of the European states it reviews, the article concludes that there is no uniform approach to the legal regulation of population registration across tho…"
+   }
+  ]
  },
  {
   "artid": "dk_W3216346448",
@@ -5356,7 +5520,7 @@
   ],
   "rule": "strict",
   "n_stated": 3,
-  "n_accepted": 2,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -5376,10 +5540,9 @@
   ],
   "concepts": [
    "?dk_W4214667019:V1",
-   "?dk_W4214667019:V2",
-   "?dk_W4214667019:V3"
+   "health.health_care_use.vaccination"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -5430,7 +5593,7 @@
    "?dk_W4221038210:V6",
    "?dk_W4221038210:V7",
    "?dk_W4221038210:V8",
-   "labor.labor_market_history",
+   "labor.work_experience",
    "tax.tax_enforcement.audit"
   ],
   "n_unplaced": 7,
@@ -5438,7 +5601,7 @@
  },
  {
   "artid": "dk_W4221099525",
-  "title": "PriSUD-Nordic—Diagnosing and Treating Substance Use Disorders in the Prison Population: Protocol for a Mixed Methods Study",
+  "title": "PriSUD-Nordic: Intervening substance use disorders in the prison population - A public health opportunity",
   "authors": [
    "Anne Bukten",
    "Nicoline Toresen Lokdam",
@@ -5461,12 +5624,12 @@
    "Christian Tjagvad",
    "Marianne Riksheim Stavseth"
   ],
-  "year": 2022,
-  "journal": "JMIR Research Protocols",
+  "year": 2021,
+  "journal": "Research Council of Norway (grant application assessment form; not a journal article)",
   "doi": "10.2196/35182",
   "url": "https://doi.org/10.2196/35182",
   "citations": 18,
-  "journal_key": "jmirresearchprotocols",
+  "journal_key": "researchcouncilofnorwaygrantapplicationassessmentformnotajournalarticle",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -5482,8 +5645,8 @@
   "strategies_all": {},
   "main_strategy": null,
   "period": {
-   "from": 2022,
-   "to": 2022,
+   "from": 2021,
+   "to": 2021,
    "source": "publication"
   },
   "scope_tags": [],
@@ -5581,11 +5744,11 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4249057364:V1",
    "?dk_W4249057364:V3",
-   "education.achievement"
+   "education.achievement",
+   "family.sibling_disability"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -5640,11 +5803,11 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4253358643:V1",
    "?dk_W4253358643:V3",
-   "education.achievement"
+   "education.achievement",
+   "family.sibling_disability"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 1,
   "headline": [
    {
     "record_id": "dk_W4253358643_c1",
@@ -5835,8 +5998,8 @@
   ],
   "concepts": [
    "education.achievement",
-   "health.mental_health",
-   "income.labor"
+   "income.labor",
+   "preferences.subjective_well_being"
   ],
   "n_unplaced": 0,
   "headline": [
@@ -5960,13 +6123,13 @@
    "workers"
   ],
   "concepts": [
-   "?dk_W4309042652:V1",
    "?dk_W4309042652:V2",
    "?dk_W4309042652:V3",
    "?dk_W4309042652:V4",
-   "?dk_W4309042652:V5"
+   "?dk_W4309042652:V5",
+   "wealth.mandated_pension_savings"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 4,
   "headline": []
  },
  {
@@ -6010,11 +6173,11 @@
   ],
   "concepts": [
    "?dk_W4309550482:V1",
-   "?dk_W4309550482:V2",
    "?dk_W4309550482:V3",
-   "?dk_W4309550482:V4"
+   "?dk_W4309550482:V4",
+   "health.mortality"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 3,
   "headline": []
  },
  {
@@ -6039,8 +6202,8 @@
   ],
   "rule": "strict",
   "n_stated": 16,
-  "n_accepted": 12,
-  "n_rejected": 4,
+  "n_accepted": 10,
+  "n_rejected": 3,
   "n_designs": 100,
   "n_headline": 17,
   "strategies": {
@@ -6067,22 +6230,18 @@
    "middle-aged adults"
   ],
   "concepts": [
-   "?dk_W4320855144:V1",
-   "?dk_W4320855144:V10",
    "?dk_W4320855144:V11",
-   "?dk_W4320855144:V13",
    "?dk_W4320855144:V14",
-   "?dk_W4320855144:V2",
-   "?dk_W4320855144:V3",
-   "?dk_W4320855144:V4",
-   "?dk_W4320855144:V5",
-   "?dk_W4320855144:V6",
-   "?dk_W4320855144:V7",
-   "?dk_W4320855144:V8",
-   "?dk_W4320855144:V9",
+   "beliefs.coworker_reference_group",
+   "beliefs.income_rank_misperception",
+   "beliefs.income_rank_misperception.overestimation",
+   "beliefs.others_income_underestimation",
+   "consumption.visible_consumption",
+   "income.pay_transparency_norms",
+   "place.physical_proximity_to_others",
    "wealth.wealth_inequality.relative"
   ],
-  "n_unplaced": 16,
+  "n_unplaced": 3,
   "headline": [
    {
     "record_id": "dk_W4320855144_c6",
@@ -6300,12 +6459,12 @@
    "students"
   ],
   "concepts": [
-   "?dk_W4321767420:V1",
-   "?dk_W4321767420:V2",
-   "?dk_W4321767420:V7",
+   "education.academic_camp_program",
+   "education.academic_camp_program.group_mentoring",
+   "education.achievement",
    "education.upper_secondary_completion"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4321767420_c6",
@@ -6395,13 +6554,13 @@
    "voluntary social sector"
   ],
   "concepts": [
-   "?dk_W4327859500:V2",
-   "?dk_W4327859500:V3",
-   "?dk_W4327859500:V4",
-   "?dk_W4327859500:V5",
-   "labor.cost_of_labor_supply"
+   "labor.cost_of_labor_supply",
+   "organization.external_funding",
+   "organization.external_funding.government_project_grant",
+   "organization.external_funding.private_project_grant",
+   "organization.external_funding.public_operating_grant"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -6427,7 +6586,7 @@
   ],
   "rule": "strict",
   "n_stated": 5,
-  "n_accepted": 4,
+  "n_accepted": 5,
   "n_rejected": 0,
   "n_designs": 194,
   "n_headline": 4,
@@ -6453,13 +6612,14 @@
    "upper secondary education"
   ],
   "concepts": [
-   "?dk_W4367674959:V1",
-   "?dk_W4367674959:V2",
-   "?dk_W4367674959:V3",
-   "?dk_W4367674959:V6",
-   "education.academic_track_enrollment"
+   "education.academic_track_enrollment",
+   "education.achievement",
+   "education.educational_inequality",
+   "education.on_time_progression",
+   "education.vocational_track_enrollment",
+   "family.sibling_disability"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4367674959_c4",
@@ -6587,18 +6747,18 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4384520838:V11",
    "?dk_W4384520838:V6",
-   "?dk_W4384520838:V8",
-   "?dk_W4384520838:V9",
    "income.labor",
    "income.taxable",
    "labor.labor_market_history",
    "labor.labor_supply",
    "labor.labor_supply.hours",
+   "labor.labor_supply.paid_absence",
+   "labor.main_secondary_job_switching",
+   "tax.behavioral_response_to_taxation",
    "tax.marginal_tax_rate"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4384520838_c1",
@@ -6866,13 +7026,13 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4386325880:V1",
-   "?dk_W4386325880:V5",
+   "firm.wage_premium",
    "income.labor",
+   "labor.job_displacement",
    "labor.labor_supply.participation",
    "labor.wage_rate"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4386325880_c2",
@@ -7127,7 +7287,7 @@
   ],
   "rule": "strict",
   "n_stated": 8,
-  "n_accepted": 4,
+  "n_accepted": 2,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -7148,14 +7308,11 @@
    "women"
   ],
   "concepts": [
-   "?dk_W4390278155:V1",
-   "?dk_W4390278155:V2",
-   "?dk_W4390278155:V3",
-   "?dk_W4390278155:V4",
-   "?dk_W4390278155:V5",
-   "?dk_W4390278155:V6"
+   "health.health_care_use.vaccination",
+   "health.health_care_use_inequality",
+   "health.vaccination_program"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7197,10 +7354,10 @@
    "Survey respondents"
   ],
   "concepts": [
-   "?dk_W4391218902:V1",
-   "?dk_W4391218902:V2"
+   "health.work_capacity",
+   "income.socioeconomic_status"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7244,13 +7401,13 @@
    "Survey respondents"
   ],
   "concepts": [
-   "?dk_W4392790267:V2",
-   "?dk_W4392790267:V3",
    "?dk_W4392790267:V4",
    "?dk_W4392790267:V5",
-   "health.respiratory_illness.chronic"
+   "health.general_health",
+   "health.respiratory_illness.chronic",
+   "preferences.subjective_well_being"
   ],
-  "n_unplaced": 4,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7276,7 +7433,7 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 6,
+  "n_accepted": 5,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -7295,16 +7452,15 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4396555011:V2",
-   "?dk_W4396555011:V4",
-   "?dk_W4396555011:V5",
-   "?dk_W4396555011:V7",
-   "?dk_W4396555011:V8",
+   "labor.applied_job_type",
+   "labor.applied_job_type.part_time",
+   "labor.applied_job_type.short_commute",
    "labor.family_friendly_employer",
-   "labor.occupational_employment.mid_wage",
+   "labor.gender_application_gap",
+   "labor.gender_wage_gap",
    "tax.tax_enforcement.audit"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7329,7 +7485,7 @@
   ],
   "rule": "strict",
   "n_stated": 3,
-  "n_accepted": 3,
+  "n_accepted": 2,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -7345,12 +7501,11 @@
    "Transition to mandated funded pensions"
   ],
   "concepts": [
-   "?dk_W4396609384:V1",
-   "?dk_W4396609384:V2",
-   "?dk_W4396609384:V4",
+   "wealth.mandated_pension_savings",
+   "wealth.net_wealth",
    "wealth.wealth_inequality"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7393,7 +7548,7 @@
   ],
   "concepts": [
    "health.health_care_use",
-   "health.mental_health"
+   "preferences.subjective_well_being"
   ],
   "n_unplaced": 0,
   "headline": []
@@ -7440,10 +7595,10 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4398232136:V1",
-   "?dk_W4398232136:V2"
+   "labor.horizontal_wage_dispersion",
+   "labor.quit_propensity"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7485,11 +7640,11 @@
    "Retirement age indexation to life expectancy"
   ],
   "concepts": [
-   "?dk_W4398782147:V1",
-   "?dk_W4398782147:V2",
-   "?dk_W4398782147:V3"
+   "health.mortality",
+   "labor.statutory_retirement_age",
+   "labor.time_in_retirement"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7511,7 +7666,7 @@
   ],
   "rule": "strict",
   "n_stated": 9,
-  "n_accepted": 5,
+  "n_accepted": 6,
   "n_rejected": 0,
   "n_designs": 47,
   "n_headline": 1,
@@ -7535,16 +7690,16 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4400146932:V1",
-   "?dk_W4400146932:V3",
-   "?dk_W4400146932:V4",
-   "?dk_W4400146932:V7",
-   "?dk_W4400146932:V9",
    "family.fertility.extensive",
-   "income.labor",
-   "labor.wage_rate"
+   "firm.wage_premium",
+   "health.work_capacity",
+   "labor.employer_upward_mobility",
+   "labor.immigrant_native_wage_gap",
+   "labor.wage_rate",
+   "migration.immigrant_status",
+   "migration.years_since_migration"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4400146932_c36",
@@ -7600,17 +7755,15 @@
    "parents"
   ],
   "concepts": [
-   "?dk_W4401758291:V1",
-   "?dk_W4401758291:V10",
-   "?dk_W4401758291:V2",
-   "?dk_W4401758291:V4",
-   "?dk_W4401758291:V6",
-   "?dk_W4401758291:V7",
-   "?dk_W4401758291:V8",
-   "?dk_W4401758291:V9",
-   "income.replacement_rate"
+   "income.replacement_rate",
+   "labor.parental_leave",
+   "labor.parental_leave.earmarking",
+   "labor.parental_leave.marginal_cost",
+   "labor.parental_leave.program_cost",
+   "labor.parental_leave.take_up",
+   "preferences.household_utility"
   ],
-  "n_unplaced": 9,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7633,7 +7786,7 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 4,
+  "n_accepted": 1,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -7649,13 +7802,10 @@
    "Private sector"
   ],
   "concepts": [
-   "?dk_W4402010035:V1",
-   "?dk_W4402010035:V2",
-   "?dk_W4402010035:V3",
-   "?dk_W4402010035:V4",
-   "?dk_W4402010035:V5"
+   "firm.robot_adoption",
+   "migration.local_immigrant_share"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7766,10 +7916,10 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4403266133:V1",
-   "?dk_W4403266133:V2"
+   "education.relative_age_in_cohort",
+   "health.health_care_use.psychotropic_drug"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7812,12 +7962,12 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4403383968:V2",
-   "?dk_W4403383968:V3",
-   "?dk_W4403383968:V5",
+   "family.household_production_gender_division",
+   "labor.career_success",
+   "labor.gender_career_gap",
    "labor.labor_supply.hours"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -7868,15 +8018,15 @@
    "social housing children"
   ],
   "concepts": [
-   "?dk_W4404705858:V1",
-   "?dk_W4404705858:V2",
-   "?dk_W4404705858:V3",
-   "?dk_W4404705858:V4",
-   "?dk_W4404705858:V5",
-   "?dk_W4404705858:V9",
-   "income.labor"
+   "crime.drug_offense",
+   "health.general_health",
+   "income.labor",
+   "labor.local_labor_market_conditions",
+   "place.community_background",
+   "place.community_background.education_level",
+   "place.community_background.income_level"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4404705858_c10",
@@ -8015,11 +8165,11 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4406127739:V1",
-   "?dk_W4406127739:V2",
-   "?dk_W4406127739:V3"
+   "health.health_care_use.vaccination",
+   "health.infectious_disease",
+   "health.vaccination_schedule_order"
   ],
-  "n_unplaced": 3,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8274,11 +8424,11 @@
    "CEOs"
   ],
   "concepts": [
-   "?dk_W4407606308:V1",
-   "?dk_W4407606308:V3",
-   "labor.ex_offender_wage_premium"
+   "firm.wage_premium",
+   "labor.elite_network_embeddedness",
+   "labor.wage_rate"
   ],
-  "n_unplaced": 2,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8320,15 +8470,15 @@
    "children"
   ],
   "concepts": [
-   "?dk_W4408147308:V1",
-   "?dk_W4408147308:V2",
-   "?dk_W4408147308:V3",
-   "?dk_W4408147308:V4",
-   "?dk_W4408147308:V5",
-   "?dk_W4408147308:V6",
-   "?dk_W4408147308:V7"
+   "crime.criminal_history",
+   "education.attainment",
+   "family.adoption",
+   "family.cohabitation",
+   "family.parental_age_at_birth",
+   "health.mental_health",
+   "labor.labor_supply.participation"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8376,13 +8526,13 @@
    "students"
   ],
   "concepts": [
-   "?dk_W4409457195:V1",
-   "?dk_W4409457195:V2",
-   "?dk_W4409457195:V3",
-   "?dk_W4409457195:V4",
-   "?dk_W4409457195:V5"
+   "education.school_absence",
+   "education.school_absence.legal_planned",
+   "education.school_absence.sickness",
+   "health.juvenile_arthritis",
+   "income.socioeconomic_status"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8435,14 +8585,14 @@
    "working age"
   ],
   "concepts": [
-   "?dk_W4409963010:V1",
-   "?dk_W4409963010:V2",
-   "?dk_W4409963010:V5",
-   "?dk_W4409963010:V6",
    "education.tertiary_completion",
-   "income.labor"
+   "education.tertiary_enrollment",
+   "health.disability",
+   "health.injury",
+   "income.labor",
+   "labor.labor_supply"
   ],
-  "n_unplaced": 9,
+  "n_unplaced": 0,
   "headline": [
    {
     "record_id": "dk_W4409963010_c20",
@@ -8506,15 +8656,15 @@
    "students"
   ],
   "concepts": [
-   "?dk_W4410634439:V1",
-   "?dk_W4410634439:V2",
-   "?dk_W4410634439:V3",
-   "?dk_W4410634439:V4",
-   "?dk_W4410634439:V5",
    "?dk_W4410634439:V6",
-   "?dk_W4410634439:V7"
+   "?dk_W4410634439:V7",
+   "beliefs.academic_self_efficacy",
+   "education.academic_track_enrollment",
+   "education.school_connectedness",
+   "education.vocational_track_enrollment",
+   "health.pandemic_exposure"
   ],
-  "n_unplaced": 7,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8540,7 +8690,7 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 5,
+  "n_accepted": 4,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -8557,16 +8707,13 @@
    "elderly"
   ],
   "concepts": [
-   "?dk_W4412178202:V1",
-   "?dk_W4412178202:V10",
-   "?dk_W4412178202:V11",
-   "?dk_W4412178202:V6",
-   "?dk_W4412178202:V7",
-   "?dk_W4412178202:V8",
-   "?dk_W4412178202:V9",
-   "health.proximity_to_death"
+   "health.mortality",
+   "health.mortality_inequality",
+   "income.socioeconomic_status",
+   "labor.statutory_retirement_age",
+   "preferences.patience"
   ],
-  "n_unplaced": 10,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8608,10 +8755,10 @@
    "women"
   ],
   "concepts": [
-   "?dk_W4412528527:V1",
-   "health.mental_health"
+   "health.mental_health",
+   "migration.immigration_openness.family_reunification_restrictions"
   ],
-  "n_unplaced": 1,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -8742,14 +8889,13 @@
    "elderly"
   ],
   "concepts": [
-   "?dk_W4414214471:V1",
-   "?dk_W4414214471:V2",
    "?dk_W4414214471:V3",
    "?dk_W4414214471:V4",
-   "?dk_W4414214471:V5",
-   "?dk_W4414214471:V6"
+   "consumption.household_consumption",
+   "labor.time_in_retirement",
+   "wealth.mandated_pension_savings"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 2,
   "headline": []
  },
  {
@@ -8930,7 +9076,7 @@
   ],
   "concepts": [
    "?dk_W7116973036:V1",
-   "labor.cost_of_labor_supply"
+   "family.adoption"
   ],
   "n_unplaced": 1,
   "headline": []
@@ -9892,10 +10038,10 @@
    "?dk_W7160336764:V4",
    "?dk_W7160336764:V5",
    "?dk_W7160336764:V6",
-   "?dk_W7160336764:V7",
-   "?dk_W7160336764:V8"
+   "?dk_W7160336764:V8",
+   "education.relative_age_in_cohort"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 7,
   "headline": []
  },
  {
@@ -9920,7 +10066,7 @@
   ],
   "rule": "strict",
   "n_stated": 11,
-  "n_accepted": 7,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -9933,21 +10079,16 @@
    "source": "publication"
   },
   "scope_tags": [
-   "all",
    "couples",
    "immigrants"
   ],
   "concepts": [
-   "?dk_W7160825662:V1",
-   "?dk_W7160825662:V3",
-   "?dk_W7160825662:V5",
-   "?dk_W7160825662:V6",
-   "?dk_W7160825662:V7",
    "?dk_W7160825662:V8",
+   "crime.drug_offense",
    "education.upper_secondary_completion",
-   "labor.labor_market_history"
+   "labor.local_labor_market_conditions"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -9970,7 +10111,7 @@
   ],
   "rule": "strict",
   "n_stated": 5,
-  "n_accepted": 5,
+  "n_accepted": 3,
   "n_rejected": 0,
   "n_designs": 0,
   "n_headline": 0,
@@ -9988,13 +10129,11 @@
   ],
   "concepts": [
    "?dk_W7160990014:V1",
-   "?dk_W7160990014:V2",
    "?dk_W7160990014:V3",
-   "?dk_W7160990014:V4",
-   "?dk_W7160990014:V5",
-   "?dk_W7160990014:V6"
+   "?dk_W7160990014:V6",
+   "family.marriage"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 3,
   "headline": []
  },
  {
@@ -10039,17 +10178,16 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7167459045:V1",
-   "?dk_W7167459045:V2",
-   "?dk_W7167459045:V3",
    "?dk_W7167459045:V4",
-   "?dk_W7167459045:V5",
    "?dk_W7167459045:V7",
-   "?dk_W7167459045:V8",
-   "?dk_W7167459045:V9",
-   "education.tertiary_completion"
+   "education.attainment",
+   "education.educational_inequality",
+   "education.school_absence",
+   "education.tertiary_enrollment",
+   "labor.labor_supply.paid_absence",
+   "labor.work_experience"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 2,
   "headline": []
  },
  {
@@ -10230,13 +10368,12 @@
   ],
   "concepts": [
    "?dk_W7167592887:V1",
-   "?dk_W7167592887:V2",
-   "?dk_W7167592887:V4",
-   "?dk_W7167592887:V5",
-   "?dk_W7167592887:V6",
+   "labor.applied_job_type.short_commute",
+   "labor.job_finding",
+   "labor.job_search_intensity",
    "labor.wage_rate"
   ],
-  "n_unplaced": 5,
+  "n_unplaced": 1,
   "headline": []
  },
  {
@@ -10260,8 +10397,8 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 5,
-  "n_rejected": 6,
+  "n_accepted": 3,
+  "n_rejected": 3,
   "n_designs": 0,
   "n_headline": 0,
   "strategies": {},
@@ -10276,14 +10413,12 @@
    "parents"
   ],
   "concepts": [
-   "?dk_W7167798840:V1",
-   "?dk_W7167798840:V11",
-   "?dk_W7167798840:V6",
-   "?dk_W7167798840:V8",
-   "income.labor",
-   "wealth.net_wealth"
+   "education.middle_school_access",
+   "family.intergenerational_income_persistence",
+   "family.intergenerational_wealth_persistence",
+   "family.parent_specific_transmission"
   ],
-  "n_unplaced": 9,
+  "n_unplaced": 0,
   "headline": []
  },
  {
@@ -10459,8 +10594,8 @@
   ],
   "rule": "strict",
   "n_stated": 8,
-  "n_accepted": 2,
-  "n_rejected": 3,
+  "n_accepted": 1,
+  "n_rejected": 2,
   "n_designs": 0,
   "n_headline": 0,
   "strategies": {},
@@ -10475,11 +10610,10 @@
    "all"
   ],
   "concepts": [
-   "?dk_W7202194863:V2",
-   "?dk_W7202194863:V3",
+   "wealth.pension_wealth_inclusion",
    "wealth.wealth_inequality"
   ],
-  "n_unplaced": 6,
+  "n_unplaced": 0,
   "headline": []
  }
 ]
