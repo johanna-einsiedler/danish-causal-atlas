@@ -1,49 +1,7 @@
 # The Danish Causal Atlas
 
-A browsable atlas of the stated causal claims in economics papers that use Danish
-administrative register data: a causal graph over harmonised cause/effect concepts,
-every edge backed by the claims that assert it, every claim backed by verbatim
-quotes from its paper.
+Causal claims extracted from published economics papers that use Danish administrative registers, merged into one explorable graph: every accepted claim is a signed edge between concepts, with the paper, the design behind its main estimate, the sample it was computed on, and the sentences it rests on.
 
-**Provenance.** The data is built from a frozen, public release of the
-[Register-data claims — agent (Danish)](https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c)
-dataset on Metalens (release v1). The claims were extracted from the papers' own
-wording by an AI agent and cross-checked against independently extracted regression
-tables (141 exact value matches, 0 mismatches) — but **no record has been
-individually human-verified yet**, and the site says so on every page. The concept
-nodes come from the release's committed cause/effect vocabulary; a phrase coded as
-the mirror image of its concept (for example a *net-of-tax* rate under a *marginal
-tax* concept) has its sign flipped when claims aggregate onto an edge, so mirror
-phrasings agree instead of contradicting each other.
+Live site: https://johanna-einsiedler.github.io/danish-causal-atlas/
 
-## Serving it
-
-The site is static — any file server works:
-
-    python3 -m http.server 8765
-    open http://127.0.0.1:8765/
-
-## Rebuilding the data
-
-`data/` is generated from the dataset release by
-[`build_site_from_release.py`](https://github.com/johanna-einsiedler/danish-register-econ)
-(in the danish-register-econ pipeline):
-
-    python pipeline/build_site_from_release.py \
-        --release <path to releases/v1 of the dataset> \
-        --out <this repo>/data
-
-When the dataset gains a new release (more papers, human verification), rebuild and
-commit — the site never reads anything but `data/`.
-
-## What the viewer shows
-
-- **Graph** — concepts rolled up by domain; filters for design, period, sex,
-  contested edges.
-- **Variables** — every concept, its definition, and the papers that touch it.
-- **Relations** — every cause→effect edge with sign consensus and contradictions.
-- **Papers** — the corpus, each paper reduced to its abstract-anchored claims.
-
-The viewer originates from the danish-register-econ project's site; the data layer
-was re-pointed from that pipeline's internal files to the public Metalens release.
-Dataset license: CC-BY-4.0.
+This repository holds the static site (`index.html`, `app.js`, `app.css`, vendored d3 and MiniSearch) and the data files the pipeline builds (`data/graph.json`, `data/taxonomy.json`, `data/papers.json`, `data/stats.json`). It is rebuilt from the extraction pipeline; nothing here is edited by hand. The data carries paper metadata, machine-written claim statements and short verified quotes; no full abstracts, no PDFs.
