@@ -30162,7 +30162,7 @@
   {
    "id": "?dk_W3131143603:V1",
    "label": "home prices",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "The housing price level faced by homeowner women, the single cause across all claims.",
    "left_out": false,
    "domain": "unplaced",
@@ -30297,7 +30297,7 @@
   {
    "id": "?dk_W3131143603:V2",
    "label": "likelihood of giving birth",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "Probability of a birth for homeowner women, worded identically in both runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -30360,7 +30360,7 @@
   {
    "id": "?dk_W3131143603:V3",
    "label": "low birth weight",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "Birth-weight-based health measure of the newborn child.",
    "left_out": false,
    "domain": "unplaced",
@@ -30423,7 +30423,7 @@
   {
    "id": "?dk_W3131143603:V4",
    "label": "prematurity",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "Gestational-age-based health measure of the newborn child, distinct from birth weight.",
    "left_out": false,
    "domain": "unplaced",
@@ -30486,7 +30486,7 @@
   {
    "id": "?dk_W3131143603:V5",
    "label": "births to more-advantaged women",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "Compositional selection of who gives birth, a different quantity from the birth probability itself.",
    "left_out": false,
    "domain": "unplaced",
@@ -30549,7 +30549,7 @@
   {
    "id": "?dk_W3131143603:V6",
    "label": "health during the first five years of life",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes.",
    "definition": "Child health measured after birth over the first five years, not a health-at-birth measure.",
    "left_out": false,
    "domain": "unplaced",
@@ -30622,9 +30622,11 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 0,
-   "n_edges": 0,
-   "papers": [],
+   "n_papers": 1,
+   "n_edges": 2,
+   "papers": [
+    "dk_W3135595892"
+   ],
    "wordings": [
     {
      "text": "time since the start of incarceration",
@@ -30921,7 +30923,7 @@
    "aliases": [],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 7,
+   "n_edges": 8,
    "papers": [
     "dk_W3135595892"
    ],
@@ -31249,7 +31251,7 @@
    "aliases": [],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "papers": [
     "dk_W3135595892"
    ],
@@ -32761,7 +32763,7 @@
   {
    "id": "?dk_W3155712319:V3",
    "label": "sickness benefit transfers",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Economics of Mental Well-Being: A Prospective Study Estimating Associated Health Care Costs and Sickness Benefit Transfers in Denmark.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Economics of mental well-being: a prospective study estimating associated health care costs and sickness benefit transfers in Denmark.",
    "definition": "Costs of sickness benefit transfers, a distinct outcome from healthcare costs.",
    "left_out": false,
    "domain": "unplaced",
@@ -33998,7 +34000,7 @@
   {
    "id": "?dk_W3167298212:V1",
    "label": "cohort year",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion.",
    "definition": "\"bachelor cohort year\" and \"cohort year\" both name the enrolment cohort's calendar year for the same students.",
    "left_out": false,
    "domain": "unplaced",
@@ -34082,7 +34084,7 @@
   {
    "id": "?dk_W3167298212:V2",
    "label": "class gap in bachelor's departures",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion.",
    "definition": "The between-class difference in departure rates, a distinct quantity from an individual's departure.",
    "left_out": false,
    "domain": "unplaced",
@@ -34145,7 +34147,7 @@
   {
    "id": "?dk_W3167298212:V3",
    "label": "disadvantaged social class background",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion.",
    "definition": "Both wordings read the student's social class origin, privileged being the mirror of disadvantaged.",
    "left_out": false,
    "domain": "unplaced",
@@ -34247,7 +34249,7 @@
   {
    "id": "?dk_W3167298212:V4",
    "label": "leaving a bachelor's programme",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion.",
    "definition": "Individual-level dropout from the bachelor's programme.",
    "left_out": false,
    "domain": "unplaced",
@@ -34310,7 +34312,7 @@
   {
    "id": "?dk_W3167298212:V5",
    "label": "pursuing a master's degree",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion.",
    "definition": "Individual-level progression to master's study.",
    "left_out": false,
    "domain": "unplaced",

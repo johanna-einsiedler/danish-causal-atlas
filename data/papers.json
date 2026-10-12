@@ -2265,9 +2265,9 @@
   "artid": "dk_W3119269050",
   "title": "Brothers increase women’s gender conformity",
   "authors": [
-   "Anne Brenøe"
+   "Anne Ardila Brenøe"
   ],
-  "year": 2021,
+  "year": 2022,
   "journal": "Journal of Population Economics",
   "doi": "10.1007/s00148-021-00830-9",
   "url": "https://link.springer.com/article/10.1007/s00148-021-00830-9",
@@ -2282,11 +2282,16 @@
   "n_stated": 6,
   "n_accepted": 6,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 65,
+  "n_headline": 7,
+  "strategies": {
+   "lottery": 7
+  },
+  "strategies_all": {
+   "lottery": 61,
+   "event_study": 4
+  },
+  "main_strategy": "lottery",
   "period": {
    "from": 1980,
    "to": 2016,
@@ -2317,7 +2322,78 @@
    "income.labor"
   ],
   "n_unplaced": 7,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3119269050_c1",
+    "t": -2.57,
+    "approx": false,
+    "estimate": -1.21,
+    "se": 0.47,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T3::A::C3",
+    "statement": "Having a second-born brother rather than a sister reduces the male share in the occupation first-born women work in during their thirties."
+   },
+   {
+    "record_id": "dk_W3119269050_c3",
+    "t": -2.89,
+    "approx": false,
+    "estimate": -1.91,
+    "se": 0.66,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T3::C::C3",
+    "statement": "Having a second-born brother rather than a sister reduces the female share in the occupation of the partner first-born women choose."
+   },
+   {
+    "record_id": "dk_W3119269050_c18",
+    "t": 2.3,
+    "approx": false,
+    "estimate": 2.44,
+    "se": 1.06,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T6::_::C1",
+    "statement": "Daughters of first-born women whose second-born sibling is male perform better in the Grade 9 written language (Danish) exam than daughters of women whose second-born sibling is female."
+   },
+   {
+    "record_id": "dk_W3119269050_c24",
+    "t": 1.75,
+    "approx": false,
+    "estimate": 0.14,
+    "se": 0.08,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T7::_::C1",
+    "statement": "Mothers of a first-born daughter and a second-born son invest more quality time in their first-born daughter at age 7 than mothers of two daughters."
+   },
+   {
+    "record_id": "dk_W3119269050_c25",
+    "t": 1.88,
+    "approx": false,
+    "estimate": 0.15,
+    "se": 0.08,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T7::_::C2",
+    "statement": "Mothers of a first-born daughter and a second-born son invest more quality time in their first-born daughter at age 11 than mothers of two daughters."
+   },
+   {
+    "record_id": "dk_W3119269050_c26",
+    "t": -2.1,
+    "approx": false,
+    "estimate": -0.21,
+    "se": 0.1,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T7::_::C3",
+    "statement": "Fathers invest less quality time in their first-born daughter at age 7 when the second-born child is a son rather than a daughter."
+   },
+   {
+    "record_id": "dk_W3119269050_c27",
+    "t": -2.4,
+    "approx": false,
+    "estimate": -0.24,
+    "se": 0.1,
+    "strategy": "lottery",
+    "source_table_id": "dk_W3119269050::T7::_::C4",
+    "statement": "Fathers invest less quality time in their first-born daughter at age 11 when the second-born child is a son rather than a daughter."
+   }
+  ]
  },
  {
   "artid": "dk_W3122075783",
@@ -2958,12 +3034,12 @@
   "artid": "dk_W3123871901",
   "title": "Spillover Effects of Early-Life Medical Interventions",
   "authors": [
-   "N. Daysal",
+   "N. Meltem Daysal",
    "Marianne Simonsen",
-   "M. Trandafir",
+   "Mircea Trandafir",
    "Sanni Breining"
   ],
-  "year": 2020,
+  "year": 2022,
   "journal": "The Review of Economics and Statistics",
   "doi": "10.1162/rest_a_00982",
   "url": "https://doi.org/10.1162/rest_a_00982",
@@ -2978,15 +3054,19 @@
   "n_stated": 7,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 57,
+  "n_headline": 7,
+  "strategies": {
+   "regression_discontinuity": 7
+  },
+  "strategies_all": {
+   "regression_discontinuity": 57
+  },
+  "main_strategy": "regression_discontinuity",
   "period": {
-   "from": 2020,
-   "to": 2020,
-   "source": "publication"
+   "from": 1982,
+   "to": 1993,
+   "source": "design"
   },
   "scope_tags": [
    "Birth below VLBW cutoff",
@@ -3005,7 +3085,78 @@
    "health.mental_health"
   ],
   "n_unplaced": 3,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3123871901_c1",
+    "t": -1.25,
+    "approx": false,
+    "estimate": -0.508,
+    "se": 0.408,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T2::Mortality::C1",
+    "statement": "VLBW classification of the focal child lowers the focal child's mortality summary index (28-day and 1-year mortality)."
+   },
+   {
+    "record_id": "dk_W3123871901_c4",
+    "t": -2.8,
+    "approx": false,
+    "estimate": -0.347,
+    "se": 0.124,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T2::Health::C3",
+    "statement": "VLBW classification of the focal child lowers the mother's short-term mental health index (antidepressant use while the focal child is 2 to 5)."
+   },
+   {
+    "record_id": "dk_W3123871901_c10",
+    "t": -2.25,
+    "approx": false,
+    "estimate": -0.324,
+    "se": 0.144,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T3::Health::C1",
+    "statement": "VLBW classification lowers the focal child's long-term health summary index (hospitalizations and ER visits at ages 6 to 15)."
+   },
+   {
+    "record_id": "dk_W3123871901_c12",
+    "t": -1.38,
+    "approx": false,
+    "estimate": -0.168,
+    "se": 0.122,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T3::Health::C3",
+    "statement": "VLBW classification of the focal child has no detectable effect on the mother's long-term mental health index."
+   },
+   {
+    "record_id": "dk_W3123871901_c14",
+    "t": 0.8,
+    "approx": false,
+    "estimate": 0.234,
+    "se": 0.294,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T3::DisabilityDiagnosisByAge10::C1",
+    "statement": "VLBW classification has no detectable effect on the focal child's disability summary index (diagnosis by age 10)."
+   },
+   {
+    "record_id": "dk_W3123871901_c15",
+    "t": 1.34,
+    "approx": false,
+    "estimate": 0.314,
+    "se": 0.234,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T3::NinthGradeTestScores::C1",
+    "statement": "VLBW classification raises the focal child's ninth-grade test score summary index."
+   },
+   {
+    "record_id": "dk_W3123871901_c16",
+    "t": 1.94,
+    "approx": false,
+    "estimate": 0.375,
+    "se": 0.193,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W3123871901::T3::NinthGradeTestScores::C2",
+    "statement": "VLBW classification of the focal child raises siblings' ninth-grade test score summary index."
+   }
+  ]
  },
  {
   "artid": "dk_W3124920828",
@@ -3424,14 +3575,14 @@
  },
  {
   "artid": "dk_W3126420006",
-  "title": "The Danish EQ-5D-5L Value Set: A Hybrid Model Using CTTO and DCE Data",
+  "title": "The Danish EQ-5D-5L Value Set: A Hybrid Model Using cTTO and DCE Data",
   "authors": [
-   "C. E. Jensen",
-   "S. S. Sørensen",
-   "C. Gudex",
+   "Cathrine Elgaard Jensen",
+   "Sabrina Storgaard Sørensen",
+   "Claire Gudex",
    "Morten Berg Jensen",
-   "K. M. Pedersen",
-   "L. Ehlers"
+   "Kjeld Møller Pedersen",
+   "Lars Holger Ehlers"
   ],
   "year": 2021,
   "journal": "Applied Health Economics and Health Policy",
@@ -3448,36 +3599,62 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 65,
+  "n_headline": 2,
+  "strategies": {
+   "structural_model": 2
+  },
+  "strategies_all": {
+   "structural_model": 61,
+   "descriptive": 4
+  },
+  "main_strategy": "structural_model",
   "period": {
-   "from": 2021,
-   "to": 2021,
-   "source": "publication"
+   "from": 2018,
+   "to": 2019,
+   "source": "design"
   },
   "scope_tags": [],
   "concepts": [],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3126420006_c20",
+    "t": 47.54,
+    "approx": false,
+    "estimate": 0.618,
+    "se": 0.013,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W3126420006::T2::_::C3",
+    "statement": "In the heteroscedastic censored hybrid model chosen for the Danish EQ-5D-5L value set, anxiety/depression at level 5 carries a utility decrement of 0.618 relative to level 1."
+   },
+   {
+    "record_id": "dk_W3126420006_c61",
+    "t": null,
+    "approx": false,
+    "estimate": -0.757,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "The heteroscedastic censored hybrid model gives EQ-5D-5L health state 55555 (the most severe state) a value of − 0.757, the lowest score in the Danish value set and below 0 (dead)."
+   }
+  ]
  },
  {
   "artid": "dk_W3131143603",
-  "title": "Home prices, fertility, and early-life health outcomes",
+  "title": "Home Prices, Fertility, and Early-Life Health Outcomes",
   "authors": [
-   "N. Daysal",
+   "N. Meltem Daysal",
    "Michael F. Lovenheim",
-   "Nikolaj Siersbæk",
+   "Nikolaj Siersbaek",
    "David N. Wasser"
   ],
   "year": 2020,
-  "journal": "National Bureau of Economic Research",
+  "journal": "NBER Working Paper No. 27469",
   "doi": "10.3386/w27469",
   "url": "https://doi.org/10.3386/w27469",
   "citations": 4,
-  "journal_key": "nationalbureauofeconomicresearch",
+  "journal_key": "nberworkingpaperno27469",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -3487,11 +3664,16 @@
   "n_stated": 5,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 125,
+  "n_headline": 17,
+  "strategies": {
+   "selection_on_observables": 17
+  },
+  "strategies_all": {
+   "selection_on_observables": 122,
+   "fixed_effects_within": 3
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 1992,
    "to": 2011,
@@ -3514,7 +3696,178 @@
    "?dk_W3131143603:V6"
   ],
   "n_unplaced": 6,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3131143603_c1",
+    "t": 4.5,
+    "approx": false,
+    "estimate": 0.0027,
+    "se": 0.0006,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T3::_::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value raises the probability that a homeowner woman gives birth by 0.27 percentage points (2.32% of the mean)."
+   },
+   {
+    "record_id": "dk_W3131143603_c32",
+    "t": -0.83,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0006,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::A::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value changes Low Birth Weight (birth weight below 2,500 grams, 0/1) by -0.0005 (not statistically significant)."
+   },
+   {
+    "record_id": "dk_W3131143603_c34",
+    "t": -2.14,
+    "approx": false,
+    "estimate": -0.0015,
+    "se": 0.0007,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::A::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value changes Premature (born before gestational week 37, 0/1) by -0.0015 (statistically significant)."
+   },
+   {
+    "record_id": "dk_W3131143603_c35",
+    "t": -0.09,
+    "approx": false,
+    "estimate": -0.0023,
+    "se": 0.027,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::B::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of Days Hospitalized (first year of life)."
+   },
+   {
+    "record_id": "dk_W3131143603_c36",
+    "t": -0.31,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0016,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::B::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever hospitalized (first year of life, 0/1)."
+   },
+   {
+    "record_id": "dk_W3131143603_c37",
+    "t": 0.78,
+    "approx": false,
+    "estimate": 0.0007,
+    "se": 0.0009,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::B::C3",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of ER Visits (first year of life)."
+   },
+   {
+    "record_id": "dk_W3131143603_c38",
+    "t": 0.56,
+    "approx": false,
+    "estimate": 0.0005,
+    "se": 0.0009,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::B::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever ER Visit (first year of life, 0/1)."
+   },
+   {
+    "record_id": "dk_W3131143603_c39",
+    "t": 0.05,
+    "approx": false,
+    "estimate": 0.0019,
+    "se": 0.0348,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::C::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of Days Hospitalized (ages 1 to 5)."
+   },
+   {
+    "record_id": "dk_W3131143603_c40",
+    "t": 0.53,
+    "approx": false,
+    "estimate": 0.001,
+    "se": 0.0019,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::C::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever hospitalized (ages 1 to 5, 0/1)."
+   },
+   {
+    "record_id": "dk_W3131143603_c41",
+    "t": -0.09,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0057,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::C::C3",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of ER Visits (ages 1 to 5)."
+   },
+   {
+    "record_id": "dk_W3131143603_c42",
+    "t": 0.56,
+    "approx": false,
+    "estimate": 0.001,
+    "se": 0.0018,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T6::C::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever ER Visit (ages 1 to 5, 0/1)."
+   },
+   {
+    "record_id": "dk_W3131143603_c43",
+    "t": 7.11,
+    "approx": false,
+    "estimate": 0.398,
+    "se": 0.056,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Age (mother's age) among mothers who give birth by 0.398."
+   },
+   {
+    "record_id": "dk_W3131143603_c44",
+    "t": 7.91,
+    "approx": false,
+    "estimate": 0.087,
+    "se": 0.011,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Years of Education among mothers who give birth by 0.087."
+   },
+   {
+    "record_id": "dk_W3131143603_c46",
+    "t": 6.2,
+    "approx": false,
+    "estimate": 0.347,
+    "se": 0.056,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Household Income among mothers who give birth by 0.347."
+   },
+   {
+    "record_id": "dk_W3131143603_c47",
+    "t": 3.88,
+    "approx": false,
+    "estimate": 0.031,
+    "se": 0.008,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C5",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts I(Partner) among mothers who give birth by 0.031."
+   },
+   {
+    "record_id": "dk_W3131143603_c48",
+    "t": -7.0,
+    "approx": false,
+    "estimate": -0.0007,
+    "se": 0.0001,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C6",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Prematurity among mothers who give birth by -0.0007."
+   },
+   {
+    "record_id": "dk_W3131143603_c49",
+    "t": -8.0,
+    "approx": false,
+    "estimate": -0.0008,
+    "se": 0.0001,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3131143603::T7::_::C7",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Low BW among mothers who give birth by -0.0008."
+   }
+  ]
  },
  {
   "artid": "dk_W3135595892",
@@ -3525,7 +3878,7 @@
   ],
   "year": 2021,
   "journal": "Journal of Family Issues",
-  "doi": "10.1177/0192513x21991187",
+  "doi": "10.1177/0192513X21991187",
   "url": "https://doi.org/10.1177/0192513x21991187",
   "citations": 5,
   "journal_key": "journaloffamilyissues",
@@ -3537,13 +3890,15 @@
   ],
   "rule": "strict",
   "n_stated": 10,
-  "n_accepted": 8,
-  "n_rejected": 2,
-  "n_designs": 0,
+  "n_accepted": 10,
+  "n_rejected": 0,
+  "n_designs": 55,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 55
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2004,
    "to": 2014,
@@ -3556,6 +3911,7 @@
    "prisoners"
   ],
   "concepts": [
+   "?dk_W3135595892:V1",
    "?dk_W3135595892:V10",
    "?dk_W3135595892:V11",
    "?dk_W3135595892:V12",
@@ -3574,11 +3930,11 @@
   "artid": "dk_W3138953291",
   "title": "Innovative competences, the financial crisis and firm-level productivity in Denmark and Finland",
   "authors": [
-   "C. Bloch",
+   "Carter Bloch",
    "Carita Eklund",
-   "H. Piekkola"
+   "Hannu Piekkola"
   ],
-  "year": 2021,
+  "year": 2023,
   "journal": "Economics of Innovation and New Technology",
   "doi": "10.1080/10438599.2021.1895496",
   "url": "https://doi.org/10.1080/10438599.2021.1895496",
@@ -3593,11 +3949,16 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 52,
+  "n_headline": 6,
+  "strategies": {
+   "fixed_effects_within": 6
+  },
+  "strategies_all": {
+   "structural_model": 34,
+   "fixed_effects_within": 18
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
    "from": 2000,
    "to": 2013,
@@ -3612,7 +3973,68 @@
    "firm.productivity"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3138953291_c8",
+    "t": 9.0,
+    "approx": false,
+    "estimate": 0.036,
+    "se": 0.004,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CFinland2",
+    "statement": "For Finnish firms before the 2008 financial crisis, a one percent higher stock of broad R&D assets is associated with 0.036 percent higher total factor productivity."
+   },
+   {
+    "record_id": "dk_W3138953291_c9",
+    "t": 9.75,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.004,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CFinland2",
+    "statement": "For Finnish firms after the 2008 financial crisis, a one percent higher stock of broad R&D assets is associated with 0.039 percent higher total factor productivity, slightly more than before the cris…"
+   },
+   {
+    "record_id": "dk_W3138953291_c10",
+    "t": 3.75,
+    "approx": false,
+    "estimate": 0.015,
+    "se": 0.004,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CFinland2",
+    "statement": "For Finnish firms before the 2008 financial crisis, a one percent higher stock of organizational assets is associated with 0.015 percent higher total factor productivity."
+   },
+   {
+    "record_id": "dk_W3138953291_c11",
+    "t": 5.0,
+    "approx": false,
+    "estimate": 0.02,
+    "se": 0.004,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CFinland2",
+    "statement": "For Finnish firms after the 2008 financial crisis, a one percent higher stock of organizational assets is associated with 0.020 percent higher total factor productivity, more than before the crisis."
+   },
+   {
+    "record_id": "dk_W3138953291_c17",
+    "t": 19.5,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.002,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CDenmark2",
+    "statement": "For Danish firms before the 2008 financial crisis, a one percent higher stock of broad R&D assets is associated with 0.039 percent higher total factor productivity."
+   },
+   {
+    "record_id": "dk_W3138953291_c18",
+    "t": 21.5,
+    "approx": false,
+    "estimate": 0.043,
+    "se": 0.002,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3138953291::T5::_::CDenmark2",
+    "statement": "For Danish firms after the 2008 financial crisis, a one percent higher stock of broad R&D assets is associated with 0.043 percent higher total factor productivity, slightly more than before the crisi…"
+   }
+  ]
  },
  {
   "artid": "dk_W3144434094",
@@ -3680,11 +4102,15 @@
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 41,
+  "n_headline": 2,
+  "strategies": {
+   "descriptive": 2
+  },
+  "strategies_all": {
+   "descriptive": 41
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1990,
    "to": 2017,
@@ -3703,7 +4129,28 @@
    "?dk_W3147600083:V4"
   ],
   "n_unplaced": 5,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3147600083_c35",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3147600083::F5",
+    "statement": "Nordic countries that introduced a father's quota between 1990 and the 2000s (Sweden, Norway, Iceland) show a higher and rising fathers' share of total parental leave days than Denmark, which has no…"
+   },
+   {
+    "record_id": "dk_W3147600083_c40",
+    "t": null,
+    "approx": false,
+    "estimate": 56.0,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3147600083::F7",
+    "statement": "In Denmark in 2018, fathers with more education take more parental leave days: fathers with only lower-secondary schooling take approximately 26 days, against 56 days where the father has a master's…"
+   }
+  ]
  },
  {
   "artid": "dk_W3150066078",
@@ -3804,20 +4251,20 @@
  },
  {
   "artid": "dk_W3155712319",
-  "title": "Economics of Mental Well-Being: A Prospective Study Estimating Associated Health Care Costs and Sickness Benefit Transfers in Denmark",
+  "title": "Economics of mental well-being: a prospective study estimating associated health care costs and sickness benefit transfers in Denmark",
   "authors": [
-   "Z. Santini",
-   "H. Becher",
-   "M. Jørgensen",
-   "M. Davidsen",
-   "L. Nielsen",
-   "C. Hinrichsen",
-   "K. R. Madsen",
-   "C. Meilstrup",
-   "A. Koyanagi",
-   "S. Stewart-Brown",
-   "D. McDaid",
-   "V. Koushede"
+   "Ziggi Ivan Santini",
+   "Hannah Becher",
+   "Maja Bæksgaard Jørgensen",
+   "Michael Davidsen",
+   "Line Nielsen",
+   "Carsten Hinrichsen",
+   "Katrine Rich Madsen",
+   "Charlotte Meilstrup",
+   "Ai Koyanagi",
+   "Sarah Stewart-Brown",
+   "David McDaid",
+   "Vibeke Koushede"
   ],
   "year": 2021,
   "journal": "The European Journal of Health Economics",
@@ -3834,11 +4281,16 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 10,
+  "n_headline": 2,
+  "strategies": {
+   "selection_on_observables": 2
+  },
+  "strategies_all": {
+   "selection_on_observables": 8,
+   "descriptive": 2
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 2016,
    "to": 2017,
@@ -3855,7 +4307,28 @@
    "labor.cost_of_labor_supply"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3155712319_c1",
+    "t": -2.3,
+    "approx": true,
+    "estimate": -42.5,
+    "se": 18.469727,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3155712319::T2::HealthcareCosts::CModel2",
+    "statement": "A one-point higher WEMWBS mental well-being score in 2016 is associated with USD PPP 42.5 lower per-person healthcare costs in 2017, adjusting for sociodemographics, health status, health behaviour a…"
+   },
+   {
+    "record_id": "dk_W3155712319_c2",
+    "t": -2.41,
+    "approx": true,
+    "estimate": -23.1,
+    "se": 9.592013,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3155712319::T2::SickBenefitTransfers::CModel2",
+    "statement": "A one-point higher WEMWBS mental well-being score in 2016 is associated with USD PPP 23.1 lower per-person costs of sickness benefit transfers in 2017 among the working-age population, adjusting for…"
+   }
+  ]
  },
  {
   "artid": "dk_W3162839958",
@@ -4060,9 +4533,9 @@
  },
  {
   "artid": "dk_W3167298212",
-  "title": "The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion",
+  "title": "The social class gap in bachelor's and master's completion: university dropout in times of educational expansion",
   "authors": [
-   "Jens‐Peter Thomsen"
+   "Jens-Peter Thomsen"
   ],
   "year": 2021,
   "journal": "Higher Education",
@@ -4079,11 +4552,15 @@
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 24,
+  "n_headline": 3,
+  "strategies": {
+   "descriptive": 3
+  },
+  "strategies_all": {
+   "descriptive": 24
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1993,
    "to": 2006,
@@ -4103,7 +4580,38 @@
    "?dk_W3167298212:V5"
   ],
   "n_unplaced": 5,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3167298212_c1",
+    "t": -14.0,
+    "approx": false,
+    "estimate": -0.14,
+    "se": 0.01,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3167298212::TA3::_::C1",
+    "statement": "Among students who first enrolled in a Danish university bachelor's programme in 1993/94, those with university-educated parents are 0.14 less likely (14 percentage points) to have left a bachelor's…"
+   },
+   {
+    "record_id": "dk_W3167298212_c4",
+    "t": -0.5,
+    "approx": false,
+    "estimate": -0.01,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3167298212::TA3::_::C1",
+    "statement": "The class gap in bachelor dropout did not change between the 1993/94 and the 2005/06 enrolment cohorts: the interaction between enrolment year 05/06 and having university-educated parents is -0.01 an…"
+   },
+   {
+    "record_id": "dk_W3167298212_c5",
+    "t": -7.0,
+    "approx": false,
+    "estimate": -0.14,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3167298212::TA5::_::C1",
+    "statement": "Among bachelor's degree holders who enrolled in 1993/94, those with university-educated parents are 0.14 less likely (14 percentage points) than those from homes with no upper secondary education not…"
+   }
+  ]
  },
  {
   "artid": "dk_W3171692527",

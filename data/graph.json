@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-11T23:42:40+00:00",
+  "built_at": "2026-10-12T04:56:03+00:00",
   "corpus": "danish-register-econ",
   "taxonomy": {
    "batch": "T20261008T025755Z+E1",
@@ -41,16 +41,16 @@
     "n": 28
    },
    {
+    "tag": "all",
+    "n": 25
+   },
+   {
     "tag": "Private sector",
     "n": 24
    },
    {
     "tag": "Women vs men",
     "n": 24
-   },
-   {
-    "tag": "all",
-    "n": 23
    },
    {
     "tag": "young adults",
@@ -747,8 +747,10 @@
    "event_study",
    "fixed_effects_within",
    "instrumental_variables",
+   "lottery",
    "matching",
    "other",
+   "regression_discontinuity",
    "selection_on_observables",
    "sibling_family_comparison",
    "structural_model"
@@ -3147,7 +3149,7 @@
    "n_papers": 1,
    "n_edges": 5,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3131143603:V2",
@@ -3158,7 +3160,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3131143603:V3",
@@ -3169,7 +3171,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3131143603:V4",
@@ -3180,7 +3182,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3131143603:V5",
@@ -3191,7 +3193,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3131143603:V6",
@@ -3202,7 +3204,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home prices, fertility, and early-life health outcomes."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Home Prices, Fertility, and Early-Life Health Outcomes."
   },
   {
    "id": "?dk_W3135595892:V1",
@@ -3210,8 +3212,8 @@
    "domain": "unplaced",
    "parent": null,
    "direction": null,
-   "n_papers": 0,
-   "n_edges": 0,
+   "n_papers": 1,
+   "n_edges": 2,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Family Visitation Patterns during Incarceration in Denmark."
   },
@@ -3255,7 +3257,7 @@
    "parent": null,
    "direction": null,
    "n_papers": 1,
-   "n_edges": 7,
+   "n_edges": 8,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Family Visitation Patterns during Incarceration in Denmark."
   },
@@ -3277,7 +3279,7 @@
    "parent": null,
    "direction": null,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Family Visitation Patterns during Incarceration in Denmark."
   },
@@ -3477,7 +3479,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Economics of Mental Well-Being: A Prospective Study Estimating Associated Health Care Costs and Sickness Benefit Transfers in Denmark."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Economics of mental well-being: a prospective study estimating associated health care costs and sickness benefit transfers in Denmark."
   },
   {
    "id": "?dk_W3162839958:V1",
@@ -3631,7 +3633,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion."
   },
   {
    "id": "?dk_W3167298212:V2",
@@ -3642,7 +3644,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion."
   },
   {
    "id": "?dk_W3167298212:V3",
@@ -3653,7 +3655,7 @@
    "n_papers": 1,
    "n_edges": 2,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion."
   },
   {
    "id": "?dk_W3167298212:V4",
@@ -3664,7 +3666,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion."
   },
   {
    "id": "?dk_W3167298212:V5",
@@ -3675,7 +3677,7 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The social class gap in bachelor's and master's completion: university dropout in times of educational expansion."
   },
   {
    "id": "?dk_W3173049983:V1",
@@ -26484,14 +26486,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3119269050:V1",
      "to": "?dk_W3119269050:V2",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "having a second-born brother (relative to a sister)",
      "to_wording": "female-dominance of own occupation",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -26501,8 +26503,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "lottery",
+       "record_id": "dk_W3119269050_c1",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "first-born women born 1962–1975 with a second-born biological sibling",
       "first-born women with a second-born sibling"
@@ -26712,10 +26720,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c1"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3119269050_c1",
+       "t": -2.57,
+       "approx": false,
+       "estimate": -1.21,
+       "se": 0.47,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T3::A::C3",
+       "statement": "Having a second-born brother rather than a sister reduces the male share in the occupation first-born women work in during their thirties."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -26758,13 +26779,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -26777,7 +26798,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "lottery"
+   ]
   },
   {
    "id": "?dk_W3119269050:V1->?dk_W3119269050:V3",
@@ -26790,14 +26813,14 @@
       "V1->V3"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3119269050:V1",
      "to": "?dk_W3119269050:V3",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "having a second-born brother (relative to a sister)",
      "to_wording": "traditionalness of chosen partner",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -26807,8 +26830,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "lottery",
+       "record_id": "dk_W3119269050_c3",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "first-born women born 1962–1975 with a second-born biological sibling",
       "first-born women with a second-born sibling"
@@ -27018,10 +27047,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c3"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3119269050_c3",
+       "t": -2.89,
+       "approx": false,
+       "estimate": -1.91,
+       "se": 0.66,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T3::C::C3",
+       "statement": "Having a second-born brother rather than a sister reduces the female share in the occupation of the partner first-born women choose."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -27064,13 +27106,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -27083,7 +27125,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "lottery"
+   ]
   },
   {
    "id": "?dk_W3119269050:V1->?dk_W3119269050:V5",
@@ -27096,25 +27140,32 @@
       "V1->V5"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3119269050:V1",
      "to": "?dk_W3119269050:V5",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "having a second-born brother (relative to a sister)",
      "to_wording": "accumulated work experience",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
-     "tier": "unanimous",
+     "tier": "majority",
      "flags": [
+      "basis_from_candidates",
       "unplaced"
      ],
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W3119269050_c6",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "first-born women born 1962–1975 who become mothers",
       "first-born women with a second-born sibling who become mothers"
@@ -27261,13 +27312,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -27281,7 +27332,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "event_study"
+   ]
   },
   {
    "id": "?dk_W3119269050:V1->income.labor",
@@ -27294,14 +27347,14 @@
       "V1->V4"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3119269050:V1",
      "to": "income.labor",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "having a second-born brother (relative to a sister)",
      "to_wording": "labor earnings",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -27311,8 +27364,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W3119269050_c7",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "first-born women born 1962–1975 who become mothers",
       "first-born women with a second-born sibling who become mothers"
@@ -27466,13 +27525,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -27486,7 +27545,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "event_study"
+   ]
   },
   {
    "id": "?dk_W3119269050:V8->?dk_W3119269050:V9",
@@ -27499,14 +27560,14 @@
       "V8->V9"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3119269050:V8",
      "to": "?dk_W3119269050:V9",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "mother having a second-born brother (relative to a sister)",
      "to_wording": "daughter's comparative advantage in language over math in school",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -27516,8 +27577,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "lottery",
+       "record_id": "dk_W3119269050_c18",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "daughters of first-born women born 1962–1975",
       "daughters of first-born women with a second-born sibling"
@@ -27641,10 +27708,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c18"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3119269050_c18",
+       "t": 2.3,
+       "approx": false,
+       "estimate": 2.44,
+       "se": 1.06,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T6::_::C1",
+       "statement": "Daughters of first-born women whose second-born sibling is male perform better in the Grade 9 written language (Danish) exam than daughters of women whose second-born sibling is female."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -27687,13 +27767,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1987,
@@ -27707,7 +27787,9 @@
     "children",
     "women"
    ],
-   "strategies": []
+   "strategies": [
+    "lottery"
+   ]
   },
   {
    "id": "?dk_W3122484461:V4->?dk_W3122484461:V5",
@@ -31603,14 +31685,14 @@
       "V1->V3"
      ],
      "paper": "dk_W3123871901",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3123871901:V1",
      "to": "education.achievement",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "early-life medical treatments",
      "to_wording": "test scores",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -31620,8 +31702,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "regression_discontinuity",
+       "record_id": "dk_W3123871901_c14",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "very low birth weight focal children (birth weight near 1,500 grams) with gestational age above 32 weeks",
       "siblings of very low birth weight focal children",
@@ -31805,7 +31893,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c15"
+       ]
       },
       {
        "cell": "dk_W3123871901::T3::NinthGradeTestScores::C2 row 0",
@@ -31813,10 +31903,43 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c16"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3123871901_c14",
+       "t": 0.8,
+       "approx": false,
+       "estimate": 0.234,
+       "se": 0.294,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::DisabilityDiagnosisByAge10::C1",
+       "statement": "VLBW classification has no detectable effect on the focal child's disability summary index (diagnosis by age 10)."
+      },
+      {
+       "record_id": "dk_W3123871901_c15",
+       "t": 1.34,
+       "approx": false,
+       "estimate": 0.314,
+       "se": 0.234,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::NinthGradeTestScores::C1",
+       "statement": "VLBW classification raises the focal child's ninth-grade test score summary index."
+      },
+      {
+       "record_id": "dk_W3123871901_c16",
+       "t": 1.94,
+       "approx": false,
+       "estimate": 0.375,
+       "se": 0.193,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::NinthGradeTestScores::C2",
+       "statement": "VLBW classification of the focal child raises siblings' ninth-grade test score summary index."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -31881,13 +32004,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1982,
@@ -31900,7 +32023,9 @@
     "children",
     "siblings"
    ],
-   "strategies": []
+   "strategies": [
+    "regression_discontinuity"
+   ]
   },
   {
    "id": "?dk_W3123871901:V1->health.mental_health",
@@ -31914,14 +32039,14 @@
       "V1->V4"
      ],
      "paper": "dk_W3123871901",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3123871901:V1",
      "to": "health.mental_health",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "early-life medical treatments",
      "to_wording": "focal child health",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -31932,8 +32057,19 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "regression_discontinuity",
+       "record_id": "dk_W3123871901_c1",
+       "basis": "record"
+      },
+      {
+       "strategy": "regression_discontinuity",
+       "record_id": "dk_W3123871901_c12",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "very low birth weight focal children (birth weight near 1,500 grams) with gestational age above 32 weeks",
       "focal children with very low birth weight (birth weight in a small window around 1,500 grams) with gestational age above 32 weeks",
@@ -32182,7 +32318,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c1"
+       ]
       },
       {
        "cell": "dk_W3123871901::T3::Health::C1 row 0",
@@ -32190,7 +32328,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c10"
+       ]
       },
       {
        "cell": "dk_W3123871901::T3::DisabilityDiagnosisByAge10::C1 row 0",
@@ -32198,7 +32338,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c14"
+       ]
       },
       {
        "cell": "dk_W3123871901::T2::Health::C3 row 0",
@@ -32206,7 +32348,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c4"
+       ]
       },
       {
        "cell": "dk_W3123871901::T3::Health::C3 row 0",
@@ -32214,10 +32358,73 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3123871901_c12"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3123871901_c1",
+       "t": -1.25,
+       "approx": false,
+       "estimate": -0.508,
+       "se": 0.408,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T2::Mortality::C1",
+       "statement": "VLBW classification of the focal child lowers the focal child's mortality summary index (28-day and 1-year mortality)."
+      },
+      {
+       "record_id": "dk_W3123871901_c10",
+       "t": -2.25,
+       "approx": false,
+       "estimate": -0.324,
+       "se": 0.144,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::Health::C1",
+       "statement": "VLBW classification lowers the focal child's long-term health summary index (hospitalizations and ER visits at ages 6 to 15)."
+      },
+      {
+       "record_id": "dk_W3123871901_c14",
+       "t": 0.8,
+       "approx": false,
+       "estimate": 0.234,
+       "se": 0.294,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::DisabilityDiagnosisByAge10::C1",
+       "statement": "VLBW classification has no detectable effect on the focal child's disability summary index (diagnosis by age 10)."
+      },
+      {
+       "record_id": "dk_W3123871901_c15",
+       "t": 1.34,
+       "approx": false,
+       "estimate": 0.314,
+       "se": 0.234,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::NinthGradeTestScores::C1",
+       "statement": "VLBW classification raises the focal child's ninth-grade test score summary index."
+      },
+      {
+       "record_id": "dk_W3123871901_c12",
+       "t": -1.38,
+       "approx": false,
+       "estimate": -0.168,
+       "se": 0.122,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T3::Health::C3",
+       "statement": "VLBW classification of the focal child has no detectable effect on the mother's long-term mental health index."
+      },
+      {
+       "record_id": "dk_W3123871901_c4",
+       "t": -2.8,
+       "approx": false,
+       "estimate": -0.347,
+       "se": 0.124,
+       "strategy": "regression_discontinuity",
+       "source_table_id": "dk_W3123871901::T2::Health::C3",
+       "statement": "VLBW classification of the focal child lowers the mother's short-term mental health index (antidepressant use while the focal child is 2 to 5)."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -32282,13 +32489,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1982,
@@ -32303,7 +32510,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "regression_discontinuity"
+   ]
   },
   {
    "id": "?dk_W3123871901:V5->education.achievement",
@@ -32316,7 +32525,7 @@
       "V5->V3"
      ],
      "paper": "dk_W3123871901",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3123871901:V5",
      "to": "education.achievement",
      "sign": "+",
@@ -32360,8 +32569,8 @@
      "scope_source": "stated",
      "scope_disagreement": null,
      "years": {
-      "from": 2020,
-      "to": 2020,
+      "from": 2022,
+      "to": 2022,
       "source": "publication"
      },
      "evidence": [
@@ -32452,7 +32661,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -32461,8 +32670,8 @@
     "unknown": 1
    },
    "years": {
-    "from": 2020,
-    "to": 2020
+    "from": 2022,
+    "to": 2022
    },
    "n_pub_dated": 1,
    "scope_tags": [
@@ -32482,7 +32691,7 @@
       "V6->V3"
      ],
      "paper": "dk_W3123871901",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3123871901:V6",
      "to": "education.achievement",
      "sign": "+",
@@ -32526,8 +32735,8 @@
      "scope_source": "stated",
      "scope_disagreement": null,
      "years": {
-      "from": 2020,
-      "to": 2020,
+      "from": 2022,
+      "to": 2022,
       "source": "publication"
      },
      "evidence": [
@@ -32604,7 +32813,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -32613,8 +32822,8 @@
     "unknown": 1
    },
    "years": {
-    "from": 2020,
-    "to": 2020
+    "from": 2022,
+    "to": 2022
    },
    "n_pub_dated": 1,
    "scope_tags": [
@@ -33863,14 +34072,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3131143603",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3131143603:V1",
      "to": "?dk_W3131143603:V2",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "home prices",
      "to_wording": "likelihood of giving birth",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -33880,8 +34089,19 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3131143603_c1",
+       "basis": "record"
+      },
+      {
+       "strategy": "fixed_effects_within",
+       "record_id": "dk_W3131143603_c6",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "women aged 20-44 who own a home"
      ],
@@ -34251,10 +34471,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c1"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3131143603_c1",
+       "t": 4.5,
+       "approx": false,
+       "estimate": 0.0027,
+       "se": 0.0006,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T3::_::C4",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value raises the probability that a homeowner woman gives birth by 0.27 percentage points (2.32% of the mean)."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -34297,13 +34530,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1995,
@@ -34316,7 +34549,10 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "fixed_effects_within",
+    "selection_on_observables"
+   ]
   },
   {
    "id": "?dk_W3131143603:V1->?dk_W3131143603:V3",
@@ -34329,14 +34565,14 @@
       "V1->V3"
      ],
      "paper": "dk_W3131143603",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3131143603:V1",
      "to": "?dk_W3131143603:V3",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "home prices",
      "to_wording": "low birth weight",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -34346,8 +34582,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3131143603_c31",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "children born to homeowner women",
       "children born to homeowner women aged 20-44"
@@ -34605,10 +34847,33 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c32"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3131143603_c32",
+       "t": -0.83,
+       "approx": false,
+       "estimate": -0.0005,
+       "se": 0.0006,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::A::C2",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value changes Low Birth Weight (birth weight below 2,500 grams, 0/1) by -0.0005 (not statistically significant)."
+      },
+      {
+       "record_id": "dk_W3131143603_c49",
+       "t": -8.0,
+       "approx": false,
+       "estimate": -0.0008,
+       "se": 0.0001,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C7",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Low BW among mothers who give birth by -0.0008."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -34651,13 +34916,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1992,
@@ -34669,7 +34934,9 @@
     "First home purchase",
     "children"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "?dk_W3131143603:V1->?dk_W3131143603:V4",
@@ -34682,14 +34949,14 @@
       "V1->V4"
      ],
      "paper": "dk_W3131143603",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3131143603:V1",
      "to": "?dk_W3131143603:V4",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "home prices",
      "to_wording": "prematurity",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -34699,8 +34966,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3131143603_c34",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "children born to homeowner women",
       "children born to homeowner women aged 20-44"
@@ -34944,10 +35217,33 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c34"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3131143603_c34",
+       "t": -2.14,
+       "approx": false,
+       "estimate": -0.0015,
+       "se": 0.0007,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::A::C4",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value changes Premature (born before gestational week 37, 0/1) by -0.0015 (statistically significant)."
+      },
+      {
+       "record_id": "dk_W3131143603_c48",
+       "t": -7.0,
+       "approx": false,
+       "estimate": -0.0007,
+       "se": 0.0001,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C6",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Prematurity among mothers who give birth by -0.0007."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -34990,13 +35286,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1992,
@@ -35008,7 +35304,9 @@
     "First home purchase",
     "children"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "?dk_W3131143603:V1->?dk_W3131143603:V5",
@@ -35021,14 +35319,14 @@
       "V1->V5"
      ],
      "paper": "dk_W3131143603",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3131143603:V1",
      "to": "?dk_W3131143603:V5",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "home prices",
      "to_wording": "births to more-advantaged women",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -35038,8 +35336,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3131143603_c43",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "homeowner women aged 20-44"
      ],
@@ -35178,7 +35482,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c43"
+       ]
       },
       {
        "cell": "dk_W3131143603::T7::_::C2 row 0",
@@ -35186,7 +35492,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c44"
+       ]
       },
       {
        "cell": "dk_W3131143603::T7::_::C4 row 0",
@@ -35194,7 +35502,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c46"
+       ]
       },
       {
        "cell": "dk_W3131143603::T7::_::C5 row 0",
@@ -35202,7 +35512,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c47"
+       ]
       },
       {
        "cell": "dk_W3131143603::T7::_::C6 row 0",
@@ -35210,7 +35522,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c48"
+       ]
       },
       {
        "cell": "dk_W3131143603::T7::_::C7 row 0",
@@ -35218,10 +35532,73 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c49"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3131143603_c43",
+       "t": 7.11,
+       "approx": false,
+       "estimate": 0.398,
+       "se": 0.056,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C1",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Age (mother's age) among mothers who give birth by 0.398."
+      },
+      {
+       "record_id": "dk_W3131143603_c44",
+       "t": 7.91,
+       "approx": false,
+       "estimate": 0.087,
+       "se": 0.011,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C2",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Years of Education among mothers who give birth by 0.087."
+      },
+      {
+       "record_id": "dk_W3131143603_c46",
+       "t": 6.2,
+       "approx": false,
+       "estimate": 0.347,
+       "se": 0.056,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C4",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Household Income among mothers who give birth by 0.347."
+      },
+      {
+       "record_id": "dk_W3131143603_c47",
+       "t": 3.88,
+       "approx": false,
+       "estimate": 0.031,
+       "se": 0.008,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C5",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts I(Partner) among mothers who give birth by 0.031."
+      },
+      {
+       "record_id": "dk_W3131143603_c48",
+       "t": -7.0,
+       "approx": false,
+       "estimate": -0.0007,
+       "se": 0.0001,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C6",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Prematurity among mothers who give birth by -0.0007."
+      },
+      {
+       "record_id": "dk_W3131143603_c49",
+       "t": -8.0,
+       "approx": false,
+       "estimate": -0.0008,
+       "se": 0.0001,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T7::_::C7",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value shifts Predicted Low BW among mothers who give birth by -0.0008."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -35264,13 +35641,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1995,
@@ -35283,7 +35660,9 @@
     "women",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "?dk_W3131143603:V1->?dk_W3131143603:V6",
@@ -35296,14 +35675,14 @@
       "V1->V6"
      ],
      "paper": "dk_W3131143603",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3131143603:V1",
      "to": "?dk_W3131143603:V6",
      "sign": "0",
      "raw_sign": "0",
      "from_wording": "home prices",
      "to_wording": "health during the first five years of life",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -35313,8 +35692,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3131143603_c35",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "children of homeowner families",
       "children born to homeowner women aged 20-44"
@@ -35460,7 +35845,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c35"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::B::C2 row 0",
@@ -35468,7 +35855,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c36"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::B::C3 row 0",
@@ -35476,7 +35865,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c37"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::B::C4 row 0",
@@ -35484,7 +35875,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c38"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::C::C1 row 0",
@@ -35492,7 +35885,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c39"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::C::C2 row 0",
@@ -35500,7 +35895,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c40"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::C::C3 row 0",
@@ -35508,7 +35905,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c41"
+       ]
       },
       {
        "cell": "dk_W3131143603::T6::C::C4 row 0",
@@ -35516,10 +35915,93 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3131143603_c42"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3131143603_c35",
+       "t": -0.09,
+       "approx": false,
+       "estimate": -0.0023,
+       "se": 0.027,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::B::C1",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of Days Hospitalized (first year of life)."
+      },
+      {
+       "record_id": "dk_W3131143603_c36",
+       "t": -0.31,
+       "approx": false,
+       "estimate": -0.0005,
+       "se": 0.0016,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::B::C2",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever hospitalized (first year of life, 0/1)."
+      },
+      {
+       "record_id": "dk_W3131143603_c37",
+       "t": 0.78,
+       "approx": false,
+       "estimate": 0.0007,
+       "se": 0.0009,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::B::C3",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of ER Visits (first year of life)."
+      },
+      {
+       "record_id": "dk_W3131143603_c38",
+       "t": 0.56,
+       "approx": false,
+       "estimate": 0.0005,
+       "se": 0.0009,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::B::C4",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever ER Visit (first year of life, 0/1)."
+      },
+      {
+       "record_id": "dk_W3131143603_c39",
+       "t": 0.05,
+       "approx": false,
+       "estimate": 0.0019,
+       "se": 0.0348,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::C::C1",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of Days Hospitalized (ages 1 to 5)."
+      },
+      {
+       "record_id": "dk_W3131143603_c40",
+       "t": 0.53,
+       "approx": false,
+       "estimate": 0.001,
+       "se": 0.0019,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::C::C2",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever hospitalized (ages 1 to 5, 0/1)."
+      },
+      {
+       "record_id": "dk_W3131143603_c41",
+       "t": -0.09,
+       "approx": false,
+       "estimate": -0.0005,
+       "se": 0.0057,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::C::C3",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Number of ER Visits (ages 1 to 5)."
+      },
+      {
+       "record_id": "dk_W3131143603_c42",
+       "t": 0.56,
+       "approx": false,
+       "estimate": 0.001,
+       "se": 0.0018,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3131143603::T6::C::C4",
+       "statement": "A 100,000 DKK increase in the lagged one-year home value has no statistically significant effect on Ever ER Visit (ages 1 to 5, 0/1)."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -35562,13 +36044,13 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1992,
@@ -35580,7 +36062,9 @@
     "First home purchase",
     "children"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "?dk_W3135595892:V1->?dk_W3135595892:V2",
@@ -35593,26 +36077,33 @@
       "V1->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V1",
      "to": "?dk_W3135595892:V2",
      "sign": "0",
      "raw_sign": "0",
      "from_wording": "time since the start of incarceration",
      "to_wording": "levels of family visitation",
-     "kind": "unknown",
-     "verdict": "rejected",
-     "reason": "unsupported",
-     "tier": "contested",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "backed",
      "flags": [
-      "existence",
+      "basis_from_candidates",
+      "existence_backed",
       "unplaced"
      ],
      "support": 1,
      "k": 3,
      "label": "single",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3135595892_c1",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "inmates incarcerated at least a year (N = 5,441)"
      ],
@@ -35743,13 +36234,13 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2004,
@@ -35759,7 +36250,9 @@
    "scope_tags": [
     "all"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3135595892:V1->?dk_W3135595892:V4",
@@ -35772,26 +36265,33 @@
       "V1->V4"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V1",
      "to": "?dk_W3135595892:V4",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "time since the start of incarceration",
      "to_wording": "duration of family visits",
-     "kind": "unknown",
-     "verdict": "rejected",
-     "reason": "unsupported",
-     "tier": "contested",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "backed",
      "flags": [
-      "existence",
+      "basis_from_candidates",
+      "existence_backed",
       "unplaced"
      ],
      "support": 1,
      "k": 3,
      "label": "single",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3135595892_c1",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "inmates incarcerated at least a year (N = 5,441)"
      ],
@@ -35921,13 +36421,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2004,
@@ -35937,7 +36437,9 @@
    "scope_tags": [
     "all"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3135595892:V10->?dk_W3135595892:V2",
@@ -35950,7 +36452,7 @@
       "V10->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V10",
      "to": "?dk_W3135595892:V2",
      "sign": "+",
@@ -36109,7 +36611,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -36140,7 +36642,7 @@
       "V11->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V11",
      "to": "?dk_W3135595892:V2",
      "sign": "-",
@@ -36306,7 +36808,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -36337,7 +36839,7 @@
       "V12->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V12",
      "to": "?dk_W3135595892:V2",
      "sign": "-",
@@ -36503,7 +37005,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -36534,7 +37036,7 @@
       "V5->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V5",
      "to": "?dk_W3135595892:V2",
      "sign": "-",
@@ -36700,7 +37202,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -36731,7 +37233,7 @@
       "V6->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V6",
      "to": "?dk_W3135595892:V2",
      "sign": "-",
@@ -36890,7 +37392,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -36921,7 +37423,7 @@
       "V7->V4"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V7",
      "to": "?dk_W3135595892:V4",
      "sign": "+",
@@ -37094,7 +37596,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -37125,7 +37627,7 @@
       "V9->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3135595892:V9",
      "to": "?dk_W3135595892:V2",
      "sign": "+",
@@ -37284,7 +37786,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -37315,14 +37817,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3138953291",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3138953291:V1",
      "to": "firm.productivity",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "broad R&D assets",
      "to_wording": "total factor productivity",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -37332,8 +37834,19 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "fixed_effects_within",
+       "record_id": "dk_W3138953291_c14",
+       "basis": "record"
+      },
+      {
+       "strategy": "structural_model",
+       "record_id": "dk_W3138953291_c27",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "firms"
      ],
@@ -37501,13 +38014,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2000,
@@ -37517,7 +38030,10 @@
    "scope_tags": [
     "Manufacturing and services"
    ],
-   "strategies": []
+   "strategies": [
+    "fixed_effects_within",
+    "structural_model"
+   ]
   },
   {
    "id": "?dk_W3138953291:V3->firm.productivity",
@@ -37530,14 +38046,14 @@
       "V3->V2"
      ],
      "paper": "dk_W3138953291",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3138953291:V3",
      "to": "firm.productivity",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "organizational assets",
      "to_wording": "total factor productivity",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -37547,8 +38063,19 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "structural_model",
+       "record_id": "dk_W3138953291_c28",
+       "basis": "record"
+      },
+      {
+       "strategy": "fixed_effects_within",
+       "record_id": "dk_W3138953291_c6",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "firms"
      ],
@@ -37681,13 +38208,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2000,
@@ -37697,7 +38224,10 @@
    "scope_tags": [
     "Manufacturing and services"
    ],
-   "strategies": []
+   "strategies": [
+    "fixed_effects_within",
+    "structural_model"
+   ]
   },
   {
    "id": "?dk_W3147600083:V1->?dk_W3147600083:V2",
@@ -37710,14 +38240,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3147600083",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3147600083:V1",
      "to": "?dk_W3147600083:V2",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "parental leave entitlement",
      "to_wording": "parental leave take-up",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -37727,8 +38257,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3147600083_c35",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "fathers",
       "Danish fathers with little education"
@@ -37897,7 +38433,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3147600083_c35"
+       ]
       },
       {
        "cell": "dk_W3147600083::F5::A row 15",
@@ -37905,7 +38443,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3147600083_c35"
+       ]
       },
       {
        "cell": "dk_W3147600083::F7::A row 9",
@@ -37916,7 +38456,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3147600083_c35",
+       "t": null,
+       "approx": false,
+       "estimate": null,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3147600083::F5",
+       "statement": "Nordic countries that introduced a father's quota between 1990 and the 2000s (Sweden, Norway, Iceland) show a higher and rising fathers' share of total parental leave days than Denmark, which has no…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -37970,13 +38521,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2000,
@@ -37987,7 +38538,9 @@
     "Denmark vs other Nordic countries",
     "parents"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3147600083:V3->?dk_W3147600083:V2",
@@ -38000,14 +38553,14 @@
       "V3->V2"
      ],
      "paper": "dk_W3147600083",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3147600083:V3",
      "to": "?dk_W3147600083:V2",
      "sign": "0",
      "raw_sign": "0",
      "from_wording": "gender attitudes",
      "to_wording": "parental leave take-up",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -38017,8 +38570,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3147600083_c35",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "Danish fathers"
      ],
@@ -38162,10 +38721,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3147600083_c35"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3147600083_c35",
+       "t": null,
+       "approx": false,
+       "estimate": null,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3147600083::F5",
+       "statement": "Nordic countries that introduced a father's quota between 1990 and the 2000s (Sweden, Norway, Iceland) show a higher and rising fathers' share of total parental leave days than Denmark, which has no…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -38208,13 +38780,13 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1990,
@@ -38225,7 +38797,9 @@
     "Denmark vs other Nordic countries",
     "Survey respondents"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3147600083:V4->?dk_W3147600083:V2",
@@ -38238,25 +38812,32 @@
       "V4->V2"
      ],
      "paper": "dk_W3147600083",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3147600083:V4",
      "to": "?dk_W3147600083:V2",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "labour market insecurity",
      "to_wording": "parental leave take-up",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
-     "tier": "unanimous",
+     "tier": "majority",
      "flags": [
+      "basis_from_candidates",
       "unplaced"
      ],
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3147600083_c40",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "Danish men with little education"
      ],
@@ -38372,7 +38953,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3147600083_c40",
+       "t": null,
+       "approx": false,
+       "estimate": 56.0,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3147600083::F7",
+       "statement": "In Denmark in 2018, fathers with more education take more parental leave days: fathers with only lower-secondary schooling take approximately 26 days, against 56 days where the father has a master's…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -38415,13 +39007,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2018,
@@ -38432,7 +39024,9 @@
     "Low- vs high-educated fathers",
     "parents"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3150066078:V3->?dk_W3150066078:V2",
@@ -43639,14 +44233,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3167298212",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3167298212:V1",
      "to": "?dk_W3167298212:V2",
      "sign": "0",
      "raw_sign": "0",
      "from_wording": "cohort year",
      "to_wording": "class gap in bachelor's departures",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -43656,8 +44250,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3167298212_c4",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "students enrolled in a bachelor's programme"
      ],
@@ -43800,10 +44400,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3167298212_c4"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3167298212_c4",
+       "t": -0.5,
+       "approx": false,
+       "estimate": -0.01,
+       "se": 0.02,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3167298212::TA3::_::C1",
+       "statement": "The class gap in bachelor dropout did not change between the 1993/94 and the 2005/06 enrolment cohorts: the interaction between enrolment year 05/06 and having university-educated parents is -0.01 an…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -43846,13 +44459,13 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1993,
@@ -43865,7 +44478,9 @@
     "students",
     "young adults"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3167298212:V3->?dk_W3167298212:V4",
@@ -43878,14 +44493,14 @@
       "V3->V4"
      ],
      "paper": "dk_W3167298212",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3167298212:V3",
      "to": "?dk_W3167298212:V4",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "disadvantaged social class background",
      "to_wording": "leaving a bachelor's programme",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -43895,8 +44510,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3167298212_c1",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "students enrolled in a bachelor's programme (university enrolees)",
       "students enrolled in a bachelor's programme"
@@ -44054,7 +44675,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3167298212_c1"
+       ]
       },
       {
        "cell": "dk_W3167298212::F3::A row 15",
@@ -44065,7 +44688,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3167298212_c1",
+       "t": -14.0,
+       "approx": false,
+       "estimate": -0.14,
+       "se": 0.01,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3167298212::TA3::_::C1",
+       "statement": "Among students who first enrolled in a Danish university bachelor's programme in 1993/94, those with university-educated parents are 0.14 less likely (14 percentage points) to have left a bachelor's…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -44108,13 +44742,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1993,
@@ -44127,7 +44761,9 @@
     "students",
     "young adults"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3167298212:V3->?dk_W3167298212:V5",
@@ -44140,14 +44776,14 @@
       "V3->V5"
      ],
      "paper": "dk_W3167298212",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W3167298212:V3",
      "to": "?dk_W3167298212:V5",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "disadvantaged social class background",
      "to_wording": "pursuing a master's degree",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -44157,8 +44793,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W3167298212_c5",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "bachelor's degree students",
       "students enrolled in a bachelor's programme"
@@ -44288,7 +44930,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3167298212_c5"
+       ]
       },
       {
        "cell": "dk_W3167298212::F5::A row 13",
@@ -44307,7 +44951,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3167298212_c5",
+       "t": -7.0,
+       "approx": false,
+       "estimate": -0.14,
+       "se": 0.02,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W3167298212::TA5::_::C1",
+       "statement": "Among bachelor's degree holders who enrolled in 1993/94, those with university-educated parents are 0.14 less likely (14 percentage points) than those from homes with no upper secondary education not…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -44350,13 +45005,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1993,
@@ -44369,7 +45024,9 @@
     "students",
     "young adults"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "?dk_W3173049983:V2->?dk_W3173049983:V1",
@@ -114832,14 +115489,14 @@
       "V6->V7"
      ],
      "paper": "dk_W3119269050",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.fertility.extensive",
      "to": "?dk_W3119269050:V7",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "having mixed-sex children (relative to same-sex children)",
      "to_wording": "gender-specialized parenting",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -114849,8 +115506,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "lottery",
+       "record_id": "dk_W3119269050_c24",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "mothers and fathers of first-born daughters with a second-born sibling",
       "parents of first-born daughters, mixed-sex versus same-sex sibships"
@@ -115137,7 +115800,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c24"
+       ]
       },
       {
        "cell": "dk_W3119269050::T7::_::C2 row 0",
@@ -115145,7 +115810,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c25"
+       ]
       },
       {
        "cell": "dk_W3119269050::T7::_::C3 row 0",
@@ -115153,7 +115820,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c26"
+       ]
       },
       {
        "cell": "dk_W3119269050::T7::_::C4 row 0",
@@ -115161,10 +115830,53 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3119269050_c27"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3119269050_c24",
+       "t": 1.75,
+       "approx": false,
+       "estimate": 0.14,
+       "se": 0.08,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T7::_::C1",
+       "statement": "Mothers of a first-born daughter and a second-born son invest more quality time in their first-born daughter at age 7 than mothers of two daughters."
+      },
+      {
+       "record_id": "dk_W3119269050_c25",
+       "t": 1.88,
+       "approx": false,
+       "estimate": 0.15,
+       "se": 0.08,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T7::_::C2",
+       "statement": "Mothers of a first-born daughter and a second-born son invest more quality time in their first-born daughter at age 11 than mothers of two daughters."
+      },
+      {
+       "record_id": "dk_W3119269050_c26",
+       "t": -2.1,
+       "approx": false,
+       "estimate": -0.21,
+       "se": 0.1,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T7::_::C3",
+       "statement": "Fathers invest less quality time in their first-born daughter at age 7 when the second-born child is a son rather than a daughter."
+      },
+      {
+       "record_id": "dk_W3119269050_c27",
+       "t": -2.4,
+       "approx": false,
+       "estimate": -0.24,
+       "se": 0.1,
+       "strategy": "lottery",
+       "source_table_id": "dk_W3119269050::T7::_::C4",
+       "statement": "Fathers invest less quality time in their first-born daughter at age 11 when the second-born child is a son rather than a daughter."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -115207,13 +115919,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1995,
@@ -115226,7 +115938,9 @@
     "siblings",
     "women"
    ],
-   "strategies": []
+   "strategies": [
+    "lottery"
+   ]
   },
   {
    "id": "family.fertility.extensive->?dk_W3135595892:V2",
@@ -115239,7 +115953,7 @@
       "V8->V2"
      ],
      "paper": "dk_W3135595892",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.fertility.extensive",
      "to": "?dk_W3135595892:V2",
      "sign": "+",
@@ -115398,7 +116112,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -124112,14 +124826,14 @@
       "V1->V3"
      ],
      "paper": "dk_W3155712319",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.mental_health",
      "to": "?dk_W3155712319:V3",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "mental well-being",
      "to_wording": "sickness benefit transfers",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -124129,8 +124843,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3155712319_c2",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "Danish adults aged 16+ years (population-based survey sample of 3,508 linked to registry data)",
       "Danish population-based survey of 3,508 adults aged 16+ years"
@@ -124278,10 +124998,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3155712319_c2"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3155712319_c2",
+       "t": -2.41,
+       "approx": true,
+       "estimate": -23.1,
+       "se": 9.592013,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3155712319::T2::SickBenefitTransfers::CModel2",
+       "statement": "A one-point higher WEMWBS mental well-being score in 2016 is associated with USD PPP 23.1 lower per-person costs of sickness benefit transfers in 2017 among the working-age population, adjusting for…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -124324,13 +125057,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2016,
@@ -124341,7 +125074,9 @@
     "Survey respondents",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "health.mental_health->health.health_care_use",
@@ -124611,7 +125346,7 @@
       "V2->V4"
      ],
      "paper": "dk_W3123871901",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.mental_health",
      "to": "health.mental_health",
      "sign": "+",
@@ -124660,8 +125395,8 @@
      "scope_source": "stated",
      "scope_disagreement": null,
      "years": {
-      "from": 2020,
-      "to": 2020,
+      "from": 2022,
+      "to": 2022,
       "source": "publication"
      },
      "evidence": [
@@ -124752,7 +125487,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -124761,8 +125496,8 @@
     "unknown": 1
    },
    "years": {
-    "from": 2020,
-    "to": 2020
+    "from": 2022,
+    "to": 2022
    },
    "n_pub_dated": 1,
    "scope_tags": [
@@ -124783,14 +125518,14 @@
       "V1->V2"
      ],
      "paper": "dk_W3155712319",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.mental_health",
      "to": "labor.cost_of_labor_supply",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "mental well-being",
      "to_wording": "healthcare costs",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -124798,8 +125533,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "selection_on_observables",
+       "record_id": "dk_W3155712319_c1",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "Danish adults aged 16+ years (population-based survey sample of 3,508 linked to registry data)",
       "Danish population-based survey of 3,508 adults aged 16+ years"
@@ -124947,10 +125688,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3155712319_c1"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3155712319_c1",
+       "t": -2.3,
+       "approx": true,
+       "estimate": -42.5,
+       "se": 18.469727,
+       "strategy": "selection_on_observables",
+       "source_table_id": "dk_W3155712319::T2::HealthcareCosts::CModel2",
+       "statement": "A one-point higher WEMWBS mental well-being score in 2016 is associated with USD PPP 42.5 lower per-person healthcare costs in 2017, adjusting for sociodemographics, health status, health behaviour a…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -124993,13 +125747,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 2016,
@@ -125010,7 +125764,9 @@
     "Adults aged 16 and above",
     "Survey respondents"
    ],
-   "strategies": []
+   "strategies": [
+    "selection_on_observables"
+   ]
   },
   {
    "id": "health.provider_financial_motivation->health.health_care_use.chronic_disease_control_visit",
