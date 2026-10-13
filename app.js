@@ -506,68 +506,107 @@ function drawDag(host, nodeIds, edges, opts) {
    coloured by the cause's domain, width = papers, arrowhead at the effect. ---- */
 function clipLabel(t, n) { t = String(t || ''); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t; }
 function drawChord(host, nodeIds, edges, opts) {
+  /* Topic level by default: a chord diagram over the domains, one ribbon per ordered pair aggregated over
+     the concept edges between them. Clicking a domain arc, a ribbon or (once disaggregated) a concept arc
+     fades the topic layer and draws the concept-level chords of that selection on top; the background
+     returns to the topic level. */
   opts = opts || {};
   host.innerHTML = '';
   const W = host.clientWidth || 900, H = host.clientHeight || 600;
-  const ids = [...nodeIds].map(id => ({ id, label: conceptLabel(id), domain: (NODE[id] || {}).domain || 'unplaced' }))
-    .sort((a, b) => a.domain.localeCompare(b.domain) || a.label.localeCompare(b.label));
-  const n = ids.length;
-  if (n < 2) { host.innerHTML = '<p class="empty stage-empty">Too few concepts for a chord view.</p>'; return; }
-  const index = {}; ids.forEach((x, i) => index[x.id] = i);
-  const M = Array.from({ length: n }, () => new Array(n).fill(0)), EM = {};
-  edges.forEach(e => { const i = index[e.from], j = index[e.to]; if (i == null || j == null || i === j) return; M[i][j] += e.n_papers || 1; EM[i + '-' + j] = e; });
-  const R = Math.max(110, Math.min(W, H) / 2 - 170), inner = R - 9;
-  const layout = (d3.chordDirected ? d3.chordDirected() : d3.chord()).padAngle(10 / inner).sortSubgroups(d3.descending).sortChords(d3.descending);
-  const chords = layout(M);
-  const arc = d3.arc().innerRadius(inner).outerRadius(R);
-  const ribbon = (d3.ribbonArrow ? d3.ribbonArrow().headRadius(9) : d3.ribbon()).radius(inner - 1).padAngle(1 / inner);
+  const domOf = id => (NODE[id] || {}).domain || 'unplaced';
+  const all = edges.filter(e => e.from !== e.to && nodeIds.has(e.from) && nodeIds.has(e.to));
+  if (all.length < 1) { host.innerHTML = '<p class="empty stage-empty">Too few relations for a chord view.</p>'; return; }
+  const R = Math.max(110, Math.min(W, H) / 2 - 140), inner = R - 10;
+  const COL = { pos: getCSS('--pos'), neg: getCSS('--neg'), nul: getCSS('--nul'), unk: getCSS('--nul'), con: getCSS('--neg') };
   const svg = d3.select(host).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', [0, 0, W, H]);
   const g = svg.append('g');
   const zoom = d3.zoom().scaleExtent([0.3, 5]).on('zoom', ev => g.attr('transform', ev.transform));
   svg.call(zoom);
   const root = g.append('g').attr('transform', 'translate(' + W / 2 + ',' + H / 2 + ')');
-  const COL = { pos: getCSS('--pos'), neg: getCSS('--neg'), nul: getCSS('--nul'), unk: getCSS('--nul'), con: getCSS('--neg') };
-  /* the domain ring: contiguous runs of one domain, label along the outer edge */
-  const runs = [];
-  chords.groups.forEach(gr => { const d = ids[gr.index].domain; const last = runs[runs.length - 1];
-    if (last && last.domain === d) last.end = gr.endAngle; else runs.push({ domain: d, start: gr.startAngle, end: gr.endAngle }); });
-  const ring = root.append('g');
-  const ringArc = d3.arc().innerRadius(R + 3).outerRadius(R + 8);
-  runs.forEach((r, i) => {
-    ring.append('path').attr('d', ringArc({ startAngle: r.start, endAngle: r.end })).attr('fill', domCol(r.domain));
-    const rr = R + 150, mid = (r.start + r.end) / 2, lower = mid > Math.PI / 2 && mid < 3 * Math.PI / 2;
-    const a0 = (lower ? r.end : r.start) - Math.PI / 2, a1 = (lower ? r.start : r.end) - Math.PI / 2;
-    const p = 'M' + rr * Math.cos(a0) + ',' + rr * Math.sin(a0) + 'A' + rr + ',' + rr + ' 0 ' + (Math.abs(r.end - r.start) > Math.PI ? 1 : 0) + ' ' + (lower ? 0 : 1) + ' ' + rr * Math.cos(a1) + ',' + rr * Math.sin(a1);
-    ring.append('path').attr('id', 'ring-' + i).attr('d', p).attr('fill', 'none');
-    ring.append('text').attr('font-family', 'Georgia,serif').attr('font-size', 13).attr('fill', domCol(r.domain)).attr('dy', lower ? 10 : -3)
-      .append('textPath').attr('href', '#ring-' + i).attr('startOffset', '50%').attr('text-anchor', 'middle').text(nice(r.domain));
-  });
-  const fade = (keep) => { rb.attr('stroke-opacity', d => keep == null || keep(d) ? .85 : .08).attr('stroke-width', d => keep != null && keep(d) ? 2 : 1); };
-  const groups = root.append('g').selectAll('g').data(chords.groups).join('g').style('cursor', 'pointer')
-    .on('click', (ev, d) => { ev.stopPropagation(); if (opts.onNode) opts.onNode(ids[d.index].id); })
-    .on('mouseover', (ev, d) => fade(c => c.source.index === d.index || c.target.index === d.index))
-    .on('mouseout', () => fade(null));
-  groups.append('path').attr('d', arc).attr('fill', d => domCol(ids[d.index].domain)).attr('stroke', getCSS('--paper'));
-  groups.append('text').each(d => d.angle = (d.startAngle + d.endAngle) / 2).attr('dy', '.32em')
-    .attr('transform', d => 'rotate(' + (d.angle * 180 / Math.PI - 90) + ') translate(' + (R + 12) + ',0)' + (d.angle > Math.PI ? ' rotate(180)' : ''))
-    .attr('text-anchor', d => d.angle > Math.PI ? 'end' : null).attr('font-size', n > 40 ? 10 : 11.5).attr('font-family', 'Georgia,serif').attr('fill', getCSS('--ink'))
-    .text(d => clipLabel(ids[d.index].label, 28));
-  groups.append('title').text(d => ids[d.index].label + ' — ' + nice(ids[d.index].domain) + ', ' + ((NODE[ids[d.index].id] || {}).n_papers || 0) + ' paper(s)');
-  const signOf = d => { const e = EM[d.source.index + '-' + d.target.index]; return e ? e.consensus_sign : '?'; };
-  const rb = root.append('g').attr('fill', 'none').selectAll('path').data(chords).join('path')
-    .attr('d', ribbon).attr('stroke', d => COL[sg(signOf(d))[1]]).attr('stroke-width', 1).attr('stroke-opacity', d => { const e = EM[d.source.index + '-' + d.target.index]; return e && e.design_pending ? .4 : .85; }).attr('stroke-linejoin', 'round')
-    .attr('stroke-dasharray', d => { const e = EM[d.source.index + '-' + d.target.index]; return e && (e.has_contradiction || e.consensus_sign === '?') ? '4,2' : null; })
+  const topic = root.append('g'), sub = root.append('g');
+  const majority = signs => { const pos = signs['+'] || 0, neg = signs['-'] || 0; return pos > neg ? '+' : neg > pos ? '-' : (pos || neg) ? '?' : (signs['0'] ? '0' : '?'); };
+  const radialLabel = (sel, radius, size, textOf, colorOf) => sel.append('text').each(d => d.angle = (d.startAngle + d.endAngle) / 2).attr('dy', '.32em')
+    .attr('transform', d => 'rotate(' + (d.angle * 180 / Math.PI - 90) + ') translate(' + radius + ',0)' + (d.angle > Math.PI ? ' rotate(180)' : ''))
+    .attr('text-anchor', d => d.angle > Math.PI ? 'end' : null).attr('font-size', size).attr('font-family', 'Georgia,serif').attr('fill', colorOf)
+    .attr('paint-order', 'stroke').attr('stroke', getCSS('--paper')).attr('stroke-width', 3).text(textOf);
+  /* ---- the topic layer: domains as groups ---- */
+  const doms = [...new Set(all.flatMap(e => [domOf(e.from), domOf(e.to)]))].sort();
+  const di = {}; doms.forEach((d, i) => di[d] = i);
+  const nd = doms.length;
+  const MD = Array.from({ length: nd }, () => new Array(nd).fill(0)), PAIR = {};
+  all.forEach(e => { const A = domOf(e.from), B = domOf(e.to); if (A === B) return;
+    const P = PAIR[A + '|' + B] || (PAIR[A + '|' + B] = { A, B, edges: 0, papers: new Set(), signs: {} });
+    P.edges += 1; (e.papers || []).forEach(x => P.papers.add(x)); const sg_ = e.consensus_sign || '?'; P.signs[sg_] = (P.signs[sg_] || 0) + 1;
+    MD[di[A]][di[B]] += e.n_papers || 1; });
+  const dlayout = (d3.chordDirected ? d3.chordDirected() : d3.chord()).padAngle(14 / inner).sortSubgroups(d3.descending).sortChords(d3.descending);
+  const dchords = dlayout(MD);
+  const darc = d3.arc().innerRadius(inner).outerRadius(R);
+  const dribbon = (d3.ribbonArrow ? d3.ribbonArrow().headRadius(10) : d3.ribbon()).radius(inner - 1).padAngle(1 / inner);
+  const dgroups = topic.append('g').selectAll('g').data(dchords.groups).join('g').style('cursor', 'pointer')
+    .on('click', (ev, d) => { ev.stopPropagation(); select({ kind: 'domain', d: doms[d.index] }); });
+  dgroups.append('path').attr('d', darc).attr('fill', d => domCol(doms[d.index])).attr('stroke', getCSS('--paper'));
+  radialLabel(dgroups, R + 10, 11, d => nice(doms[d.index]), d => domCol(doms[d.index]));
+  dgroups.append('title').text(d => nice(doms[d.index]) + ': click to show its concept-level relations');
+  const pairOf = c => PAIR[doms[c.source.index] + '|' + doms[c.target.index]] || { edges: 0, papers: new Set(), signs: {} };
+  const dr = topic.append('g').attr('fill', 'none').selectAll('path').data(dchords).join('path')
+    .attr('d', dribbon).attr('stroke', c => COL[sg(majority(pairOf(c).signs))[1]]).attr('stroke-width', 1.3).attr('stroke-opacity', .8).attr('stroke-linejoin', 'round')
+    .attr('stroke-dasharray', c => majority(pairOf(c).signs) === '?' ? '5,3' : null)
     .style('cursor', 'pointer').style('pointer-events', 'stroke')
-    .on('click', (ev, d) => { ev.stopPropagation(); const e = EM[d.source.index + '-' + d.target.index]; if (e && opts.onEdge) opts.onEdge(e); })
-    .on('mouseover', (ev, d) => fade(c => c === d)).on('mouseout', () => fade(null));
-  rb.append('title').text(d => { const e = EM[d.source.index + '-' + d.target.index] || {};
-    return ids[d.source.index].label + ' ' + ARROW + ' ' + ids[d.target.index].label + ': ' + signWord(e.consensus_sign || '?') + ' (' + (e.n_papers || 0) + ' paper' + (e.n_papers === 1 ? '' : 's') + ')'; });
+    .on('click', (ev, c) => { ev.stopPropagation(); select({ kind: 'pair', A: doms[c.source.index], B: doms[c.target.index] }); })
+    .on('mouseover', (ev, c) => { if (!sel) dr.attr('stroke-opacity', x => x === c ? 1 : .12).attr('stroke-width', x => x === c ? 2.2 : 1.3); })
+    .on('mouseout', () => { if (!sel) dr.attr('stroke-opacity', .8).attr('stroke-width', 1.3); });
+  dr.append('title').text(c => { const P = pairOf(c); return nice(doms[c.source.index]) + ' ' + ARROW + ' ' + nice(doms[c.target.index]) + ': ' + P.edges + ' relation' + (P.edges === 1 ? '' : 's') +
+    ' from ' + P.papers.size + ' paper' + (P.papers.size === 1 ? '' : 's') + ' (' + Object.entries(P.signs).map(([k, v]) => signWord(k) + ' ' + v).join(', ') + '). Click to disaggregate.'; });
+  /* ---- the concept layer: drawn for a selection ---- */
+  let sel = null;
+  function drawSub(subEdges, focusId) {
+    sub.selectAll('*').remove();
+    const ids = [...new Set(subEdges.flatMap(e => [e.from, e.to]))].map(id => ({ id, label: conceptLabel(id), domain: domOf(id) }))
+      .sort((a, b) => a.domain.localeCompare(b.domain) || a.label.localeCompare(b.label));
+    const n = ids.length; if (n < 2) return;
+    const index = {}; ids.forEach((x, i) => index[x.id] = i);
+    const M = Array.from({ length: n }, () => new Array(n).fill(0)), EM = {};
+    subEdges.forEach(e => { const i = index[e.from], j = index[e.to]; M[i][j] += e.n_papers || 1; EM[i + '-' + j] = e; });
+    const layout = (d3.chordDirected ? d3.chordDirected() : d3.chord()).padAngle(10 / inner).sortSubgroups(d3.descending).sortChords(d3.descending);
+    const chords = layout(M);
+    const arc = d3.arc().innerRadius(inner).outerRadius(R);
+    const ribbon = (d3.ribbonArrow ? d3.ribbonArrow().headRadius(9) : d3.ribbon()).radius(inner - 1).padAngle(1 / inner);
+    const edgeOf = c => EM[c.source.index + '-' + c.target.index] || {};
+    const groups = sub.append('g').selectAll('g').data(chords.groups).join('g').style('cursor', 'pointer')
+      .on('click', (ev, d) => { ev.stopPropagation(); select({ kind: 'concept', id: ids[d.index].id }); if (opts.onNode) opts.onNode(ids[d.index].id); });
+    groups.append('path').attr('d', arc).attr('fill', d => domCol(ids[d.index].domain)).attr('stroke', getCSS('--paper'))
+      .attr('fill-opacity', d => !focusId || ids[d.index].id === focusId ? 1 : .75);
+    radialLabel(groups, R + 12, n > 40 ? 8.5 : 9.5, d => clipLabel(ids[d.index].label, 30), () => getCSS('--ink'))
+      .attr('font-weight', d => focusId && ids[d.index].id === focusId ? 'bold' : null);
+    groups.append('title').text(d => ids[d.index].label + ' — ' + nice(ids[d.index].domain) + ', ' + ((NODE[ids[d.index].id] || {}).n_papers || 0) + ' paper(s)');
+    const rb = sub.append('g').attr('fill', 'none').selectAll('path').data(chords).join('path')
+      .attr('d', ribbon).attr('stroke', c => COL[sg(edgeOf(c).consensus_sign || '?')[1]]).attr('stroke-width', 1.3).attr('stroke-opacity', .9).attr('stroke-linejoin', 'round')
+      .attr('stroke-dasharray', c => { const e = edgeOf(c); return e.has_contradiction || e.consensus_sign === '?' ? '4,2' : null; })
+      .style('cursor', 'pointer').style('pointer-events', 'stroke')
+      .on('click', (ev, c) => { ev.stopPropagation(); const e = edgeOf(c); if (e.id && opts.onEdge) opts.onEdge(e); })
+      .on('mouseover', (ev, c) => rb.attr('stroke-opacity', x => x === c ? 1 : .18)).on('mouseout', () => rb.attr('stroke-opacity', .9));
+    rb.append('title').text(c => { const e = edgeOf(c);
+      return ids[c.source.index].label + ' ' + ARROW + ' ' + ids[c.target.index].label + ': ' + signWord(e.consensus_sign || '?') + ' (' + (e.n_papers || 0) + ' paper' + (e.n_papers === 1 ? '' : 's') + ')'; });
+  }
+  function select(next) {
+    sel = next;
+    let subEdges = [];
+    if (sel && sel.kind === 'domain') subEdges = all.filter(e => domOf(e.from) === sel.d || domOf(e.to) === sel.d);
+    if (sel && sel.kind === 'pair') subEdges = all.filter(e => domOf(e.from) === sel.A && domOf(e.to) === sel.B);
+    if (sel && sel.kind === 'concept') subEdges = all.filter(e => e.from === sel.id || e.to === sel.id);
+    const keepDom = d => !sel || (sel.kind === 'domain' ? d === sel.d : sel.kind === 'pair' ? (d === sel.A || d === sel.B) : d === domOf(sel.id));
+    topic.transition().duration(300).style('opacity', sel ? .07 : 1);
+    topic.style('pointer-events', sel ? 'none' : null);
+    dgroups.select('text').transition().duration(300).style('opacity', d => keepDom(doms[d.index]) ? 1 : .3);
+    if (sel) drawSub(subEdges, sel.kind === 'concept' ? sel.id : null); else sub.selectAll('*').remove();
+    host.__focused = sel ? (sel.kind === 'concept' ? sel.id : sel.kind) : null;
+  }
+  svg.on('click', () => { if (sel) select(null); if (opts.onBackground) opts.onBackground(); });
+  host.__focus = id => { if (!id) { if (sel) select(null); return; } if (!(sel && sel.kind === 'concept' && sel.id === id)) select({ kind: 'concept', id }); };
   host.__fit = (dur, factor) => { factor = factor == null ? 1 : factor;
     svg.transition().duration(dur == null ? 450 : dur).call(zoom.transform, d3.zoomIdentity.translate(W / 2 * (1 - factor), H / 2 * (1 - factor)).scale(factor)); };
   host.__zoomBy = k => svg.transition().duration(250).call(zoom.scaleBy, k);
 }
-
-/* ================= side panel ================= */
 function showEdge(panel, e) {
   panel.innerHTML = '';
   panel.appendChild(el('h4', null, esc(conceptLabel(e.from)) + ' ' + ARROW + ' ' + esc(conceptLabel(e.to))));
