@@ -6064,7 +6064,7 @@
  },
  {
   "artid": "dk_W4285059352",
-  "title": "‘Migrant Carer- Wives’ – Between Transnational Marriages, Care Work for Older Husbands and Gendered Precarity",
+  "title": "‘Migrant Carer-Wives’ – Between Transnational Marriages, Care Work for Older Husbands and Gendered Precarity",
   "authors": [
    "Anika Liversage",
    "Abir Mohamad Ismail"
@@ -6085,15 +6085,19 @@
   "n_stated": 7,
   "n_accepted": 8,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 7,
+  "n_headline": 6,
+  "strategies": {
+   "descriptive": 6
+  },
+  "strategies_all": {
+   "descriptive": 7
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2022,
-   "to": 2022,
-   "source": "publication"
+   "from": 2003,
+   "to": 2021,
+   "source": "design"
   },
   "scope_tags": [
    "Marriage to older immigrant man",
@@ -6119,7 +6123,68 @@
    "social.isolation"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4285059352_c1",
+    "t": null,
+    "approx": false,
+    "estimate": 1.3,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Remarriage is rare among older immigrants in Denmark: of the almost 11,000 Turkish immigrants in the 55- to 80-year age group, only 143 (1.3%) remarried in 2003-2018."
+   },
+   {
+    "record_id": "dk_W4285059352_c2",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Remarriage among older immigrants in Denmark is highly gendered: in the three immigrant groups, men remarry between six and 15 times as often as women."
+   },
+   {
+    "record_id": "dk_W4285059352_c3",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "When older immigrant men in Denmark remarry, the spousal age difference is largest (14-20 years) when the wife travels to Denmark from abroad, intermediate (10-15 years) when she is an ethnic minorit…"
+   },
+   {
+    "record_id": "dk_W4285059352_c5",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "In the vast majority of remarriages of older immigrants in Denmark, the new spouse is found abroad rather than among ethnic minority women living in Denmark or women of the Danish majority."
+   },
+   {
+    "record_id": "dk_W4285059352_c6",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Care needs of older immigrant men in Denmark that are met neither by public eldercare (for linguistic and cultural reasons) nor by their adult children lead the men or their children to seek substant…"
+   },
+   {
+    "record_id": "dk_W4285059352_c7",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Being a migrant carer-wife to a much older husband leads to isolated and strenuous lives with many care duties and to a precarious dependency on the husband's adult children, who do not necessarily r…"
+   }
+  ]
  },
  {
   "artid": "dk_W4296010520",
@@ -6129,11 +6194,11 @@
    "Elena Mattana"
   ],
   "year": 2022,
-  "journal": "Samfundsøkonomen",
+  "journal": "Samfundsøkonomen 3/2022 (Temanummer: Universitetsstuderende og deres uddannelser)",
   "doi": "10.7146/samfundsokonomen.v2022i3.133978",
   "url": "https://doi.org/10.7146/samfundsokonomen.v2022i3.133978",
   "citations": 3,
-  "journal_key": "samfundskonomen",
+  "journal_key": "samfundskonomen32022temanummeruniversitetsstuderendeogderesuddannelser",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6143,15 +6208,18 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 39,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 10,
+   "selection_on_observables": 29
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2022,
-   "to": 2022,
-   "source": "publication"
+   "from": 1996,
+   "to": 2015,
+   "source": "design"
   },
   "scope_tags": [
    "Higher education",
@@ -6243,15 +6311,15 @@
    "Mathias Lasgaard",
    "Nanna Weye",
    "Jordan Edwards",
-   "John Joseph McGrath",
-   "Oleguer Plana‐Ripoll"
+   "John J. McGrath",
+   "Oleguer Plana-Ripoll"
   ],
   "year": 2022,
-  "journal": "International Journal for Population Data Science",
-  "doi": "10.23889/ijpds.v7i4.1759",
+  "journal": "International Journal of Population Data Science",
+  "doi": "10.23889/ijpds.v4i3.1759",
   "url": "https://doi.org/10.23889/ijpds.v7i4.1759",
   "citations": 23,
-  "journal_key": "internationaljournalforpopulationdatascience",
+  "journal_key": "internationaljournalofpopulationdatascience",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6261,11 +6329,15 @@
   "n_stated": 8,
   "n_accepted": 7,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 198,
+  "n_headline": 58,
+  "strategies": {
+   "descriptive": 58
+  },
+  "strategies_all": {
+   "descriptive": 198
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2017,
    "to": 2017,
@@ -6288,22 +6360,603 @@
    "survey.participation"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4306789942_c7",
+    "t": 54.28,
+    "approx": true,
+    "estimate": 8.17,
+    "se": 0.150513,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population."
+   },
+   {
+    "record_id": "dk_W4306789942_c8",
+    "t": 46.89,
+    "approx": true,
+    "estimate": 9.45,
+    "se": 0.201534,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c9",
+    "t": 8.55,
+    "approx": true,
+    "estimate": 0.24,
+    "se": 0.028062,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded organic disorder diagnosis than the entire eligible population."
+   },
+   {
+    "record_id": "dk_W4306789942_c10",
+    "t": 7.35,
+    "approx": true,
+    "estimate": 0.3,
+    "se": 0.040817,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded organic disorder diagnosis than the entire eligible population."
+   },
+   {
+    "record_id": "dk_W4306789942_c12",
+    "t": 16.27,
+    "approx": true,
+    "estimate": 1.37,
+    "se": 0.084185,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded substance use disorder diagnosis than the entire eligible popula…"
+   },
+   {
+    "record_id": "dk_W4306789942_c16",
+    "t": 30.4,
+    "approx": true,
+    "estimate": 4.11,
+    "se": 0.135207,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded mood disorder diagnosis than the entire eligible population."
+   },
+   {
+    "record_id": "dk_W4306789942_c17",
+    "t": 36.56,
+    "approx": true,
+    "estimate": 4.01,
+    "se": 0.109696,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded neurotic, stress-related or somatoform disorder diagnosis than the entire e…"
+   },
+   {
+    "record_id": "dk_W4306789942_c23",
+    "t": 7.84,
+    "approx": true,
+    "estimate": 0.22,
+    "se": 0.028062,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded intellectual disability diagnosis than the entire eligible population."
+   },
+   {
+    "record_id": "dk_W4306789942_c24",
+    "t": 6.92,
+    "approx": true,
+    "estimate": 0.3,
+    "se": 0.043368,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded intellectual disability diagnosis than the entire eligible popul…"
+   },
+   {
+    "record_id": "dk_W4306789942_c27",
+    "t": 19.91,
+    "approx": true,
+    "estimate": 1.27,
+    "se": 0.063777,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded behavioral or emotional disorder with onset in childhood or adolescence dia…"
+   },
+   {
+    "record_id": "dk_W4306789942_c29",
+    "t": 17.71,
+    "approx": true,
+    "estimate": 13.28,
+    "se": 0.750014,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were more likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among wom…"
+   },
+   {
+    "record_id": "dk_W4306789942_c30",
+    "t": 15.41,
+    "approx": true,
+    "estimate": 13.25,
+    "se": 0.85971,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were more likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c33",
+    "t": 17.94,
+    "approx": true,
+    "estimate": 11.21,
+    "se": 0.625011,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among wom…"
+   },
+   {
+    "record_id": "dk_W4306789942_c34",
+    "t": 15.91,
+    "approx": true,
+    "estimate": 12.87,
+    "se": 0.808688,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c35",
+    "t": 18.82,
+    "approx": true,
+    "estimate": 9.84,
+    "se": 0.522969,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among wom…"
+   },
+   {
+    "record_id": "dk_W4306789942_c37",
+    "t": 16.43,
+    "approx": true,
+    "estimate": 8.09,
+    "se": 0.492356,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among wom…"
+   },
+   {
+    "record_id": "dk_W4306789942_c38",
+    "t": 14.33,
+    "approx": true,
+    "estimate": 9.76,
+    "se": 0.681135,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c40",
+    "t": 11.45,
+    "approx": true,
+    "estimate": 6.66,
+    "se": 0.581643,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c41",
+    "t": 10.47,
+    "approx": true,
+    "estimate": 6.44,
+    "se": 0.614807,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among wom…"
+   },
+   {
+    "record_id": "dk_W4306789942_c42",
+    "t": 8.94,
+    "approx": true,
+    "estimate": 6.5,
+    "se": 0.727054,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c43",
+    "t": 14.59,
+    "approx": true,
+    "estimate": 10.94,
+    "se": 0.750014,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among men…"
+   },
+   {
+    "record_id": "dk_W4306789942_c44",
+    "t": 12.83,
+    "approx": true,
+    "estimate": 10.57,
+    "se": 0.823995,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c45",
+    "t": 12.41,
+    "approx": true,
+    "estimate": 9.31,
+    "se": 0.750014,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among men…"
+   },
+   {
+    "record_id": "dk_W4306789942_c46",
+    "t": 11.34,
+    "approx": true,
+    "estimate": 9.66,
+    "se": 0.852056,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c47",
+    "t": 12.26,
+    "approx": true,
+    "estimate": 6.82,
+    "se": 0.556133,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Unweighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible population among men…"
+   },
+   {
+    "record_id": "dk_W4306789942_c48",
+    "t": 10.69,
+    "approx": true,
+    "estimate": 7.58,
+    "se": 0.709197,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c50",
+    "t": 11.18,
+    "approx": true,
+    "estimate": 6.99,
+    "se": 0.625011,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c52",
+    "t": 11.54,
+    "approx": true,
+    "estimate": 7.77,
+    "se": 0.673482,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Non-response weighted participants in the 2017 Central Denmark Region How are you? survey were less likely to have a register-recorded any mental disorder diagnosis than the entire eligible populatio…"
+   },
+   {
+    "record_id": "dk_W4306789942_c146",
+    "t": 104.72,
+    "approx": true,
+    "estimate": 1.87,
+    "se": 0.017857,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4306789942::TS7::Circulatory system::C4",
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c147",
+    "t": 18.39,
+    "approx": true,
+    "estimate": 1.97,
+    "se": 0.107145,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4306789942::TS7::Circulatory system::C5",
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a circulatory system general m…"
+   },
+   {
+    "record_id": "dk_W4306789942_c148",
+    "t": 14.75,
+    "approx": true,
+    "estimate": 2.07,
+    "se": 0.140309,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4306789942::TS7::Circulatory system::C6",
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c149",
+    "t": 106.62,
+    "approx": true,
+    "estimate": 1.36,
+    "se": 0.012755,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c150",
+    "t": 18.37,
+    "approx": true,
+    "estimate": 1.5,
+    "se": 0.081634,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a endocrine system general med…"
+   },
+   {
+    "record_id": "dk_W4306789942_c151",
+    "t": 15.58,
+    "approx": true,
+    "estimate": 1.51,
+    "se": 0.096941,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c152",
+    "t": 102.57,
+    "approx": true,
+    "estimate": 1.57,
+    "se": 0.015306,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c153",
+    "t": 16.93,
+    "approx": true,
+    "estimate": 1.9,
+    "se": 0.112247,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a endocrine system general med…"
+   },
+   {
+    "record_id": "dk_W4306789942_c154",
+    "t": 14.27,
+    "approx": true,
+    "estimate": 1.93,
+    "se": 0.135207,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c155",
+    "t": 146.02,
+    "approx": true,
+    "estimate": 1.49,
+    "se": 0.010204,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c158",
+    "t": 194.69,
+    "approx": true,
+    "estimate": 1.49,
+    "se": 0.007653,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c161",
+    "t": 78.4,
+    "approx": true,
+    "estimate": 1.6,
+    "se": 0.020409,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c162",
+    "t": 13.62,
+    "approx": true,
+    "estimate": 1.39,
+    "se": 0.102043,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a gastrointestinal system gene…"
+   },
+   {
+    "record_id": "dk_W4306789942_c163",
+    "t": 11.36,
+    "approx": true,
+    "estimate": 1.42,
+    "se": 0.125002,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c164",
+    "t": 82.32,
+    "approx": true,
+    "estimate": 1.89,
+    "se": 0.02296,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c165",
+    "t": 12.79,
+    "approx": true,
+    "estimate": 1.86,
+    "se": 0.145411,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a gastrointestinal system gene…"
+   },
+   {
+    "record_id": "dk_W4306789942_c166",
+    "t": 10.96,
+    "approx": true,
+    "estimate": 1.93,
+    "se": 0.176024,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c170",
+    "t": 47.69,
+    "approx": true,
+    "estimate": 1.46,
+    "se": 0.030613,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c171",
+    "t": 7.09,
+    "approx": true,
+    "estimate": 1.41,
+    "se": 0.198983,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a urogenital system general me…"
+   },
+   {
+    "record_id": "dk_W4306789942_c172",
+    "t": 6.27,
+    "approx": true,
+    "estimate": 1.52,
+    "se": 0.242351,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c176",
+    "t": 76.72,
+    "approx": true,
+    "estimate": 1.37,
+    "se": 0.017857,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c177",
+    "t": 12.18,
+    "approx": true,
+    "estimate": 1.46,
+    "se": 0.1199,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a musculoskeletal system gener…"
+   },
+   {
+    "record_id": "dk_W4306789942_c178",
+    "t": 10.18,
+    "approx": true,
+    "estimate": 1.48,
+    "se": 0.145411,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c179",
+    "t": 56.99,
+    "approx": true,
+    "estimate": 1.89,
+    "se": 0.033164,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c180",
+    "t": 8.65,
+    "approx": true,
+    "estimate": 1.61,
+    "se": 0.186228,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a hematological system general…"
+   },
+   {
+    "record_id": "dk_W4306789942_c191",
+    "t": 138.18,
+    "approx": true,
+    "estimate": 1.41,
+    "se": 0.010204,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among all 1,063,082 individuals who met the eligibility criteria for the 2017 Central Denmark Region How are you? survey (aged 16 years or older on 10 January 2017 and registered as living in the Cen…"
+   },
+   {
+    "record_id": "dk_W4306789942_c192",
+    "t": 21.89,
+    "approx": true,
+    "estimate": 1.34,
+    "se": 0.061226,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a neurological system general…"
+   },
+   {
+    "record_id": "dk_W4306789942_c193",
+    "t": 18.48,
+    "approx": true,
+    "estimate": 1.32,
+    "se": 0.07143,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   },
+   {
+    "record_id": "dk_W4306789942_c195",
+    "t": 19.6,
+    "approx": true,
+    "estimate": 1.85,
+    "se": 0.094389,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, unweighted, having any mental disorder diagnosis is associated with higher odds of a neurological system general…"
+   },
+   {
+    "record_id": "dk_W4306789942_c196",
+    "t": 16.71,
+    "approx": true,
+    "estimate": 1.79,
+    "se": 0.107145,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among the 32,417 participants in the 2017 Central Denmark Region How are you? survey, weighted by Statistics Denmark's non-response weights, having any mental disorder diagnosis is associated with hi…"
+   }
+  ]
  },
  {
   "artid": "dk_W4309042652",
   "title": "Playing alone? Interest representation in the videogame industry in Denmark, Italy and the Netherlands",
   "authors": [
    "Lisa Dorigatti",
-   "Wike Been",
+   "Wike M Been",
    "Luigi Burroni",
    "Maarten Keune",
-   "Trine Pernille Larsen",
+   "Trine P Larsen",
    "Mikkel Mailand"
   ],
-  "year": 2022,
+  "year": 2023,
   "journal": "Economic and Industrial Democracy",
-  "doi": "10.1177/0143831x221129651",
+  "doi": "10.1177/0143831X221129651",
   "url": "https://doi.org/10.1177/0143831x221129651",
   "citations": 7,
   "journal_key": "economicandindustrialdemocracy",
@@ -6316,15 +6969,21 @@
   "n_stated": 6,
   "n_accepted": 6,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 17,
+  "n_headline": 8,
+  "strategies": {
+   "descriptive": 3,
+   "other": 5
+  },
+  "strategies_all": {
+   "descriptive": 9,
+   "other": 8
+  },
+  "main_strategy": "other",
   "period": {
-   "from": 2022,
-   "to": 2022,
-   "source": "publication"
+   "from": 2016,
+   "to": 2017,
+   "source": "design"
   },
   "scope_tags": [
    "Videogame industry",
@@ -6338,14 +6997,95 @@
    "wealth.mandated_pension_savings"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4309042652_c2",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Traditional industrial relations actors - employers' organizations and trade unions - play only a limited role in the videogame industry in all three countries."
+   },
+   {
+    "record_id": "dk_W4309042652_c5",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Sectoral professional organizations and trade associations - not trade unions or employers' organizations - are seen as the representative bodies of the videogame industry in all three countries."
+   },
+   {
+    "record_id": "dk_W4309042652_c7",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Informal on- and offline communities are used more frequently by actors in the industry to air voice and push through demands than the traditional channels for negotiation and social dialogue."
+   },
+   {
+    "record_id": "dk_W4309042652_c9",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "other",
+    "source_table_id": null,
+    "statement": "The fluidity of employment relationships in the videogame industry - workers combining and switching roles - strengthens a common occupational identity shared by employees, employers, freelancers and…"
+   },
+   {
+    "record_id": "dk_W4309042652_c10",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "other",
+    "source_table_id": null,
+    "statement": "The fluidity of employment relationships in the videogame industry - workers combining and switching roles - weakens the role played by traditional class organizations (trade unions and employer orga…"
+   },
+   {
+    "record_id": "dk_W4309042652_c11",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "other",
+    "source_table_id": null,
+    "statement": "The fluidity of employment relationships in the videogame industry - workers combining and switching roles - strengthens the appeal of professional organizations and trade associations."
+   },
+   {
+    "record_id": "dk_W4309042652_c13",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "other",
+    "source_table_id": null,
+    "statement": "The centrality of passion and intrinsic motivation in workers' attitudes to work depresses their interest in trade unions and industrial relations practices and limits unions' organizing potential."
+   },
+   {
+    "record_id": "dk_W4309042652_c16",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "other",
+    "source_table_id": null,
+    "statement": "Workers with a relatively strong labour market position - above all programmers - are less likely to develop collective strategies and instead pursue individual bargaining and exit."
+   }
+  ]
  },
  {
   "artid": "dk_W4309550482",
   "title": "Selective migration and mortality by economic status in Lolland-Falster, Denmark, 1992–2018",
   "authors": [
    "Therese Lucia Friis Holmager",
-   "Søren Lophaven",
+   "Søren Nymand Lophaven",
    "Laust Hvas Mortensen",
    "Elsebeth Lynge"
   ],
@@ -6364,11 +7104,15 @@
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 106,
+  "n_headline": 1,
+  "strategies": {
+   "descriptive": 1
+  },
+  "strategies_all": {
+   "descriptive": 106
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1992,
    "to": 2018,
@@ -6386,7 +7130,18 @@
    "migration.internal_migration.transfer_recipient_inflow"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4309550482_c2",
+    "t": 11.05,
+    "approx": true,
+    "estimate": 1.55,
+    "se": 0.140309,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4309550482::T2::2010-2018-Total::CMRR",
+    "statement": "Among people aged 30–64 years in 2010–2018 (men and women combined), self-supported in-migrants to Lolland-Falster had an all-cause mortality rate higher than that of self-supported people in the res…"
+   }
+  ]
  },
  {
   "artid": "dk_W4320855144",
@@ -6747,11 +7502,15 @@
   "n_stated": 5,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 18,
+  "n_headline": 7,
+  "strategies": {
+   "fixed_effects_within": 7
+  },
+  "strategies_all": {
+   "fixed_effects_within": 18
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
    "from": 2012,
    "to": 2012,
@@ -6769,7 +7528,78 @@
    "organization.external_funding.public_operating_grant"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4327859500_c2",
+    "t": null,
+    "approx": false,
+    "estimate": 0.004,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C1",
+    "statement": "Across all nationwide Danish voluntary social organisations with published audited accounts over 2012–17, DKK 1 million more public non-earmarked revenue (which the text calls $158,000) is associated…"
+   },
+   {
+    "record_id": "dk_W4327859500_c3",
+    "t": null,
+    "approx": false,
+    "estimate": 0.047,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C1",
+    "statement": "Across all nationwide Danish voluntary social organisations with published audited accounts over 2012–17, DKK 1 million more private project revenue (which the text calls $158,000) is associated with…"
+   },
+   {
+    "record_id": "dk_W4327859500_c4",
+    "t": null,
+    "approx": false,
+    "estimate": 0.015,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C1",
+    "statement": "Across all nationwide Danish voluntary social organisations with published audited accounts over 2012–17, DKK 1 million more public project revenue (which the text calls $158,000) is associated with…"
+   },
+   {
+    "record_id": "dk_W4327859500_c7",
+    "t": null,
+    "approx": false,
+    "estimate": 0.05,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C2",
+    "statement": "Among the smallest organisations (2017 total annual revenue at or below the median of $1.2 million) over 2012–17, DKK 1 million more private non-earmarked revenue (which the text calls $158,000) is a…"
+   },
+   {
+    "record_id": "dk_W4327859500_c8",
+    "t": null,
+    "approx": false,
+    "estimate": 0.07,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C2",
+    "statement": "Among the smallest organisations (2017 total annual revenue at or below the median of $1.2 million) over 2012–17, DKK 1 million more public non-earmarked revenue (which the text calls $158,000) is as…"
+   },
+   {
+    "record_id": "dk_W4327859500_c13",
+    "t": null,
+    "approx": false,
+    "estimate": 0.02,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C3",
+    "statement": "Among the largest organisations (2017 total annual revenue above the median of $1.2 million) over 2012–17, DKK 1 million more private non-earmarked revenue (which the text calls $158,000) is associat…"
+   },
+   {
+    "record_id": "dk_W4327859500_c14",
+    "t": null,
+    "approx": false,
+    "estimate": 0.003,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4327859500::T2::_::C3",
+    "statement": "Among the largest organisations (2017 total annual revenue above the median of $1.2 million) over 2012–17, DKK 1 million more public non-earmarked revenue (which the text calls $158,000) carries a co…"
+   }
+  ]
  },
  {
   "artid": "dk_W4367674959",
@@ -6875,17 +7705,17 @@
   "artid": "dk_W4383041406",
   "title": "Fostering Excellent Research by the Austrian Micro Data Center (AMDC)",
   "authors": [
-   "R. Fuchs",
+   "Regina Fuchs",
    "Tobias Göllner",
    "Simon Hartmann",
-   "T. Thomas"
+   "Tobias Thomas"
   ],
-  "year": 2023,
-  "journal": "Jahrbücher für Nationalökonomie und Statistik",
+  "year": 2024,
+  "journal": "Journal of Economics and Statistics (Jahrbücher für Nationalökonomie und Statistik) 244(4): 433-445, Data Observer section",
   "doi": "10.1515/jbnst-2023-0043",
   "url": "https://doi.org/10.1515/jbnst-2023-0043",
   "citations": 11,
-  "journal_key": "jahrbcherfrnationalkonomieundstatistik",
+  "journal_key": "journalofeconomicsandstatisticsjahrbcherfrnationalkonomieundstatistik2444433445dataobserversection",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6901,8 +7731,8 @@
   "strategies_all": {},
   "main_strategy": null,
   "period": {
-   "from": 2023,
-   "to": 2023,
+   "from": 2024,
+   "to": 2024,
    "source": "publication"
   },
   "scope_tags": [],
@@ -7528,7 +8358,7 @@
   "title": "Live longer, work longer? An investigation of the health capacity to work at older ages in Denmark using combined register and survey data",
   "authors": [
    "Maiken Skovrider Aaskoven",
-   "Jørgen Trankjær Lauridsen",
+   "Jørgen T. Lauridsen",
    "Trine Kjær"
   ],
   "year": 2024,
@@ -7546,15 +8376,18 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 49,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "selection_on_observables": 9,
+   "other": 40
+  },
+  "main_strategy": "other",
   "period": {
-   "from": 2024,
-   "to": 2024,
-   "source": "publication"
+   "from": 2004,
+   "to": 2015,
+   "source": "design"
   },
   "scope_tags": [
    "Low vs high SES",
@@ -7572,9 +8405,9 @@
   "artid": "dk_W4392790267",
   "title": "Subjective well-being and chronic illnesses: A combined survey and register study",
   "authors": [
-   "Aaskoven, M.S.",
-   "Kjær, T.",
-   "Gyrd-Hansen, D."
+   "Maiken Skovrider Aaskoven",
+   "Trine Kjær",
+   "Dorte Gyrd-Hansen"
   ],
   "year": 2024,
   "journal": "International Journal of Wellbeing",
@@ -7592,15 +8425,19 @@
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 48,
+  "n_headline": 1,
+  "strategies": {
+   "descriptive": 1
+  },
+  "strategies_all": {
+   "descriptive": 48
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2024,
-   "to": 2024,
-   "source": "publication"
+   "from": 2018,
+   "to": 2019,
+   "source": "design"
   },
   "scope_tags": [
    "Across personal characteristics",
@@ -7616,7 +8453,18 @@
    "preferences.subjective_well_being"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4392790267_c1",
+    "t": null,
+    "approx": false,
+    "estimate": -2.0,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4392790267::F1",
+    "statement": "Among Danish 50-80 year olds, having at least one of six register-identified chronic illnesses is associated with a lower score on general subjective well-being (general life satisfaction), condition…"
+   }
+  ]
  },
  {
   "artid": "dk_W4396555011",
@@ -7718,13 +8566,13 @@
  },
  {
   "artid": "dk_W4396748305",
-  "title": "Is There a Link between Health Care Utilisation and Subjective Well-Being? An Exploratory Study among Older Danes",
+  "title": "Is there a link between health care utilisation and subjective well-being? An exploratory study among older Danes",
   "authors": [
-   "Aaskoven, Maiken Skovrider",
-   "Kjaer, Trine",
-   "Gyrd-Hansen, Dorte"
+   "Maiken Skovrider Aaskoven",
+   "Trine Kjær",
+   "Dorte Gyrd-Hansen"
   ],
-  "year": 2024,
+  "year": 2025,
   "journal": "The European Journal of Health Economics",
   "doi": "10.1007/s10198-024-01691-1",
   "url": "https://doi.org/10.1007/s10198-024-01691-1",
@@ -7739,11 +8587,15 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 20,
+  "n_headline": 2,
+  "strategies": {
+   "selection_on_observables": 2
+  },
+  "strategies_all": {
+   "selection_on_observables": 20
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 2016,
    "to": 2020,
@@ -7759,18 +8611,39 @@
    "preferences.subjective_well_being"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4396748305_c5",
+    "t": 5.92,
+    "approx": false,
+    "estimate": 0.1503,
+    "se": 0.0254,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4396748305::T2::_::C4",
+    "statement": "In the specification that interacts HRQoL with SWB, the SWB coefficient -- the SWB slope at HRQoL = 0 -- is positive: among individuals with low HRQoL, a higher SWB is associated with more GP service…"
+   },
+   {
+    "record_id": "dk_W4396748305_c8",
+    "t": -6.35,
+    "approx": false,
+    "estimate": -0.1753,
+    "se": 0.0276,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4396748305::T2::_::C4",
+    "statement": "The association between SWB and the number of GP services declines with HRQoL: the HRQoL x SWB interaction coefficient is negative, so the SWB gradient is steepest among individuals in poor health an…"
+   }
+  ]
  },
  {
   "artid": "dk_W4398232136",
   "title": "When inequality means equity: horizontal wage dispersion and the propensity to leave current employment across different organizational settings",
   "authors": [
    "Virgilio Failla",
-   "N. J. Foss",
+   "Nicolai J Foss",
    "Francesca Melillo",
    "Toke Reichstein"
   ],
-  "year": 2024,
+  "year": 2025,
   "journal": "Industrial and Corporate Change",
   "doi": "10.1093/icc/dtae023",
   "url": "https://doi.org/10.1093/icc/dtae023",
@@ -7785,11 +8658,16 @@
   "n_stated": 2,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 69,
+  "n_headline": 4,
+  "strategies": {
+   "selection_on_observables": 4
+  },
+  "strategies_all": {
+   "selection_on_observables": 55,
+   "difference_in_differences": 14
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 2002,
    "to": 2008,
@@ -7807,7 +8685,48 @@
    "labor.quit_propensity"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4398232136_c5",
+    "t": 67.74,
+    "approx": false,
+    "estimate": 22.76,
+    "se": 0.336,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4398232136::T3::_::C3",
+    "statement": "In the interaction model, the main effect of unattributable horizontal wage dispersion on the hazard of leaving the 2002 employer is positive (evaluated at log firm size of zero)."
+   },
+   {
+    "record_id": "dk_W4398232136_c9",
+    "t": -77.86,
+    "approx": false,
+    "estimate": -4.594,
+    "se": 0.059,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4398232136::T3::_::C3",
+    "statement": "The association between unattributable horizontal wage dispersion and the hazard of leaving the 2002 employer becomes more negative as firm size increases: negative among large firms and positive amo…"
+   },
+   {
+    "record_id": "dk_W4398232136_c20",
+    "t": 4.47,
+    "approx": false,
+    "estimate": 2.651,
+    "se": 0.593,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4398232136::T4::_::C4",
+    "statement": "Among large firms, the main effect of unattributable horizontal wage dispersion on the hazard of leaving the 2002 employer is positive, i.e. a positive association when the firm is highly centralized."
+   },
+   {
+    "record_id": "dk_W4398232136_c24",
+    "t": -25.85,
+    "approx": false,
+    "estimate": -28.128,
+    "se": 1.088,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4398232136::T4::_::C4",
+    "statement": "Among large firms, decentralization makes the association between unattributable horizontal wage dispersion and the hazard of leaving the 2002 employer more negative (H2)."
+   }
+  ]
  },
  {
   "artid": "dk_W4398782147",
@@ -7819,11 +8738,11 @@
    "Sven Drefahl"
   ],
   "year": 2024,
-  "journal": "European Journal of Population / Revue européenne de Démographie",
+  "journal": "European Journal of Population",
   "doi": "10.1007/s10680-024-09704-8",
   "url": "https://doi.org/10.1007/s10680-024-09704-8",
   "citations": 9,
-  "journal_key": "europeanjournalofpopulationrevueeuropennededmographie",
+  "journal_key": "europeanjournalofpopulation",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -7833,11 +8752,16 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 133,
+  "n_headline": 54,
+  "strategies": {
+   "structural_model": 54
+  },
+  "strategies_all": {
+   "descriptive": 61,
+   "structural_model": 72
+  },
+  "main_strategy": "structural_model",
   "period": {
    "from": 1988,
    "to": 2019,
@@ -7853,7 +8777,548 @@
    "labor.time_in_retirement"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4398782147_c49",
+    "t": null,
+    "approx": false,
+    "estimate": 5.15,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 5.15 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c53",
+    "t": null,
+    "approx": false,
+    "estimate": 2.32,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.32 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c54",
+    "t": null,
+    "approx": false,
+    "estimate": 2.34,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.34 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c55",
+    "t": null,
+    "approx": false,
+    "estimate": 1.92,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.92 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c56",
+    "t": null,
+    "approx": false,
+    "estimate": 1.9,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.9 percentage points for women in inc…"
+   },
+   {
+    "record_id": "dk_W4398782147_c57",
+    "t": null,
+    "approx": false,
+    "estimate": 2.66,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.66 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c58",
+    "t": null,
+    "approx": false,
+    "estimate": 2.4,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.4 percentage points for women in inc…"
+   },
+   {
+    "record_id": "dk_W4398782147_c59",
+    "t": null,
+    "approx": false,
+    "estimate": 2.7,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.7 percentage points for women in inc…"
+   },
+   {
+    "record_id": "dk_W4398782147_c60",
+    "t": null,
+    "approx": false,
+    "estimate": 2.68,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.68 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c61",
+    "t": null,
+    "approx": false,
+    "estimate": 1.77,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.77 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c62",
+    "t": null,
+    "approx": false,
+    "estimate": 1.88,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.88 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c63",
+    "t": null,
+    "approx": false,
+    "estimate": 1.24,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.24 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c64",
+    "t": null,
+    "approx": false,
+    "estimate": 1.34,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.34 percentage points for women in in…"
+   },
+   {
+    "record_id": "dk_W4398782147_c65",
+    "t": null,
+    "approx": false,
+    "estimate": 7.83,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 7.83 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c66",
+    "t": null,
+    "approx": false,
+    "estimate": 7.26,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 7.26 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c68",
+    "t": null,
+    "approx": false,
+    "estimate": 4.94,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 4.94 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c69",
+    "t": null,
+    "approx": false,
+    "estimate": 2.86,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.86 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c71",
+    "t": null,
+    "approx": false,
+    "estimate": 2.15,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.15 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c72",
+    "t": null,
+    "approx": false,
+    "estimate": 2.5,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.5 percentage points for men in incom…"
+   },
+   {
+    "record_id": "dk_W4398782147_c73",
+    "t": null,
+    "approx": false,
+    "estimate": 5.55,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 5.55 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c74",
+    "t": null,
+    "approx": false,
+    "estimate": 4.89,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 4.89 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c75",
+    "t": null,
+    "approx": false,
+    "estimate": 2.99,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.99 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c76",
+    "t": null,
+    "approx": false,
+    "estimate": 2.98,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.98 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c77",
+    "t": null,
+    "approx": false,
+    "estimate": 1.99,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.99 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c78",
+    "t": null,
+    "approx": false,
+    "estimate": 2.06,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 2.06 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c79",
+    "t": null,
+    "approx": false,
+    "estimate": 1.52,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.52 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c80",
+    "t": null,
+    "approx": false,
+    "estimate": 1.81,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers probability of surviving from age 50 to retirement age in 2040 by 1.81 percentage points for men in inco…"
+   },
+   {
+    "record_id": "dk_W4398782147_c81",
+    "t": null,
+    "approx": false,
+    "estimate": 3.77,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.77 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c85",
+    "t": null,
+    "approx": false,
+    "estimate": 4.49,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.49 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c86",
+    "t": null,
+    "approx": false,
+    "estimate": 4.52,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.52 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c87",
+    "t": null,
+    "approx": false,
+    "estimate": 4.53,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.53 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c88",
+    "t": null,
+    "approx": false,
+    "estimate": 4.58,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.58 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c89",
+    "t": null,
+    "approx": false,
+    "estimate": 3.35,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.35 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c90",
+    "t": null,
+    "approx": false,
+    "estimate": 3.45,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.45 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c91",
+    "t": null,
+    "approx": false,
+    "estimate": 3.4,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.4 years for women in income quart…"
+   },
+   {
+    "record_id": "dk_W4398782147_c92",
+    "t": null,
+    "approx": false,
+    "estimate": 3.43,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.43 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c93",
+    "t": null,
+    "approx": false,
+    "estimate": 3.6,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.6 years for women in income quart…"
+   },
+   {
+    "record_id": "dk_W4398782147_c94",
+    "t": null,
+    "approx": false,
+    "estimate": 3.59,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.59 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c95",
+    "t": null,
+    "approx": false,
+    "estimate": 3.7,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.7 years for women in income quart…"
+   },
+   {
+    "record_id": "dk_W4398782147_c96",
+    "t": null,
+    "approx": false,
+    "estimate": 3.69,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.69 years for women in income quar…"
+   },
+   {
+    "record_id": "dk_W4398782147_c97",
+    "t": null,
+    "approx": false,
+    "estimate": 3.37,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.37 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c98",
+    "t": null,
+    "approx": false,
+    "estimate": 3.55,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.55 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c101",
+    "t": null,
+    "approx": false,
+    "estimate": 4.41,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.41 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c102",
+    "t": null,
+    "approx": false,
+    "estimate": 4.31,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.31 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c103",
+    "t": null,
+    "approx": false,
+    "estimate": 4.51,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.51 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c104",
+    "t": null,
+    "approx": false,
+    "estimate": 4.49,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 4.49 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c105",
+    "t": null,
+    "approx": false,
+    "estimate": 2.87,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 2.87 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c106",
+    "t": null,
+    "approx": false,
+    "estimate": 3.01,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.01 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c107",
+    "t": null,
+    "approx": false,
+    "estimate": 3.39,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.39 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c108",
+    "t": null,
+    "approx": false,
+    "estimate": 3.41,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.41 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c109",
+    "t": null,
+    "approx": false,
+    "estimate": 3.57,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.57 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c110",
+    "t": null,
+    "approx": false,
+    "estimate": 3.57,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.57 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c111",
+    "t": null,
+    "approx": false,
+    "estimate": 3.66,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.66 years for men in income quarti…"
+   },
+   {
+    "record_id": "dk_W4398782147_c112",
+    "t": null,
+    "approx": false,
+    "estimate": 3.62,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Indexing the statutory retirement age to life expectancy, rather than holding it at 65, lowers life expectancy at retirement (years spent in retirement) in 2040 by 3.62 years for men in income quarti…"
+   }
+  ]
  },
  {
   "artid": "dk_W4400146932",
@@ -8334,11 +9799,11 @@
    "Sören Möller",
    "Hélène Englund",
    "Ida Laake",
-   "Heta P. Nieminen",
+   "Heta Nieminen",
    "Berit Feiring",
    "Mika Lahdenkari",
-   "ARTO A. I. PALMU",
-   "Lill I. S. Trogstad",
+   "Arto A. Palmu",
+   "Lill Trogstad",
    "Christine Stabell Benn",
    "Signe Sørup"
   ],
@@ -8357,15 +9822,19 @@
   "n_stated": 6,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 57,
+  "n_headline": 6,
+  "strategies": {
+   "selection_on_observables": 6
+  },
+  "strategies_all": {
+   "selection_on_observables": 57
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2025,
-   "to": 2025,
-   "source": "publication"
+   "from": 2008,
+   "to": 2017,
+   "source": "design"
   },
   "scope_tags": [
    "MMR vaccination after DTaP3",
@@ -8378,7 +9847,68 @@
    "health.vaccination_schedule_order"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4406127739_c1",
+    "t": 56.19,
+    "approx": true,
+    "estimate": 0.86,
+    "se": 0.015306,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Among children in Denmark who had followed the DTaP programme to 11 months of age, having MMR after the third DTaP dose is associated with a lower rate of infectious disease hospitalisation with at l…"
+   },
+   {
+    "record_id": "dk_W4406127739_c2",
+    "t": 24.94,
+    "approx": true,
+    "estimate": 0.7,
+    "se": 0.028062,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Among children in Finland who had followed the DTaP programme to 11 months of age, having MMR after the third DTaP dose is associated with a lower rate of infectious disease hospitalisation with at l…"
+   },
+   {
+    "record_id": "dk_W4406127739_c3",
+    "t": 46.39,
+    "approx": true,
+    "estimate": 0.71,
+    "se": 0.015306,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Among children in Norway who had followed the DTaP programme to 11 months of age, having MMR after the third DTaP dose is associated with a lower rate of infectious disease hospitalisation with at le…"
+   },
+   {
+    "record_id": "dk_W4406127739_c4",
+    "t": 23.19,
+    "approx": true,
+    "estimate": 0.71,
+    "se": 0.030613,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Among children in Sweden who had followed the DTaP programme to 11 months of age, having MMR after the third DTaP dose is associated with a lower rate of infectious disease hospitalisation with at le…"
+   },
+   {
+    "record_id": "dk_W4406127739_c5",
+    "t": 15.47,
+    "approx": true,
+    "estimate": 0.75,
+    "se": 0.04847,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Pooling the four Nordic countries, having MMR after the third DTaP dose is associated with a lower rate of infectious disease hospitalisation with at least one overnight stay than having three DTaP d…"
+   },
+   {
+    "record_id": "dk_W4406127739_c35",
+    "t": 26.46,
+    "approx": true,
+    "estimate": 0.81,
+    "se": 0.030613,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Negative control exposure: having had three doses of DTaP rather than two is associated with a lower rate of infectious disease hospitalisation with at least one overnight stay between 11 and 15 mont…"
+   }
+  ]
  },
  {
   "artid": "dk_W4406606478",
@@ -8601,7 +10131,7 @@
   "authors": [
    "Lasse Folke Henriksen",
    "Thomas Poulsen",
-   "Dustin Avent‐Holt"
+   "Dustin Avent-Holt"
   ],
   "year": 2025,
   "journal": "Socio-Economic Review",
@@ -8618,15 +10148,19 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 34,
+  "n_headline": 3,
+  "strategies": {
+   "fixed_effects_within": 3
+  },
+  "strategies_all": {
+   "fixed_effects_within": 34
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
-   "from": 2025,
-   "to": 2025,
-   "source": "publication"
+   "from": 2000,
+   "to": 2016,
+   "source": "design"
   },
   "scope_tags": [
    "CEOs"
@@ -8637,7 +10171,38 @@
    "labor.wage_rate"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4407606308_c2",
+    "t": 12.67,
+    "approx": false,
+    "estimate": 0.38,
+    "se": 0.03,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4407606308::T2::_::C2",
+    "statement": "Higher CEO network coreness raises the CEO pay premium (Total pay / Industry and size adj.)."
+   },
+   {
+    "record_id": "dk_W4407606308_c18",
+    "t": -2.89,
+    "approx": false,
+    "estimate": -0.26,
+    "se": 0.09,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4407606308::T2::_::C2",
+    "statement": "The ordinary Board members' network coreness reduces the CEO coreness pay premium (Total pay / Industry and size adj.)."
+   },
+   {
+    "record_id": "dk_W4407606308_c29",
+    "t": null,
+    "approx": false,
+    "estimate": -0.02,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W4407606308::T3::_::C1",
+    "statement": "A higher CEO pay premium (CEO pay, Total industry adj.) in year t is followed by lower growth in the average wage of the firm's stable workforce over the next three years."
+   }
+  ]
  },
  {
   "artid": "dk_W4408147308",
@@ -8661,11 +10226,15 @@
   "n_stated": 6,
   "n_accepted": 6,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 21,
+  "n_headline": 9,
+  "strategies": {
+   "descriptive": 9
+  },
+  "strategies_all": {
+   "descriptive": 21
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1998,
    "to": 2004,
@@ -8687,18 +10256,109 @@
    "labor.labor_supply.participation"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4408147308_c10",
+    "t": 47.9,
+    "approx": false,
+    "estimate": 0.958,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A one-year higher maternal age at childbirth lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c11",
+    "t": 65.0,
+    "approx": false,
+    "estimate": 1.04,
+    "se": 0.016,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A one-year higher paternal age at childbirth raises the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c12",
+    "t": 4.19,
+    "approx": false,
+    "estimate": 0.373,
+    "se": 0.089,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "Parental cohabitation in the year before the birth lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c14",
+    "t": 3.38,
+    "approx": false,
+    "estimate": 0.412,
+    "se": 0.122,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A mother whose highest education is lower secondary or less lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c15",
+    "t": 4.52,
+    "approx": false,
+    "estimate": 0.235,
+    "se": 0.052,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A father whose highest education is lower secondary or less lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c16",
+    "t": 4.35,
+    "approx": false,
+    "estimate": 0.422,
+    "se": 0.097,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "Maternal unemployment lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c18",
+    "t": 3.54,
+    "approx": false,
+    "estimate": 0.326,
+    "se": 0.092,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A maternal psychiatric diagnosis in the three years before childbirth lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c20",
+    "t": 3.95,
+    "approx": false,
+    "estimate": 0.593,
+    "se": 0.15,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A maternal criminal charge before the child's birth lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   },
+   {
+    "record_id": "dk_W4408147308_c21",
+    "t": 4.3,
+    "approx": false,
+    "estimate": 0.529,
+    "se": 0.123,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4408147308::T2::_::CModel4",
+    "statement": "A paternal criminal charge before the child's birth lowers the odds of non-kin domestic adoption before age one relative to out-of-home care before age one."
+   }
+  ]
  },
  {
   "artid": "dk_W4409457195",
   "title": "School Absence Among Children With Juvenile Idiopathic Arthritis: A National Matched Comparison Study",
   "authors": [
    "Malthe Jessen Pedersen",
-   "Christian Høst",
+   "Christian Host",
    "Stefan Nygaard Hansen",
    "Jens Klotsche",
    "Kirsten Minden",
-   "Bent Winding Deleuran",
+   "Bent W. Deleuran",
    "Bodil Hammer Bech"
   ],
   "year": 2025,
@@ -8716,11 +10376,17 @@
   "n_stated": 6,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 104,
+  "n_headline": 51,
+  "strategies": {
+   "matching": 45,
+   "descriptive": 6
+  },
+  "strategies_all": {
+   "matching": 98,
+   "descriptive": 6
+  },
+  "main_strategy": "matching",
   "period": {
    "from": 2010,
    "to": 2019,
@@ -8741,7 +10407,518 @@
    "income.socioeconomic_status"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4409457195_c9",
+    "t": 19.96,
+    "approx": true,
+    "estimate": 1.12,
+    "se": 0.056123,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the third year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.12)."
+   },
+   {
+    "record_id": "dk_W4409457195_c10",
+    "t": 16.1,
+    "approx": true,
+    "estimate": 1.15,
+    "se": 0.07143,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the third year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.15…"
+   },
+   {
+    "record_id": "dk_W4409457195_c13",
+    "t": 22.4,
+    "approx": true,
+    "estimate": 1.2,
+    "se": 0.053572,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the second year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.2)."
+   },
+   {
+    "record_id": "dk_W4409457195_c14",
+    "t": 18.11,
+    "approx": true,
+    "estimate": 1.34,
+    "se": 0.073981,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the second year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.3…"
+   },
+   {
+    "record_id": "dk_W4409457195_c17",
+    "t": 25.68,
+    "approx": true,
+    "estimate": 1.31,
+    "se": 0.051021,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the first year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.31)."
+   },
+   {
+    "record_id": "dk_W4409457195_c18",
+    "t": 21.34,
+    "approx": true,
+    "estimate": 1.47,
+    "se": 0.068879,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the first year before diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.47…"
+   },
+   {
+    "record_id": "dk_W4409457195_c21",
+    "t": 26.69,
+    "approx": true,
+    "estimate": 1.77,
+    "se": 0.066328,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the first year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.77)."
+   },
+   {
+    "record_id": "dk_W4409457195_c22",
+    "t": 21.91,
+    "approx": true,
+    "estimate": 1.9,
+    "se": 0.086736,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the first year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.9)."
+   },
+   {
+    "record_id": "dk_W4409457195_c23",
+    "t": 17.64,
+    "approx": true,
+    "estimate": 1.8,
+    "se": 0.102043,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the legal (planned) school absence rate in the first year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IR…"
+   },
+   {
+    "record_id": "dk_W4409457195_c25",
+    "t": 25.81,
+    "approx": true,
+    "estimate": 1.58,
+    "se": 0.061226,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the second year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.58)."
+   },
+   {
+    "record_id": "dk_W4409457195_c26",
+    "t": 21.75,
+    "approx": true,
+    "estimate": 1.72,
+    "se": 0.079083,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the second year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.72…"
+   },
+   {
+    "record_id": "dk_W4409457195_c27",
+    "t": 16.81,
+    "approx": true,
+    "estimate": 1.63,
+    "se": 0.096941,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the legal (planned) school absence rate in the second year after diagnosis was higher than that of matched schoolmates without JIA (adjusted I…"
+   },
+   {
+    "record_id": "dk_W4409457195_c29",
+    "t": 24.57,
+    "approx": true,
+    "estimate": 1.63,
+    "se": 0.066328,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the third year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.63)."
+   },
+   {
+    "record_id": "dk_W4409457195_c30",
+    "t": 19.48,
+    "approx": true,
+    "estimate": 1.64,
+    "se": 0.084185,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the third year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.64)."
+   },
+   {
+    "record_id": "dk_W4409457195_c31",
+    "t": 15.78,
+    "approx": true,
+    "estimate": 1.65,
+    "se": 0.104594,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the legal (planned) school absence rate in the third year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IR…"
+   },
+   {
+    "record_id": "dk_W4409457195_c33",
+    "t": 20.05,
+    "approx": true,
+    "estimate": 1.33,
+    "se": 0.066328,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the fourth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.33)."
+   },
+   {
+    "record_id": "dk_W4409457195_c34",
+    "t": 16.87,
+    "approx": true,
+    "estimate": 1.42,
+    "se": 0.084185,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the fourth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.42…"
+   },
+   {
+    "record_id": "dk_W4409457195_c35",
+    "t": 13.91,
+    "approx": true,
+    "estimate": 1.49,
+    "se": 0.107145,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the legal (planned) school absence rate in the fourth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted I…"
+   },
+   {
+    "record_id": "dk_W4409457195_c37",
+    "t": 16.05,
+    "approx": true,
+    "estimate": 1.31,
+    "se": 0.081634,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the total school absence rate in the fifth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.31)."
+   },
+   {
+    "record_id": "dk_W4409457195_c38",
+    "t": 13.31,
+    "approx": true,
+    "estimate": 1.46,
+    "se": 0.109696,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the sickness school absence rate in the fifth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IRR 1.46)."
+   },
+   {
+    "record_id": "dk_W4409457195_c39",
+    "t": 11.26,
+    "approx": true,
+    "estimate": 1.35,
+    "se": 0.1199,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F1",
+    "statement": "Among children diagnosed with JIA after starting school, the legal (planned) school absence rate in the fifth year after diagnosis was higher than that of matched schoolmates without JIA (adjusted IR…"
+   },
+   {
+    "record_id": "dk_W4409457195_c51",
+    "t": 21.36,
+    "approx": true,
+    "estimate": 1.58,
+    "se": 0.073981,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 0th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.58)."
+   },
+   {
+    "record_id": "dk_W4409457195_c52",
+    "t": 16.83,
+    "approx": true,
+    "estimate": 1.46,
+    "se": 0.086736,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 0th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.46)."
+   },
+   {
+    "record_id": "dk_W4409457195_c53",
+    "t": 16.01,
+    "approx": true,
+    "estimate": 1.96,
+    "se": 0.122451,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 0th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.96)."
+   },
+   {
+    "record_id": "dk_W4409457195_c55",
+    "t": 17.99,
+    "approx": true,
+    "estimate": 1.56,
+    "se": 0.086736,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 1st grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.56)."
+   },
+   {
+    "record_id": "dk_W4409457195_c56",
+    "t": 13.63,
+    "approx": true,
+    "estimate": 1.53,
+    "se": 0.112247,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 1st grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.53)."
+   },
+   {
+    "record_id": "dk_W4409457195_c57",
+    "t": 14.97,
+    "approx": true,
+    "estimate": 1.68,
+    "se": 0.112247,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 1st grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.68)."
+   },
+   {
+    "record_id": "dk_W4409457195_c59",
+    "t": 16.88,
+    "approx": true,
+    "estimate": 1.55,
+    "se": 0.091838,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 2nd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.55)."
+   },
+   {
+    "record_id": "dk_W4409457195_c60",
+    "t": 13.54,
+    "approx": true,
+    "estimate": 1.52,
+    "se": 0.112247,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 2nd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.52)."
+   },
+   {
+    "record_id": "dk_W4409457195_c61",
+    "t": 12.85,
+    "approx": true,
+    "estimate": 1.77,
+    "se": 0.137758,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 2nd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.77)."
+   },
+   {
+    "record_id": "dk_W4409457195_c63",
+    "t": 15.15,
+    "approx": true,
+    "estimate": 1.43,
+    "se": 0.094389,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 3rd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.43)."
+   },
+   {
+    "record_id": "dk_W4409457195_c64",
+    "t": 11.51,
+    "approx": true,
+    "estimate": 1.38,
+    "se": 0.1199,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 3rd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.38)."
+   },
+   {
+    "record_id": "dk_W4409457195_c65",
+    "t": 11.15,
+    "approx": true,
+    "estimate": 1.65,
+    "se": 0.147962,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 3rd grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.65)."
+   },
+   {
+    "record_id": "dk_W4409457195_c67",
+    "t": 12.76,
+    "approx": true,
+    "estimate": 1.4,
+    "se": 0.109696,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 4th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.4)."
+   },
+   {
+    "record_id": "dk_W4409457195_c68",
+    "t": 10.61,
+    "approx": true,
+    "estimate": 1.38,
+    "se": 0.130104,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 4th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.38)."
+   },
+   {
+    "record_id": "dk_W4409457195_c69",
+    "t": 9.49,
+    "approx": true,
+    "estimate": 1.55,
+    "se": 0.163268,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 4th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.55)."
+   },
+   {
+    "record_id": "dk_W4409457195_c71",
+    "t": 13.27,
+    "approx": true,
+    "estimate": 1.32,
+    "se": 0.099492,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 5th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.32)."
+   },
+   {
+    "record_id": "dk_W4409457195_c72",
+    "t": 11.86,
+    "approx": true,
+    "estimate": 1.24,
+    "se": 0.104594,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 5th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.24)."
+   },
+   {
+    "record_id": "dk_W4409457195_c73",
+    "t": 7.5,
+    "approx": true,
+    "estimate": 1.55,
+    "se": 0.206636,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 5th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.55)."
+   },
+   {
+    "record_id": "dk_W4409457195_c75",
+    "t": 10.3,
+    "approx": true,
+    "estimate": 1.34,
+    "se": 0.130104,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the total school absence rate in 6th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.34)."
+   },
+   {
+    "record_id": "dk_W4409457195_c76",
+    "t": 10.26,
+    "approx": true,
+    "estimate": 1.23,
+    "se": 0.1199,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 6th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.23)."
+   },
+   {
+    "record_id": "dk_W4409457195_c77",
+    "t": 9.22,
+    "approx": true,
+    "estimate": 1.27,
+    "se": 0.137758,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 6th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.27)."
+   },
+   {
+    "record_id": "dk_W4409457195_c80",
+    "t": 9.05,
+    "approx": true,
+    "estimate": 1.27,
+    "se": 0.140309,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the sickness school absence rate in 7th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.27)."
+   },
+   {
+    "record_id": "dk_W4409457195_c81",
+    "t": 7.34,
+    "approx": true,
+    "estimate": 1.46,
+    "se": 0.198983,
+    "strategy": "matching",
+    "source_table_id": "dk_W4409457195::F4",
+    "statement": "Among children diagnosed with JIA before starting school, the legal (planned) school absence rate in 7th grade was higher than that of matched schoolmates without JIA (adjusted IRR 1.46)."
+   },
+   {
+    "record_id": "dk_W4409457195_c97",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Socioeconomic status (family income, parental educational level, family structure) did not modify the association between JIA and school absence measured as an incidence rate ratio."
+   },
+   {
+    "record_id": "dk_W4409457195_c99",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with lower family income (low tertile of family income) had higher total school absence rates than children from families with higher socioeconomic status."
+   },
+   {
+    "record_id": "dk_W4409457195_c100",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with lower family income (low tertile of family income) had higher sickness school absence rates than children from families with higher socioeconomic stat…"
+   },
+   {
+    "record_id": "dk_W4409457195_c101",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with shorter parental educational level (ISCED 1-2, 'short') had higher total school absence rates than children from families with higher socioeconomic st…"
+   },
+   {
+    "record_id": "dk_W4409457195_c102",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with shorter parental educational level (ISCED 1-2, 'short') had higher sickness school absence rates than children from families with higher socioeconomic…"
+   },
+   {
+    "record_id": "dk_W4409457195_c103",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with living with a single caretaker had higher total school absence rates than children from families with higher socioeconomic status."
+   },
+   {
+    "record_id": "dk_W4409457195_c104",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Children with and without JIA from families with living with a single caretaker had higher sickness school absence rates than children from families with higher socioeconomic status."
+   }
+  ]
  },
  {
   "artid": "dk_W4409963010",
@@ -8826,12 +11003,12 @@
  },
  {
   "artid": "dk_W4410634439",
-  "title": "Persistent Trends or Pandemic Effects? A Multi-cohort Longitudinal Study on Student Well-Being, Inequality, and Educational Transitions",
+  "title": "Persistent Trends or Pandemic Effects? A Multi-Cohort Longitudinal Study on Student Well-being, Inequality, and Educational Transitions",
   "authors": [
    "Juuso Repo",
    "Emil Smith",
    "David Reimer",
-   "Elina Kilpi‐Jakonen"
+   "Elina Kilpi-Jakonen"
   ],
   "year": 2025,
   "journal": "Social Indicators Research",
@@ -8847,13 +11024,19 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 8,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 6,
+  "n_rejected": 2,
+  "n_designs": 66,
+  "n_headline": 4,
+  "strategies": {
+   "difference_in_differences": 4
+  },
+  "strategies_all": {
+   "descriptive": 46,
+   "difference_in_differences": 14,
+   "other": 6
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 2015,
    "to": 2023,
@@ -8864,8 +11047,6 @@
    "students"
   ],
   "concepts": [
-   "?dk_W4410634439:V6",
-   "?dk_W4410634439:V7",
    "beliefs.academic_self_efficacy",
    "education.academic_track_enrollment",
    "education.school_connectedness",
@@ -8873,7 +11054,48 @@
    "health.pandemic_exposure"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4410634439_c25",
+    "t": -9.13,
+    "approx": false,
+    "estimate": -0.137,
+    "se": 0.015,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4410634439::T2::_::C1b",
+    "statement": "Pandemic exposure — the grade-9 deviation of the early-pandemic cohort from the pre-pandemic cohort's grade-5-to-grade-9 change — is associated with a -0.137 change in school connectedness."
+   },
+   {
+    "record_id": "dk_W4410634439_c26",
+    "t": -13.0,
+    "approx": false,
+    "estimate": -0.208,
+    "se": 0.016,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4410634439::T2::_::C1b",
+    "statement": "Pandemic exposure — the grade-9 deviation of the full-pandemic cohort from the pre-pandemic cohort's grade-5-to-grade-9 change — is associated with a -0.208 change in school connectedness."
+   },
+   {
+    "record_id": "dk_W4410634439_c39",
+    "t": -1.23,
+    "approx": false,
+    "estimate": -0.016,
+    "se": 0.013,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4410634439::T2::_::C2b",
+    "statement": "Pandemic exposure — the grade-9 deviation of the early-pandemic cohort from the pre-pandemic cohort's grade-5-to-grade-9 change — is associated with a -0.016 change in academic self-efficacy."
+   },
+   {
+    "record_id": "dk_W4410634439_c40",
+    "t": -3.62,
+    "approx": false,
+    "estimate": -0.047,
+    "se": 0.013,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4410634439::T2::_::C2b",
+    "statement": "Pandemic exposure — the grade-9 deviation of the full-pandemic cohort from the pre-pandemic cohort's grade-5-to-grade-9 change — is associated with a -0.047 change in academic self-efficacy."
+   }
+  ]
  },
  {
   "artid": "dk_W4412178202",
@@ -8900,11 +11122,13 @@
   "n_stated": 7,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 45,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 45
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1936,
    "to": 1954,
@@ -8912,7 +11136,9 @@
   },
   "scope_tags": [
    "all",
-   "elderly"
+   "elderly",
+   "men",
+   "taxpayers"
   ],
   "concepts": [
    "health.mortality",
@@ -8971,13 +11197,13 @@
  },
  {
   "artid": "dk_W4413415251",
-  "title": "Segmentation of Working Time in the Gig Economy— A Panel Data Study",
+  "title": "Segmentation of Working Time in the Gig Economy—A Panel Data Study",
   "authors": [
    "Christian Haldrup",
    "Anna Ilsøe",
    "Trine Pernille Larsen",
    "Jonas Hulgård Kristiansen",
-   "Jakob Demant"
+   "Jakob Johan Demant"
   ],
   "year": 2025,
   "journal": "Nordic Journal of Working Life Studies",
@@ -8993,13 +11219,15 @@
   ],
   "rule": "strict",
   "n_stated": 1,
-  "n_accepted": 0,
-  "n_rejected": 1,
-  "n_designs": 0,
+  "n_accepted": 1,
+  "n_rejected": 0,
+  "n_designs": 29,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 29
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2017,
    "to": 2022,
@@ -9008,7 +11236,10 @@
   "scope_tags": [
    "all"
   ],
-  "concepts": [],
+  "concepts": [
+   "labor.regular_staff_hour_share",
+   "preferences.patience"
+  ],
   "n_unplaced": 0,
   "headline": []
  },
@@ -9063,17 +11294,17 @@
   "artid": "dk_W4414214471",
   "title": "Mandatory pension contributions, household consumption, and savings",
   "authors": [
-   "Larsen, L.S.",
-   "Nielsson, U.",
-   "Nutu, M.",
-   "Rangvid, J."
+   "Linda Sandris Larsen",
+   "Ulf Nielsson",
+   "Mara Nutu",
+   "Jesper Rangvid"
   ],
-  "year": 2025,
-  "journal": "Journal of Pensions Economics and Finance",
-  "doi": "10.1017/s147474722510005x",
+  "year": 2026,
+  "journal": "Journal of Pension Economics and Finance",
+  "doi": "10.1017/S147474722510005X",
   "url": "https://doi.org/10.1017/s147474722510005x",
   "citations": 1,
-  "journal_key": "journalofpensionseconomicsandfinance",
+  "journal_key": "journalofpensioneconomicsandfinance",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -9083,11 +11314,18 @@
   "n_stated": 7,
   "n_accepted": 3,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 49,
+  "n_headline": 5,
+  "strategies": {
+   "selection_on_observables": 2,
+   "difference_in_differences": 3
+  },
+  "strategies_all": {
+   "selection_on_observables": 43,
+   "difference_in_differences": 4,
+   "descriptive": 2
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1995,
    "to": 2016,
@@ -9104,7 +11342,58 @@
    "wealth.saving.personal_pension_contribution"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4414214471_c1",
+    "t": -4.19,
+    "approx": false,
+    "estimate": -0.0511,
+    "se": 0.0122,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4414214471::T5::_::C1",
+    "statement": "Individuals who contributed to a mandatory (labour market) pension scheme in the year before retirement are about 5 percentage points less likely to have a positive savings gap at retirement than tho…"
+   },
+   {
+    "record_id": "dk_W4414214471_c37",
+    "t": -0.8,
+    "approx": false,
+    "estimate": -0.0156,
+    "se": 0.0195,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4414214471::T7::_::C1",
+    "statement": "Among 2016 retirees with almost no mandatory pension contributions, participation in a private pension scheme in the year before retirement is not significantly related to the probability of a positi…"
+   },
+   {
+    "record_id": "dk_W4414214471_c43",
+    "t": -19.2,
+    "approx": false,
+    "estimate": -0.0384,
+    "se": 0.002,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4414214471::T9::_::C1",
+    "statement": "Individuals whose mandatory pension contribution rate increased the most between 1996 and 2010 saw consumption grow 3.8 percentage points less than individuals whose contribution rate was stable, com…"
+   },
+   {
+    "record_id": "dk_W4414214471_c44",
+    "t": -10.85,
+    "approx": false,
+    "estimate": -5.229,
+    "se": 0.482,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4414214471::T9::_::C2",
+    "statement": "Individuals whose mandatory pension contribution rate increased the most accumulate gross wealth 5.2 percentage points per year more slowly than those whose contribution rate was stable."
+   },
+   {
+    "record_id": "dk_W4414214471_c45",
+    "t": -2.55,
+    "approx": false,
+    "estimate": -0.902,
+    "se": 0.354,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W4414214471::T9::_::C3",
+    "statement": "Individuals whose mandatory pension contribution rate increased the most accumulate net wealth 0.9 percentage points per year more slowly than those whose contribution rate was stable."
+   }
+  ]
  },
  {
   "artid": "dk_W4416525442",
@@ -9255,7 +11544,7 @@
    "Christopher Wildeman",
    "Peter Fallesen"
   ],
-  "year": 2025,
+  "year": 2026,
   "journal": "Child Maltreatment",
   "doi": "10.1177/10775595251411524",
   "url": "https://doi.org/10.1177/10775595251411524",
@@ -9270,25 +11559,90 @@
   "n_stated": 3,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 38,
+  "n_headline": 6,
+  "strategies": {
+   "descriptive": 6
+  },
+  "strategies_all": {
+   "descriptive": 38
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2010,
    "to": 2023,
    "source": "scope"
   },
   "scope_tags": [
-   "all"
+   "parents"
   ],
   "concepts": [
    "family.adoption",
    "social.indigenous_status"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7116973036_c1",
+    "t": 1319.71,
+    "approx": true,
+    "estimate": 10.1,
+    "se": 0.007653,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::T1::Australia::CObserved",
+    "statement": "In Australia in 2018, indigenous children were 10.1 times as likely as non-indigenous children to be in out-of-home care, on observed annual rates."
+   },
+   {
+    "record_id": "dk_W7116973036_c2",
+    "t": 4476.56,
+    "approx": true,
+    "estimate": 11.42,
+    "se": 0.002551,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::T1::Australia::CObserved",
+    "statement": "In Australia in 2022, indigenous children were 11.42 times as likely as non-indigenous children to be in out-of-home care, on observed annual rates."
+   },
+   {
+    "record_id": "dk_W7116973036_c5",
+    "t": 599.75,
+    "approx": true,
+    "estimate": 1.53,
+    "se": 0.002551,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::T1::UnitedStates::CObserved",
+    "statement": "In the United States in 2010, indigenous children were 1.53 times as likely as non-indigenous children to be in out-of-home care, on observed annual rates."
+   },
+   {
+    "record_id": "dk_W7116973036_c21",
+    "t": 196.22,
+    "approx": true,
+    "estimate": 6958.0,
+    "se": 35.459835,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::F2",
+    "statement": "In Australia in 2022, the modeled age-standardized annual OOHC placement rate among indigenous children was 6958 per 100,000 children 95% CI [6889, 7028]."
+   },
+   {
+    "record_id": "dk_W7116973036_c28",
+    "t": 12.27,
+    "approx": true,
+    "estimate": 6210.0,
+    "se": 506.131745,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::F2",
+    "statement": "Annual OOHC placement rates among children in Greenland, all of whom are counted as indigenous, moved from 5740 per 100,000 in 2010 to 6210 per 100,000 in 2017 on modeled age-standardized rates."
+   },
+   {
+    "record_id": "dk_W7116973036_c29",
+    "t": 10.67,
+    "approx": true,
+    "estimate": 6302.0,
+    "se": 590.827178,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7116973036::F2",
+    "statement": "Annual OOHC placement rates among children in Greenland, all of whom are counted as indigenous, moved from 6210 per 100,000 in 2017 to 6302 per 100,000 in 2023 on modeled age-standardized rates."
+   }
+  ]
  },
  {
   "artid": "dk_W7127146382",
@@ -9312,25 +11666,71 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 76,
+  "n_headline": 4,
+  "strategies": {
+   "structural_model": 4
+  },
+  "strategies_all": {
+   "descriptive": 30,
+   "structural_model": 46
+  },
+  "main_strategy": "structural_model",
   "period": {
    "from": 1968,
    "to": 2021,
    "source": "scope"
   },
   "scope_tags": [
-   "all"
+   "men"
   ],
   "concepts": [
    "family.educational_assortative_mating",
    "family.intergenerational_income_persistence"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7127146382_c12",
+    "t": 567.0,
+    "approx": false,
+    "estimate": 0.567,
+    "se": 0.001,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W7127146382::T2::Denmark::Cb",
+    "statement": "In Denmark the implied parent-child (intergenerational) correlation in underlying educational status, b estimated from the Child-in-law ratio (θbr/θr) is 0.567."
+   },
+   {
+    "record_id": "dk_W7127146382_c13",
+    "t": 416.5,
+    "approx": false,
+    "estimate": 0.833,
+    "se": 0.002,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W7127146382::T2::Denmark::Cr",
+    "statement": "In Denmark the implied spousal (marital) correlation in underlying educational status, r estimated from the Child-in-law ratio (θbr/θb) is 0.833."
+   },
+   {
+    "record_id": "dk_W7127146382_c25",
+    "t": 284.5,
+    "approx": false,
+    "estimate": 0.569,
+    "se": 0.002,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W7127146382::T2::Sweden::Cb",
+    "statement": "In Sweden the implied parent-child (intergenerational) correlation in underlying educational status, b estimated from the Aunt/Uncle ratio (θbs/θs) is 0.569."
+   },
+   {
+    "record_id": "dk_W7127146382_c27",
+    "t": 360.0,
+    "approx": false,
+    "estimate": 0.72,
+    "se": 0.002,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W7127146382::T2::Sweden::Cr",
+    "statement": "In Sweden the implied spousal (marital) correlation in underlying educational status, r estimated from the Sibling-in-law ratio (θrs/θs) is 0.720."
+   }
+  ]
  },
  {
   "artid": "dk_W7134195116",
@@ -9902,20 +12302,35 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 5,
+  "n_headline": 1,
+  "strategies": {
+   "descriptive": 1
+  },
+  "strategies_all": {
+   "descriptive": 5
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2026,
+   "from": 1960,
    "to": 2026,
-   "source": "publication"
+   "source": "design"
   },
   "scope_tags": [],
   "concepts": [],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7140075182_c1",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "I den danske landspolitiske diskurs fra 1960 til i dag, og særligt i de seneste 25 års politik, italesættes daginstitutionen i stigende grad som nødvendig for alle små børns udvikling og trivsel - fr…"
+   }
+  ]
  },
  {
   "artid": "dk_W7147058446",
@@ -10227,15 +12642,19 @@
   "n_stated": 7,
   "n_accepted": 7,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 36,
+  "n_headline": 12,
+  "strategies": {
+   "descriptive": 12
+  },
+  "strategies_all": {
+   "descriptive": 36
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2026,
-   "to": 2026,
-   "source": "publication"
+   "from": 2009,
+   "to": 2022,
+   "source": "design"
   },
   "scope_tags": [
    "firms"
@@ -10251,7 +12670,128 @@
    "governance.procurement_corruption_risk"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7160336764_c1",
+    "t": 7.61,
+    "approx": true,
+    "estimate": 0.033,
+    "se": 0.004337,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F1",
+    "statement": "In UK, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'Number of companies owned by the same beneficial owner' in the category top decile of max_bo_freq: 9-13…"
+   },
+   {
+    "record_id": "dk_W7160336764_c7",
+    "t": 8.4,
+    "approx": true,
+    "estimate": 0.045,
+    "se": 0.005357,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F2",
+    "statement": "In Estonia, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'Frequency of BO information change' in the category top 1% of the BO information change distributi…"
+   },
+   {
+    "record_id": "dk_W7160336764_c9",
+    "t": 15.68,
+    "approx": true,
+    "estimate": 0.008,
+    "se": 0.00051,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F3",
+    "statement": "In UK, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'No BO data' in the category supplier has no beneficial-owner data (vs. supplier with BO data) have a hi…"
+   },
+   {
+    "record_id": "dk_W7160336764_c10",
+    "t": 14.37,
+    "approx": true,
+    "estimate": 0.011,
+    "se": 0.000765,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F3",
+    "statement": "In Slovakia, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'No BO data' in the category supplier has no beneficial-owner data (vs. supplier with BO data) hav…"
+   },
+   {
+    "record_id": "dk_W7160336764_c11",
+    "t": 15.68,
+    "approx": true,
+    "estimate": 0.016,
+    "se": 0.00102,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F3",
+    "statement": "In Latvia, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'No BO data' in the category supplier has no beneficial-owner data (vs. supplier with BO data) have…"
+   },
+   {
+    "record_id": "dk_W7160336764_c12",
+    "t": 248.92,
+    "approx": true,
+    "estimate": 0.127,
+    "se": 0.00051,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F3",
+    "statement": "In Ukraine, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'No BO data' in the category supplier has no beneficial-owner data (vs. supplier with BO data) have…"
+   },
+   {
+    "record_id": "dk_W7160336764_c15",
+    "t": 1.84,
+    "approx": true,
+    "estimate": 0.008,
+    "se": 0.004337,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F4",
+    "statement": "In UK, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'Age of the beneficial owner (max)' in the category bottom decile of max BO age: 0-37 years (vs. the 38-…"
+   },
+   {
+    "record_id": "dk_W7160336764_c18",
+    "t": 6.93,
+    "approx": true,
+    "estimate": 0.053,
+    "se": 0.007653,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F4",
+    "statement": "In Latvia, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'Age of the beneficial owner (max)' in the category top decile of max BO age: 71-86 years (vs. the 3…"
+   },
+   {
+    "record_id": "dk_W7160336764_c25",
+    "t": 0.59,
+    "approx": true,
+    "estimate": 0.003,
+    "se": 0.005102,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F5",
+    "statement": "In UK, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'BO country: foreign' in the category supplier has at least one beneficial owner resident abroad (vs. do…"
+   },
+   {
+    "record_id": "dk_W7160336764_c30",
+    "t": 1.71,
+    "approx": true,
+    "estimate": 0.027,
+    "se": 0.015817,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F5",
+    "statement": "In UK, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'BO country: sanctions' in the category supplier has at least one beneficial owner resident in a sanctio…"
+   },
+   {
+    "record_id": "dk_W7160336764_c31",
+    "t": 2.33,
+    "approx": true,
+    "estimate": 0.019,
+    "se": 0.008163,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F6",
+    "statement": "In Denmark, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'Company age in years' in the category company aged 0-4 years at the time of receiving the contract…"
+   },
+   {
+    "record_id": "dk_W7160336764_c34",
+    "t": 13.72,
+    "approx": true,
+    "estimate": 0.021,
+    "se": 0.001531,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7160336764::F7",
+    "statement": "In Ukraine, public procurement contracts whose winning supplier is flagged by the BO-risk indicator 'BO is a Politically Exposed Person (PEP)' in the category supplier has at least one beneficial own…"
+   }
+  ]
  },
  {
   "artid": "dk_W7160825662",
@@ -10573,7 +13113,11 @@
    "source": "publication"
   },
   "scope_tags": [
-   "workers"
+   "Initially optimistic vs pessimistic job seekers",
+   "Local vs distant previous search",
+   "Randomized information treatment",
+   "unemployed job seekers",
+   "working age"
   ],
   "concepts": [
    "beliefs.reemployment_wage_information",
@@ -10619,7 +13163,11 @@
    "source": "publication"
   },
   "scope_tags": [
-   "parents"
+   "1937 middle school access reform",
+   "Higher- vs lower-access families",
+   "adults, two generations",
+   "parents",
+   "parents and adult children"
   ],
   "concepts": [
    "education.middle_school_access",

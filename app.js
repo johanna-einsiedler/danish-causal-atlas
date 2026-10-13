@@ -75,7 +75,7 @@ function route() {
   const app = $('#app'); app.innerHTML = '';
   const isGraph = !(r.head === 'taxonomy' || r.head === 'concept' || r.head === 'papers' || r.head === 'paper' || r.head === 'about');
   document.body.classList.toggle('graph-page', isGraph);
-  const nav = document.querySelector('nav'); if (nav) document.documentElement.style.setProperty('--navh', nav.offsetHeight + 'px');
+  setNavh(); window.addEventListener('resize', setNavh); if (document.fonts && document.fonts.ready) document.fonts.ready.then(setNavh);
   if (r.head === 'taxonomy') return viewTaxonomy(app, r.q);
   if (r.head === 'concept') return viewTaxonomy(app, { open: r.arg });
   if (r.head === 'papers') return viewPapers(app);
@@ -247,7 +247,9 @@ function viewGraph(app, q) {
 
   /* right: the evidence panel, shown on click */
   const panel = el('aside', 'overlay panel'); panel.id = 'panel'; panel.hidden = true; stage.appendChild(panel);
-  const pclose = el('button', 'pclose', '×'); pclose.title = 'close'; pclose.setAttribute('aria-label', 'close panel'); pclose.onclick = () => { panel.hidden = true; };
+  const pclose = el('button', 'pclose', '×'); pclose.title = 'close'; pclose.setAttribute('aria-label', 'close panel'); pclose.onclick = () => { panel.hidden = true; if (cy.__focus) cy.__focus(null); };
+  setNavh();
+  window.onkeydown = ev => { if (ev.key === 'Escape') { panel.hidden = true; if (cy.__focus) cy.__focus(null); } };
   const pbody = el('div', 'pbody'); panel.appendChild(pclose); panel.appendChild(pbody);
   const open = fn => { panel.hidden = false; fn(pbody); panel.scrollTop = 0; };
 
@@ -308,7 +310,8 @@ function viewGraph(app, q) {
       return;
     }
     /* first view: the whole graph, a little zoomed in; after any filter: zoomed out to fit what is left */
-    const o = { onEdge: e => { focus = e.id; open(h => showEdge(h, e)); }, onNode: n => open(h => showNode(h, n.id || n, sub)), focusEdge: focus, zoom: first ? 1.6 : 1 };
+    const o = { onEdge: e => { focus = e.id; open(h => showEdge(h, e)); }, onNode: n => { const id = n.id || n; if (cy.__focus) cy.__focus(id, true); open(h => showNode(h, id, sub)); },
+                onBackground: () => { panel.hidden = true; }, focusEdge: focus, zoom: first ? 1.6 : 1 };
     if (S.view === 'chord') drawChord(cy, sub.nodes, sub.edges, o); else drawForce(cy, sub.nodes, sub.edges, o);
     first = false;
   };
@@ -403,10 +406,27 @@ function drawForce(host, nodeIds, edges, opts) {
     svg.transition().duration(dur == null ? 450 : dur).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - k * (x0 + x1) / 2, H / 2 - k * (y0 + y1) / 2).scale(k));
   }
   setTimeout(() => fit(0), 350);
+  const sid = x => (x && typeof x === 'object') ? x.id : x;
+  function focus(id, zoomIn) {
+    if (!id) { node.classed('dim', false); link.classed('dim', false); host.__focused = null; return; }
+    const keep = new Set([id]);
+    links.forEach(l => { const a = sid(l.source), b = sid(l.target); if (a === id) keep.add(b); if (b === id) keep.add(a); });
+    node.classed('dim', d => !keep.has(d.id));
+    link.classed('dim', l => sid(l.source) !== id && sid(l.target) !== id);
+    host.__focused = id;
+    const d = nodes.find(n => n.id === id);
+    if (zoomIn && d && d.x != null) {
+      const k = Math.max(1.6, Math.min(2.6, d3.zoomTransform(svg.node()).k * 1.3));
+      svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - k * d.x, H / 2 - k * d.y).scale(k));
+    }
+  }
+  svg.on('click', () => { focus(null); if (opts.onBackground) opts.onBackground(); });
   host.__fit = fit;
+  host.__focus = focus;
   host.__zoomBy = k => svg.transition().duration(250).call(zoom.scaleBy, k);
   return sim;
 }
+function setNavh() { const nav = document.querySelector('nav'); if (nav) document.documentElement.style.setProperty('--navh', nav.offsetHeight + 'px'); }
 function getCSS(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#888'; }
 
 /* ---- layered renderer for one paper, after the review page: longest-path ranks into

@@ -25110,7 +25110,7 @@
    ],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 4,
+   "n_edges": 2,
    "papers": [
     "dk_W4410634439"
    ],
@@ -41333,9 +41333,11 @@
     "regular versus contingent staffing share"
    ],
    "abstract": false,
-   "n_papers": 0,
-   "n_edges": 0,
-   "papers": [],
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4413415251"
+   ],
    "wordings": [
     {
      "text": "share of working hours performed by Regulars",
@@ -46471,10 +46473,11 @@
     "delay of gratification"
    ],
    "abstract": false,
-   "n_papers": 2,
-   "n_edges": 2,
+   "n_papers": 3,
+   "n_edges": 3,
    "papers": [
     "dk_W4412178202",
+    "dk_W4413415251",
     "dk_W3014661183"
    ],
    "wordings": [
@@ -54482,11 +54485,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W4410634439"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "part of the family background difference in academic track choice explained by academic self-efficacy",
@@ -54566,11 +54567,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W4410634439"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "part of the family background difference in academic track choice explained by school connectedness",
