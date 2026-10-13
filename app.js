@@ -395,7 +395,7 @@ function drawForce(host, nodeIds, edges, opts) {
     .force('x', d3.forceX(W / 2).strength(.02)).force('y', d3.forceY(H / 2).strength(.035))
     .alphaDecay(n > 40 ? .03 : .02)
     .on('tick', () => { link.attr('d', path); node.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')'); })
-    .on('end', () => { nodes.forEach(d => { if (!POS[d.id]) POS[d.id] = { x: d.x, y: d.y }; }); fit(); });
+    .on('end', () => { nodes.forEach(d => { if (!POS[d.id]) POS[d.id] = { x: d.x, y: d.y }; }); if (!host.__settled && !host.__focused) fit(); host.__settled = true; });   // fit once, after the first layout; a drag or click restarts the simulation but must not move the view
   if (REDUCED) { sim.stop(); for (let i = 0; i < 300; i++) sim.tick(); link.attr('d', path); node.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')'); fit(0); }
   function fit(dur, factor) {
     factor = factor == null ? (opts.zoom || 1) : factor;
