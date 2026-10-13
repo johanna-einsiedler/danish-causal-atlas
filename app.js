@@ -77,7 +77,7 @@ function route() {
   document.body.classList.toggle('graph-page', isGraph);
   setNavh(); window.addEventListener('resize', setNavh); if (document.fonts && document.fonts.ready) document.fonts.ready.then(setNavh);
   if (r.head === 'taxonomy') return viewTaxonomy(app, r.q);
-  if (r.head === 'concept') return viewTaxonomy(app, { open: r.arg });
+  if (r.head === 'concept') return viewConcept(app, r.arg);
   if (r.head === 'papers') return viewPapers(app);
   if (r.head === 'about') return viewAbout(app);
   if (r.head === 'paper') return viewPaper(app, r.arg);
@@ -690,7 +690,7 @@ function viewTaxonomy(app, q) {
   w.appendChild(el('h2', null, 'Concept taxonomy'));
   const nW = TAX.concepts.reduce((n, c) => n + (c.wordings || []).length, 0);
   w.appendChild(el('p', 'sub', TAX.concepts.length + ' concepts in ' + TAX.domains.length + ' domains, ' + nW + ' wordings from ' + PAPERS.length +
-    ' papers' + MID + 'batch ' + esc(TAX.batch) + ' (' + esc(TAX.status) + ')' + MID + 'click a concept to unfold its sub-concepts and the papers’ own wordings.'));
+    ' papers' + MID + 'batch ' + esc(TAX.batch) + ' (' + esc(TAX.status) + ')' + MID + 'click a concept for its page: definition, sub-concepts, its relations as a graph, and the papers’ own wordings.'));
   const qi = el('input', 'searchbar'); qi.type = 'search'; qi.placeholder = 'closest matching concepts…'; qi.value = q.q || ''; qi.setAttribute('aria-label', 'search the taxonomy');
   w.appendChild(qi);
   const host = el('div'); w.appendChild(host);
@@ -727,44 +727,103 @@ function viewTaxonomy(app, q) {
         TAX.left_out.map(l => '<tr><td>' + esc(l.label) + '</td><td>' + esc(nice(l.reason)) + '</td><td>' + esc(l.why) + '</td></tr>').join('');
       host.appendChild(t2);
     }
-    if (q.open) { const d = host.querySelector('details[data-id="' + CSS.escape(q.open) + '"]'); if (d) { let x = d; while (x && x.tagName === 'DETAILS') { x.open = true; x = x.parentElement.closest('details'); } d.scrollIntoView({ block: 'start' }); } }
   };
   qi.oninput = render; render();
 }
-function conceptNode(c) {
-  const d = el('details', 'concept'); d.dataset.id = c.id;
+function wordingsTable(c) {
+  const tw = el('div', 'tablewrap'); const t = el('table');
+  let rows = '<tr><th>wording</th><th>role</th><th>polarity</th><th>paper</th><th>the stated claim</th></tr>';
+  (c.wordings || []).forEach(w => w.papers.forEach(p => {
+    const seen = new Set(); const cl = [];
+    p.claims.forEach(x => { if (!x.statement || seen.has(x.id)) return; seen.add(x.id);
+      cl.push('<span class="role">' + esc(x.id) + '</span> ' + signHtml(x.sign) + ' ' + esc(x.statement)); });
+    const variants = (w.variants || []).filter(v => v !== w.text);
+    rows += '<tr><td>“' + esc(w.text) + '”' + (variants.length ? '<br><span class="role">also: ' + variants.map(esc).join('; ') + '</span>' : '') +
+      (w.how !== 'exact' ? '<br><span class="role">placed by ' + esc(w.how) + '</span>' : '') + '</td>' +
+      '<td class="role">' + Object.entries(w.roles || {}).map(([r, n]) => r + (n > 1 ? ' ×' + n : '')).join(', ') + '</td>' +
+      '<td>' + (w.polarity === 'mirror' ? 'mirror image' : 'same') + '</td><td>' + citeLink(p.artid, true) + '</td><td>' + (cl.join('<br>') || '<span class="role">–</span>') + '</td></tr>';
+  }));
+  t.innerHTML = rows; tw.appendChild(t); return tw;
+}
+function conceptItem(c, depth) {
+  const d = el('div', 'citem' + (depth ? ' kid' : '')); d.dataset.id = c.id;
   const kids = (c.children || []).map(id => CONCEPT[id]).filter(Boolean);
-  const s = el('summary', null, '<span class="lbl">' + esc(c.label) + '</span><span class="meta">' + esc(paperCount(c)) + MID +
+  const href = c.unplaced ? hashFor('graph', { c: c.id, unp: '1' }) : '#/concept/' + encodeURIComponent(c.id);
+  d.appendChild(el('div', 'head', '<span class="lbl"><a href="' + href + '">' + esc(c.label) + '</a></span><span class="meta">' + esc(paperCount(c)) + MID +
     (c.wordings || []).length + ' wording' + ((c.wordings || []).length === 1 ? '' : 's') + (kids.length ? MID + kids.length + ' sub-concept' + (kids.length === 1 ? '' : 's') : '') + '</span>' +
-    (c.summary ? '<span class="sum">' + esc(c.summary) + '</span>' : ''));
-  d.appendChild(s);
-  const body = el('div', 'body');
+    (c.summary ? '<span class="sum">' + esc(c.summary) + '</span>' : '')));
+  if (kids.length) { const k = el('div', 'kids'); kids.sort((a, b) => b.n_papers - a.n_papers).forEach(x => k.appendChild(conceptItem(x, (depth || 0) + 1))); d.appendChild(k); }
+  return d;
+}
+const conceptNode = c => conceptItem(c, 0);
+
+/* ================= concept page ================= */
+function conceptList(host, current, query) {
+  host.innerHTML = '';
+  const link = c => '<a href="#/concept/' + encodeURIComponent(c.id) + '"' + (c.id === current ? ' class="on"' : '') + '>' + esc(c.label) + '</a>';
+  if (query) {
+    SEARCH.search(query).slice(0, 25).forEach(h => { const c = CONCEPT[h.id]; if (c) host.appendChild(el('div', 'row', link(c) + '<span class="n">' + (c.n_papers || 0) + '</span>')); });
+    if (!host.children.length) host.appendChild(el('p', 'empty', 'no match'));
+    return;
+  }
+  const top = TAX.concepts.filter(c => !c.parent);
+  const item = (c, depth) => {
+    host.appendChild(el('div', 'row' + (depth ? ' k' : ''), link(c) + '<span class="n">' + (c.n_papers || 0) + '</span>'));
+    (c.children || []).map(id => CONCEPT[id]).filter(Boolean).sort((a, b) => b.n_papers - a.n_papers).forEach(x => item(x, depth + 1));
+  };
+  TAX.domains.forEach(d => { const cs = top.filter(c => c.domain === d); if (!cs.length) return;
+    host.appendChild(el('div', 'd', '<span class="dot" style="background:' + domCol(d) + '"></span>' + esc(nice(d))));
+    cs.sort((a, b) => b.n_papers - a.n_papers || a.label.localeCompare(b.label)).forEach(c => item(c, 0)); });
+}
+function viewConcept(app, id) {
+  const c = CONCEPT[id];
+  const page = wrap(app, 'concept-page');
+  const side = el('aside', 'side'), main = el('div', 'main'); page.appendChild(side); page.appendChild(main);
+  const qi = el('input', 'searchbar'); qi.type = 'search'; qi.placeholder = 'find a concept…'; qi.setAttribute('aria-label', 'find a concept'); side.appendChild(qi);
+  const list = el('div', 'clist'); side.appendChild(list);
+  qi.oninput = () => conceptList(list, id, qi.value.trim()); conceptList(list, id, '');
+  const cur = list.querySelector('a.on'); if (cur) setTimeout(() => cur.scrollIntoView({ block: 'center' }), 0);
+  if (!c) { main.appendChild(el('p', 'empty', 'No concept “' + esc(id) + '” in the taxonomy.')); return; }
+  const crumbs = []; let x = c; while (x && x.parent && CONCEPT[x.parent]) { x = CONCEPT[x.parent]; crumbs.unshift('<a href="#/concept/' + encodeURIComponent(x.id) + '">' + esc(x.label) + '</a>'); }
+  main.appendChild(el('p', 'crumb', '<a href="#/taxonomy">Concept taxonomy</a>' + MID + '<span class="dot" style="background:' + domCol(c.domain) + '"></span>' + esc(nice(c.domain)) + (crumbs.length ? MID + crumbs.join(' › ') : '')));
+  main.appendChild(el('h2', null, esc(c.label)));
+  main.appendChild(el('p', 'sub', esc(paperCount(c)) + MID + (c.wordings || []).length + ' wording' + ((c.wordings || []).length === 1 ? '' : 's') + MID +
+    '<a href="' + hashFor('graph', { c: c.id }) + '">show in the graph</a>'));
+  if (c.summary) main.appendChild(el('p', 'lead', esc(c.summary)));
   let kv = '';
   if (c.definition && c.definition !== c.summary) kv += '<dt>definition</dt><dd>' + esc(c.definition) + '</dd>';
   if (c.more_means) kv += '<dt>more means</dt><dd>' + esc(c.more_means) + '</dd>';
   if (c.direction && c.parent) kv += '<dt>direction</dt><dd>' + esc(nice(c.direction)) + ' (relative to ' + esc(conceptLabel(c.parent)) + ')</dd>';
   if (c.aliases && c.aliases.length) kv += '<dt>aliases</dt><dd>' + c.aliases.map(esc).join(', ') + '</dd>';
-  kv += '<dt>id</dt><dd><code>' + esc(c.id) + '</code>' + MID + '<a href="' + hashFor('graph', { c: c.id }) + '">show in graph</a></dd>';
-  body.appendChild(el('dl', 'kv', kv));
-  if (kids.length) { const k = el('div', 'kids'); kids.sort((a, b) => b.n_papers - a.n_papers).forEach(x => k.appendChild(conceptNode(x))); body.appendChild(k); }
-  if (c.wordings && c.wordings.length) {
-    body.appendChild(el('h3', null, 'Paper wordings'));
-    const tw = el('div', 'tablewrap'); const t = el('table');
-    let rows = '<tr><th>wording</th><th>role</th><th>polarity</th><th>paper</th><th>the stated claim</th></tr>';
-    c.wordings.forEach(w => w.papers.forEach(p => {
-      const seen = new Set(); const cl = [];
-      p.claims.forEach(x => { if (!x.statement || seen.has(x.id)) return; seen.add(x.id);
-        cl.push('<span class="role">' + esc(x.id) + '</span> ' + signHtml(x.sign) + ' ' + esc(x.statement)); });
-      const variants = (w.variants || []).filter(v => v !== w.text);
-      rows += '<tr><td>“' + esc(w.text) + '”' + (variants.length ? '<br><span class="role">also: ' + variants.map(esc).join('; ') + '</span>' : '') +
-        (w.how !== 'exact' ? '<br><span class="role">placed by ' + esc(w.how) + '</span>' : '') + '</td>' +
-        '<td class="role">' + Object.entries(w.roles || {}).map(([r, n]) => r + (n > 1 ? ' ×' + n : '')).join(', ') + '</td>' +
-        '<td>' + (w.polarity === 'mirror' ? 'mirror image' : 'same') + '</td><td>' + citeLink(p.artid, true) + '</td><td>' + (cl.join('<br>') || '<span class="role">–</span>') + '</td></tr>';
-    }));
-    t.innerHTML = rows; tw.appendChild(t); body.appendChild(tw);
+  kv += '<dt>id</dt><dd><code>' + esc(c.id) + '</code></dd>';
+  main.appendChild(el('dl', 'kv', kv));
+  const kids = (c.children || []).map(k => CONCEPT[k]).filter(Boolean);
+  if (kids.length) main.appendChild(el('p', 'sub', '<b>Sub-concepts:</b> ' + kids.sort((a, b) => b.n_papers - a.n_papers).map(k => '<a href="#/concept/' + encodeURIComponent(k.id) + '">' + esc(k.label) + '</a> <span class="role">' + (k.n_papers || 0) + '</span>').join(MID)));
+  /* relations: every accepted edge touching this concept or its sub-concepts */
+  const mine = new Set(descendants(id));
+  const recs = allRecords().filter(r => r.verdict === 'accepted' && (mine.has(r.from) || mine.has(r.to)));
+  const sub = subset(recs, false);
+  main.appendChild(el('h3', null, 'Relations'));
+  if (!sub.edges.length) main.appendChild(el('p', 'empty', 'No accepted relation touches this concept yet.'));
+  else {
+    const ego = el('div', 'ego'); main.appendChild(ego);
+    const panel = el('aside', 'epanel'); panel.hidden = true; main.appendChild(panel);
+    requestAnimationFrame(() => {
+      drawForce(ego, sub.nodes, sub.edges, { onNode: n => { const nid = n.id || n; if (nid !== id) go('#/concept/' + encodeURIComponent(nid)); }, onEdge: e => { panel.hidden = false; showEdge(panel, e); panel.scrollIntoView({ block: 'nearest' }); }, zoom: 1 });
+      setTimeout(() => d3.select(ego).selectAll('g').filter(d => d && d.id === id).select('circle').attr('stroke', getCSS('--ink')).attr('stroke-width', 3), 450);
+    });
+    const rows = sub.edges.slice().sort((a, b) => b.n_papers - a.n_papers || a.id.localeCompare(b.id)).map(e => {
+      const out = mine.has(e.from), other = out ? e.to : e.from;
+      const kind = e.causal ? 'causal' : e.design_pending ? 'design pass pending' : 'associational';
+      return '<tr><td>' + (out ? '<b>this</b> ' + ARROW + ' ' : '') + '<a href="#/concept/' + encodeURIComponent(other) + '">' + esc(conceptLabel(other)) + '</a>' + (out ? '' : ' ' + ARROW + ' <b>this</b>') + '</td>' +
+        '<td>' + signHtml(e.consensus_sign) + ' ' + esc(signWord(e.consensus_sign)) + (e.has_contradiction ? ' <span class="pill con">contradicted</span>' : '') + '</td>' +
+        '<td>' + e.n_papers + ' paper' + (e.n_papers === 1 ? '' : 's') + '</td><td>' + esc(kind) + '</td>' +
+        '<td>' + e.papers.map(a => citeLink(a, false)).join(MID) + '</td></tr>';
+    });
+    const t = el('table'); t.innerHTML = '<tr><th>relation</th><th>sign</th><th>papers</th><th>kind</th><th>sources</th></tr>' + rows.join('');
+    const tw = el('div', 'tablewrap'); tw.appendChild(t); main.appendChild(tw);
   }
-  d.appendChild(body);
-  return d;
+  if (c.wordings && c.wordings.length) { main.appendChild(el('h3', null, 'Wordings in the papers')); main.appendChild(wordingsTable(c)); }
 }
 
 /* ================= papers page ================= */
