@@ -417,7 +417,8 @@ function drawForce(host, nodeIds, edges, opts) {
     const d = nodes.find(n => n.id === id);
     if (zoomIn && d && d.x != null) {
       const k = Math.max(1.6, Math.min(2.6, d3.zoomTransform(svg.node()).k * 1.3));
-      svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - k * d.x, H / 2 - k * d.y).scale(k));
+      const cx = W > 900 ? (W - 410) / 2 : W / 2;                                 // keep the node clear of the panel on the right
+      svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(cx - k * d.x, H / 2 - k * d.y).scale(k));
     }
   }
   svg.on('click', () => { focus(null); if (opts.onBackground) opts.onBackground(); });
