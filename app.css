@@ -222,4 +222,5 @@ svg.dag text.sg{font:700 12px var(--mono)}
 
 /* node focus on the graph page: what is not connected to the chosen node fades */
 #cy svg g.dim,#cy svg path.dim{opacity:.13}
+#cy svg g.dim text{opacity:0}
 #cy svg g,#cy svg path{transition:opacity .35s}

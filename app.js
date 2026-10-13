@@ -408,7 +408,7 @@ function drawForce(host, nodeIds, edges, opts) {
   setTimeout(() => fit(0), 350);
   const sid = x => (x && typeof x === 'object') ? x.id : x;
   function focus(id, zoomIn) {
-    if (!id) { node.classed('dim', false); link.classed('dim', false); host.__focused = null; return; }
+    if (!id) { const had = host.__focused; node.classed('dim', false); link.classed('dim', false); host.__focused = null; if (had) fit(450, 1); return; }   // back to the whole network
     const keep = new Set([id]);
     links.forEach(l => { const a = sid(l.source), b = sid(l.target); if (a === id) keep.add(b); if (b === id) keep.add(a); });
     node.classed('dim', d => !keep.has(d.id));
