@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-14T17:15:22+00:00",
+  "built_at": "2026-10-14T19:20:16+00:00",
   "corpus": "danish-register-econ",
   "taxonomy": {
    "batch": "T20261008T025755Z+E4",
@@ -10,23 +10,23 @@
   "rules": [
    "strict"
   ],
-  "n_papers": 215,
+  "n_papers": 219,
   "scope_tags": [
    {
     "tag": "workers",
-    "n": 159
+    "n": 160
+   },
+   {
+    "tag": "all",
+    "n": 126
    },
    {
     "tag": "working age",
     "n": 123
    },
    {
-    "tag": "all",
-    "n": 118
-   },
-   {
     "tag": "women",
-    "n": 117
+    "n": 118
    },
    {
     "tag": "firms",
@@ -34,15 +34,15 @@
    },
    {
     "tag": "children",
-    "n": 82
+    "n": 83
    },
    {
     "tag": "parents",
-    "n": 77
+    "n": 78
    },
    {
     "tag": "men",
-    "n": 59
+    "n": 61
    },
    {
     "tag": "elderly",
@@ -62,11 +62,11 @@
    },
    {
     "tag": "immigrants",
-    "n": 25
+    "n": 27
    },
    {
     "tag": "taxpayers",
-    "n": 25
+    "n": 26
    },
    {
     "tag": "Private sector",
@@ -786,7 +786,7 @@
    "sibling_family_comparison",
    "structural_model"
   ],
-  "n_unplaced": 311,
+  "n_unplaced": 322,
   "search": {
    "date": "2026-10-09",
    "sources": [
@@ -911,8 +911,8 @@
    "domain": "consumption",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 7,
-   "n_edges": 9,
+   "n_papers": 8,
+   "n_edges": 11,
    "unplaced": false,
    "summary": "How much is spent on goods and services, for a household or for the economy as a whole."
   },
@@ -2781,8 +2781,8 @@
    "domain": "income",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 8,
-   "n_edges": 10,
+   "n_papers": 9,
+   "n_edges": 11,
    "unplaced": false,
    "summary": "Total income of the household after taxes and public transfers."
   },
@@ -2793,7 +2793,7 @@
    "parent": null,
    "direction": "higher_is_more",
    "n_papers": 38,
-   "n_edges": 47,
+   "n_edges": 48,
    "unplaced": false,
    "summary": "The money a person earns from work over a period, as a level (annual labor market earnings / wage income)."
   },
@@ -3628,8 +3628,8 @@
    "domain": "macro",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 2,
-   "n_edges": 2,
+   "n_papers": 3,
+   "n_edges": 3,
    "unplaced": false,
    "summary": "The return to saving once inflation is netted out, which sets the price of spending now rather than later."
   },
@@ -3727,8 +3727,8 @@
    "domain": "migration",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 3,
-   "n_edges": 3,
+   "n_papers": 4,
+   "n_edges": 4,
    "unplaced": false,
    "summary": "This is how much of a municipality's workforce is immigrant rather than native-born."
   },
@@ -5427,6 +5427,72 @@
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Occupations and Import Competition: Evidence from Denmark."
   },
   {
+   "id": "?dk_W3011188861:V1",
+   "label": "the tax system and the welfare state",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data."
+  },
+  {
+   "id": "?dk_W3011188861:V2",
+   "label": "the tax system",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 0,
+   "n_edges": 0,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data."
+  },
+  {
+   "id": "?dk_W3011188861:V3",
+   "label": "the welfare state",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 0,
+   "n_edges": 0,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data."
+  },
+  {
+   "id": "?dk_W3011188861:V4",
+   "label": "measured inequality of opportunity for income",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data."
+  },
+  {
+   "id": "?dk_W3016202740:V1",
+   "label": "victimization",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark."
+  },
+  {
+   "id": "?dk_W3016202740:V2",
+   "label": "feelings of safety",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark."
+  },
+  {
    "id": "?dk_W3017597103:V1",
    "label": "salt iodization",
    "domain": "unplaced",
@@ -5435,7 +5501,62 @@
    "n_papers": 1,
    "n_edges": 1,
    "unplaced": true,
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Cognitive Consequences of Iodine Deficiency in Adolescence: Evidence from Salt Iodization in Denmark."
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Cognitive consequences of iodine deficiency in adolescence: evidence from salt iodization in Denmark."
+  },
+  {
+   "id": "?dk_W3023883332:V1",
+   "label": "age ≥50 years (vs 30-49 years)",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships."
+  },
+  {
+   "id": "?dk_W3023883332:V2",
+   "label": "risk of evacuations",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 4,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships."
+  },
+  {
+   "id": "?dk_W3023883332:V3",
+   "label": "non-Danish European Union nationality (vs Danish)",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships."
+  },
+  {
+   "id": "?dk_W3023883332:V4",
+   "label": "non-European Union nationality (vs Danish)",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships."
+  },
+  {
+   "id": "?dk_W3023883332:V5",
+   "label": "working as non-officer",
+   "domain": "unplaced",
+   "parent": null,
+   "direction": null,
+   "n_papers": 1,
+   "n_edges": 1,
+   "unplaced": true,
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships."
   },
   {
    "id": "?dk_W3036557640:V1",
@@ -6511,7 +6632,7 @@
    "parent": null,
    "direction": null,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Gender gaps from labor market shocks."
   },
@@ -6522,7 +6643,7 @@
    "parent": null,
    "direction": null,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Gender gaps from labor market shocks."
   },
@@ -13340,14 +13461,14 @@
       "V1->V3"
      ],
      "paper": "dk_W4378472128",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.job_displacement",
      "to": "income.labor",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "job displacement",
      "to_wording": "earnings",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -13355,8 +13476,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W4378472128_c4",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "women employed at closing plants",
       "men employed at closing plants",
@@ -13714,7 +13841,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c5"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C5 row 8",
@@ -13722,7 +13851,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c5"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C5 row 20",
@@ -13730,7 +13861,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c5"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C4 row 10",
@@ -13738,7 +13871,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c4"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C4 row 8",
@@ -13746,7 +13881,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c4"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C4 row 20",
@@ -13754,10 +13891,33 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c4"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4378472128_c4",
+       "t": -15.68,
+       "approx": false,
+       "estimate": -0.196,
+       "se": 0.0125,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C4",
+       "statement": "Job displacement caused by a plant closure changes changes in earnings for displaced men by -0.196 in the year of displacement, relative to matched non-displaced workers of the same gender."
+      },
+      {
+       "record_id": "dk_W4378472128_c5",
+       "t": -12.88,
+       "approx": false,
+       "estimate": -0.282,
+       "se": 0.0219,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C5",
+       "statement": "Job displacement caused by a plant closure changes changes in earnings for displaced women by -0.282 in the year of displacement, relative to matched non-displaced workers of the same gender."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -14484,8 +14644,7 @@
    "flags": [],
    "causal": true,
    "kinds": {
-    "unknown": 1,
-    "causal": 1
+    "causal": 2
    },
    "years": {
     "from": 1983,
@@ -16424,6 +16583,444 @@
    ]
   },
   {
+   "id": "macro.real_interest_rate->consumption.household_consumption",
+   "from": "macro.real_interest_rate",
+   "to": "consumption.household_consumption",
+   "records": [
+    {
+     "id": "dk_W3000443959:V3->V2",
+     "merged_from": [
+      "V3->V2"
+     ],
+     "paper": "dk_W3000443959",
+     "design_pending": true,
+     "from": "macro.real_interest_rate",
+     "to": "consumption.household_consumption",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "interest rate",
+     "to_wording": "consumption",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "Danish households (aggregate), through the interest rate exposure / redistribution channel alone",
+      "aggregate of Danish households"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2020,
+      "to": 2020,
+      "source": "publication"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Following a 1-percentage-point interest rate increase, we estimate that consumption growth decreases by a 1/4 percentage point through this interest rate exposure channel alone, making this channel substantially larger than the intertemporal substitution channel that is at the core of representativ…",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We follow the decomposition of Auclert (2019) who reports sufficient statistics that determine the effect of monetary policy redistribution on aggregate consumption.",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We estimate that a 1-percentage-point rise in the real interest rate, which redistributes wealth from the wealthy hand-to-mouth debtors who pay interest to the wealthy creditors who receive it, reduces aggregate consumption growth by 26 basis points through this redistribution channel alone.",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Our estimates of the five sufficient statistics, along with their standard errors, are shown in table V.",
+       "page": "31",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We estimate that a 1-percentage-point rise in the real interest rate, which redistributes wealth from the wealthy hand-to-mouth debtors who pay interest to the wealthy creditors",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "who receive it, reduces aggregate consumption growth by 26 basis points through this redistribution channel alone.",
+       "page": "3",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Following a 1-percentage-point interest rate increase, we estimate that consumption growth decreases by a 1/4 percentage point through this interest rate exposure channel alone, making this channel substantially larger than the intertemporal substitution channel that is at the core of representativ…",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "reduces aggregate consumption growth by 26 basis points through this redistribution channel alone",
+       "page": "3",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We follow the decomposition of",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Following a 1-percentage-point interest rate increase, we estimate that consumption growth decreases by a 1/4 percentage point through this interest rate exposure channel alone",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3000443959::TV::_::CER row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3000443959::TV::_::CER row 0",
+       "value": -0.26,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S5",
+       "statement": "an increase in the interest rate decreases consumption growth",
+       "sign": "-",
+       "cause": "interest rate",
+       "effect": "consumption growth",
+       "population": "Danish households (aggregate), through the interest rate exposure / redistribution channel alone",
+       "period": null,
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S7",
+       "statement": "An increase in the interest rate decreases consumption growth.",
+       "sign": "-",
+       "cause": "interest rate",
+       "effect": "consumption growth",
+       "population": "aggregate of Danish households",
+       "period": null,
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "alias",
+      "to": "alias"
+     }
+    },
+    {
+     "id": "dk_W3122484461:V4->V5",
+     "merged_from": [
+      "V4->V5"
+     ],
+     "paper": "dk_W3122484461",
+     "design_pending": false,
+     "from": "macro.real_interest_rate",
+     "to": "consumption.household_consumption",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "1-year real interest rate",
+     "to_wording": "aggregate consumption growth",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "structural_model",
+       "record_id": "dk_W3122484461_c4",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "Danish households",
+      "US households",
+      "Danish households (aggregate economy)",
+      "US households (aggregate economy)"
+     ],
+     "scope_tags": [
+      "working age",
+      "Denmark vs the United States"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.households",
+       "label": "households"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.working_age",
+       "label": "working age"
+      },
+      "comparison": {
+       "id": "comparison.denmark_vs_the_united_states",
+       "label": "Denmark vs the United States"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope frames the claim as about Danish and US households in the aggregate, whereas the Danish main column is restricted to households headed by a 30-55 year old (in 2008) excluding business owners and income tails, and the US main column is the unrestricted 2016 SCF cross-section.",
+     "years": {
+      "from": 2004,
+      "to": 2016,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "We use our results to analyze monetary policy transmission mechanisms in both Denmark and the United States.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We estimate that, in Denmark, a 1 percentage point rise in the 1-year real interest rate, which redistributes wealth from the wealthy hand-to-mouth debtors who pay interest to the wealthy creditors who receive it, reduces aggregate consumption growth by 29 basis points through this redistribution c…",
+       "page": "316",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We follow the decomposition of Auclert (2019), who reports sufficient statistics that determine the effect of monetary policy redistribution on aggregate consumption.",
+       "page": "316",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We use our results to analyze monetary policy transmission mechanisms in both Denmark and the United States.",
+       "page": "314",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Our estimates of the sufficient statistics for Denmark and the United States are shown in Table 4.",
+       "page": "337",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We find this channel is much smaller in the US, where, relative to Denmark, household debt is lower and the interest rate paid on mortgages adjusts less frequently.",
+       "page": "316",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Specifically, we use the Survey of Consumer Finances (SCF) (Federal Reserve Board 2016)—which has detailed balance sheet information—to calculate households' URE and NNP positions, along with liquid wealth.",
+       "page": "337",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We divide the US population into deciles along each dimension and estimate each decile's MPX by interpolating the percentile of liquid wealth of the median household in each decile on the Danish MPX estimates by liquid wealth decile.",
+       "page": "337",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "The interest rate exposure channel is also large in Denmark, while almost nonexistent in the United States.",
+       "page": "338",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3122484461::T4::Denmark::CER row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3122484461::T4::UnitedStates::CER row 2",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3122484461::T4::Denmark::CER row 0",
+       "value": -0.29,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "dk_W3122484461_c4"
+       ]
+      },
+      {
+       "cell": "dk_W3122484461::T4::UnitedStates::CER row 2",
+       "value": 0.01,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "dk_W3122484461_c9"
+       ]
+      }
+     ],
+     "t": [
+      {
+       "record_id": "dk_W3122484461_c4",
+       "t": -29.0,
+       "approx": false,
+       "estimate": -0.29,
+       "se": 0.01,
+       "strategy": "structural_model",
+       "source_table_id": "dk_W3122484461::T4::Denmark::CER",
+       "statement": "In Denmark the interest rate exposure channel sufficient statistic E_R is -0.29, so a 1 percent rise in the real interest rate lowers aggregate household expenditure growth by 29 basis points through…"
+      },
+      {
+       "record_id": "dk_W3122484461_c9",
+       "t": 1.0,
+       "approx": false,
+       "estimate": 0.01,
+       "se": 0.01,
+       "strategy": "structural_model",
+       "source_table_id": "dk_W3122484461::T4::UnitedStates::CER",
+       "statement": "In the United States the interest rate exposure channel sufficient statistic E_R is 0.01, i.e. the channel is almost nonexistent, which the paper attributes to the lower prevalence of variable rate m…"
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S6",
+       "statement": "The 1-year real interest rate decreases aggregate consumption growth",
+       "sign": "-",
+       "cause": "1-year real interest rate",
+       "effect": "aggregate consumption growth",
+       "population": "Danish households",
+       "period": null,
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S7",
+       "statement": "The 1-year real interest rate decreases aggregate consumption growth",
+       "sign": "-",
+       "cause": "1-year real interest rate",
+       "effect": "aggregate consumption growth",
+       "population": "US households",
+       "period": null,
+       "support": "weak"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S6",
+       "statement": "A rise in the real interest rate decreases aggregate consumption growth",
+       "sign": "-",
+       "cause": "1-year real interest rate",
+       "effect": "aggregate consumption growth",
+       "population": "Danish households (aggregate economy)",
+       "period": null,
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S7",
+       "statement": "A rise in the real interest rate decreases aggregate consumption growth",
+       "sign": "-",
+       "cause": "1-year real interest rate",
+       "effect": "aggregate consumption growth",
+       "population": "US households (aggregate economy)",
+       "period": null,
+       "support": "weak"
+      }
+     ],
+     "placement": {
+      "from": "exact",
+      "to": "exact"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3000443959",
+    "dk_W3122484461"
+   ],
+   "n_papers": 2,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W3000443959",
+     "dk_W3122484461"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": false,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1,
+    "associational": 1
+   },
+   "years": {
+    "from": 2004,
+    "to": 2020
+   },
+   "n_pub_dated": 1,
+   "scope_tags": [
+    "Denmark vs the United States",
+    "all",
+    "working age"
+   ],
+   "strategies": [
+    "structural_model"
+   ]
+  },
+  {
    "id": "migration.immigration_openness->labor.labor_supply.participation",
    "from": "migration.immigration_openness",
    "to": "labor.labor_supply.participation",
@@ -17864,14 +18461,14 @@
       "V3->V4"
      ],
      "paper": "dk_W2990010517",
-     "design_pending": true,
+     "design_pending": false,
      "from": "trade.import_competition",
      "to": "income.labor",
      "sign": "?",
      "raw_sign": "?",
      "from_wording": "rising import competition",
      "to_wording": "lifetime earnings",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "rejected",
      "reason": "contradicted_sign",
      "tier": "contested",
@@ -17881,8 +18478,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "observational",
+     "strategies": [
+      {
+       "strategy": "structural_model",
+       "record_id": "dk_W2990010517_c49",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "Danish workers (5 percent of whom see a decline)",
       "the 5 percent of workers who lose; losses concentrated amongst workers with comparative advantage in exposed occupations",
@@ -18393,7 +18996,7 @@
    "flags": [],
    "causal": true,
    "kinds": {
-    "unknown": 1,
+    "associational": 1,
     "causal": 1
    },
    "years": {
@@ -18409,7 +19012,8 @@
    ],
    "strategies": [
     "difference_in_differences",
-    "instrumental_variables"
+    "instrumental_variables",
+    "structural_model"
    ]
   },
   {
@@ -43904,23 +44508,23 @@
    "strategies": []
   },
   {
-   "id": "?dk_W3017597103:V1->education.achievement",
-   "from": "?dk_W3017597103:V1",
-   "to": "education.achievement",
+   "id": "?dk_W3011188861:V1->?dk_W3011188861:V4",
+   "from": "?dk_W3011188861:V1",
+   "to": "?dk_W3011188861:V4",
    "records": [
     {
-     "id": "dk_W3017597103:V1->V2",
+     "id": "dk_W3011188861:V1->V4",
      "merged_from": [
-      "V1->V2"
+      "V1->V4"
      ],
-     "paper": "dk_W3017597103",
+     "paper": "dk_W3011188861",
      "design_pending": true,
-     "from": "?dk_W3017597103:V1",
-     "to": "education.achievement",
-     "sign": "+",
-     "raw_sign": "+",
-     "from_wording": "salt iodization",
-     "to_wording": "grade point average",
+     "from": "?dk_W3011188861:V1",
+     "to": "?dk_W3011188861:V4",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "the tax system and the welfare state",
+     "to_wording": "measured inequality of opportunity for income",
      "kind": "unknown",
      "verdict": "accepted",
      "reason": null,
@@ -43933,6 +44537,582 @@
      "label": "all",
      "design_basis": "unknown",
      "strategies": [],
+     "populations": [
+      "1972-1975 birth cohorts",
+      "individuals in Danish register data",
+      "individuals in the Statistics of Income Mobility Panel"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 1972,
+      "to": 2010,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Second, the tax system and the welfare state reduce measured IOp in both countries, but they do so by more than twice as much in Denmark.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Second, the tax system and the welfare state reduce measured IOp in both countries, but they do so by more than twice as much in Denmark.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Further, in our analyses we focus on the same birth cohorts (1972-1975) and time period (2010) and use the same sample selection rules, income concepts (individual earnings, total and disposable family income) and nonparametric estimation method for both countries.",
+       "page": "5",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We present our main results about AIOpI in Denmark and the U.S. in Tables 5 and 6 and Figures 2, 3 and 4.",
+       "page": "27",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Due to the impact of income taxes (which dominate those of transfers at all levels of parental income), the disposable income curves are below their total income counterparts in both countries.",
+       "page": "29",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We carry out a comparative analysis of inequality of opportunity (IOp) for long-run income in Denmark and the United States. We adopt a luck-egalitarian understanding of IOp, use high-quality administrative data, and rely on highly improved methods.",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We present our main results about AIOpI in Denmark and the U.S. in Tables 5 and 6 and Figures 2, 3 and 4. Table 5 shows our lower-bound estimates of AIOp for individual earnings and for total and disposable family income (overall and per adult), both for the full population and for men and women se…",
+       "page": "27",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "(b) although tax and transfers reduce this inequality in both countries, they do so by more than twice as much in Denmark",
+       "page": "6",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "After-tax income is computed by subtracting out net federal taxes (which include refundable credits) from total income, and this is what we use as our measure of disposable income",
+       "page": "26",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Disposable income is the sum of total income, public transfers and other third-party reported income, minus taxes paid on income.",
+       "page": "26",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We avoid the pitfalls involved in comparing estimates based on survey and administrative data by using high-quality administrative data for both countries: register data for Denmark and the Statistics of Income Mobility (SOI-M) Panel for the U.S.",
+       "page": "5",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "although tax and transfers reduce this inequality in both countries, they do so by more than twice as much in Denmark",
+       "page": "6",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "As a result, whereas in the U.S. the AIOp for disposable income, measured with the Gini coefficient, is only 8.4 percent smaller than with total income, in Denmark the disposable-income Gini is 22.1 percent smaller.",
+       "page": "29",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3011188861::F3::B row 10",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3011188861::F3::A row 11",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3011188861::F4::B row 15",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3011188861::F4::A row 13",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3011188861::F3::B row 10",
+       "value": 143000,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3011188861::F4::B row 15",
+       "value": 89000,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3011188861::F3::A row 11",
+       "value": 82000,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3011188861::F4::A row 13",
+       "value": 57000,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S3",
+       "statement": "The tax system decreases measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the tax system",
+       "effect": "measured inequality of opportunity for income",
+       "population": "1972-1975 birth cohorts",
+       "period": "2010",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S4",
+       "statement": "The tax system decreases measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the tax system",
+       "effect": "measured inequality of opportunity for income",
+       "population": "1972-1975 birth cohorts",
+       "period": "2010",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S5",
+       "statement": "The welfare state decreases measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the welfare state",
+       "effect": "measured inequality of opportunity for income",
+       "population": "1972-1975 birth cohorts",
+       "period": "2010",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S6",
+       "statement": "The welfare state decreases measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the welfare state",
+       "effect": "measured inequality of opportunity for income",
+       "population": "1972-1975 birth cohorts",
+       "period": "2010",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S4",
+       "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the tax system and the welfare state",
+       "effect": "measured inequality of opportunity for income",
+       "population": "individuals in Danish register data",
+       "period": "2010 (birth cohorts 1972-1975)",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S5",
+       "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+       "sign": "-",
+       "cause": "the tax system and the welfare state",
+       "effect": "measured inequality of opportunity for income",
+       "population": "individuals in the Statistics of Income Mobility Panel",
+       "period": "2010 (birth cohorts 1972-1975)",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3011188861"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W3011188861"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 1972,
+    "to": 2010
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "all"
+   ],
+   "strategies": []
+  },
+  {
+   "id": "?dk_W3016202740:V1->?dk_W3016202740:V2",
+   "from": "?dk_W3016202740:V1",
+   "to": "?dk_W3016202740:V2",
+   "records": [
+    {
+     "id": "dk_W3016202740:V1->V2",
+     "merged_from": [
+      "V1->V2"
+     ],
+     "paper": "dk_W3016202740",
+     "design_pending": true,
+     "from": "?dk_W3016202740:V1",
+     "to": "?dk_W3016202740:V2",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "victimization",
+     "to_wording": "feelings of safety",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "panel respondents in the Danish Police's Safety Survey"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2014,
+      "to": 2018,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "The current article shows that victimization has a consistent effect on feelings of safety.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Vores studie er unikt i en skandinavisk sammenhæng, idet det som det første anvender paneldata til at analysere de utryghedsmæssige konsekvenser af at blive udsat for kriminalitet.",
+       "page": "43",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "This article examines the consequences of victimisation in relation to feeling of safety in Denmark. Using various statistical models, we address two general questions: First, how do different victimisation patterns affect victims' feelings of safety, and second, how do victims' demographic charact…",
+       "page": "41",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We analyse panel data from the Danish Police's Safety Survey (2014-2018) linked to Danish register da-ta.",
+       "page": "41",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "I model 1 til 3 i tabel 1 (nedenfor) undersøges sammenhængen mellem viktimisering og utryghed på en række forskellige måder.",
+       "page": "52",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "I model 1 i tabel 2 undersøges, om der er en sammenhæng mellem ændring i viktimiseringsstatus og ændring i utryghedsniveauet, og det ses, at en sådan forandring i viktimiseringsstatus hænger sammen med en forandring i tryghedsniveauet på 0,35.",
+       "page": "55",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Using various statistical models, we address two general questions: First, how do different victimisation patterns affect victims' feelings of safety, and second, how do victims' demographic characteristics modify the consequences of victimization in relation to feelings of safety.",
+       "page": "41",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We analyse panel data from the Danish Police's Safety Survey (2014-2018) linked to Danish register data.",
+       "page": "41",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Denne artikel vil adressere to centrale forskningsspørgsmål: Er der en robust og konsistent sammenhæng mellem viktimisering og utryghed? og Er konsekvenserne af viktimisering ensartede eller rammes nogle ofre hårdere end andre?",
+       "page": "42",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "For at belyse effekten af viktimisering på utryghed mere grundigt analyseres sammenhængen i en række fixed effekt-modeller.",
+       "page": "55",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T2::_::C1 row 5",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T1::_::CI row 8",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T2::_::C2 row 6",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T1::_::CII row 9",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T2::_::C3 row 8",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T1::_::CIII row 10",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T2::_::C3 row 7",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3016202740::T1::_::CIII row 11",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3016202740::T2::_::C2 row 6",
+       "value": 0.262,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3016202740::T2::_::C3 row 7",
+       "value": 0.214,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3016202740::T2::_::C3 row 8",
+       "value": 0.466,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S1",
+       "statement": "victimization decreases feelings of safety",
+       "sign": "-",
+       "cause": "victimization",
+       "effect": "feelings of safety",
+       "population": "panel respondents in the Danish Police's Safety Survey",
+       "period": "2014-2018",
+       "support": "weak"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S1",
+       "statement": "Victimisation decreases feelings of safety.",
+       "sign": "-",
+       "cause": "victimisation",
+       "effect": "feelings of safety",
+       "population": "panel respondents in the Danish Police's Safety Survey",
+       "period": "2014-2018",
+       "support": "weak"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3016202740"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W3016202740"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2018
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "all"
+   ],
+   "strategies": []
+  },
+  {
+   "id": "?dk_W3017597103:V1->education.achievement",
+   "from": "?dk_W3017597103:V1",
+   "to": "education.achievement",
+   "records": [
+    {
+     "id": "dk_W3017597103:V1->V2",
+     "merged_from": [
+      "V1->V2"
+     ],
+     "paper": "dk_W3017597103",
+     "design_pending": false,
+     "from": "?dk_W3017597103:V1",
+     "to": "education.achievement",
+     "sign": "+",
+     "raw_sign": "+",
+     "from_wording": "salt iodization",
+     "to_wording": "grade point average",
+     "kind": "causal",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W3017597103_c1",
+       "basis": "record"
+      },
+      {
+       "strategy": "other",
+       "record_id": "dk_W3017597103_c20",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "high school students"
      ],
@@ -44173,7 +45353,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3017597103_c4"
+       ]
       },
       {
        "cell": "dk_W3017597103::T2::_::CDiscrete row 2",
@@ -44181,7 +45363,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3017597103_c2"
+       ]
       },
       {
        "cell": "dk_W3017597103::T3::_::C1 row 0",
@@ -44189,10 +45373,43 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W3017597103_c11"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W3017597103_c11",
+       "t": 3.88,
+       "approx": false,
+       "estimate": 0.0737,
+       "se": 0.019,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W3017597103::T3::_::C1",
+       "statement": "Salt iodization raised the standardized high school GPA of students first treated at age 18 (the 1999 graduating cohort) by 0.0737 standard deviations, the intercept of the prediction line fitted thr…"
+      },
+      {
+       "record_id": "dk_W3017597103_c2",
+       "t": 4.38,
+       "approx": false,
+       "estimate": 0.057,
+       "se": 0.013,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W3017597103::T2::_::CDiscrete",
+       "statement": "The two salt iodization reforms combined raised the standardized high school GPA of students in below-median-iodine municipalities by 0.057 standard deviations relative to students in above-median-io…"
+      },
+      {
+       "record_id": "dk_W3017597103_c4",
+       "t": 4.7,
+       "approx": false,
+       "estimate": 0.094,
+       "se": 0.02,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W3017597103::T2::_::CContinuous",
+       "statement": "The two salt iodization reforms combined raised standardized high school GPA by 0.094 standard deviations when moving from the 95th to the 5th percentile of iodine concentration in drinking water."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -44235,6 +45452,280 @@
     "0": [],
     "?": []
    },
+   "design_pending": false,
+   "consensus_sign": "+",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": true,
+   "kinds": {
+    "causal": 1
+   },
+   "years": {
+    "from": 1980,
+    "to": 2011
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "students"
+   ],
+   "strategies": [
+    "difference_in_differences",
+    "other"
+   ]
+  },
+  {
+   "id": "?dk_W3023883332:V1->?dk_W3023883332:V2",
+   "from": "?dk_W3023883332:V1",
+   "to": "?dk_W3023883332:V2",
+   "records": [
+    {
+     "id": "dk_W3023883332:V1->V2",
+     "merged_from": [
+      "V1->V2"
+     ],
+     "paper": "dk_W3023883332",
+     "design_pending": true,
+     "from": "?dk_W3023883332:V1",
+     "to": "?dk_W3023883332:V2",
+     "sign": "+",
+     "raw_sign": "+",
+     "from_wording": "age ≥50 years (vs 30-49 years)",
+     "to_wording": "risk of evacuations",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "officers",
+      "non-officers"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2004,
+      "to": 2014,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "An elevated risk of evacuations was found among both officers and non-officers aged ≥50 years, compared with those aged 30-49 years with odds ratios of 2.73 (95% confidence intervals 1.66, 4.50) and 2.59 (2.03, 3.31), respectively.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "In Table 2, we quantify the associations for age groups and nationality with evacuations from all causes among officers and non-officers.",
+       "page": "6",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "The data were obtained from the Telemedical Assistance Service (TMAS) in Denmark between 2004 and 2014 supplemented with data on all seafarers from the Danish Maritime Authority (N=73,344). These data included information on broad age groups, occupational position and nationality. The outcomes were…",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "using data from the Telemedical Assistance Service of Denmark and the Danish Maritime Authority, we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merc…",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "An elevated risk of evacuations was found among both officers and non-officers aged ≥50 years, compared with those aged 30-49 years with odds ratios of 2.73 (95% confidence intervals 1.66, 4.50) and 2.59 (2.03, 3.31), respectively.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "The data were obtained from the Telemedical Assistance Service (TMAS) in Denmark between 2004 and 2014 supplemented with data on all seafarers from the Danish Maritime Authority (N=73,344).",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merchant ships.",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Officers::CModel1 row 4",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Non-officers::CModel1 row 4",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CCardiovascular diseases row 3",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CDigestive diseases row 3",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CExternal causes row 3",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::COther causes row 3",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3023883332::T2::Officers::CModel1 row 4",
+       "value": 2.73,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CCardiovascular diseases row 3",
+       "value": 5.09,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CDigestive diseases row 3",
+       "value": 2.38,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CExternal causes row 3",
+       "value": 2.38,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::COther causes row 3",
+       "value": 1.52,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T2::Non-officers::CModel1 row 4",
+       "value": 2.59,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S4",
+       "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+       "sign": "+",
+       "cause": "age ≥50 years (vs 30-49 years)",
+       "effect": "risk of evacuations",
+       "population": "officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S5",
+       "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+       "sign": "+",
+       "cause": "age ≥50 years (vs 30-49 years)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S4",
+       "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+       "sign": "+",
+       "cause": "age ≥50 years (vs. 30-49 years)",
+       "effect": "risk of evacuations",
+       "population": "officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S5",
+       "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+       "sign": "+",
+       "cause": "age ≥50 years (vs. 30-49 years)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [
+     "dk_W3023883332"
+    ],
+    "-": [],
+    "0": [],
+    "?": []
+   },
    "design_pending": true,
    "consensus_sign": "+",
    "has_contradiction": false,
@@ -44244,12 +45735,658 @@
     "unknown": 1
    },
    "years": {
-    "from": 1980,
-    "to": 2011
+    "from": 2004,
+    "to": 2014
    },
    "n_pub_dated": 0,
    "scope_tags": [
-    "students"
+    "all"
+   ],
+   "strategies": []
+  },
+  {
+   "id": "?dk_W3023883332:V3->?dk_W3023883332:V2",
+   "from": "?dk_W3023883332:V3",
+   "to": "?dk_W3023883332:V2",
+   "records": [
+    {
+     "id": "dk_W3023883332:V3->V2",
+     "merged_from": [
+      "V3->V2"
+     ],
+     "paper": "dk_W3023883332",
+     "design_pending": true,
+     "from": "?dk_W3023883332:V3",
+     "to": "?dk_W3023883332:V2",
+     "sign": "+",
+     "raw_sign": "+",
+     "from_wording": "non-Danish European Union nationality (vs Danish)",
+     "to_wording": "risk of evacuations",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "non-officers"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2004,
+      "to": 2014,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "The odds ratios for non-officers from non-Danish European Union and from non-European Union countries compared with Danish non-officers were 1.51 (1.12, 2.04) and 0.55 (0.42, 0.71), respectively.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "The data were obtained from the Telemedical Assistance Service (TMAS) in Denmark between 2004 and 2014 supplemented with data on all seafarers from the Danish Maritime Authority (N=73,344). These data included information on broad age groups, occupational position and nationality.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "In the age-adjusted analysis, the OR for risk for evacuations among non-officers from non-Danish European Union and those from non-European Union countries compared with Danish non-officers were 1.51 (95% CI: 1.12 to 2.04) and 0.55 (95% CI: 0.42 to 0.71), respectively.",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "using data from the Telemedical Assistance Service of Denmark and the Danish Maritime Authority, we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merc…",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "The odds ratios for non-officers from non-Danish European Union and from non-European Union countries compared with Danish non-officers were 1.51 (1.12, 2.04) and 0.55 (0.42, 0.71), respectively.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merchant ships.",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Non-officers::CModel2 row 7",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Non-officers::CModel1 row 7",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CCardiovascular diseases row 9",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CDigestive diseases row 9",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CExternal causes row 9",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::COther causes row 9",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3023883332::T2::Non-officers::CModel2 row 7",
+       "value": 1.51,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CCardiovascular diseases row 9",
+       "value": 2.25,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CDigestive diseases row 9",
+       "value": 1.41,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CExternal causes row 9",
+       "value": 2.2,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::COther causes row 9",
+       "value": 2.47,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S6",
+       "statement": "Non-Danish European Union nationality (compared with Danish nationality) increases risk of evacuations",
+       "sign": "+",
+       "cause": "non-Danish European Union nationality (vs Danish)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S6",
+       "statement": "Non-Danish European Union nationality (vs. Danish nationality) increases risk of evacuations",
+       "sign": "+",
+       "cause": "non-Danish European Union nationality (vs. Danish)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [
+     "dk_W3023883332"
+    ],
+    "-": [],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "+",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 2004,
+    "to": 2014
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "all"
+   ],
+   "strategies": []
+  },
+  {
+   "id": "?dk_W3023883332:V4->?dk_W3023883332:V2",
+   "from": "?dk_W3023883332:V4",
+   "to": "?dk_W3023883332:V2",
+   "records": [
+    {
+     "id": "dk_W3023883332:V4->V2",
+     "merged_from": [
+      "V4->V2"
+     ],
+     "paper": "dk_W3023883332",
+     "design_pending": true,
+     "from": "?dk_W3023883332:V4",
+     "to": "?dk_W3023883332:V2",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "non-European Union nationality (vs Danish)",
+     "to_wording": "risk of evacuations",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "non-officers"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2004,
+      "to": 2014,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "The odds ratios for non-officers from non-Danish European Union and from non-European Union countries compared with Danish non-officers were 1.51 (1.12, 2.04) and 0.55 (0.42, 0.71), respectively.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "The data were obtained from the Telemedical Assistance Service (TMAS) in Denmark between 2004 and 2014 supplemented with data on all seafarers from the Danish Maritime Authority (N=73,344). These data included information on broad age groups, occupational position and nationality.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "In the age-adjusted analysis, the OR for risk for evacuations among non-officers from non-Danish European Union and those from non-European Union countries compared with Danish non-officers were 1.51 (95% CI: 1.12 to 2.04) and 0.55 (95% CI: 0.42 to 0.71), respectively.",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "using data from the Telemedical Assistance Service of Denmark and the Danish Maritime Authority, we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merc…",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "The odds ratios for non-officers from non-Danish European Union and from non-European Union countries compared with Danish non-officers were 1.51 (1.12, 2.04) and 0.55 (0.42, 0.71), respectively.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merchant ships.",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Non-officers::CModel2 row 8",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T2::Non-officers::CModel1 row 8",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CCardiovascular diseases row 10",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CDigestive diseases row 10",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CExternal causes row 10",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::COther causes row 10",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3023883332::T2::Non-officers::CModel2 row 8",
+       "value": 0.55,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S7",
+       "statement": "Non-European Union nationality (compared with Danish nationality) decreases risk of evacuations",
+       "sign": "-",
+       "cause": "non-European Union nationality (vs Danish)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S7",
+       "statement": "Non-European Union nationality (vs. Danish nationality) decreases risk of evacuations",
+       "sign": "-",
+       "cause": "non-European Union nationality (vs. Danish)",
+       "effect": "risk of evacuations",
+       "population": "non-officers",
+       "period": "2004-2014",
+       "support": "weak"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W3023883332"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 2004,
+    "to": 2014
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "all"
+   ],
+   "strategies": []
+  },
+  {
+   "id": "?dk_W3023883332:V5->?dk_W3023883332:V2",
+   "from": "?dk_W3023883332:V5",
+   "to": "?dk_W3023883332:V2",
+   "records": [
+    {
+     "id": "dk_W3023883332:V5->V2",
+     "merged_from": [
+      "V5->V2"
+     ],
+     "paper": "dk_W3023883332",
+     "design_pending": true,
+     "from": "?dk_W3023883332:V5",
+     "to": "?dk_W3023883332:V2",
+     "sign": "+",
+     "raw_sign": "+",
+     "from_wording": "working as non-officer",
+     "to_wording": "risk of evacuations",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "unplaced"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "seafarers on Danish-flagged merchant ships",
+      "seafarers on Danish-flagged merchant ships; holds irrespective of the cause leading to evacuation"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2004,
+      "to": 2014,
+      "source": "scope"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "In conclusion, working as non-officer, older age and non-Danish EU nationality were associated with a higher risk of evacuations irrespective of the cause leading to evacuation.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "The data were obtained from the Telemedical Assistance Service (TMAS) in Denmark between 2004 and 2014 supplemented with data on all seafarers from the Danish Maritime Authority (N=73,344). These data included information on broad age groups, occupational position and nationality. The outcomes were…",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Table 3 shows the association for age group, occupational position and nationality with four specific groups of causes for evacuations.",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "using data from the Telemedical Assistance Service of Denmark and the Danish Maritime Authority, we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merc…",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "In conclusion, working as non-officer, older age and non-Danish EU nationality were associated with a higher risk of evacuations irrespective of the cause leading to evacuation.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "we quantified health-related causes leading to evacuations, and investigated whether age, occupational position or nationality were associated with evacuations of seafarers at sea on Danish-flagged merchant ships.",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CExternal causes row 6",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CDigestive diseases row 6",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::COther causes row 6",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W3023883332::T3::_::CCardiovascular diseases row 6",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W3023883332::T3::_::CCardiovascular diseases row 6",
+       "value": 2.72,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CDigestive diseases row 6",
+       "value": 4.56,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::CExternal causes row 6",
+       "value": 5.35,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W3023883332::T3::_::COther causes row 6",
+       "value": 3.82,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S8",
+       "statement": "Working as a non-officer increases risk of evacuations",
+       "sign": "+",
+       "cause": "working as non-officer",
+       "effect": "risk of evacuations",
+       "population": "seafarers on Danish-flagged merchant ships",
+       "period": "2004-2014",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S8",
+       "statement": "Working as non-officer increases risk of evacuations",
+       "sign": "+",
+       "cause": "working as non-officer",
+       "effect": "risk of evacuations",
+       "population": "seafarers on Danish-flagged merchant ships; holds irrespective of the cause leading to evacuation",
+       "period": "2004-2014",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "unplaced",
+      "to": "unplaced"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [
+     "dk_W3023883332"
+    ],
+    "-": [],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "+",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 2004,
+    "to": 2014
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "all"
    ],
    "strategies": []
   },
@@ -56823,26 +58960,37 @@
       "V6->V5"
      ],
      "paper": "dk_W4378472128",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W4378472128:V6",
      "to": "?dk_W4378472128:V5",
-     "sign": "?",
-     "raw_sign": "?",
+     "sign": "+",
+     "raw_sign": "+",
      "from_wording": "child care",
      "to_wording": "gender gap in unemployment",
-     "kind": "unknown",
-     "verdict": "rejected",
-     "reason": "contradicted_sign",
+     "kind": "causal",
+     "verdict": "accepted",
+     "reason": null,
      "tier": "contested",
      "flags": [
-      "sign",
+      "sign_resolved_by_tables",
       "unplaced"
      ],
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W4378472128_c31",
+       "basis": "record"
+      },
+      {
+       "strategy": "other",
+       "record_id": "dk_W4378472128_c40",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "workers displaced by plant closures in manufacturing",
       "displaced men and women employed at closing manufacturing plants; regardless of individual characteristics"
@@ -57037,7 +59185,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c40"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL7::_::C1 row 9",
@@ -57045,7 +59195,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c31"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL7::_::C2 row 9",
@@ -57053,7 +59205,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c32"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL7::_::C4 row 9",
@@ -57061,7 +59215,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c34"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL7::_::C5 row 9",
@@ -57069,10 +59225,63 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c35"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4378472128_c31",
+       "t": 35.57,
+       "approx": false,
+       "estimate": 0.0722,
+       "se": 0.00203,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C1",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, children below 18 years in the household by 0.0722 in the year of displacement, relative to matched non-displaced wo…"
+      },
+      {
+       "record_id": "dk_W4378472128_c32",
+       "t": 34.55,
+       "approx": false,
+       "estimate": 0.132,
+       "se": 0.00382,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C2",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, children below 18 years in the household by 0.132 in the year of displacement, relative to matched non-displaced w…"
+      },
+      {
+       "record_id": "dk_W4378472128_c34",
+       "t": 47.88,
+       "approx": false,
+       "estimate": 0.124,
+       "se": 0.00259,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C4",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, no children below 18 years in the household by 0.124 in the year of displacement, relative to matched non-displaced…"
+      },
+      {
+       "record_id": "dk_W4378472128_c35",
+       "t": 32.5,
+       "approx": false,
+       "estimate": 0.156,
+       "se": 0.0048,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C5",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, no children below 18 years in the household by 0.156 in the year of displacement, relative to matched non-displace…"
+      },
+      {
+       "record_id": "dk_W4378472128_c40",
+       "t": -5.84,
+       "approx": false,
+       "estimate": -0.0101,
+       "se": 0.00173,
+       "strategy": "other",
+       "source_table_id": "dk_W4378472128::T2::_::C3",
+       "statement": "Gender differences in the returns to presence of a preschool child account for -0.0101 of the men-women difference in unemployment in the 1st year following displacement among displaced workers."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -57108,20 +59317,20 @@
    ],
    "n_papers": 1,
    "signs": {
-    "+": [],
+    "+": [
+     "dk_W4378472128"
+    ],
     "-": [],
     "0": [],
-    "?": [
-     "dk_W4378472128"
-    ]
+    "?": []
    },
-   "design_pending": true,
-   "consensus_sign": "?",
+   "design_pending": false,
+   "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1995,
@@ -57133,7 +59342,10 @@
     "women",
     "workers"
    ],
-   "strategies": []
+   "strategies": [
+    "event_study",
+    "other"
+   ]
   },
   {
    "id": "?dk_W4378472128:V6->labor.gender_earnings_gap",
@@ -57146,7 +59358,7 @@
       "V6->V7"
      ],
      "paper": "dk_W4378472128",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W4378472128:V6",
      "to": "labor.gender_earnings_gap",
      "sign": "+",
@@ -57164,7 +59376,13 @@
      "k": 2,
      "label": "all",
      "design_basis": "unknown",
-     "strategies": [],
+     "strategies": [
+      {
+       "strategy": "other",
+       "record_id": "dk_W4378472128_c47",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "workers displaced by plant closures in manufacturing",
       "displaced men and women employed at closing manufacturing plants; regardless of individual characteristics"
@@ -57289,10 +59507,23 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c47"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4378472128_c47",
+       "t": 2.9,
+       "approx": false,
+       "estimate": 0.0152,
+       "se": 0.00524,
+       "strategy": "other",
+       "source_table_id": "dk_W4378472128::T2::_::C6",
+       "statement": "Gender differences in the returns to presence of a preschool child account for 0.0152 of the men-women difference in changes in earnings in the 1st year following displacement among displaced workers."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -57335,7 +59566,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -57353,7 +59584,9 @@
     "women",
     "workers"
    ],
-   "strategies": []
+   "strategies": [
+    "other"
+   ]
   },
   {
    "id": "?dk_W4388665909:V1->?dk_W4388665909:V10",
@@ -66313,14 +68546,14 @@
       "V5->V4"
      ],
      "paper": "dk_W4405737563",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W4405737563:V5",
      "to": "income.labor",
      "sign": "?",
      "raw_sign": "?",
      "from_wording": "ethnic capital",
      "to_wording": "income",
-     "kind": "unknown",
+     "kind": "associational",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -66330,15 +68563,27 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W4405737563_c49",
+       "basis": "record"
+      },
+      {
+       "strategy": "fixed_effects_within",
+       "record_id": "dk_W4405737563_c69",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "individuals with paternal origins from low-income countries",
       "individuals with paternal origins from high-income countries"
      ],
      "scope_tags": [
       "men",
-      "taxpayers"
+      "taxpayers",
+      "immigrants"
      ],
      "facets": {},
      "scope_source": null,
@@ -66504,7 +68749,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c67"
+       ]
       },
       {
        "cell": "dk_W4405737563::T6::_::C1 row 2",
@@ -66512,10 +68759,33 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c64"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4405737563_c64",
+       "t": 23.0,
+       "approx": false,
+       "estimate": 0.23,
+       "se": 0.01,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W4405737563::T6::_::C1",
+       "statement": "Among all available observations, the ethnic-capital term interacted with a high income country of origin carries a coefficient of 0.23 relative to Danes."
+      },
+      {
+       "record_id": "dk_W4405737563_c67",
+       "t": -6.5,
+       "approx": false,
+       "estimate": -0.13,
+       "se": 0.02,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W4405737563::T6::_::C1",
+       "statement": "Among all available observations, the ethnic-capital term interacted with a low income country of origin carries a coefficient of -0.13 relative to Danes."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -66580,13 +68850,13 @@
      "dk_W4405737563"
     ]
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "?",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1980,
@@ -66594,10 +68864,14 @@
    },
    "n_pub_dated": 0,
    "scope_tags": [
+    "immigrants",
     "men",
     "taxpayers"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive",
+    "fixed_effects_within"
+   ]
   },
   {
    "id": "?dk_W4406432482:V1->?dk_W4406432482:V2",
@@ -82231,14 +84505,14 @@
       "V1->V5"
      ],
      "paper": "dk_W7167592887",
-     "design_pending": true,
+     "design_pending": false,
      "from": "beliefs.reemployment_wage_information",
      "to": "labor.applied_job_type.short_commute",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "information about re-employment wages of comparable workers",
      "to_wording": "applications to local vacancies",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -82246,8 +84520,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "RCT",
+       "record_id": "dk_W7167592887_c114",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "initially pessimistic unemployed job seekers (respondents who underestimated re-employment wages of comparable workers)",
       "initially pessimistic unemployed job seekers (large positive information shock)",
@@ -82425,7 +84705,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c41"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C4 row 0",
@@ -82433,7 +84715,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c4"
+       ]
       },
       {
        "cell": "dk_W7167592887::F3::C row 5",
@@ -82444,7 +84728,28 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W7167592887_c4",
+       "t": -2.04,
+       "approx": false,
+       "estimate": -0.047,
+       "se": 0.023,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C4",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c41",
+       "t": -1.84,
+       "approx": false,
+       "estimate": -0.07,
+       "se": 0.038,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA4::A::C1",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -82498,13 +84803,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 2023,
@@ -82516,7 +84821,9 @@
     "unemployed job seekers",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "RCT"
+   ]
   },
   {
    "id": "beliefs.reemployment_wage_information->labor.job_finding",
@@ -82529,14 +84836,14 @@
       "V1->V2"
      ],
      "paper": "dk_W7167592887",
-     "design_pending": true,
+     "design_pending": false,
      "from": "beliefs.reemployment_wage_information",
      "to": "labor.job_finding",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "information about re-employment wages of comparable workers",
      "to_wording": "job finding",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -82544,8 +84851,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "RCT",
+       "record_id": "dk_W7167592887_c115",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "initially optimistic unemployed job seekers (respondents who overestimated re-employment wages of comparable workers)",
       "initially pessimistic unemployed job seekers (respondents who underestimated re-employment wages of comparable workers)",
@@ -83060,7 +85373,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c37"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::E::C6 row 0",
@@ -83068,7 +85383,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c38"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::E::C7 row 0",
@@ -83076,7 +85393,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c39"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::E::C8 row 0",
@@ -83084,7 +85403,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c40"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C5 row 0",
@@ -83092,7 +85413,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c5"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C6 row 0",
@@ -83100,7 +85423,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c6"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C7 row 0",
@@ -83108,7 +85433,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c7"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C8 row 0",
@@ -83116,7 +85443,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c8"
+       ]
       },
       {
        "cell": "dk_W7167592887::F4::B row 1",
@@ -83167,7 +85496,108 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W7167592887_c115",
+       "t": 0.54,
+       "approx": false,
+       "estimate": 0.013,
+       "se": 0.024,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA11::A::C5",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c122",
+       "t": 2.24,
+       "approx": false,
+       "estimate": 0.11,
+       "se": 0.049,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA11::A::C5",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c37",
+       "t": 2.47,
+       "approx": false,
+       "estimate": 0.037,
+       "se": 0.015,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C5",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c38",
+       "t": 2.6,
+       "approx": false,
+       "estimate": 0.039,
+       "se": 0.015,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C6",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c39",
+       "t": 1.66,
+       "approx": false,
+       "estimate": 6349.0,
+       "se": 3830.0,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C7",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c40",
+       "t": 1.73,
+       "approx": false,
+       "estimate": 21.57,
+       "se": 12.5,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C8",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c5",
+       "t": 2.05,
+       "approx": false,
+       "estimate": 0.041,
+       "se": 0.02,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C5",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c6",
+       "t": 1.53,
+       "approx": false,
+       "estimate": 0.029,
+       "se": 0.019,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C6",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c7",
+       "t": 1.83,
+       "approx": false,
+       "estimate": 5211.0,
+       "se": 2843.0,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C7",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c8",
+       "t": 1.82,
+       "approx": false,
+       "estimate": 25.06,
+       "se": 13.78,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C8",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -83254,13 +85684,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 2023,
@@ -83273,7 +85703,9 @@
     "unemployed job seekers",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "RCT"
+   ]
   },
   {
    "id": "beliefs.reemployment_wage_information->labor.job_search_intensity",
@@ -83286,14 +85718,14 @@
       "V1->V4"
      ],
      "paper": "dk_W7167592887",
-     "design_pending": true,
+     "design_pending": false,
      "from": "beliefs.reemployment_wage_information",
      "to": "labor.job_search_intensity",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "information about re-employment wages of comparable workers",
      "to_wording": "search intensity",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -83301,8 +85733,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "RCT",
+       "record_id": "dk_W7167592887_c127",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "initially optimistic unemployed job seekers (respondents who overestimated re-employment wages of comparable workers)",
       "initially optimistic unemployed job seekers (large negative information shock)",
@@ -83466,7 +85904,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c35"
+       ]
       },
       {
        "cell": "dk_W7167592887::F3::D row 1",
@@ -83477,7 +85917,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W7167592887_c35",
+       "t": 2.9,
+       "approx": false,
+       "estimate": 0.4,
+       "se": 0.138,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C3",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -83531,13 +85982,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 2023,
@@ -83549,7 +86000,9 @@
     "unemployed job seekers",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "RCT"
+   ]
   },
   {
    "id": "beliefs.reemployment_wage_information->labor.wage_rate",
@@ -83563,14 +86016,14 @@
       "V1->V7"
      ],
      "paper": "dk_W7167592887",
-     "design_pending": true,
+     "design_pending": false,
      "from": "beliefs.reemployment_wage_information",
      "to": "labor.wage_rate",
      "sign": "?",
      "raw_sign": "?",
      "from_wording": "information about re-employment wages of comparable workers",
      "to_wording": "reservation wages",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -83581,8 +86034,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "RCT",
+       "record_id": "dk_W7167592887_c10",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "initially optimistic unemployed job seekers (respondents who overestimated re-employment wages of comparable workers)",
       "initially pessimistic unemployed job seekers (respondents who underestimated re-employment wages of comparable workers)",
@@ -84022,7 +86481,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c34"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA3::A::C2 row 0",
@@ -84030,7 +86491,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c2"
+       ]
       },
       {
        "cell": "dk_W7167592887::F3::B row 1",
@@ -84065,7 +86528,28 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W7167592887_c2",
+       "t": 4.88,
+       "approx": false,
+       "estimate": 0.039,
+       "se": 0.008,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::A::C2",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c34",
+       "t": -2.29,
+       "approx": false,
+       "estimate": -0.016,
+       "se": 0.007,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA3::E::C2",
+       "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -84174,13 +86658,13 @@
      "dk_W7167592887"
     ]
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "?",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 2023,
@@ -84193,7 +86677,9 @@
     "unemployed job seekers",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "RCT"
+   ]
   },
   {
    "id": "consumption.household_consumption->?dk_W2182087249:V6",
@@ -96726,14 +99212,14 @@
       "V1->V2"
      ],
      "paper": "dk_W2990010517",
-     "design_pending": true,
+     "design_pending": false,
      "from": "education.human_capital",
      "to": "?dk_W2990010517:V2",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "ignoring human capital",
      "to_wording": "estimates of adjustment costs",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -96743,8 +99229,19 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "structural_model",
+       "record_id": "dk_W2990010517_c10",
+       "basis": "record"
+      },
+      {
+       "strategy": "instrumental_variables",
+       "record_id": "dk_W2990010517_c4",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "Danish workers"
      ],
@@ -96755,9 +99252,9 @@
      "scope_source": null,
      "scope_disagreement": null,
      "years": {
-      "from": 2019,
-      "to": 2019,
-      "source": "publication"
+      "from": 1996,
+      "to": 2008,
+      "source": "design"
      },
      "evidence": [
       {
@@ -96866,7 +99363,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2990010517_c2"
+       ]
       },
       {
        "cell": "dk_W2990010517::T5::_::C2 row 3",
@@ -96874,7 +99373,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2990010517_c4"
+       ]
       },
       {
        "cell": "dk_W2990010517::T5::_::C5 row 3",
@@ -96882,10 +99383,43 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2990010517_c10"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2990010517_c10",
+       "t": null,
+       "approx": false,
+       "estimate": 4.83,
+       "se": null,
+       "strategy": "structural_model",
+       "source_table_id": "dk_W2990010517::T5::_::C5",
+       "statement": "In column (5): Artuç and McLaren (2015) estimator over occupations and sectors with demographic controls, allowing zero transitions and time-varying costs, the estimated mean switching cost scaled by…"
+      },
+      {
+       "record_id": "dk_W2990010517_c2",
+       "t": 121.53,
+       "approx": false,
+       "estimate": 4.618,
+       "se": 0.038,
+       "strategy": "structural_model",
+       "source_table_id": "dk_W2990010517::T5::_::C1",
+       "statement": "In column (1): full model with specific human capital, occupations and demographic controls, the estimated mean switching cost scaled by rho (mean C/rho) is 4.618."
+      },
+      {
+       "record_id": "dk_W2990010517_c4",
+       "t": 5.19,
+       "approx": false,
+       "estimate": 4.072,
+       "se": 0.785,
+       "strategy": "instrumental_variables",
+       "source_table_id": "dk_W2990010517::T5::_::C2",
+       "statement": "In column (2): Artuç, Chaudhuri, and McLaren (2010) IV, homogeneous workers, no preference parameters, sectors only, the estimated mean switching cost scaled by rho (mean C/rho) is 4.072."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -96928,23 +99462,26 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
-    "from": 2019,
-    "to": 2019
+    "from": 1996,
+    "to": 2008
    },
-   "n_pub_dated": 1,
+   "n_pub_dated": 0,
    "scope_tags": [
     "workers"
    ],
-   "strategies": []
+   "strategies": [
+    "instrumental_variables",
+    "structural_model"
+   ]
   },
   {
    "id": "education.human_capital->?dk_W4378472128:V5",
@@ -96957,14 +99494,14 @@
       "V4->V5"
      ],
      "paper": "dk_W4378472128",
-     "design_pending": true,
+     "design_pending": false,
      "from": "education.human_capital",
      "to": "?dk_W4378472128:V5",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "gender differences in human capital",
      "to_wording": "gender gap in unemployment",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -96974,8 +99511,24 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W4378472128_c3",
+       "basis": "record"
+      },
+      {
+       "strategy": "other",
+       "record_id": "dk_W4378472128_c38",
+       "basis": "record"
+      },
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W4378472128_c48",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "workers displaced by plant closures in manufacturing",
       "displaced men and women employed at closing manufacturing plants"
@@ -97184,7 +99737,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c38"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C3 row 8",
@@ -97192,10 +99747,33 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c3"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4378472128_c3",
+       "t": 41.81,
+       "approx": false,
+       "estimate": 0.12,
+       "se": 0.00287,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C3",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men re-matched to resemble the displaced women, men re-matched to resemble displaced women by 0.12 in the year of displac…"
+      },
+      {
+       "record_id": "dk_W4378472128_c38",
+       "t": -15.08,
+       "approx": false,
+       "estimate": -0.0199,
+       "se": 0.00132,
+       "strategy": "other",
+       "source_table_id": "dk_W4378472128::T2::_::C1",
+       "statement": "Gender differences in observable characteristics account for -0.0199 of the men-women difference in unemployment in the 1st year following displacement among displaced workers."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -97238,13 +99816,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1995,
@@ -97256,7 +99834,11 @@
     "women",
     "workers"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive",
+    "event_study",
+    "other"
+   ]
   },
   {
    "id": "education.human_capital->firm.innovation",
@@ -112802,7 +115384,7 @@
       "V2->V3"
      ],
      "paper": "dk_W7167491644",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.adoption",
      "to": "health.health_care_use.emergency_department",
      "sign": "0",
@@ -112908,7 +115490,7 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
@@ -112937,7 +115519,7 @@
       "V2->V4"
      ],
      "paper": "dk_W7167491644",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.adoption",
      "to": "income.benefit_dependence",
      "sign": "+",
@@ -113066,7 +115648,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -113095,7 +115677,7 @@
       "V2->V5"
      ],
      "paper": "dk_W7167491644",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.adoption",
      "to": "labor.unemployment",
      "sign": "+",
@@ -113224,7 +115806,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -115579,7 +118161,7 @@
       "V1->V3"
      ],
      "paper": "dk_W7167491644",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.child_protection_registration",
      "to": "health.health_care_use.emergency_department",
      "sign": "+",
@@ -115685,7 +118267,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -137575,7 +140157,7 @@
       "V7->V8"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.placement_instability",
      "to": "education.educational_inequality",
      "sign": "+",
@@ -137680,7 +140262,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -169976,6 +172558,228 @@
    "strategies": []
   },
   {
+   "id": "income.household->consumption.household_consumption",
+   "from": "income.household",
+   "to": "consumption.household_consumption",
+   "records": [
+    {
+     "id": "dk_W3000443959:V1->V2",
+     "merged_from": [
+      "V1->V2"
+     ],
+     "paper": "dk_W3000443959",
+     "design_pending": true,
+     "from": "income.household",
+     "to": "consumption.household_consumption",
+     "sign": "-",
+     "raw_sign": "+",
+     "from_wording": "income shocks",
+     "to_wording": "consumption",
+     "kind": "unknown",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "unknown",
+     "strategies": [],
+     "populations": [
+      "households that stand to lose from an interest rate hike (indebted, wealthy hand-to-mouth households)",
+      "households that stand to gain from an interest rate hike (wealthy creditor households)",
+      "households that stand to lose from an interest rate hike (e.g. wealthy hand-to-mouth debtors)",
+      "households that stand to gain from an interest rate hike (e.g. wealthy creditors)"
+     ],
+     "scope_tags": [
+      "all"
+     ],
+     "facets": {},
+     "scope_source": null,
+     "scope_disagreement": null,
+     "years": {
+      "from": 2020,
+      "to": 2020,
+      "source": "publication"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "We find that households that stand to lose from an interest rate hike are significantly more responsive to income shocks than those that stand to gain.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "with MPCs around 0.5, who typically own houses and have mortgages and other debts whose payments rise with interest rates",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We estimate the average MPC in the economy to be 0.5, close to estimates obtained from natural experiments.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We observe that these three groups are naturally separated along the dimension of unhedged interest rate exposure. See figure VIII in section 6.",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Figure VIII shows how the MPX varies across households, according to their URE, NNP, and income.",
+       "page": "25",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "a smaller group with MPCs around 0.25, who typically own houses and also have large liquid bank balances, and whose income rises with interest rates",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We find that households that stand to lose from an interest rate hike are significantly more responsive to income shocks than those that stand to gain.",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "the \"wealthy hand-to-mouth,\" with MPCs around 0.5, who typically own houses and have mortgages and other debts whose payments rise with interest rates; and the \"wealthy,\" a smaller group with MPCs around 0.25, who typically own houses and also have large liquid bank balances, and whose income rises…",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "the \"wealthy,\" a smaller group with MPCs around 0.25, who typically own houses and also have large liquid bank balances, and whose income rises with interest rates.",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "The top panel shows the estimated MPX for each decile of unhedged interest rate exposure. The deciles on the left contain households most negatively exposed to a rise in interest rates, those in the middle deciles have little exposure, while the two top deciles on the right have the most to gain fr…",
+       "page": "25",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We propose a new empirical method to estimate the response of consumption to permanent and transitory income shocks for different groups of households. We then apply this method to administrative data from Denmark.",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "We present a new method to measure MPCs from income and consumption panel data, building upon that of Blundell, Pistaferri, and Preston (2008) (henceforth BPP). We then apply our method to different groups of households in administrative data from Denmark.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "the \"wealthy hand-to-mouth,\" with MPCs around 0.5, who typically own houses and have mortgages and other debts whose payments rise with interest rates",
+       "page": "2",
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [],
+     "t": [],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S2",
+       "statement": "income shocks increase consumption",
+       "sign": "+",
+       "cause": "income shocks",
+       "effect": "consumption",
+       "population": "households that stand to lose from an interest rate hike (indebted, wealthy hand-to-mouth households)",
+       "period": null,
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S3",
+       "statement": "income shocks increase consumption",
+       "sign": "+",
+       "cause": "income shocks",
+       "effect": "consumption",
+       "population": "households that stand to gain from an interest rate hike (wealthy creditor households)",
+       "period": null,
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S4",
+       "statement": "Income shocks increase consumption.",
+       "sign": "+",
+       "cause": "income shocks",
+       "effect": "consumption",
+       "population": "households that stand to lose from an interest rate hike (e.g. wealthy hand-to-mouth debtors)",
+       "period": null,
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S5",
+       "statement": "Income shocks increase consumption.",
+       "sign": "+",
+       "cause": "income shocks",
+       "effect": "consumption",
+       "population": "households that stand to gain from an interest rate hike (e.g. wealthy creditors)",
+       "period": null,
+       "support": "assembled"
+      }
+     ],
+     "placement": {
+      "from": "loose",
+      "to": "alias"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W3000443959"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W3000443959"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": true,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "unknown": 1
+   },
+   "years": {
+    "from": 2020,
+    "to": 2020
+   },
+   "n_pub_dated": 1,
+   "scope_tags": [
+    "all"
+   ],
+   "strategies": []
+  },
+  {
    "id": "income.household->education.achievement",
    "from": "income.household",
    "to": "education.achievement",
@@ -178880,14 +181684,14 @@
       "V6->V2"
      ],
      "paper": "dk_W7167592887",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.applied_job_type.short_commute",
      "to": "labor.job_finding",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "narrowing the geographic scope of search",
      "to_wording": "job finding",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -178895,8 +181699,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "RCT",
+       "record_id": "dk_W7167592887_c115",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "initially pessimistic unemployed job seekers (respondents who underestimated re-employment wages of comparable workers)",
       "initially pessimistic unemployed job seekers",
@@ -179142,7 +181952,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c76"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA11::A::C5 row 2",
@@ -179150,7 +181962,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c122"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA12::A::C2 row 0",
@@ -179158,7 +181972,9 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c77"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA11::A::C5 row 0",
@@ -179166,7 +181982,9 @@
        "label": "single",
        "support": 1,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W7167592887_c115"
+       ]
       },
       {
        "cell": "dk_W7167592887::TA11::A::C6 row 2",
@@ -179193,7 +182011,48 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W7167592887_c115",
+       "t": 0.54,
+       "approx": false,
+       "estimate": 0.013,
+       "se": 0.024,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA11::A::C5",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c122",
+       "t": 2.24,
+       "approx": false,
+       "estimate": 0.11,
+       "se": 0.049,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA11::A::C5",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c76",
+       "t": 2.25,
+       "approx": false,
+       "estimate": 0.045,
+       "se": 0.02,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA12::A::C1",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      },
+      {
+       "record_id": "dk_W7167592887_c77",
+       "t": -0.35,
+       "approx": false,
+       "estimate": -0.006,
+       "se": 0.017,
+       "strategy": "RCT",
+       "source_table_id": "dk_W7167592887::TA12::A::C2",
+       "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -179247,13 +182106,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 2023,
@@ -179266,7 +182125,9 @@
     "unemployed job seekers",
     "working age"
    ],
-   "strategies": []
+   "strategies": [
+    "RCT"
+   ]
   },
   {
    "id": "labor.between_firm_worker_reallocation->firm.innovation",
@@ -189117,14 +191978,14 @@
       "V1->V2"
      ],
      "paper": "dk_W4378472128",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.job_displacement",
      "to": "labor.unemployment",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "job displacement",
      "to_wording": "risk of unemployment",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -189132,8 +191993,14 @@
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "event_study",
+       "record_id": "dk_W4378472128_c1",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "women employed at closing plants",
       "men employed at closing plants",
@@ -189547,7 +192414,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c2"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C2 row 8",
@@ -189555,7 +192424,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c2"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C2 row 20",
@@ -189563,7 +192434,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c2"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C1 row 10",
@@ -189571,7 +192444,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c1"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C1 row 8",
@@ -189579,7 +192454,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c1"
+       ]
       },
       {
        "cell": "dk_W4378472128::TL4::_::C1 row 20",
@@ -189587,10 +192464,93 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4378472128_c1"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4378472128_c1",
+       "t": 59.52,
+       "approx": false,
+       "estimate": 0.0982,
+       "se": 0.00165,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C1",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men by 0.0982 in the year of displacement, relative to matched non-displaced workers of the same gender."
+      },
+      {
+       "record_id": "dk_W4378472128_c2",
+       "t": 47.33,
+       "approx": false,
+       "estimate": 0.142,
+       "se": 0.003,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C2",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced women by 0.142 in the year of displacement, relative to matched non-displaced workers of the same gender."
+      },
+      {
+       "record_id": "dk_W4378472128_c3",
+       "t": 41.81,
+       "approx": false,
+       "estimate": 0.12,
+       "se": 0.00287,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C3",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men re-matched to resemble the displaced women, men re-matched to resemble displaced women by 0.12 in the year of displac…"
+      },
+      {
+       "record_id": "dk_W4378472128_c31",
+       "t": 35.57,
+       "approx": false,
+       "estimate": 0.0722,
+       "se": 0.00203,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C1",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, children below 18 years in the household by 0.0722 in the year of displacement, relative to matched non-displaced wo…"
+      },
+      {
+       "record_id": "dk_W4378472128_c32",
+       "t": 34.55,
+       "approx": false,
+       "estimate": 0.132,
+       "se": 0.00382,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C2",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, children below 18 years in the household by 0.132 in the year of displacement, relative to matched non-displaced w…"
+      },
+      {
+       "record_id": "dk_W4378472128_c34",
+       "t": 47.88,
+       "approx": false,
+       "estimate": 0.124,
+       "se": 0.00259,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C4",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, no children below 18 years in the household by 0.124 in the year of displacement, relative to matched non-displaced…"
+      },
+      {
+       "record_id": "dk_W4378472128_c35",
+       "t": 32.5,
+       "approx": false,
+       "estimate": 0.156,
+       "se": 0.0048,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL7::_::C5",
+       "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, no children below 18 years in the household by 0.156 in the year of displacement, relative to matched non-displace…"
+      },
+      {
+       "record_id": "dk_W4378472128_c5",
+       "t": -12.88,
+       "approx": false,
+       "estimate": -0.282,
+       "se": 0.0219,
+       "strategy": "event_study",
+       "source_table_id": "dk_W4378472128::TL4::_::C5",
+       "statement": "Job displacement caused by a plant closure changes changes in earnings for displaced women by -0.282 in the year of displacement, relative to matched non-displaced workers of the same gender."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -189655,13 +192615,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1995,
@@ -189673,7 +192633,9 @@
     "women",
     "workers"
    ],
-   "strategies": []
+   "strategies": [
+    "event_study"
+   ]
   },
   {
    "id": "labor.job_displacement->labor.wage_rate",
@@ -212434,7 +215396,7 @@
       "V1->V2"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "education.attainment",
      "sign": "-",
@@ -212592,7 +215554,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -212621,7 +215583,7 @@
       "V1->V4"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "education.dropout",
      "sign": "+",
@@ -212727,7 +215689,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -212756,7 +215718,7 @@
       "V9->V8"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "education.educational_inequality",
      "sign": "+",
@@ -212863,7 +215825,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -212892,7 +215854,7 @@
       "V1->V5"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "education.school_absence",
      "sign": "+",
@@ -212998,7 +215960,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -213027,7 +215989,7 @@
       "V1->V6"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "education.tertiary_enrollment",
      "sign": "-",
@@ -213133,7 +216095,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
@@ -213162,7 +216124,7 @@
       "V1->V3"
      ],
      "paper": "dk_W7167459045",
-     "design_pending": true,
+     "design_pending": false,
      "from": "labor.work_experience",
      "to": "labor.labor_supply.paid_absence",
      "sign": "+",
@@ -213268,7 +216230,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -214164,283 +217126,6 @@
    ],
    "strategies": [
     "selection_on_observables"
-   ]
-  },
-  {
-   "id": "macro.real_interest_rate->consumption.household_consumption",
-   "from": "macro.real_interest_rate",
-   "to": "consumption.household_consumption",
-   "records": [
-    {
-     "id": "dk_W3122484461:V4->V5",
-     "merged_from": [
-      "V4->V5"
-     ],
-     "paper": "dk_W3122484461",
-     "design_pending": false,
-     "from": "macro.real_interest_rate",
-     "to": "consumption.household_consumption",
-     "sign": "-",
-     "raw_sign": "-",
-     "from_wording": "1-year real interest rate",
-     "to_wording": "aggregate consumption growth",
-     "kind": "associational",
-     "verdict": "accepted",
-     "reason": null,
-     "tier": "unanimous",
-     "flags": [],
-     "support": 2,
-     "k": 2,
-     "label": "all",
-     "design_basis": "observational",
-     "strategies": [
-      {
-       "strategy": "structural_model",
-       "record_id": "dk_W3122484461_c4",
-       "basis": "record"
-      }
-     ],
-     "populations": [
-      "Danish households",
-      "US households",
-      "Danish households (aggregate economy)",
-      "US households (aggregate economy)"
-     ],
-     "scope_tags": [
-      "working age",
-      "Denmark vs the United States"
-     ],
-     "facets": {
-      "unit": {
-       "id": "unit.households",
-       "label": "households"
-      },
-      "sex": {
-       "id": "sex.all",
-       "label": "all"
-      },
-      "life_stage": {
-       "id": "life_stage.working_age",
-       "label": "working age"
-      },
-      "comparison": {
-       "id": "comparison.denmark_vs_the_united_states",
-       "label": "Denmark vs the United States"
-      }
-     },
-     "scope_source": "estimates",
-     "scope_disagreement": "The stated scope frames the claim as about Danish and US households in the aggregate, whereas the Danish main column is restricted to households headed by a 30-55 year old (in 2008) excluding business owners and income tails, and the US main column is the unrestricted 2016 SCF cross-section.",
-     "years": {
-      "from": 2004,
-      "to": 2016,
-      "source": "estimates"
-     },
-     "evidence": [
-      {
-       "kind": "abstract",
-       "text": "We use our results to analyze monetary policy transmission mechanisms in both Denmark and the United States.",
-       "page": null,
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We estimate that, in Denmark, a 1 percentage point rise in the 1-year real interest rate, which redistributes wealth from the wealthy hand-to-mouth debtors who pay interest to the wealthy creditors who receive it, reduces aggregate consumption growth by 29 basis points through this redistribution c…",
-       "page": "316",
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We follow the decomposition of Auclert (2019), who reports sufficient statistics that determine the effect of monetary policy redistribution on aggregate consumption.",
-       "page": "316",
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We use our results to analyze monetary policy transmission mechanisms in both Denmark and the United States.",
-       "page": "314",
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "Our estimates of the sufficient statistics for Denmark and the United States are shown in Table 4.",
-       "page": "337",
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We find this channel is much smaller in the US, where, relative to Denmark, household debt is lower and the interest rate paid on mortgages adjusts less frequently.",
-       "page": "316",
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "Specifically, we use the Survey of Consumer Finances (SCF) (Federal Reserve Board 2016)—which has detailed balance sheet information—to calculate households' URE and NNP positions, along with liquid wealth.",
-       "page": "337",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "introduction",
-       "text": "We divide the US population into deciles along each dimension and estimate each decile's MPX by interpolating the percentile of liquid wealth of the median household in each decile on the Danish MPX estimates by liquid wealth decile.",
-       "page": "337",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "introduction",
-       "text": "The interest rate exposure channel is also large in Denmark, while almost nonexistent in the United States.",
-       "page": "338",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "cell",
-       "text": "dk_W3122484461::T4::Denmark::CER row 0",
-       "page": null,
-       "label": "all",
-       "n_runs": 2
-      },
-      {
-       "kind": "cell",
-       "text": "dk_W3122484461::T4::UnitedStates::CER row 2",
-       "page": null,
-       "label": "all",
-       "n_runs": 2
-      }
-     ],
-     "cells": [
-      {
-       "cell": "dk_W3122484461::T4::Denmark::CER row 0",
-       "value": -0.29,
-       "label": "all",
-       "support": 2,
-       "k": 2,
-       "record_ids": [
-        "dk_W3122484461_c4"
-       ]
-      },
-      {
-       "cell": "dk_W3122484461::T4::UnitedStates::CER row 2",
-       "value": 0.01,
-       "label": "all",
-       "support": 2,
-       "k": 2,
-       "record_ids": [
-        "dk_W3122484461_c9"
-       ]
-      }
-     ],
-     "t": [
-      {
-       "record_id": "dk_W3122484461_c4",
-       "t": -29.0,
-       "approx": false,
-       "estimate": -0.29,
-       "se": 0.01,
-       "strategy": "structural_model",
-       "source_table_id": "dk_W3122484461::T4::Denmark::CER",
-       "statement": "In Denmark the interest rate exposure channel sufficient statistic E_R is -0.29, so a 1 percent rise in the real interest rate lowers aggregate household expenditure growth by 29 basis points through…"
-      },
-      {
-       "record_id": "dk_W3122484461_c9",
-       "t": 1.0,
-       "approx": false,
-       "estimate": 0.01,
-       "se": 0.01,
-       "strategy": "structural_model",
-       "source_table_id": "dk_W3122484461::T4::UnitedStates::CER",
-       "statement": "In the United States the interest rate exposure channel sufficient statistic E_R is 0.01, i.e. the channel is almost nonexistent, which the paper attributes to the lower prevalence of variable rate m…"
-      }
-     ],
-     "claims": [
-      {
-       "run": "stated_claims",
-       "id": "S6",
-       "statement": "The 1-year real interest rate decreases aggregate consumption growth",
-       "sign": "-",
-       "cause": "1-year real interest rate",
-       "effect": "aggregate consumption growth",
-       "population": "Danish households",
-       "period": null,
-       "support": "assembled"
-      },
-      {
-       "run": "stated_claims",
-       "id": "S7",
-       "statement": "The 1-year real interest rate decreases aggregate consumption growth",
-       "sign": "-",
-       "cause": "1-year real interest rate",
-       "effect": "aggregate consumption growth",
-       "population": "US households",
-       "period": null,
-       "support": "weak"
-      },
-      {
-       "run": "stated_claims_r2",
-       "id": "S6",
-       "statement": "A rise in the real interest rate decreases aggregate consumption growth",
-       "sign": "-",
-       "cause": "1-year real interest rate",
-       "effect": "aggregate consumption growth",
-       "population": "Danish households (aggregate economy)",
-       "period": null,
-       "support": "assembled"
-      },
-      {
-       "run": "stated_claims_r2",
-       "id": "S7",
-       "statement": "A rise in the real interest rate decreases aggregate consumption growth",
-       "sign": "-",
-       "cause": "1-year real interest rate",
-       "effect": "aggregate consumption growth",
-       "population": "US households (aggregate economy)",
-       "period": null,
-       "support": "weak"
-      }
-     ],
-     "placement": {
-      "from": "exact",
-      "to": "exact"
-     }
-    }
-   ],
-   "papers": [
-    "dk_W3122484461"
-   ],
-   "n_papers": 1,
-   "signs": {
-    "+": [],
-    "-": [
-     "dk_W3122484461"
-    ],
-    "0": [],
-    "?": []
-   },
-   "design_pending": false,
-   "consensus_sign": "-",
-   "has_contradiction": false,
-   "flags": [],
-   "causal": false,
-   "kinds": {
-    "associational": 1
-   },
-   "years": {
-    "from": 2004,
-    "to": 2016
-   },
-   "n_pub_dated": 0,
-   "scope_tags": [
-    "Denmark vs the United States",
-    "working age"
-   ],
-   "strategies": [
-    "structural_model"
    ]
   },
   {
@@ -219788,26 +222473,32 @@
       "V1->V4"
      ],
      "paper": "dk_W4405737563",
-     "design_pending": true,
+     "design_pending": false,
      "from": "migration.local_immigrant_share",
      "to": "income.labor",
-     "sign": "?",
-     "raw_sign": "?",
+     "sign": "+",
+     "raw_sign": "+",
      "from_wording": "immigrant generation (second or third generation)",
      "to_wording": "income",
-     "kind": "unknown",
-     "verdict": "rejected",
-     "reason": "contradicted_sign",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
      "tier": "contested",
      "flags": [
       "member_conflict",
-      "sign"
+      "sign_resolved_by_tables"
      ],
      "support": 2,
      "k": 2,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "dk_W4405737563_c6",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "second and third generation immigrants from various countries of origin, compared to native Danes",
       "second and third generation immigrants, relative to native Danes",
@@ -219815,6 +222506,10 @@
       "third generation immigrants in Denmark, relative to native Danes"
      ],
      "scope_tags": [
+      "men",
+      "parents",
+      "children",
+      "taxpayers",
       "immigrants"
      ],
      "facets": {},
@@ -220086,7 +222781,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c7"
+       ]
       },
       {
        "cell": "dk_W4405737563::F4::A row 14",
@@ -220094,7 +222791,9 @@
        "label": "all",
        "support": 2,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c7"
+       ]
       },
       {
        "cell": "dk_W4405737563::F4::A row 4",
@@ -220102,7 +222801,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c7"
+       ]
       },
       {
        "cell": "dk_W4405737563::F6::B row 10",
@@ -220118,7 +222819,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c6"
+       ]
       },
       {
        "cell": "dk_W4405737563::F2::A row 3",
@@ -220126,7 +222829,9 @@
        "label": "single",
        "support": 1,
        "k": 2,
-       "record_ids": []
+       "record_ids": [
+        "dk_W4405737563_c6"
+       ]
       },
       {
        "cell": "dk_W4405737563::F5::A row 12",
@@ -220193,7 +222898,28 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W4405737563_c6",
+       "t": null,
+       "approx": false,
+       "estimate": null,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W4405737563::F2",
+       "statement": "The correlational estimate of upward mobility (the group average of the fitted son's rank from Eq. (1)) is highest for Danish sons and falls as the income level of the paternal country of origin fall…"
+      },
+      {
+       "record_id": "dk_W4405737563_c7",
+       "t": null,
+       "approx": false,
+       "estimate": null,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W4405737563::F4",
+       "statement": "Over the life cycle, individuals whose paternal grandfather is an immigrant earn less than native Danes of the same age, by about $10,000-$20,000 in prime ages (20-50), in the pooled sample of all im…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -220262,20 +222988,20 @@
    ],
    "n_papers": 1,
    "signs": {
-    "+": [],
+    "+": [
+     "dk_W4405737563"
+    ],
     "-": [],
     "0": [],
-    "?": [
-     "dk_W4405737563"
-    ]
+    "?": []
    },
-   "design_pending": true,
-   "consensus_sign": "?",
+   "design_pending": false,
+   "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "associational": 1
    },
    "years": {
     "from": 1980,
@@ -220283,9 +223009,15 @@
    },
    "n_pub_dated": 0,
    "scope_tags": [
-    "immigrants"
+    "children",
+    "immigrants",
+    "men",
+    "parents",
+    "taxpayers"
    ],
-   "strategies": []
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "migration.local_immigrant_share->labor.routine_task_intensity",

@@ -3446,7 +3446,9 @@
  {
   "artid": "dk_W2990010517",
   "title": "Occupations and Import Competition: Evidence from Denmark",
-  "authors": [],
+  "authors": [
+   "Sharon Traiberman"
+  ],
   "year": 2019,
   "journal": "American Economic Review",
   "doi": "10.1257/aer.20161925",
@@ -3462,11 +3464,18 @@
   "n_stated": 2,
   "n_accepted": 1,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 50,
+  "n_headline": 3,
+  "strategies": {
+   "structural_model": 2,
+   "instrumental_variables": 1
+  },
+  "strategies_all": {
+   "structural_model": 32,
+   "instrumental_variables": 6,
+   "descriptive": 12
+  },
+  "main_strategy": "structural_model",
   "period": {
    "from": 1995,
    "to": 2005,
@@ -3480,7 +3489,38 @@
    "education.human_capital"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2990010517_c2",
+    "t": 121.53,
+    "approx": false,
+    "estimate": 4.618,
+    "se": 0.038,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W2990010517::T5::_::C1",
+    "statement": "In column (1): full model with specific human capital, occupations and demographic controls, the estimated mean switching cost scaled by rho (mean C/rho) is 4.618."
+   },
+   {
+    "record_id": "dk_W2990010517_c4",
+    "t": 5.19,
+    "approx": false,
+    "estimate": 4.072,
+    "se": 0.785,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2990010517::T5::_::C2",
+    "statement": "In column (2): Artuç, Chaudhuri, and McLaren (2010) IV, homogeneous workers, no preference parameters, sectors only, the estimated mean switching cost scaled by rho (mean C/rho) is 4.072."
+   },
+   {
+    "record_id": "dk_W2990010517_c10",
+    "t": null,
+    "approx": false,
+    "estimate": 4.83,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W2990010517::T5::_::C5",
+    "statement": "In column (5): Artuç and McLaren (2015) estimator over occupations and sectors with demographic controls, allowing zero transitions and time-varying costs, the estimated mean switching cost scaled by…"
+   }
+  ]
  },
  {
   "artid": "dk_W2999882579",
@@ -3588,6 +3628,49 @@
     "statement": "2.5-generation students whose non-native parent was born in Asia differ from native Danes in standardized class 9 Danish grades, in the OLS with the full covariate vector of Table 6, column (16)."
    }
   ]
+ },
+ {
+  "artid": "dk_W3000443959",
+  "title": "Consumption Heterogeneity: Micro Drivers and Macro Implications",
+  "authors": [
+   "E. Crawley",
+   "A. Kuchler"
+  ],
+  "year": 2020,
+  "journal": "Finance and Economics Discussion Series",
+  "doi": "10.17016/feds.2020.005",
+  "url": "https://doi.org/10.17016/feds.2020.005",
+  "citations": 28,
+  "journal_key": "financeandeconomicsdiscussionseries",
+  "k": 2,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2"
+  ],
+  "rule": "strict",
+  "n_stated": 3,
+  "n_accepted": 2,
+  "n_rejected": 0,
+  "n_designs": 0,
+  "n_headline": 0,
+  "strategies": {},
+  "strategies_all": {},
+  "main_strategy": null,
+  "period": {
+   "from": 2020,
+   "to": 2020,
+   "source": "publication"
+  },
+  "scope_tags": [
+   "all"
+  ],
+  "concepts": [
+   "consumption.household_consumption",
+   "income.household",
+   "macro.real_interest_rate"
+  ],
+  "n_unplaced": 0,
+  "headline": []
  },
  {
   "artid": "dk_W3001397820",
@@ -3788,6 +3871,49 @@
   ]
  },
  {
+  "artid": "dk_W3011188861",
+  "title": "Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data",
+  "authors": [
+   "Pablo A. Mitnik",
+   "A. Helsø",
+   "V. Bryant"
+  ],
+  "year": 2020,
+  "journal": "National Bureau of Economic Research",
+  "doi": "10.3386/w27835",
+  "url": "https://doi.org/10.3386/w27835",
+  "citations": 6,
+  "journal_key": "nationalbureauofeconomicresearch",
+  "k": 2,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2"
+  ],
+  "rule": "strict",
+  "n_stated": 4,
+  "n_accepted": 1,
+  "n_rejected": 0,
+  "n_designs": 0,
+  "n_headline": 0,
+  "strategies": {},
+  "strategies_all": {},
+  "main_strategy": null,
+  "period": {
+   "from": 1972,
+   "to": 2010,
+   "source": "scope"
+  },
+  "scope_tags": [
+   "all"
+  ],
+  "concepts": [
+   "?dk_W3011188861:V1",
+   "?dk_W3011188861:V4"
+  ],
+  "n_unplaced": 4,
+  "headline": []
+ },
+ {
   "artid": "dk_W3014661183",
   "title": "Time Discounting and Wealth Inequality",
   "authors": [
@@ -3862,6 +3988,48 @@
     "statement": "A higher elicited patience index is associated with a higher level of net wealth in 2015, measured in amounts (1,000 DKK) (Table 2, panel B, column 1)."
    }
   ]
+ },
+ {
+  "artid": "dk_W3016202740",
+  "title": "De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark",
+  "authors": [
+   "Rune Holst Scherg",
+   "Anders Ejrnæs"
+  ],
+  "year": 2020,
+  "journal": "Nordisk Tidsskrift for Kriminalvidenskab",
+  "doi": "10.7146/ntfk.v107i1.124801",
+  "url": "https://doi.org/10.7146/ntfk.v107i1.124801",
+  "citations": 2,
+  "journal_key": "nordisktidsskriftforkriminalvidenskab",
+  "k": 2,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2"
+  ],
+  "rule": "strict",
+  "n_stated": 1,
+  "n_accepted": 1,
+  "n_rejected": 0,
+  "n_designs": 0,
+  "n_headline": 0,
+  "strategies": {},
+  "strategies_all": {},
+  "main_strategy": null,
+  "period": {
+   "from": 2014,
+   "to": 2018,
+   "source": "scope"
+  },
+  "scope_tags": [
+   "all"
+  ],
+  "concepts": [
+   "?dk_W3016202740:V1",
+   "?dk_W3016202740:V2"
+  ],
+  "n_unplaced": 2,
+  "headline": []
  },
  {
   "artid": "dk_W3016333778",
@@ -4100,16 +4268,16 @@
  },
  {
   "artid": "dk_W3017597103",
-  "title": "Cognitive Consequences of Iodine Deficiency in Adolescence: Evidence from Salt Iodization in Denmark",
+  "title": "Cognitive consequences of iodine deficiency in adolescence: evidence from salt iodization in Denmark",
   "authors": [
-   "Serena, B.L."
+   "Benjamin Ly Serena"
   ],
-  "year": 2019,
-  "journal": "Scandinavian Journal of Economics",
+  "year": 2022,
+  "journal": "The Scandinavian Journal of Economics",
   "doi": "10.1111/sjoe.12473",
   "url": "https://onlinelibrary.wiley.com/doi/10.1111/sjoe.12473",
   "citations": 0,
-  "journal_key": "scandinavianjournalofeconomics",
+  "journal_key": "thescandinavianjournalofeconomics",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -4119,11 +4287,17 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 23,
+  "n_headline": 3,
+  "strategies": {
+   "difference_in_differences": 3
+  },
+  "strategies_all": {
+   "difference_in_differences": 19,
+   "other": 2,
+   "descriptive": 2
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1980,
    "to": 2011,
@@ -4137,7 +4311,38 @@
    "education.achievement"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3017597103_c2",
+    "t": 4.38,
+    "approx": false,
+    "estimate": 0.057,
+    "se": 0.013,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3017597103::T2::_::CDiscrete",
+    "statement": "The two salt iodization reforms combined raised the standardized high school GPA of students in below-median-iodine municipalities by 0.057 standard deviations relative to students in above-median-io…"
+   },
+   {
+    "record_id": "dk_W3017597103_c4",
+    "t": 4.7,
+    "approx": false,
+    "estimate": 0.094,
+    "se": 0.02,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3017597103::T2::_::CContinuous",
+    "statement": "The two salt iodization reforms combined raised standardized high school GPA by 0.094 standard deviations when moving from the 95th to the 5th percentile of iodine concentration in drinking water."
+   },
+   {
+    "record_id": "dk_W3017597103_c11",
+    "t": 3.88,
+    "approx": false,
+    "estimate": 0.0737,
+    "se": 0.019,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3017597103::T3::_::C1",
+    "statement": "Salt iodization raised the standardized high school GPA of students first treated at age 18 (the 1999 graduating cohort) by 0.0737 standard deviations, the intercept of the prediction line fitted thr…"
+   }
+  ]
  },
  {
   "artid": "dk_W3023179841",
@@ -4177,6 +4382,52 @@
    "wealth.net_wealth"
   ],
   "n_unplaced": 0,
+  "headline": []
+ },
+ {
+  "artid": "dk_W3023883332",
+  "title": "Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships",
+  "authors": [
+   "Herttua, K.",
+   "Vork, J.",
+   "Nielsen, J.B."
+  ],
+  "year": 2020,
+  "journal": "Marine Policy",
+  "doi": "10.1016/j.marpol.2020.103989",
+  "url": "https://doi.org/10.1016/j.marpol.2020.103989",
+  "citations": 5,
+  "journal_key": "marinepolicy",
+  "k": 2,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2"
+  ],
+  "rule": "strict",
+  "n_stated": 5,
+  "n_accepted": 4,
+  "n_rejected": 0,
+  "n_designs": 0,
+  "n_headline": 0,
+  "strategies": {},
+  "strategies_all": {},
+  "main_strategy": null,
+  "period": {
+   "from": 2004,
+   "to": 2014,
+   "source": "scope"
+  },
+  "scope_tags": [
+   "all"
+  ],
+  "concepts": [
+   "?dk_W3023883332:V1",
+   "?dk_W3023883332:V2",
+   "?dk_W3023883332:V3",
+   "?dk_W3023883332:V4",
+   "?dk_W3023883332:V5"
+  ],
+  "n_unplaced": 5,
   "headline": []
  },
  {
@@ -12717,7 +12968,10 @@
  {
   "artid": "dk_W4378472128",
   "title": "Gender gaps from labor market shocks",
-  "authors": [],
+  "authors": [
+   "Ria Ivandić",
+   "Anne Sophie Lassen"
+  ],
   "year": 2023,
   "journal": "Labour Economics",
   "doi": "10.1016/j.labeco.2023.102394",
@@ -12731,13 +12985,20 @@
   ],
   "rule": "strict",
   "n_stated": 7,
-  "n_accepted": 4,
-  "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 5,
+  "n_rejected": 0,
+  "n_designs": 57,
+  "n_headline": 12,
+  "strategies": {
+   "event_study": 9,
+   "other": 3
+  },
+  "strategies_all": {
+   "event_study": 44,
+   "descriptive": 4,
+   "other": 9
+  },
+  "main_strategy": "event_study",
   "period": {
    "from": 1995,
    "to": 2006,
@@ -12758,7 +13019,128 @@
    "labor.unemployment"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4378472128_c1",
+    "t": 59.52,
+    "approx": false,
+    "estimate": 0.0982,
+    "se": 0.00165,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL4::_::C1",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced men by 0.0982 in the year of displacement, relative to matched non-displaced workers of the same gender."
+   },
+   {
+    "record_id": "dk_W4378472128_c2",
+    "t": 47.33,
+    "approx": false,
+    "estimate": 0.142,
+    "se": 0.003,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL4::_::C2",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced women by 0.142 in the year of displacement, relative to matched non-displaced workers of the same gender."
+   },
+   {
+    "record_id": "dk_W4378472128_c3",
+    "t": 41.81,
+    "approx": false,
+    "estimate": 0.12,
+    "se": 0.00287,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL4::_::C3",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced men re-matched to resemble the displaced women, men re-matched to resemble displaced women by 0.12 in the year of displac…"
+   },
+   {
+    "record_id": "dk_W4378472128_c4",
+    "t": -15.68,
+    "approx": false,
+    "estimate": -0.196,
+    "se": 0.0125,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL4::_::C4",
+    "statement": "Job displacement caused by a plant closure changes changes in earnings for displaced men by -0.196 in the year of displacement, relative to matched non-displaced workers of the same gender."
+   },
+   {
+    "record_id": "dk_W4378472128_c5",
+    "t": -12.88,
+    "approx": false,
+    "estimate": -0.282,
+    "se": 0.0219,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL4::_::C5",
+    "statement": "Job displacement caused by a plant closure changes changes in earnings for displaced women by -0.282 in the year of displacement, relative to matched non-displaced workers of the same gender."
+   },
+   {
+    "record_id": "dk_W4378472128_c31",
+    "t": 35.57,
+    "approx": false,
+    "estimate": 0.0722,
+    "se": 0.00203,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL7::_::C1",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, children below 18 years in the household by 0.0722 in the year of displacement, relative to matched non-displaced wo…"
+   },
+   {
+    "record_id": "dk_W4378472128_c32",
+    "t": 34.55,
+    "approx": false,
+    "estimate": 0.132,
+    "se": 0.00382,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL7::_::C2",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, children below 18 years in the household by 0.132 in the year of displacement, relative to matched non-displaced w…"
+   },
+   {
+    "record_id": "dk_W4378472128_c34",
+    "t": 47.88,
+    "approx": false,
+    "estimate": 0.124,
+    "se": 0.00259,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL7::_::C4",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced men, no children below 18 years in the household by 0.124 in the year of displacement, relative to matched non-displaced…"
+   },
+   {
+    "record_id": "dk_W4378472128_c35",
+    "t": 32.5,
+    "approx": false,
+    "estimate": 0.156,
+    "se": 0.0048,
+    "strategy": "event_study",
+    "source_table_id": "dk_W4378472128::TL7::_::C5",
+    "statement": "Job displacement caused by a plant closure changes unemployment for displaced women, no children below 18 years in the household by 0.156 in the year of displacement, relative to matched non-displace…"
+   },
+   {
+    "record_id": "dk_W4378472128_c38",
+    "t": -15.08,
+    "approx": false,
+    "estimate": -0.0199,
+    "se": 0.00132,
+    "strategy": "other",
+    "source_table_id": "dk_W4378472128::T2::_::C1",
+    "statement": "Gender differences in observable characteristics account for -0.0199 of the men-women difference in unemployment in the 1st year following displacement among displaced workers."
+   },
+   {
+    "record_id": "dk_W4378472128_c40",
+    "t": -5.84,
+    "approx": false,
+    "estimate": -0.0101,
+    "se": 0.00173,
+    "strategy": "other",
+    "source_table_id": "dk_W4378472128::T2::_::C3",
+    "statement": "Gender differences in the returns to presence of a preschool child account for -0.0101 of the men-women difference in unemployment in the 1st year following displacement among displaced workers."
+   },
+   {
+    "record_id": "dk_W4378472128_c47",
+    "t": 2.9,
+    "approx": false,
+    "estimate": 0.0152,
+    "se": 0.00524,
+    "strategy": "other",
+    "source_table_id": "dk_W4378472128::T2::_::C6",
+    "statement": "Gender differences in the returns to presence of a preschool child account for 0.0152 of the men-women difference in changes in earnings in the 1st year following displacement among displaced workers."
+   }
+  ]
  },
  {
   "artid": "dk_W4381950776",
@@ -15714,13 +16096,17 @@
  {
   "artid": "dk_W4405737563",
   "title": "The life-cycle and opportunities of migrants and natives in the Danish experience",
-  "authors": [],
-  "year": 2024,
-  "journal": "Journal of Economic Behavior & Organization",
+  "authors": [
+   "Giacomo De Giorgi",
+   "Maurício Prado",
+   "Battista Severgnini"
+  ],
+  "year": 2025,
+  "journal": "Journal of Economic Behavior and Organization",
   "doi": "10.1016/j.jebo.2024.106867",
   "url": "https://doi.org/10.1016/j.jebo.2024.106867",
   "citations": 2,
-  "journal_key": "journalofeconomicbehaviororganization",
+  "journal_key": "journalofeconomicbehaviorandorganization",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -15728,29 +16114,78 @@
   ],
   "rule": "strict",
   "n_stated": 4,
-  "n_accepted": 1,
-  "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 2,
+  "n_rejected": 0,
+  "n_designs": 87,
+  "n_headline": 4,
+  "strategies": {
+   "descriptive": 4
+  },
+  "strategies_all": {
+   "descriptive": 67,
+   "fixed_effects_within": 20
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1980,
    "to": 2019,
    "source": "scope"
   },
   "scope_tags": [
+   "children",
    "immigrants",
    "men",
+   "parents",
    "taxpayers"
   ],
   "concepts": [
    "?dk_W4405737563:V5",
-   "income.labor"
+   "income.labor",
+   "migration.local_immigrant_share"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4405737563_c6",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4405737563::F2",
+    "statement": "The correlational estimate of upward mobility (the group average of the fitted son's rank from Eq. (1)) is highest for Danish sons and falls as the income level of the paternal country of origin fall…"
+   },
+   {
+    "record_id": "dk_W4405737563_c7",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4405737563::F4",
+    "statement": "Over the life cycle, individuals whose paternal grandfather is an immigrant earn less than native Danes of the same age, by about $10,000-$20,000 in prime ages (20-50), in the pooled sample of all im…"
+   },
+   {
+    "record_id": "dk_W4405737563_c64",
+    "t": 23.0,
+    "approx": false,
+    "estimate": 0.23,
+    "se": 0.01,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4405737563::T6::_::C1",
+    "statement": "Among all available observations, the ethnic-capital term interacted with a high income country of origin carries a coefficient of 0.23 relative to Danes."
+   },
+   {
+    "record_id": "dk_W4405737563_c67",
+    "t": -6.5,
+    "approx": false,
+    "estimate": -0.13,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4405737563::T6::_::C1",
+    "statement": "Among all available observations, the ethnic-capital term interacted with a low income country of origin carries a coefficient of -0.13 relative to Danes."
+   }
+  ]
  },
  {
   "artid": "dk_W4406127739",
@@ -19976,14 +20411,14 @@
    "Catherine Quantin",
    "Daisy Brooks",
    "Can Bektas",
-   "Sinead T Brophy"
+   "Sinead Brophy"
   ],
   "year": 2026,
-  "journal": "International Journal for Population Data Science",
+  "journal": "International Journal of Population Data Science",
   "doi": "10.23889/ijpds.v11i5.3622",
   "url": "https://doi.org/10.23889/ijpds.v11i5.3622",
   "citations": null,
-  "journal_key": "internationaljournalforpopulationdatascience",
+  "journal_key": "internationaljournalofpopulationdatascience",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -19993,11 +20428,15 @@
   "n_stated": 8,
   "n_accepted": 7,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 8,
+  "n_headline": 8,
+  "strategies": {
+   "descriptive": 8
+  },
+  "strategies_all": {
+   "descriptive": 8
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2026,
    "to": 2026,
@@ -20017,7 +20456,88 @@
    "labor.work_experience"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7167459045_c1",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Compared with their peers, care-experienced children have poorer educational attainment (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c2",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Compared with their peers, care-experienced children have higher levels of school absence (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c3",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Compared with their peers, care-experienced children are more likely to drop out of school (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c4",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Compared with their peers, care-experienced children are more likely to be excluded from school (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c5",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Compared with their peers, care-experienced children are less likely to enroll in higher education (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c6",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among children in care, placement instability emerged as a risk factor for poor educational outcomes (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c7",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among children in care, placement with non-kin foster carers emerged as a risk factor for poor educational outcomes (preliminary education-sector synthesis of the included studies)."
+   },
+   {
+    "record_id": "dk_W7167459045_c8",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Among maltreated children, educational attainment differed little between those in care and those who were not in care (preliminary education-sector synthesis of the included studies) - a reported nu…"
+   }
+  ]
  },
  {
   "artid": "dk_W7167491644",
@@ -20028,17 +20548,17 @@
    "Laura Cowley",
    "Peter Fallesen",
    "Marcella Broccia",
-   "Troels Græsholt‐Knudsen",
+   "Troels Graesholt-Knudsen",
    "Eliazar Luna",
    "Catherine Quantin",
-   "Sinead T Brophy"
+   "Sinead Brophy"
   ],
   "year": 2026,
-  "journal": "International Journal for Population Data Science",
+  "journal": "International Journal of Population Data Science",
   "doi": "10.23889/ijpds.v11i5.3623",
   "url": "https://doi.org/10.23889/ijpds.v11i5.3623",
   "citations": null,
-  "journal_key": "internationaljournalforpopulationdatascience",
+  "journal_key": "internationaljournalofpopulationdatascience",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -20048,11 +20568,15 @@
   "n_stated": 6,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 6,
+  "n_headline": 6,
+  "strategies": {
+   "matching": 6
+  },
+  "strategies_all": {
+   "matching": 6
+  },
+  "main_strategy": "matching",
   "period": {
    "from": 2026,
    "to": 2026,
@@ -20069,7 +20593,68 @@
    "labor.unemployment"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7167491644_c1",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children in Wales recorded on the child protection (CP) register use emergency departments more than a propensity-matched cohort of children not known to social services."
+   },
+   {
+    "record_id": "dk_W7167491644_c2",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children looked after (CLA) in Wales do not use emergency departments more than a propensity-matched cohort of children not known to social services."
+   },
+   {
+    "record_id": "dk_W7167491644_c3",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children looked after (CLA) in Wales are more likely to depend on benefits in adulthood than propensity-matched children not known to social services."
+   },
+   {
+    "record_id": "dk_W7167491644_c4",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children looked after (CLA) in Wales are more likely to depend on benefits in adulthood than children on the child protection (CP) register."
+   },
+   {
+    "record_id": "dk_W7167491644_c5",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children looked after (CLA) in Wales are more likely to experience unemployment in adulthood than propensity-matched children not known to social services."
+   },
+   {
+    "record_id": "dk_W7167491644_c6",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "matching",
+    "source_table_id": null,
+    "statement": "Children looked after (CLA) in Wales are more likely to experience unemployment in adulthood than children on the child protection (CP) register."
+   }
+  ]
  },
  {
   "artid": "dk_W7167517776",
@@ -20161,17 +20746,17 @@
   "authors": [
    "Steffen Altmann",
    "Robert Mahlstedt",
-   "Malte Rattenborg",
+   "Malte Jacob Rattenborg",
    "Alexander Sebald",
    "Sonja Settele",
    "Johannes Wohlfart"
   ],
   "year": 2026,
-  "journal": "CESifo",
+  "journal": "CESifo Working Papers 12420 (January 2026)",
   "doi": "10.65864/2ozmiizto5",
   "url": "https://doi.org/10.65864/2ozmiizto5",
   "citations": null,
-  "journal_key": "cesifo",
+  "journal_key": "cesifoworkingpapers12420january2026",
   "k": 3,
   "runs": [
    "stated_claims",
@@ -20182,15 +20767,21 @@
   "n_stated": 7,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 202,
+  "n_headline": 17,
+  "strategies": {
+   "RCT": 17
+  },
+  "strategies_all": {
+   "RCT": 157,
+   "descriptive": 41,
+   "instrumental_variables": 4
+  },
+  "main_strategy": "RCT",
   "period": {
-   "from": 2026,
-   "to": 2026,
-   "source": "publication"
+   "from": 2023,
+   "to": 2024,
+   "source": "design"
   },
   "scope_tags": [
    "Initially optimistic vs pessimistic job seekers",
@@ -20207,7 +20798,178 @@
    "labor.wage_rate"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7167592887_c2",
+    "t": 4.88,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.008,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C2",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c4",
+    "t": -2.04,
+    "approx": false,
+    "estimate": -0.047,
+    "se": 0.023,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C4",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c5",
+    "t": 2.05,
+    "approx": false,
+    "estimate": 0.041,
+    "se": 0.02,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C5",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c6",
+    "t": 1.53,
+    "approx": false,
+    "estimate": 0.029,
+    "se": 0.019,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C6",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c7",
+    "t": 1.83,
+    "approx": false,
+    "estimate": 5211.0,
+    "se": 2843.0,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C7",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c8",
+    "t": 1.82,
+    "approx": false,
+    "estimate": 25.06,
+    "se": 13.78,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::A::C8",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c34",
+    "t": -2.29,
+    "approx": false,
+    "estimate": -0.016,
+    "se": 0.007,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C2",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c35",
+    "t": 2.9,
+    "approx": false,
+    "estimate": 0.4,
+    "se": 0.138,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C3",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c37",
+    "t": 2.47,
+    "approx": false,
+    "estimate": 0.037,
+    "se": 0.015,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C5",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c38",
+    "t": 2.6,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.015,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C6",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c39",
+    "t": 1.66,
+    "approx": false,
+    "estimate": 6349.0,
+    "se": 3830.0,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C7",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c40",
+    "t": 1.73,
+    "approx": false,
+    "estimate": 21.57,
+    "se": 12.5,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA3::E::C8",
+    "statement": "Among main-survey respondents with a large negative prior perception gap (log) in [-infinity;-0.150), the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c41",
+    "t": -1.84,
+    "approx": false,
+    "estimate": -0.07,
+    "se": 0.038,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA4::A::C1",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c76",
+    "t": 2.25,
+    "approx": false,
+    "estimate": 0.045,
+    "se": 0.02,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA12::A::C1",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c77",
+    "t": -0.35,
+    "approx": false,
+    "estimate": -0.006,
+    "se": 0.017,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA12::A::C2",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c115",
+    "t": 0.54,
+    "approx": false,
+    "estimate": 0.013,
+    "se": 0.024,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA11::A::C5",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   },
+   {
+    "record_id": "dk_W7167592887_c122",
+    "t": 2.24,
+    "approx": false,
+    "estimate": 0.11,
+    "se": 0.049,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7167592887::TA11::A::C5",
+    "statement": "Among main-survey respondents with a large positive prior perception gap (log) in (+0.150;+infinity], the randomized provision of information on the actual average re-employment wage of comparable wo…"
+   }
+  ]
  },
  {
   "artid": "dk_W7167798840",

@@ -180,6 +180,41 @@
    ]
   },
   {
+   "id": "income.household",
+   "label": "Household disposable income",
+   "domain": "income",
+   "parent": null,
+   "n_papers": 9,
+   "papers": [
+    "dk_W2592024171",
+    "dk_W4285059352",
+    "dk_W4400640392",
+    "dk_W3000443959",
+    "dk_W4385771522",
+    "dk_W4205546533",
+    "dk_W4406606478",
+    "dk_W4295270093",
+    "dk_W3174613487"
+   ]
+  },
+  {
+   "id": "consumption.household_consumption",
+   "label": "Consumption",
+   "domain": "consumption",
+   "parent": null,
+   "n_papers": 8,
+   "papers": [
+    "dk_W3000443959",
+    "dk_W3122484461",
+    "dk_W2801202920",
+    "dk_W4404126386",
+    "dk_W4417214164",
+    "dk_W2182087249",
+    "dk_W2770250470",
+    "dk_W4414214471"
+   ]
+  },
+  {
    "id": "health.general_health",
    "label": "General health",
    "domain": "health",
@@ -231,23 +266,6 @@
    ]
   },
   {
-   "id": "income.household",
-   "label": "Household disposable income",
-   "domain": "income",
-   "parent": null,
-   "n_papers": 8,
-   "papers": [
-    "dk_W2592024171",
-    "dk_W4285059352",
-    "dk_W4400640392",
-    "dk_W4385771522",
-    "dk_W4205546533",
-    "dk_W4406606478",
-    "dk_W4295270093",
-    "dk_W3174613487"
-   ]
-  },
-  {
    "id": "labor.labor_supply",
    "label": "Labor supply",
    "domain": "labor",
@@ -262,22 +280,6 @@
     "dk_W2566343964",
     "dk_W3174613487",
     "dk_W4384520838"
-   ]
-  },
-  {
-   "id": "consumption.household_consumption",
-   "label": "Consumption",
-   "domain": "consumption",
-   "parent": null,
-   "n_papers": 7,
-   "papers": [
-    "dk_W2801202920",
-    "dk_W4404126386",
-    "dk_W4417214164",
-    "dk_W2182087249",
-    "dk_W2770250470",
-    "dk_W3122484461",
-    "dk_W4414214471"
    ]
   },
   {
@@ -786,6 +788,19 @@
    ]
   },
   {
+   "id": "migration.local_immigrant_share",
+   "label": "Local immigrant share of the workforce",
+   "domain": "migration",
+   "parent": null,
+   "n_papers": 4,
+   "papers": [
+    "dk_W4402010035",
+    "dk_W4405737563",
+    "dk_W2139380543",
+    "dk_W3194211137"
+   ]
+  },
+  {
    "id": "preferences.household_utility",
    "label": "Household utility",
    "domain": "preferences",
@@ -1139,6 +1154,18 @@
    ]
   },
   {
+   "id": "macro.real_interest_rate",
+   "label": "Real interest rate",
+   "domain": "macro",
+   "parent": null,
+   "n_papers": 3,
+   "papers": [
+    "dk_W3000443959",
+    "dk_W3122484461",
+    "dk_W2187366138"
+   ]
+  },
+  {
    "id": "migration.emigration",
    "label": "Emigration",
    "domain": "migration",
@@ -1147,18 +1174,6 @@
    "papers": [
     "dk_W1940883135",
     "dk_W2915742260",
-    "dk_W3194211137"
-   ]
-  },
-  {
-   "id": "migration.local_immigrant_share",
-   "label": "Local immigrant share of the workforce",
-   "domain": "migration",
-   "parent": null,
-   "n_papers": 3,
-   "papers": [
-    "dk_W4402010035",
-    "dk_W2139380543",
     "dk_W3194211137"
    ]
   },
@@ -1673,17 +1688,6 @@
    "papers": [
     "dk_W3126668274",
     "dk_W4398782147"
-   ]
-  },
-  {
-   "id": "macro.real_interest_rate",
-   "label": "Real interest rate",
-   "domain": "macro",
-   "parent": null,
-   "n_papers": 2,
-   "papers": [
-    "dk_W3122484461",
-    "dk_W2187366138"
    ]
   },
   {
@@ -3514,8 +3518,8 @@
  "by_strategy": [
   {
    "strategy": "descriptive",
-   "n_papers": 40,
-   "n_records": 414,
+   "n_papers": 42,
+   "n_records": 426,
    "papers": [
     "dk_W2088663850",
     "dk_W217365405",
@@ -3545,6 +3549,7 @@
     "dk_W4396609384",
     "dk_W4401758291",
     "dk_W4403383968",
+    "dk_W4405737563",
     "dk_W4408147308",
     "dk_W4409457195",
     "dk_W4412178202",
@@ -3556,7 +3561,8 @@
     "dk_W7140075182",
     "dk_W7160336764",
     "dk_W7160825662",
-    "dk_W7160990014"
+    "dk_W7160990014",
+    "dk_W7167459045"
    ]
   },
   {
@@ -3591,8 +3597,8 @@
   },
   {
    "strategy": "difference_in_differences",
-   "n_papers": 21,
-   "n_records": 159,
+   "n_papers": 22,
+   "n_records": 162,
    "papers": [
     "dk_W2114357420",
     "dk_W217365405",
@@ -3600,6 +3606,7 @@
     "dk_W2594576665",
     "dk_W2915742260",
     "dk_W2951412023",
+    "dk_W3017597103",
     "dk_W3027650922",
     "dk_W3122551933",
     "dk_W3125335889",
@@ -3619,12 +3626,13 @@
   },
   {
    "strategy": "instrumental_variables",
-   "n_papers": 14,
-   "n_records": 85,
+   "n_papers": 15,
+   "n_records": 86,
    "papers": [
     "dk_W1992237160",
     "dk_W2566343964",
     "dk_W2594576665",
+    "dk_W2990010517",
     "dk_W3122965561",
     "dk_W3125335889",
     "dk_W3150066078",
@@ -3640,9 +3648,10 @@
   },
   {
    "strategy": "structural_model",
-   "n_papers": 13,
-   "n_records": 172,
+   "n_papers": 14,
+   "n_records": 174,
    "papers": [
+    "dk_W2990010517",
     "dk_W3097223093",
     "dk_W3122484461",
     "dk_W3122820076",
@@ -3678,12 +3687,13 @@
   },
   {
    "strategy": "event_study",
-   "n_papers": 6,
-   "n_records": 31,
+   "n_papers": 7,
+   "n_records": 40,
    "papers": [
     "dk_W2114357420",
     "dk_W3125335889",
     "dk_W4214667019",
+    "dk_W4378472128",
     "dk_W4386325880",
     "dk_W4409963010",
     "dk_W4412528527"
@@ -3691,12 +3701,13 @@
   },
   {
    "strategy": "other",
-   "n_papers": 5,
-   "n_records": 54,
+   "n_papers": 6,
+   "n_records": 57,
    "papers": [
     "dk_W2915742260",
     "dk_W4280556790",
     "dk_W4309042652",
+    "dk_W4378472128",
     "dk_W4391218902",
     "dk_W4404708997"
    ]
@@ -3714,6 +3725,26 @@
    ]
   },
   {
+   "strategy": "RCT",
+   "n_papers": 3,
+   "n_records": 36,
+   "papers": [
+    "dk_W2088663850",
+    "dk_W4320855144",
+    "dk_W7167592887"
+   ]
+  },
+  {
+   "strategy": "matching",
+   "n_papers": 3,
+   "n_records": 55,
+   "papers": [
+    "dk_W4367674959",
+    "dk_W4409457195",
+    "dk_W7167491644"
+   ]
+  },
+  {
    "strategy": "sibling_family_comparison",
    "n_papers": 3,
    "n_records": 7,
@@ -3724,30 +3755,12 @@
    ]
   },
   {
-   "strategy": "RCT",
-   "n_papers": 2,
-   "n_records": 19,
-   "papers": [
-    "dk_W2088663850",
-    "dk_W4320855144"
-   ]
-  },
-  {
    "strategy": "bunching",
    "n_papers": 2,
    "n_records": 6,
    "papers": [
     "dk_W2088663850",
     "dk_W4401758291"
-   ]
-  },
-  {
-   "strategy": "matching",
-   "n_papers": 2,
-   "n_records": 49,
-   "papers": [
-    "dk_W4367674959",
-    "dk_W4409457195"
    ]
   },
   {
@@ -3857,7 +3870,7 @@
   },
   {
    "year": 2019,
-   "n": 11,
+   "n": 10,
    "papers": [
     "dk_W2182087249",
     "dk_W2187366138",
@@ -3867,21 +3880,24 @@
     "dk_W2921836311",
     "dk_W2939678267",
     "dk_W2990010517",
-    "dk_W3017597103",
     "dk_W3023179841",
     "dk_W82324926"
    ]
   },
   {
    "year": 2020,
-   "n": 13,
+   "n": 17,
    "papers": [
     "dk_W2915742260",
     "dk_W2951412023",
+    "dk_W3000443959",
     "dk_W3001397820",
     "dk_W3005691992",
+    "dk_W3011188861",
     "dk_W3014661183",
+    "dk_W3016202740",
     "dk_W3016333778",
+    "dk_W3023883332",
     "dk_W3032946770",
     "dk_W3036557640",
     "dk_W3115523961",
@@ -3929,8 +3945,9 @@
   },
   {
    "year": 2022,
-   "n": 21,
+   "n": 22,
    "papers": [
+    "dk_W3017597103",
     "dk_W3119269050",
     "dk_W3122820076",
     "dk_W3123871901",
@@ -3981,7 +3998,7 @@
   },
   {
    "year": 2024,
-   "n": 22,
+   "n": 21,
    "papers": [
     "dk_W3124920828",
     "dk_W3150066078",
@@ -4003,16 +4020,16 @@
     "dk_W4402010035",
     "dk_W4403266133",
     "dk_W4404126386",
-    "dk_W4404705858",
-    "dk_W4405737563"
+    "dk_W4404705858"
    ]
   },
   {
    "year": 2025,
-   "n": 21,
+   "n": 22,
    "papers": [
     "dk_W4396748305",
     "dk_W4398232136",
+    "dk_W4405737563",
     "dk_W4406127739",
     "dk_W4406432482",
     "dk_W4407606308",
@@ -4437,6 +4454,13 @@
    "source": "design"
   },
   {
+   "artid": "dk_W3000443959",
+   "year": 2020,
+   "from": 2020,
+   "to": 2020,
+   "source": "publication"
+  },
+  {
    "artid": "dk_W3001397820",
    "year": 2020,
    "from": 2012,
@@ -4451,10 +4475,24 @@
    "source": "scope"
   },
   {
+   "artid": "dk_W3011188861",
+   "year": 2020,
+   "from": 1972,
+   "to": 2010,
+   "source": "scope"
+  },
+  {
    "artid": "dk_W3014661183",
    "year": 2020,
    "from": 2001,
    "to": 2015,
+   "source": "scope"
+  },
+  {
+   "artid": "dk_W3016202740",
+   "year": 2020,
+   "from": 2014,
+   "to": 2018,
    "source": "scope"
   },
   {
@@ -4466,7 +4504,7 @@
   },
   {
    "artid": "dk_W3017597103",
-   "year": 2019,
+   "year": 2022,
    "from": 1980,
    "to": 2011,
    "source": "scope"
@@ -4476,6 +4514,13 @@
    "year": 2019,
    "from": 1989,
    "to": 1989,
+   "source": "scope"
+  },
+  {
+   "artid": "dk_W3023883332",
+   "year": 2020,
+   "from": 2004,
+   "to": 2014,
    "source": "scope"
   },
   {
@@ -5215,7 +5260,7 @@
   },
   {
    "artid": "dk_W4405737563",
-   "year": 2024,
+   "year": 2025,
    "from": 1980,
    "to": 2019,
    "source": "scope"
@@ -5538,9 +5583,9 @@
   {
    "artid": "dk_W7167592887",
    "year": 2026,
-   "from": 2026,
-   "to": 2026,
-   "source": "publication"
+   "from": 2023,
+   "to": 2024,
+   "source": "design"
   },
   {
    "artid": "dk_W7167798840",
@@ -5749,6 +5794,16 @@
    ]
   },
   {
+   "journal": "Journal of Economic Behavior and Organization",
+   "n": 4,
+   "papers": [
+    "dk_W4214667019",
+    "dk_W4297509759",
+    "dk_W4402010035",
+    "dk_W4405737563"
+   ]
+  },
+  {
    "journal": "Journal of International Economics",
    "n": 4,
    "papers": [
@@ -5788,21 +5843,12 @@
    ]
   },
   {
-   "journal": "Journal of Economic Behavior & Organization",
+   "journal": "International Journal of Population Data Science",
    "n": 3,
    "papers": [
-    "dk_W2900238486",
-    "dk_W4386456085",
-    "dk_W4405737563"
-   ]
-  },
-  {
-   "journal": "Journal of Economic Behavior and Organization",
-   "n": 3,
-   "papers": [
-    "dk_W4214667019",
-    "dk_W4297509759",
-    "dk_W4402010035"
+    "dk_W4306789942",
+    "dk_W7167459045",
+    "dk_W7167491644"
    ]
   },
   {
@@ -5832,19 +5878,11 @@
    ]
   },
   {
-   "journal": "CESifo",
+   "journal": "Journal of Economic Behavior & Organization",
    "n": 2,
    "papers": [
-    "dk_W7167592887",
-    "dk_W7167798840"
-   ]
-  },
-  {
-   "journal": "International Journal for Population Data Science",
-   "n": 2,
-   "papers": [
-    "dk_W7167459045",
-    "dk_W7167491644"
+    "dk_W2900238486",
+    "dk_W4386456085"
    ]
   },
   {
@@ -5877,14 +5915,6 @@
    "papers": [
     "dk_W3036557640",
     "dk_W7138994761"
-   ]
-  },
-  {
-   "journal": "Scandinavian Journal of Economics",
-   "n": 2,
-   "papers": [
-    "dk_W3017597103",
-    "dk_W7134835134"
    ]
   },
   {
@@ -5935,6 +5965,20 @@
    "n": 1,
    "papers": [
     "dk_W3126420006"
+   ]
+  },
+  {
+   "journal": "CESifo",
+   "n": 1,
+   "papers": [
+    "dk_W7167798840"
+   ]
+  },
+  {
+   "journal": "CESifo Working Papers 12420 (January 2026)",
+   "n": 1,
+   "papers": [
+    "dk_W7167592887"
    ]
   },
   {
@@ -6043,6 +6087,13 @@
    ]
   },
   {
+   "journal": "Finance and Economics Discussion Series",
+   "n": 1,
+   "papers": [
+    "dk_W3000443959"
+   ]
+  },
+  {
    "journal": "Finance research letters",
    "n": 1,
    "papers": [
@@ -6103,13 +6154,6 @@
    "n": 1,
    "papers": [
     "dk_W4327859500"
-   ]
-  },
-  {
-   "journal": "International Journal of Population Data Science",
-   "n": 1,
-   "papers": [
-    "dk_W4306789942"
    ]
   },
   {
@@ -6239,6 +6283,13 @@
    ]
   },
   {
+   "journal": "Marine Policy",
+   "n": 1,
+   "papers": [
+    "dk_W3023883332"
+   ]
+  },
+  {
    "journal": "NBER Working Paper No. 27469",
    "n": 1,
    "papers": [
@@ -6260,6 +6311,13 @@
    ]
   },
   {
+   "journal": "National Bureau of Economic Research",
+   "n": 1,
+   "papers": [
+    "dk_W3011188861"
+   ]
+  },
+  {
    "journal": "National Tax Journal",
    "n": 1,
    "papers": [
@@ -6278,6 +6336,13 @@
    "n": 1,
    "papers": [
     "dk_W4413415251"
+   ]
+  },
+  {
+   "journal": "Nordisk Tidsskrift for Kriminalvidenskab",
+   "n": 1,
+   "papers": [
+    "dk_W3016202740"
    ]
   },
   {
@@ -6348,6 +6413,13 @@
    "n": 1,
    "papers": [
     "dk_W4296010520"
+   ]
+  },
+  {
+   "journal": "Scandinavian Journal of Economics",
+   "n": 1,
+   "papers": [
+    "dk_W7134835134"
    ]
   },
   {
@@ -6432,6 +6504,13 @@
    "n": 1,
    "papers": [
     "dk_W3123871901"
+   ]
+  },
+  {
+   "journal": "The Scandinavian Journal of Economics",
+   "n": 1,
+   "papers": [
+    "dk_W3017597103"
    ]
   },
   {
@@ -7280,11 +7359,22 @@
   },
   {
    "artid": "dk_W2990010517",
-   "n_headline": 0,
-   "n_with_t": 0,
+   "n_headline": 3,
+   "n_with_t": 2,
    "n_approx": 0,
-   "ts": [],
-   "median_abs_t": null
+   "ts": [
+    {
+     "t": 121.53,
+     "approx": false,
+     "record_id": "dk_W2990010517_c2"
+    },
+    {
+     "t": 5.19,
+     "approx": false,
+     "record_id": "dk_W2990010517_c4"
+    }
+   ],
+   "median_abs_t": 63.36
   },
   {
    "artid": "dk_W2999882579",
@@ -7319,6 +7409,14 @@
     }
    ],
    "median_abs_t": 6.84
+  },
+  {
+   "artid": "dk_W3000443959",
+   "n_headline": 0,
+   "n_with_t": 0,
+   "n_approx": 0,
+   "ts": [],
+   "median_abs_t": null
   },
   {
    "artid": "dk_W3001397820",
@@ -7384,6 +7482,14 @@
    "median_abs_t": 2.69
   },
   {
+   "artid": "dk_W3011188861",
+   "n_headline": 0,
+   "n_with_t": 0,
+   "n_approx": 0,
+   "ts": [],
+   "median_abs_t": null
+  },
+  {
    "artid": "dk_W3014661183",
    "n_headline": 2,
    "n_with_t": 2,
@@ -7401,6 +7507,14 @@
     }
    ],
    "median_abs_t": 4.86
+  },
+  {
+   "artid": "dk_W3016202740",
+   "n_headline": 0,
+   "n_with_t": 0,
+   "n_approx": 0,
+   "ts": [],
+   "median_abs_t": null
   },
   {
    "artid": "dk_W3016333778",
@@ -7503,6 +7617,30 @@
   },
   {
    "artid": "dk_W3017597103",
+   "n_headline": 3,
+   "n_with_t": 3,
+   "n_approx": 0,
+   "ts": [
+    {
+     "t": 4.38,
+     "approx": false,
+     "record_id": "dk_W3017597103_c2"
+    },
+    {
+     "t": 4.7,
+     "approx": false,
+     "record_id": "dk_W3017597103_c4"
+    },
+    {
+     "t": 3.88,
+     "approx": false,
+     "record_id": "dk_W3017597103_c11"
+    }
+   ],
+   "median_abs_t": 4.38
+  },
+  {
+   "artid": "dk_W3023179841",
    "n_headline": 0,
    "n_with_t": 0,
    "n_approx": 0,
@@ -7510,7 +7648,7 @@
    "median_abs_t": null
   },
   {
-   "artid": "dk_W3023179841",
+   "artid": "dk_W3023883332",
    "n_headline": 0,
    "n_with_t": 0,
    "n_approx": 0,
@@ -10136,11 +10274,72 @@
   },
   {
    "artid": "dk_W4378472128",
-   "n_headline": 0,
-   "n_with_t": 0,
+   "n_headline": 12,
+   "n_with_t": 12,
    "n_approx": 0,
-   "ts": [],
-   "median_abs_t": null
+   "ts": [
+    {
+     "t": 59.52,
+     "approx": false,
+     "record_id": "dk_W4378472128_c1"
+    },
+    {
+     "t": 47.33,
+     "approx": false,
+     "record_id": "dk_W4378472128_c2"
+    },
+    {
+     "t": 41.81,
+     "approx": false,
+     "record_id": "dk_W4378472128_c3"
+    },
+    {
+     "t": -15.68,
+     "approx": false,
+     "record_id": "dk_W4378472128_c4"
+    },
+    {
+     "t": -12.88,
+     "approx": false,
+     "record_id": "dk_W4378472128_c5"
+    },
+    {
+     "t": 35.57,
+     "approx": false,
+     "record_id": "dk_W4378472128_c31"
+    },
+    {
+     "t": 34.55,
+     "approx": false,
+     "record_id": "dk_W4378472128_c32"
+    },
+    {
+     "t": 47.88,
+     "approx": false,
+     "record_id": "dk_W4378472128_c34"
+    },
+    {
+     "t": 32.5,
+     "approx": false,
+     "record_id": "dk_W4378472128_c35"
+    },
+    {
+     "t": -15.08,
+     "approx": false,
+     "record_id": "dk_W4378472128_c38"
+    },
+    {
+     "t": -5.84,
+     "approx": false,
+     "record_id": "dk_W4378472128_c40"
+    },
+    {
+     "t": 2.9,
+     "approx": false,
+     "record_id": "dk_W4378472128_c47"
+    }
+   ],
+   "median_abs_t": 33.52
   },
   {
    "artid": "dk_W4381950776",
@@ -10726,11 +10925,22 @@
   },
   {
    "artid": "dk_W4405737563",
-   "n_headline": 0,
-   "n_with_t": 0,
+   "n_headline": 4,
+   "n_with_t": 2,
    "n_approx": 0,
-   "ts": [],
-   "median_abs_t": null
+   "ts": [
+    {
+     "t": 23.0,
+     "approx": false,
+     "record_id": "dk_W4405737563_c64"
+    },
+    {
+     "t": -6.5,
+     "approx": false,
+     "record_id": "dk_W4405737563_c67"
+    }
+   ],
+   "median_abs_t": 14.75
   },
   {
    "artid": "dk_W4406127739",
@@ -11988,7 +12198,7 @@
   },
   {
    "artid": "dk_W7167459045",
-   "n_headline": 0,
+   "n_headline": 8,
    "n_with_t": 0,
    "n_approx": 0,
    "ts": [],
@@ -11996,7 +12206,7 @@
   },
   {
    "artid": "dk_W7167491644",
-   "n_headline": 0,
+   "n_headline": 6,
    "n_with_t": 0,
    "n_approx": 0,
    "ts": [],
@@ -12012,11 +12222,97 @@
   },
   {
    "artid": "dk_W7167592887",
-   "n_headline": 0,
-   "n_with_t": 0,
+   "n_headline": 17,
+   "n_with_t": 17,
    "n_approx": 0,
-   "ts": [],
-   "median_abs_t": null
+   "ts": [
+    {
+     "t": 4.88,
+     "approx": false,
+     "record_id": "dk_W7167592887_c2"
+    },
+    {
+     "t": -2.04,
+     "approx": false,
+     "record_id": "dk_W7167592887_c4"
+    },
+    {
+     "t": 2.05,
+     "approx": false,
+     "record_id": "dk_W7167592887_c5"
+    },
+    {
+     "t": 1.53,
+     "approx": false,
+     "record_id": "dk_W7167592887_c6"
+    },
+    {
+     "t": 1.83,
+     "approx": false,
+     "record_id": "dk_W7167592887_c7"
+    },
+    {
+     "t": 1.82,
+     "approx": false,
+     "record_id": "dk_W7167592887_c8"
+    },
+    {
+     "t": -2.29,
+     "approx": false,
+     "record_id": "dk_W7167592887_c34"
+    },
+    {
+     "t": 2.9,
+     "approx": false,
+     "record_id": "dk_W7167592887_c35"
+    },
+    {
+     "t": 2.47,
+     "approx": false,
+     "record_id": "dk_W7167592887_c37"
+    },
+    {
+     "t": 2.6,
+     "approx": false,
+     "record_id": "dk_W7167592887_c38"
+    },
+    {
+     "t": 1.66,
+     "approx": false,
+     "record_id": "dk_W7167592887_c39"
+    },
+    {
+     "t": 1.73,
+     "approx": false,
+     "record_id": "dk_W7167592887_c40"
+    },
+    {
+     "t": -1.84,
+     "approx": false,
+     "record_id": "dk_W7167592887_c41"
+    },
+    {
+     "t": 2.25,
+     "approx": false,
+     "record_id": "dk_W7167592887_c76"
+    },
+    {
+     "t": -0.35,
+     "approx": false,
+     "record_id": "dk_W7167592887_c77"
+    },
+    {
+     "t": 0.54,
+     "approx": false,
+     "record_id": "dk_W7167592887_c115"
+    },
+    {
+     "t": 2.24,
+     "approx": false,
+     "record_id": "dk_W7167592887_c122"
+    }
+   ],
+   "median_abs_t": 2.04
   },
   {
    "artid": "dk_W7167798840",
@@ -12119,14 +12415,14 @@
   }
  ],
  "totals": {
-  "papers": 215,
-  "records_accepted": 797,
-  "records_rejected": 72,
-  "edges": 850,
+  "papers": 219,
+  "records_accepted": 807,
+  "records_rejected": 70,
+  "edges": 857,
   "contradictions": 2,
   "concepts_touched": 308,
-  "designs": 7614,
-  "headline": 973,
-  "headline_with_t": 771
+  "designs": 8047,
+  "headline": 1026,
+  "headline_with_t": 807
  }
 }

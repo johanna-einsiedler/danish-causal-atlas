@@ -1683,15 +1683,16 @@
     "spending"
    ],
    "abstract": false,
-   "n_papers": 7,
-   "n_edges": 9,
+   "n_papers": 8,
+   "n_edges": 11,
    "papers": [
+    "dk_W3000443959",
+    "dk_W3122484461",
     "dk_W2801202920",
     "dk_W4404126386",
     "dk_W4417214164",
     "dk_W2182087249",
     "dk_W2770250470",
-    "dk_W3122484461",
     "dk_W4414214471"
    ],
    "wordings": [
@@ -2005,6 +2006,127 @@
      ]
     },
     {
+     "text": "consumption",
+     "variants": [
+      "consumption"
+     ],
+     "normalised": "consumption",
+     "polarity": "same",
+     "how": "alias",
+     "roles": {
+      "effect": 6
+     },
+     "papers": [
+      {
+       "artid": "dk_W3000443959",
+       "variable": "V2",
+       "variable_name": "consumption",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "effect",
+         "sign": "+",
+         "other": "income shocks",
+         "statement": "income shocks increase consumption",
+         "population": "households that stand to lose from an interest rate hike (indebted, wealthy hand-to-mouth households)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "effect",
+         "sign": "+",
+         "other": "income shocks",
+         "statement": "income shocks increase consumption",
+         "population": "households that stand to gain from an interest rate hike (wealthy creditor households)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "income shocks",
+         "statement": "Income shocks increase consumption.",
+         "population": "households that stand to lose from an interest rate hike (e.g. wealthy hand-to-mouth debtors)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "effect",
+         "sign": "+",
+         "other": "income shocks",
+         "statement": "Income shocks increase consumption.",
+         "population": "households that stand to gain from an interest rate hike (e.g. wealthy creditors)"
+        }
+       ]
+      },
+      {
+       "artid": "dk_W4414214471",
+       "variable": "V6",
+       "variable_name": "consumption",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "-",
+         "other": "mandatory pension contributions",
+         "statement": "Mandatory pension contributions decrease consumption.",
+         "population": "individuals retiring in 2016 in Denmark"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S8",
+         "role": "effect",
+         "sign": "-",
+         "other": "increases in mandatory pension contributions",
+         "statement": "Increases in mandatory pension contributions decrease consumption.",
+         "population": "individuals with the largest increases in mandatory pension contributions (top 30 percent) versus those with small increases (bottom 30 percent)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "consumption growth",
+     "variants": [
+      "consumption growth"
+     ],
+     "normalised": "consumption growth",
+     "polarity": "same",
+     "how": "alias",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3000443959",
+       "variable": "V2",
+       "variable_name": "consumption",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "-",
+         "other": "interest rate",
+         "statement": "an increase in the interest rate decreases consumption growth",
+         "population": "Danish households (aggregate), through the interest rate exposure / redistribution channel alone"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "effect",
+         "sign": "-",
+         "other": "interest rate",
+         "statement": "An increase in the interest rate decreases consumption growth.",
+         "population": "aggregate of Danish households"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "text": "aggregate consumption growth",
      "variants": [
       "aggregate consumption growth"
@@ -2173,45 +2295,6 @@
          "other": "alimony payments",
          "statement": "Alimony payments increase the consumption drop experienced by women upon divorce",
          "population": "divorced women"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "text": "consumption",
-     "variants": [
-      "consumption"
-     ],
-     "normalised": "consumption",
-     "polarity": "same",
-     "how": "alias",
-     "roles": {
-      "effect": 2
-     },
-     "papers": [
-      {
-       "artid": "dk_W4414214471",
-       "variable": "V6",
-       "variable_name": "consumption",
-       "claims": [
-        {
-         "run": "stated_claims",
-         "id": "S5",
-         "role": "effect",
-         "sign": "-",
-         "other": "mandatory pension contributions",
-         "statement": "Mandatory pension contributions decrease consumption.",
-         "population": "individuals retiring in 2016 in Denmark"
-        },
-        {
-         "run": "stated_claims",
-         "id": "S8",
-         "role": "effect",
-         "sign": "-",
-         "other": "increases in mandatory pension contributions",
-         "statement": "Increases in mandatory pension contributions decrease consumption.",
-         "population": "individuals with the largest increases in mandatory pension contributions (top 30 percent) versus those with small increases (bottom 30 percent)"
         }
        ]
       }
@@ -2420,7 +2503,7 @@
     }
    ],
    "unplaced": false,
-   "n_wordings": 16
+   "n_wordings": 17
   },
   {
    "id": "consumption.marginal_propensity_to_consume",
@@ -37906,12 +37989,13 @@
     "family income after transfers"
    ],
    "abstract": false,
-   "n_papers": 8,
-   "n_edges": 10,
+   "n_papers": 9,
+   "n_edges": 11,
    "papers": [
     "dk_W2592024171",
     "dk_W4285059352",
     "dk_W4400640392",
+    "dk_W3000443959",
     "dk_W4385771522",
     "dk_W4205546533",
     "dk_W4406606478",
@@ -37992,6 +38076,63 @@
          "other": "the wage bargaining reform",
          "statement": "the wage bargaining reform has no effect on displaced workers’ income losses",
          "population": "displaced workers in sectors not affected by a comparable change in the wage bargaining system"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "income shocks",
+     "variants": [
+      "income shocks"
+     ],
+     "normalised": "income shock",
+     "polarity": "mirror",
+     "how": "loose",
+     "roles": {
+      "cause": 4
+     },
+     "papers": [
+      {
+       "artid": "dk_W3000443959",
+       "variable": "V1",
+       "variable_name": "income shocks",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "cause",
+         "sign": "+",
+         "other": "consumption",
+         "statement": "income shocks increase consumption",
+         "population": "households that stand to lose from an interest rate hike (indebted, wealthy hand-to-mouth households)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "cause",
+         "sign": "+",
+         "other": "consumption",
+         "statement": "income shocks increase consumption",
+         "population": "households that stand to gain from an interest rate hike (wealthy creditor households)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "consumption",
+         "statement": "Income shocks increase consumption.",
+         "population": "households that stand to lose from an interest rate hike (e.g. wealthy hand-to-mouth debtors)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "cause",
+         "sign": "+",
+         "other": "consumption",
+         "statement": "Income shocks increase consumption.",
+         "population": "households that stand to gain from an interest rate hike (e.g. wealthy creditors)"
         }
        ]
       }
@@ -38632,7 +38773,7 @@
     }
    ],
    "unplaced": false,
-   "n_wordings": 15
+   "n_wordings": 16
   },
   {
    "id": "income.labor",
@@ -38654,7 +38795,7 @@
    ],
    "abstract": false,
    "n_papers": 38,
-   "n_edges": 47,
+   "n_edges": 48,
    "papers": [
     "dk_W2951412023",
     "dk_W7138836206",
@@ -59607,9 +59748,10 @@
     "ex ante real rate"
    ],
    "abstract": false,
-   "n_papers": 2,
-   "n_edges": 2,
+   "n_papers": 3,
+   "n_edges": 3,
    "papers": [
+    "dk_W3000443959",
     "dk_W3122484461",
     "dk_W2187366138"
    ],
@@ -59648,6 +59790,45 @@
          "other": "propensity to spend a stimulus payment",
          "statement": "The marginal interest rate increases the propensity to spend a stimulus payment.",
          "population": "Danish holders of Special Pension accounts (about 5,000 survey respondents)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "interest rate",
+     "variants": [
+      "interest rate"
+     ],
+     "normalised": "interest rate",
+     "polarity": "same",
+     "how": "alias",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3000443959",
+       "variable": "V3",
+       "variable_name": "interest rate",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "cause",
+         "sign": "-",
+         "other": "consumption growth",
+         "statement": "an increase in the interest rate decreases consumption growth",
+         "population": "Danish households (aggregate), through the interest rate exposure / redistribution channel alone"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "cause",
+         "sign": "-",
+         "other": "consumption growth",
+         "statement": "An increase in the interest rate decreases consumption growth.",
+         "population": "aggregate of Danish households"
         }
        ]
       }
@@ -59712,7 +59893,7 @@
     }
    ],
    "unplaced": false,
-   "n_wordings": 2
+   "n_wordings": 3
   },
   {
    "id": "macro.recession",
@@ -61620,10 +61801,11 @@
     "local supply of immigrant labour"
    ],
    "abstract": false,
-   "n_papers": 3,
-   "n_edges": 3,
+   "n_papers": 4,
+   "n_edges": 4,
    "papers": [
     "dk_W4402010035",
+    "dk_W4405737563",
     "dk_W2139380543",
     "dk_W3194211137"
    ],
@@ -82688,9 +82870,440 @@
    "n_wordings": 1
   },
   {
+   "id": "?dk_W3011188861:V1",
+   "label": "the tax system and the welfare state",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data.",
+   "definition": "One run treated the combined tax-and-transfer system as a single cause, which encompasses the two separately-named components.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3011188861"
+   ],
+   "wordings": [
+    {
+     "text": "the tax system and the welfare state",
+     "variants": [
+      "the tax system and the welfare state"
+     ],
+     "normalised": "the tax system and the welfare state",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3011188861",
+       "variable": "V1",
+       "variable_name": "the tax system and the welfare state",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+         "population": "individuals in Danish register data"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+         "population": "individuals in the Statistics of Income Mobility Panel"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3011188861",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3011188861:V2",
+   "label": "the tax system",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data.",
+   "definition": "The tax component alone is a real sub-part of the combined tax system and welfare state.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "the tax system",
+     "variants": [
+      "the tax system"
+     ],
+     "normalised": "the tax system",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3011188861",
+       "variable": "V2",
+       "variable_name": "the tax system",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The tax system decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The tax system decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3011188861",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3011188861:V3",
+   "label": "the welfare state",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data.",
+   "definition": "The welfare-state (transfer) component alone is a real sub-part of the combined tax system and welfare state.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "the welfare state",
+     "variants": [
+      "the welfare state"
+     ],
+     "normalised": "the welfare state",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3011188861",
+       "variable": "V3",
+       "variable_name": "the welfare state",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The welfare state decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "cause",
+         "sign": "-",
+         "other": "measured inequality of opportunity for income",
+         "statement": "The welfare state decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3011188861",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3011188861:V4",
+   "label": "measured inequality of opportunity for income",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data.",
+   "definition": "Single outcome quantity, measured IOp in income, shared by all runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3011188861"
+   ],
+   "wordings": [
+    {
+     "text": "measured inequality of opportunity for income",
+     "variants": [
+      "measured inequality of opportunity for income"
+     ],
+     "normalised": "measured inequality of opportunity for income",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 6
+     },
+     "papers": [
+      {
+       "artid": "dk_W3011188861",
+       "variable": "V4",
+       "variable_name": "measured inequality of opportunity for income",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "effect",
+         "sign": "-",
+         "other": "the tax system",
+         "statement": "The tax system decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "effect",
+         "sign": "-",
+         "other": "the tax system",
+         "statement": "The tax system decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "-",
+         "other": "the welfare state",
+         "statement": "The welfare state decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "effect",
+         "sign": "-",
+         "other": "the welfare state",
+         "statement": "The welfare state decreases measured inequality of opportunity for income",
+         "population": "1972-1975 birth cohorts"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "effect",
+         "sign": "-",
+         "other": "the tax system and the welfare state",
+         "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+         "population": "individuals in Danish register data"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "effect",
+         "sign": "-",
+         "other": "the tax system and the welfare state",
+         "statement": "The tax system and the welfare state decrease measured inequality of opportunity for income",
+         "population": "individuals in the Statistics of Income Mobility Panel"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3011188861",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3016202740:V1",
+   "label": "victimization",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark.",
+   "definition": "\"victimisation\" is only a spelling variant of \"victimization\".",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3016202740"
+   ],
+   "wordings": [
+    {
+     "text": "victimization",
+     "variants": [
+      "victimization"
+     ],
+     "normalised": "victimization",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W3016202740",
+       "variable": "V1",
+       "variable_name": "victimization",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S1",
+         "role": "cause",
+         "sign": "-",
+         "other": "feelings of safety",
+         "statement": "victimization decreases feelings of safety",
+         "population": "panel respondents in the Danish Police's Safety Survey"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "victimisation",
+     "variants": [
+      "victimisation"
+     ],
+     "normalised": "victimisation",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W3016202740",
+       "variable": "V1",
+       "variable_name": "victimization",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S1",
+         "role": "cause",
+         "sign": "-",
+         "other": "feelings of safety",
+         "statement": "Victimisation decreases feelings of safety.",
+         "population": "panel respondents in the Danish Police's Safety Survey"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3016202740",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W3016202740:V2",
+   "label": "feelings of safety",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark.",
+   "definition": "Single wording for the respondents' perceived safety outcome.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3016202740"
+   ],
+   "wordings": [
+    {
+     "text": "feelings of safety",
+     "variants": [
+      "feelings of safety"
+     ],
+     "normalised": "feelings of safety",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3016202740",
+       "variable": "V2",
+       "variable_name": "feelings of safety",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S1",
+         "role": "effect",
+         "sign": "-",
+         "other": "victimization",
+         "statement": "victimization decreases feelings of safety",
+         "population": "panel respondents in the Danish Police's Safety Survey"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S1",
+         "role": "effect",
+         "sign": "-",
+         "other": "victimisation",
+         "statement": "Victimisation decreases feelings of safety.",
+         "population": "panel respondents in the Danish Police's Safety Survey"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3016202740",
+   "n_wordings": 1
+  },
+  {
    "id": "?dk_W3017597103:V1",
    "label": "salt iodization",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Cognitive Consequences of Iodine Deficiency in Adolescence: Evidence from Salt Iodization in Denmark.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Cognitive consequences of iodine deficiency in adolescence: evidence from salt iodization in Denmark.",
    "definition": "The iodization policy treatment, worded identically in both runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -82748,6 +83361,414 @@
    ],
    "unplaced": true,
    "paper": "dk_W3017597103",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3023883332:V1",
+   "label": "age ≥50 years (vs 30-49 years)",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "definition": "Older age category of the seafarer, same contrast in both runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "wordings": [
+    {
+     "text": "age ≥50 years (vs 30-49 years)",
+     "variants": [
+      "age ≥50 years (vs 30-49 years)",
+      "age ≥50 years (vs. 30-49 years)"
+     ],
+     "normalised": "age 50 year",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 4
+     },
+     "papers": [
+      {
+       "artid": "dk_W3023883332",
+       "variable": "V1",
+       "variable_name": "age ≥50 years (vs 30-49 years)",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+         "population": "officers"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+         "population": "officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+         "population": "non-officers"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3023883332",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3023883332:V2",
+   "label": "risk of evacuations",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "definition": "The outcome, evacuation risk of seafarers, worded identically across runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 4,
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "wordings": [
+    {
+     "text": "risk of evacuations",
+     "variants": [
+      "risk of evacuations"
+     ],
+     "normalised": "risk of evacuation",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 10
+     },
+     "papers": [
+      {
+       "artid": "dk_W3023883332",
+       "variable": "V2",
+       "variable_name": "risk of evacuations",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "age ≥50 years (vs 30-49 years)",
+         "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+         "population": "officers"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "+",
+         "other": "age ≥50 years (vs 30-49 years)",
+         "statement": "Age 50 years and over (compared with age 30-49 years) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "effect",
+         "sign": "+",
+         "other": "non-Danish European Union nationality (vs Danish)",
+         "statement": "Non-Danish European Union nationality (compared with Danish nationality) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "effect",
+         "sign": "-",
+         "other": "non-European Union nationality (vs Danish)",
+         "statement": "Non-European Union nationality (compared with Danish nationality) decreases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S8",
+         "role": "effect",
+         "sign": "+",
+         "other": "working as non-officer",
+         "statement": "Working as a non-officer increases risk of evacuations",
+         "population": "seafarers on Danish-flagged merchant ships"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "age ≥50 years (vs. 30-49 years)",
+         "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+         "population": "officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "effect",
+         "sign": "+",
+         "other": "age ≥50 years (vs. 30-49 years)",
+         "statement": "Age 50 years or older (vs. age 30-49 years) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "effect",
+         "sign": "+",
+         "other": "non-Danish European Union nationality (vs. Danish)",
+         "statement": "Non-Danish European Union nationality (vs. Danish nationality) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "effect",
+         "sign": "-",
+         "other": "non-European Union nationality (vs. Danish)",
+         "statement": "Non-European Union nationality (vs. Danish nationality) decreases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "effect",
+         "sign": "+",
+         "other": "working as non-officer",
+         "statement": "Working as non-officer increases risk of evacuations",
+         "population": "seafarers on Danish-flagged merchant ships; holds irrespective of the cause leading to evacuation"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3023883332",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3023883332:V3",
+   "label": "non-Danish European Union nationality (vs Danish)",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "definition": "A specific nationality contrast distinct from the non-EU contrast.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "wordings": [
+    {
+     "text": "non-Danish European Union nationality (vs Danish)",
+     "variants": [
+      "non-Danish European Union nationality (vs Danish)",
+      "non-Danish European Union nationality (vs. Danish)"
+     ],
+     "normalised": "non danish european union nationality",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3023883332",
+       "variable": "V3",
+       "variable_name": "non-Danish European Union nationality (vs Danish)",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Non-Danish European Union nationality (compared with Danish nationality) increases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Non-Danish European Union nationality (vs. Danish nationality) increases risk of evacuations",
+         "population": "non-officers"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3023883332",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3023883332:V4",
+   "label": "non-European Union nationality (vs Danish)",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "definition": "A different nationality category than non-Danish EU, so a separate regressor.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "wordings": [
+    {
+     "text": "non-European Union nationality (vs Danish)",
+     "variants": [
+      "non-European Union nationality (vs Danish)",
+      "non-European Union nationality (vs. Danish)"
+     ],
+     "normalised": "non european union nationality",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3023883332",
+       "variable": "V4",
+       "variable_name": "non-European Union nationality (vs Danish)",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "cause",
+         "sign": "-",
+         "other": "risk of evacuations",
+         "statement": "Non-European Union nationality (compared with Danish nationality) decreases risk of evacuations",
+         "population": "non-officers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "cause",
+         "sign": "-",
+         "other": "risk of evacuations",
+         "statement": "Non-European Union nationality (vs. Danish nationality) decreases risk of evacuations",
+         "population": "non-officers"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3023883332",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W3023883332:V5",
+   "label": "working as non-officer",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "definition": "Job rank of the seafarer (non-officer vs officer), same in both runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3023883332"
+   ],
+   "wordings": [
+    {
+     "text": "working as non-officer",
+     "variants": [
+      "working as non-officer"
+     ],
+     "normalised": "working as non officer",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W3023883332",
+       "variable": "V5",
+       "variable_name": "working as non-officer",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S8",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Working as a non-officer increases risk of evacuations",
+         "population": "seafarers on Danish-flagged merchant ships"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "cause",
+         "sign": "+",
+         "other": "risk of evacuations",
+         "statement": "Working as non-officer increases risk of evacuations",
+         "population": "seafarers on Danish-flagged merchant ships; holds irrespective of the cause leading to evacuation"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W3023883332",
    "n_wordings": 1
   },
   {
@@ -90616,7 +91637,7 @@
    "aliases": [],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "papers": [
     "dk_W4378472128"
    ],
@@ -90718,7 +91739,7 @@
    "aliases": [],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 1,
+   "n_edges": 2,
    "papers": [
     "dk_W4378472128"
    ],
