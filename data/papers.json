@@ -2,7 +2,11 @@
  {
   "artid": "dk_W1503225338",
   "title": "Taxation and International Migration of Superstars: Evidence from the European Football Market",
-  "authors": [],
+  "authors": [
+   "Henrik Jacobsen Kleven",
+   "Camille Landais",
+   "Emmanuel Saez"
+  ],
   "year": 2013,
   "journal": "American Economic Review",
   "doi": "10.1257/aer.103.5.1892",
@@ -18,11 +22,21 @@
   "n_stated": 5,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 76,
+  "n_headline": 7,
+  "strategies": {
+   "synthetic_control": 3,
+   "fixed_effects_within": 1,
+   "difference_in_differences": 3
+  },
+  "strategies_all": {
+   "descriptive": 8,
+   "synthetic_control": 10,
+   "difference_in_differences": 24,
+   "selection_on_observables": 8,
+   "fixed_effects_within": 26
+  },
+  "main_strategy": "synthetic_control",
   "period": {
    "from": 1985,
    "to": 2008,
@@ -42,7 +56,78 @@
    "tax.marginal_tax_rate.on_labor_income"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W1503225338_c9",
+    "t": 4.38,
+    "approx": false,
+    "estimate": 1.49,
+    "se": 0.34,
+    "strategy": "synthetic_control",
+    "source_table_id": "dk_W1503225338::T1::B1::C1",
+    "statement": "The 2004 Spanish 'Beckham law' raised the net-of-tax rate for foreign players and increased the fraction of top-quality foreign players (players selected at least once for the national team of their…"
+   },
+   {
+    "record_id": "dk_W1503225338_c13",
+    "t": 5.86,
+    "approx": false,
+    "estimate": 1.29,
+    "se": 0.22,
+    "strategy": "synthetic_control",
+    "source_table_id": "dk_W1503225338::T1::B1::C1",
+    "statement": "The 2004 Spanish 'Beckham law' raised the net-of-tax rate for foreign players and increased the share of top foreign players eligible for the Beckham regime: those who never played in the country bef…"
+   },
+   {
+    "record_id": "dk_W1503225338_c17",
+    "t": 3.86,
+    "approx": false,
+    "estimate": 3.01,
+    "se": 0.78,
+    "strategy": "synthetic_control",
+    "source_table_id": "dk_W1503225338::T1::B2::C1",
+    "statement": "The 1992 Danish preferential flat-tax scheme for foreigners (arrivals from 1991) raised the net-of-tax rate for foreign players and increased the fraction of top-quality foreign players (players sele…"
+   },
+   {
+    "record_id": "dk_W1503225338_c26",
+    "t": 6.85,
+    "approx": false,
+    "estimate": 1.089,
+    "se": 0.159,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W1503225338::T2::A::C3",
+    "statement": "In the multinomial location-choice model of equation (3) estimated on post-Bosman 1996-2008 player-year data, a higher net-of-tax rate measured with the top marginal tax rate raises the probability t…"
+   },
+   {
+    "record_id": "dk_W1503225338_c62",
+    "t": -3.44,
+    "approx": false,
+    "estimate": -0.512,
+    "se": 0.149,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W1503225338::T3::A::C4",
+    "statement": "In the multinomial location-choice model estimated on top leagues 1999-2008, the coefficient on log(1 - tau) x low is -0.512, so a higher net-of-tax rate for lower-quality players lowers their probab…"
+   },
+   {
+    "record_id": "dk_W1503225338_c63",
+    "t": 10.36,
+    "approx": false,
+    "estimate": 1.409,
+    "se": 0.136,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W1503225338::T3::A::C4",
+    "statement": "In the multinomial location-choice model estimated on top leagues 1999-2008, the coefficient on log(1 - tau) x top is 1.409, so a higher net-of-tax rate for top-quality players raises their probabili…"
+   },
+   {
+    "record_id": "dk_W1503225338_c66",
+    "t": -5.19,
+    "approx": false,
+    "estimate": -0.618,
+    "se": 0.119,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W1503225338::T3::A::C5",
+    "statement": "In the multinomial location-choice model estimated on top leagues 1999-2008, the coefficient on log(1 - tau_f) x domestic is -0.618, so a higher net-of-tax rate on foreigners lowers the probability t…"
+   }
+  ]
  },
  {
   "artid": "dk_W1827874139",
@@ -302,13 +387,13 @@
  },
  {
   "artid": "dk_W1940883135",
-  "title": "International Family Migration and the Dual-Earner Model",
+  "title": "International family migration and the dual-earner model",
   "authors": [
    "Martin D. Munk",
    "Till Nikolka",
    "Panu Poutvaara"
   ],
-  "year": 2017,
+  "year": 2022,
   "journal": "Journal of Economic Geography",
   "doi": "10.1093/jeg/lbab050",
   "url": "https://academic.oup.com/joeg/article/22/2/263/6516046",
@@ -323,11 +408,16 @@
   "n_stated": 6,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 55,
+  "n_headline": 7,
+  "strategies": {
+   "descriptive": 7
+  },
+  "strategies_all": {
+   "descriptive": 51,
+   "matching": 4
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1987,
    "to": 2008,
@@ -349,7 +439,78 @@
    "migration.emigration"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "c1",
+    "t": 17.45,
+    "approx": false,
+    "estimate": 1.396,
+    "se": 0.08,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T3::A::C1",
+    "statement": "Couples in which only the male partner is college educated (male power couples) are more likely to emigrate jointly from Denmark than low power couples in which neither partner is college educated."
+   },
+   {
+    "record_id": "c2",
+    "t": 2.65,
+    "approx": false,
+    "estimate": 0.265,
+    "se": 0.1,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T3::A::C1",
+    "statement": "Couples in which only the female partner is college educated (female power couples) are more likely to emigrate jointly from Denmark than low power couples."
+   },
+   {
+    "record_id": "c3",
+    "t": 18.87,
+    "approx": false,
+    "estimate": 1.321,
+    "se": 0.07,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T3::A::C1",
+    "statement": "Couples in which both partners are college educated (power couples) are more likely to emigrate jointly from Denmark than low power couples."
+   },
+   {
+    "record_id": "c12",
+    "t": 17.31,
+    "approx": false,
+    "estimate": 2.077,
+    "se": 0.12,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T3::B::C3",
+    "statement": "Among dual-earner couples with a male primary earner, the probability of joint emigration increases with the primary (male) earner's log earnings."
+   },
+   {
+    "record_id": "c15",
+    "t": 6.63,
+    "approx": false,
+    "estimate": 2.054,
+    "se": 0.31,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T3::B::C5",
+    "statement": "Among dual-earner couples with a female primary earner, the probability of joint emigration increases with the primary (female) earner's log earnings."
+   },
+   {
+    "record_id": "c28",
+    "t": 2.9,
+    "approx": false,
+    "estimate": 0.261,
+    "se": 0.09,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T9::_::C2",
+    "statement": "Female labor force participation immediately after migration is higher among couples who migrated to another Nordic country than among couples who migrated to non-Nordic EU countries or Switzerland."
+   },
+   {
+    "record_id": "c39",
+    "t": 3.02,
+    "approx": false,
+    "estimate": 0.181,
+    "se": 0.06,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W1940883135::T10::_::C2",
+    "statement": "Female labor force participation in 2008 is higher among couples residing in another Nordic country than among couples residing in non-Nordic EU countries or Switzerland."
+   }
+  ]
  },
  {
   "artid": "dk_W1992237160",
@@ -1703,9 +1864,12 @@
  {
   "artid": "dk_W2139380543",
   "title": "Immigrants' Effect on Native Workers: New Analysis on Longitudinal Data",
-  "authors": [],
+  "authors": [
+   "Mette Foged",
+   "Giovanni Peri"
+  ],
   "year": 2016,
-  "journal": "American Economic Journal Applied Economics",
+  "journal": "American Economic Journal: Applied Economics",
   "doi": "10.1257/app.20150114",
   "url": "https://www.aeaweb.org/articles?id=10.1257/app.20150114",
   "citations": 326,
@@ -1719,11 +1883,19 @@
   "n_stated": 5,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 152,
+  "n_headline": 2,
+  "strategies": {
+   "instrumental_variables": 2
+  },
+  "strategies_all": {
+   "fixed_effects_within": 42,
+   "instrumental_variables": 83,
+   "descriptive": 4,
+   "difference_in_differences": 22,
+   "event_study": 1
+  },
+  "main_strategy": "instrumental_variables",
   "period": {
    "from": 1991,
    "to": 2008,
@@ -1743,7 +1915,28 @@
    "migration.local_immigrant_share"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2139380543_c12",
+    "t": -3.7,
+    "approx": false,
+    "estimate": -0.851,
+    "se": 0.23,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2139380543::T6::_::C6",
+    "statement": "An increase in the refugee-country immigrant share of municipal employment reduced the manual intensity of employed low-skilled natives, identified within the whole individual working experience 1995…"
+   },
+   {
+    "record_id": "dk_W2139380543_c30",
+    "t": 3.9,
+    "approx": false,
+    "estimate": 1.781,
+    "se": 0.457,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2139380543::T6::_::C6",
+    "statement": "An increase in the refugee-country immigrant share of municipal employment raised the occupational mobility of employed low-skilled natives, identified within the whole individual working experience…"
+   }
+  ]
  },
  {
   "artid": "dk_W2153510573",
@@ -2562,8 +2755,8 @@
   "artid": "dk_W2247861621",
   "title": "Disruptive school peers and student outcomes",
   "authors": [
-   "Jannie H. G. Kristoffersen",
-   "Morten Visby Krægpøth",
+   "Jannie Helene Grone Kristoffersen",
+   "Morten Visby Kraegpoeth",
    "Helena Skyt Nielsen",
    "Marianne Simonsen"
   ],
@@ -2582,15 +2775,21 @@
   "n_stated": 5,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 82,
+  "n_headline": 2,
+  "strategies": {
+   "selection_on_observables": 2
+  },
+  "strategies_all": {
+   "selection_on_observables": 55,
+   "sibling_family_comparison": 3,
+   "descriptive": 24
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2015,
-   "to": 2015,
-   "source": "publication"
+   "from": 2010,
+   "to": 2013,
+   "source": "design"
   },
   "scope_tags": [
    "Arrival of a disruptive peer",
@@ -2607,7 +2806,28 @@
    "education.achievement"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2247861621_c2",
+    "t": -2.13,
+    "approx": false,
+    "estimate": -0.0168,
+    "se": 0.0079,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Receiving a child with criminal parents in the school-cohort lowers peers' reading test score by 0.0168 standard deviations (Table 3, Panel B, column (4): full model: school fixed effects, school-coh…"
+   },
+   {
+    "record_id": "dk_W2247861621_c3",
+    "t": -2.95,
+    "approx": false,
+    "estimate": -0.0233,
+    "se": 0.0079,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Receiving a child with a psychiatric diagnosis in the school-cohort lowers peers' reading test score by 0.0233 standard deviations (Table 3, Panel C, column (4): full model: school fixed effects, sch…"
+   }
+  ]
  },
  {
   "artid": "dk_W2265295982",
@@ -2812,8 +3032,8 @@
   "artid": "dk_W2463599556",
   "title": "Long-term consequences of workplace bullying on sickness absence",
   "authors": [
-   "Tine Louise Mundbjerg Eriksen",
-   "Annie Høgh",
+   "Tine L. Mundbjerg Eriksen",
+   "Annie Hogh",
    "Åse Marie Hansen"
   ],
   "year": 2016,
@@ -2831,11 +3051,15 @@
   "n_stated": 10,
   "n_accepted": 5,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 71,
+  "n_headline": 11,
+  "strategies": {
+   "selection_on_observables": 11
+  },
+  "strategies_all": {
+   "selection_on_observables": 71
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 2006,
    "to": 2007,
@@ -2859,7 +3083,118 @@
    "labor.labor_supply.participation"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2463599556_c1",
+    "t": 0.9,
+    "approx": false,
+    "estimate": 0.009,
+    "se": 0.01,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T4::_::CCoef",
+    "statement": "Conditional on individual, work-related and previous-health characteristics and workplace fixed effects, being male does not significantly change the probability of being a target of workplace bullyi…"
+   },
+   {
+    "record_id": "dk_W2463599556_c11",
+    "t": 2.31,
+    "approx": false,
+    "estimate": 2.135,
+    "se": 0.923,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::FemaleH::C2007",
+    "statement": "Among women, being a target of workplace bullying in 2006 is associated with significantly more weeks of long-term sickness absence in 2007, conditional on the full conditioning set and workplace fix…"
+   },
+   {
+    "record_id": "dk_W2463599556_c12",
+    "t": 2.23,
+    "approx": false,
+    "estimate": 1.941,
+    "se": 0.871,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::FemaleH::C2008",
+    "statement": "Among women, being a target of workplace bullying in 2006 is associated with significantly more weeks of long-term sickness absence in 2008, conditional on the full conditioning set and workplace fix…"
+   },
+   {
+    "record_id": "dk_W2463599556_c13",
+    "t": 1.84,
+    "approx": false,
+    "estimate": 1.735,
+    "se": 0.944,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::FemaleH::C2009",
+    "statement": "Among women, being a target of workplace bullying in 2006 is associated with significantly more weeks of long-term sickness absence in 2009, conditional on the full conditioning set and workplace fix…"
+   },
+   {
+    "record_id": "dk_W2463599556_c14",
+    "t": 1.2,
+    "approx": false,
+    "estimate": 1.037,
+    "se": 0.864,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::FemaleH::C2010",
+    "statement": "Among women, being a target of workplace bullying in 2006 is associated with no significant difference in weeks of long-term sickness absence in 2010, conditional on the full conditioning set and wor…"
+   },
+   {
+    "record_id": "dk_W2463599556_c15",
+    "t": 1.44,
+    "approx": false,
+    "estimate": 1.171,
+    "se": 0.813,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::FemaleH::C2011",
+    "statement": "Among women, being a target of workplace bullying in 2006 is associated with no significant difference in weeks of long-term sickness absence in 2011, conditional on the full conditioning set and wor…"
+   },
+   {
+    "record_id": "dk_W2463599556_c16",
+    "t": 0.44,
+    "approx": false,
+    "estimate": 0.317,
+    "se": 0.724,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::MaleH::C2007",
+    "statement": "Among men, being a target of workplace bullying in 2006 is not significantly associated with weeks of long-term sickness absence in 2007, conditional on the full conditioning set and workplace fixed…"
+   },
+   {
+    "record_id": "dk_W2463599556_c17",
+    "t": 0.79,
+    "approx": false,
+    "estimate": 0.564,
+    "se": 0.717,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::MaleH::C2008",
+    "statement": "Among men, being a target of workplace bullying in 2006 is not significantly associated with weeks of long-term sickness absence in 2008, conditional on the full conditioning set and workplace fixed…"
+   },
+   {
+    "record_id": "dk_W2463599556_c18",
+    "t": 0.73,
+    "approx": false,
+    "estimate": 0.471,
+    "se": 0.646,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::MaleH::C2009",
+    "statement": "Among men, being a target of workplace bullying in 2006 is not significantly associated with weeks of long-term sickness absence in 2009, conditional on the full conditioning set and workplace fixed…"
+   },
+   {
+    "record_id": "dk_W2463599556_c19",
+    "t": 0.96,
+    "approx": false,
+    "estimate": 0.517,
+    "se": 0.537,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::MaleH::C2010",
+    "statement": "Among men, being a target of workplace bullying in 2006 is not significantly associated with weeks of long-term sickness absence in 2010, conditional on the full conditioning set and workplace fixed…"
+   },
+   {
+    "record_id": "dk_W2463599556_c20",
+    "t": -0.43,
+    "approx": false,
+    "estimate": -0.35,
+    "se": 0.813,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W2463599556::T6::MaleH::C2011",
+    "statement": "Among men, being a target of workplace bullying in 2006 is not significantly associated with weeks of long-term sickness absence in 2011, conditional on the full conditioning set and workplace fixed…"
+   }
+  ]
  },
  {
   "artid": "dk_W2548529099",
@@ -3389,8 +3724,12 @@
  {
   "artid": "dk_W2548869093",
   "title": "Pension saving responses to anticipated tax changes: Evidence from monthly pension contribution records",
-  "authors": [],
-  "year": 2016,
+  "authors": [
+   "Claus Thustrup Kreiner",
+   "Søren Leth-Petersen",
+   "Peer Ebbesen Skov"
+  ],
+  "year": 2017,
   "journal": "Economics Letters",
   "doi": "10.1016/j.econlet.2016.11.011",
   "url": "https://doi.org/10.1016/j.econlet.2016.11.011",
@@ -3405,11 +3744,16 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 7,
+  "n_headline": 1,
+  "strategies": {
+   "instrumental_variables": 1
+  },
+  "strategies_all": {
+   "instrumental_variables": 4,
+   "difference_in_differences": 3
+  },
+  "main_strategy": "instrumental_variables",
   "period": {
    "from": 2008,
    "to": 2011,
@@ -3426,7 +3770,18 @@
    "wealth.saving.personal_pension_contribution"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2548869093_c3",
+    "t": -1.79,
+    "approx": true,
+    "estimate": -0.65,
+    "se": 0.363527,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2548869093::T1::_::C3",
+    "statement": "In the full sample, the increase in total contributions to tax subsidized retirement savings accounts induced by the anticipated tax change has no statistically significant effect on savings in finan…"
+   }
+  ]
  },
  {
   "artid": "dk_W2566343964",
@@ -3643,9 +3998,9 @@
   "artid": "dk_W2592024171",
   "title": "The Decentralization of Wage Bargaining and Income Losses after Worker Displacement",
   "authors": [
-   "Janssen, S."
+   "Simon Janssen"
   ],
-  "year": 2017,
+  "year": 2018,
   "journal": "Journal of the European Economic Association",
   "doi": "10.1093/jeea/jvx004",
   "url": "https://academic.oup.com/jeea/article/16/1/77/3064388",
@@ -3660,15 +4015,23 @@
   "n_stated": 3,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 65,
+  "n_headline": 8,
+  "strategies": {
+   "difference_in_differences": 4,
+   "fixed_effects_within": 4
+  },
+  "strategies_all": {
+   "difference_in_differences": 27,
+   "fixed_effects_within": 4,
+   "descriptive": 11,
+   "event_study": 23
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
-   "from": 2017,
-   "to": 2017,
-   "source": "publication"
+   "from": 1980,
+   "to": 2003,
+   "source": "design"
   },
   "scope_tags": [
    "Job displacement in a mass layoff",
@@ -3684,7 +4047,88 @@
    "labor.wage_rate"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2592024171_c8",
+    "t": -7.89,
+    "approx": false,
+    "estimate": -14331.219,
+    "se": 1816.255,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2592024171::TB1::_::CI",
+    "statement": "Relative to the pre-reform displacement effect, workers displaced after the 1989 decentralization of wage bargaining lost an additional 14,331.219 DKK of annual gross income in the first year after d…"
+   },
+   {
+    "record_id": "dk_W2592024171_c9",
+    "t": -6.54,
+    "approx": false,
+    "estimate": -15220.223,
+    "se": 2326.961,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2592024171::TB1::_::CI",
+    "statement": "Relative to the pre-reform displacement effect, workers displaced after the 1989 decentralization of wage bargaining lost an additional 15,220.223 DKK of annual gross income in the second year after…"
+   },
+   {
+    "record_id": "dk_W2592024171_c10",
+    "t": -6.82,
+    "approx": false,
+    "estimate": -16549.619,
+    "se": 2427.847,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2592024171::TB1::_::CI",
+    "statement": "Relative to the pre-reform displacement effect, workers displaced after the 1989 decentralization of wage bargaining lost an additional 16,549.619 DKK of annual gross income in the third year after d…"
+   },
+   {
+    "record_id": "dk_W2592024171_c18",
+    "t": 13.5,
+    "approx": false,
+    "estimate": 0.027,
+    "se": 0.002,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W2592024171::T2::_::C1",
+    "statement": "Among displaced workers who lost their jobs before the 1989 decentralization of wage bargaining, one more year of elapsed time since displacement is associated with a change of 0.027 log points in ho…"
+   },
+   {
+    "record_id": "dk_W2592024171_c19",
+    "t": -1.0,
+    "approx": false,
+    "estimate": -0.003,
+    "se": 0.003,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W2592024171::T2::_::C2",
+    "statement": "Among displaced workers who lost their jobs after the 1989 decentralization of wage bargaining, one more year of elapsed time since displacement is associated with a change of -0.003 log points in ho…"
+   },
+   {
+    "record_id": "dk_W2592024171_c20",
+    "t": 1.0,
+    "approx": false,
+    "estimate": 0.002,
+    "se": 0.002,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W2592024171::T2::_::C1",
+    "statement": "Among displaced workers who lost their jobs before the 1989 decentralization of wage bargaining, one more year of postdisplacement tenure is associated with a change of 0.002 log points in hourly wag…"
+   },
+   {
+    "record_id": "dk_W2592024171_c21",
+    "t": 4.0,
+    "approx": false,
+    "estimate": 0.012,
+    "se": 0.003,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W2592024171::T2::_::C2",
+    "statement": "Among displaced workers who lost their jobs after the 1989 decentralization of wage bargaining, one more year of postdisplacement tenure is associated with a change of 0.012 log points in hourly wage…"
+   },
+   {
+    "record_id": "dk_W2592024171_c28",
+    "t": 1.92,
+    "approx": false,
+    "estimate": 0.025,
+    "se": 0.013,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2592024171::T4::_::C1",
+    "statement": "Displaced workers with a predisplacement wage at or below the median who lost their jobs after the 1989 decentralization of wage bargaining show a change of 0.025 in the difference between their post…"
+   }
+  ]
  },
  {
   "artid": "dk_W2594576665",
@@ -6432,15 +6876,15 @@
   "artid": "dk_W3000443959",
   "title": "Consumption Heterogeneity: Micro Drivers and Macro Implications",
   "authors": [
-   "E. Crawley",
-   "A. Kuchler"
+   "Edmund Crawley",
+   "Andreas Kuchler"
   ],
   "year": 2020,
-  "journal": "Finance and Economics Discussion Series",
-  "doi": "10.17016/feds.2020.005",
+  "journal": "Finance and Economics Discussion Series 2020-005, Board of Governors of the Federal Reserve System",
+  "doi": "10.17016/FEDS.2020.005",
   "url": "https://doi.org/10.17016/feds.2020.005",
   "citations": 28,
-  "journal_key": "financeandeconomicsdiscussionseries",
+  "journal_key": "financeandeconomicsdiscussionseries2020005boardofgovernorsofthefederalreservesystem",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6450,15 +6894,20 @@
   "n_stated": 3,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 31,
+  "n_headline": 2,
+  "strategies": {
+   "structural_model": 2
+  },
+  "strategies_all": {
+   "structural_model": 28,
+   "descriptive": 3
+  },
+  "main_strategy": "structural_model",
   "period": {
-   "from": 2020,
-   "to": 2020,
-   "source": "publication"
+   "from": 2004,
+   "to": 2015,
+   "source": "design"
   },
   "scope_tags": [
    "all",
@@ -6470,7 +6919,28 @@
    "macro.real_interest_rate"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3000443959_c16",
+    "t": -8.67,
+    "approx": false,
+    "estimate": -0.26,
+    "se": 0.03,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W3000443959::TV::_::CER",
+    "statement": "The interest rate exposure channel is large: ER is -0.26, so a 1-percentage-point rise in the real interest rate reduces aggregate household expenditure growth by 26 basis points through redistributi…"
+   },
+   {
+    "record_id": "dk_W3000443959_c17",
+    "t": 49.0,
+    "approx": false,
+    "estimate": 0.49,
+    "se": 0.01,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W3000443959::TV::_::CS",
+    "statement": "The Hicksian scaling factor S is 0.49, which reduces the size of the intertemporal substitution channel of monetary policy by close to half."
+   }
+  ]
  },
  {
   "artid": "dk_W3001397820",
@@ -6674,16 +7144,16 @@
   "artid": "dk_W3011188861",
   "title": "Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data",
   "authors": [
-   "Pablo A. Mitnik",
-   "A. Helsø",
-   "V. Bryant"
+   "Pablo Mitnik",
+   "Anne-Line Helsø",
+   "Victoria L. Bryant"
   ],
   "year": 2020,
-  "journal": "National Bureau of Economic Research",
+  "journal": "NBER Working Paper Series, Working Paper 27835",
   "doi": "10.3386/w27835",
   "url": "https://doi.org/10.3386/w27835",
   "citations": 6,
-  "journal_key": "nationalbureauofeconomicresearch",
+  "journal_key": "nberworkingpaperseriesworkingpaper27835",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6693,11 +7163,13 @@
   "n_stated": 4,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 75,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 75
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1972,
    "to": 2010,
@@ -6794,15 +7266,15 @@
   "artid": "dk_W3016202740",
   "title": "De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark",
   "authors": [
-   "Rune Holst Scherg",
+   "Rune H. Scherg",
    "Anders Ejrnæs"
   ],
   "year": 2020,
-  "journal": "Nordisk Tidsskrift for Kriminalvidenskab",
+  "journal": "Nordisk Tidsskrift for Kriminalvidenskab 1/2020",
   "doi": "10.7146/ntfk.v107i1.124801",
   "url": "https://doi.org/10.7146/ntfk.v107i1.124801",
   "citations": 2,
-  "journal_key": "nordisktidsskriftforkriminalvidenskab",
+  "journal_key": "nordisktidsskriftforkriminalvidenskab12020",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -6812,11 +7284,17 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 47,
+  "n_headline": 3,
+  "strategies": {
+   "fixed_effects_within": 3
+  },
+  "strategies_all": {
+   "selection_on_observables": 14,
+   "fixed_effects_within": 30,
+   "difference_in_differences": 3
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
    "from": 2014,
    "to": 2018,
@@ -6830,7 +7308,38 @@
    "?dk_W3016202740:V2"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3016202740_c7",
+    "t": null,
+    "approx": false,
+    "estimate": 0.262,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3016202740::T2::_::C2",
+    "statement": "En ændring på én enhed i viktimiseringsomfang inden for det enkelte individ medfører en ændring på 0,262 point i utryghedsniveauet (FE-ændringsanalyse)."
+   },
+   {
+    "record_id": "dk_W3016202740_c8",
+    "t": null,
+    "approx": false,
+    "estimate": 0.214,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3016202740::T2::_::C3",
+    "statement": "En ændring i udsathed for mindre alvorlig kriminalitet inden for det enkelte individ øger utryghedsniveauet med 0,214 point (FE-ændringsanalyse)."
+   },
+   {
+    "record_id": "dk_W3016202740_c9",
+    "t": null,
+    "approx": false,
+    "estimate": 0.466,
+    "se": null,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3016202740::T2::_::C3",
+    "statement": "En ændring i udsathed for alvorlig kriminalitet inden for det enkelte individ øger utryghedsniveauet med 0,466 point (FE-ændringsanalyse)."
+   }
+  ]
  },
  {
   "artid": "dk_W3016333778",
@@ -7151,9 +7660,13 @@
  {
   "artid": "dk_W3022890915",
   "title": "Do Employer Pension Contributions Reflect Employee Preferences? Evidence from a Retirement Savings Reform in Denmark",
-  "authors": [],
+  "authors": [
+   "Itzik Fadlon",
+   "Jessica Laird",
+   "Torben Heien Nielsen"
+  ],
   "year": 2016,
-  "journal": "American Economic Journal Applied Economics",
+  "journal": "American Economic Journal: Applied Economics",
   "doi": "10.1257/app.20150015",
   "url": "https://www.aeaweb.org/articles?id=10.1257/app.20150015",
   "citations": 4,
@@ -7166,13 +7679,20 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 2,
-  "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 3,
+  "n_rejected": 0,
+  "n_designs": 24,
+  "n_headline": 6,
+  "strategies": {
+   "difference_in_differences": 5,
+   "descriptive": 1
+  },
+  "strategies_all": {
+   "descriptive": 10,
+   "difference_in_differences": 13,
+   "other": 1
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1999,
    "to": 1999,
@@ -7187,12 +7707,74 @@
    "working age"
   ],
   "concepts": [
+   "?dk_W3022890915:V1",
    "?dk_W3022890915:V3",
    "wealth.saving.employer_pension_contribution",
    "wealth.saving.personal_pension_contribution"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3022890915_c2",
+    "t": -10.75,
+    "approx": false,
+    "estimate": -2.182,
+    "se": 0.203,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3022890915::T2::A::C4",
+    "statement": "In 1999 employers in workplaces where all employees were above the top income tax threshold cut their capital pension contribution rate by 2.18 percentage points more than employers in workplaces wit…"
+   },
+   {
+    "record_id": "dk_W3022890915_c9",
+    "t": 0.65,
+    "approx": false,
+    "estimate": 0.096,
+    "se": 0.147,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3022890915::T2::A::C4",
+    "statement": "Before the reform, in 1997, the change in employer capital contributions was unrelated to the workplace share of employees above the top tax threshold."
+   },
+   {
+    "record_id": "dk_W3022890915_c10",
+    "t": 0.91,
+    "approx": false,
+    "estimate": 0.132,
+    "se": 0.145,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3022890915::T2::A::C4",
+    "statement": "In the baseline year 1998 the change in employer capital contributions was not significantly related to the workplace share of employees above the top tax threshold, once the full set of controls and…"
+   },
+   {
+    "record_id": "dk_W3022890915_c11",
+    "t": 10.06,
+    "approx": false,
+    "estimate": 1.962,
+    "se": 0.195,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3022890915::T2::B::C4",
+    "statement": "In 1999 employers in workplaces where all employees were above the top income tax threshold raised their annuity pension contribution rate by 1.96 percentage points more than employers in workplaces…"
+   },
+   {
+    "record_id": "dk_W3022890915_c12",
+    "t": -1.01,
+    "approx": false,
+    "estimate": -0.22,
+    "se": 0.217,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3022890915::T2::C::C4",
+    "statement": "The change in overall employer pension contributions (capital plus annuity) in 1999 was not significantly related to the workplace share of employees above the top tax threshold: the decrease in capi…"
+   },
+   {
+    "record_id": "dk_W3022890915_c16",
+    "t": null,
+    "approx": false,
+    "estimate": -0.75,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3022890915::F2",
+    "statement": "Top-bracket employees cut their own contribution rate to private (IRA-like) capital accounts by at most 0.75 percentage points in 1999, less than the cut their employers made in employer sponsored ac…"
+   }
+  ]
  },
  {
   "artid": "dk_W3023179841",
@@ -7267,13 +7849,13 @@
  },
  {
   "artid": "dk_W3023883332",
-  "title": "Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships",
+  "title": "Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships",
   "authors": [
-   "Herttua, K.",
-   "Vork, J.",
-   "Nielsen, J.B."
+   "Kimmo Herttua",
+   "Jan Vork",
+   "Jesper Bo Nielsen"
   ],
-  "year": 2020,
+  "year": 2021,
   "journal": "Marine Policy",
   "doi": "10.1016/j.marpol.2020.103989",
   "url": "https://doi.org/10.1016/j.marpol.2020.103989",
@@ -7288,11 +7870,15 @@
   "n_stated": 5,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 38,
+  "n_headline": 16,
+  "strategies": {
+   "descriptive": 16
+  },
+  "strategies_all": {
+   "descriptive": 38
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2004,
    "to": 2014,
@@ -7315,7 +7901,168 @@
    "?dk_W3023883332:V5"
   ],
   "n_unplaced": 5,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3023883332_c2",
+    "t": 3.77,
+    "approx": true,
+    "estimate": 2.73,
+    "se": 0.724503,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T2::Officers::CModel1",
+    "statement": "Among officers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation from all causes (unadjusted odds ratio 2.73, 95% CI 1.66-4.50)."
+   },
+   {
+    "record_id": "dk_W3023883332_c8",
+    "t": 7.93,
+    "approx": true,
+    "estimate": 2.59,
+    "se": 0.326537,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T2::Non-officers::CModel1",
+    "statement": "Among non-officers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation from all causes (unadjusted odds ratio 2.59, 95% CI 2.03-3…"
+   },
+   {
+    "record_id": "dk_W3023883332_c11",
+    "t": 6.43,
+    "approx": true,
+    "estimate": 1.51,
+    "se": 0.234698,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T2::Non-officers::CModel2",
+    "statement": "Among non-officers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-Danish EU countries (vs Danish) had higher odds of evacuation from all causes (age-adjusted odds ratio 1.51, 95%…"
+   },
+   {
+    "record_id": "dk_W3023883332_c12",
+    "t": 7.43,
+    "approx": true,
+    "estimate": 0.55,
+    "se": 0.073981,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T2::Non-officers::CModel2",
+    "statement": "Among non-officers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-EU countries (vs Danish) had lower odds of evacuation from all causes (age-adjusted odds ratio 0.55, 95% CI 0.42-…"
+   },
+   {
+    "record_id": "dk_W3023883332_c14",
+    "t": 3.97,
+    "approx": true,
+    "estimate": 5.09,
+    "se": 1.283187,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CCardiovascular diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation due to cardiovascular diseases (ICD-10 I00-I99) (unadjusted o…"
+   },
+   {
+    "record_id": "dk_W3023883332_c15",
+    "t": 3.7,
+    "approx": true,
+    "estimate": 2.72,
+    "se": 0.734707,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CCardiovascular diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, non-officers (vs officers) had higher odds of evacuation due to cardiovascular diseases (ICD-10 I00-I99) (age-adjusted odds ratio 2.72,…"
+   },
+   {
+    "record_id": "dk_W3023883332_c16",
+    "t": 3.2,
+    "approx": true,
+    "estimate": 2.25,
+    "se": 0.704095,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CCardiovascular diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-Danish EU countries (vs Danish) had higher odds of evacuation due to cardiovascular diseases (ICD-10 I00-I99) (age-a…"
+   },
+   {
+    "record_id": "dk_W3023883332_c19",
+    "t": 3.05,
+    "approx": true,
+    "estimate": 2.38,
+    "se": 0.780627,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CDigestive diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation due to diseases of the digestive system (ICD-10 K00-K93) (una…"
+   },
+   {
+    "record_id": "dk_W3023883332_c20",
+    "t": 2.51,
+    "approx": true,
+    "estimate": 4.56,
+    "se": 1.818911,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CDigestive diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, non-officers (vs officers) had higher odds of evacuation due to diseases of the digestive system (ICD-10 K00-K93) (age-adjusted odds ra…"
+   },
+   {
+    "record_id": "dk_W3023883332_c21",
+    "t": 2.19,
+    "approx": true,
+    "estimate": 1.41,
+    "se": 0.642869,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CDigestive diseases",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-Danish EU countries (vs Danish) had no statistically significant difference in odds of evacuation due to diseases of…"
+   },
+   {
+    "record_id": "dk_W3023883332_c24",
+    "t": 4.28,
+    "approx": true,
+    "estimate": 2.38,
+    "se": 0.556133,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CExternal causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation due to injury, poisoning and other external causes (ICD-10 S0…"
+   },
+   {
+    "record_id": "dk_W3023883332_c25",
+    "t": 3.39,
+    "approx": true,
+    "estimate": 5.35,
+    "se": 1.57656,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CExternal causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, non-officers (vs officers) had higher odds of evacuation due to injury, poisoning and other external causes (ICD-10 S00-T98) (age-adjus…"
+   },
+   {
+    "record_id": "dk_W3023883332_c26",
+    "t": 3.72,
+    "approx": true,
+    "estimate": 2.2,
+    "se": 0.591848,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::CExternal causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-Danish EU countries (vs Danish) had higher odds of evacuation due to injury, poisoning and other external causes (IC…"
+   },
+   {
+    "record_id": "dk_W3023883332_c29",
+    "t": 5.32,
+    "approx": true,
+    "estimate": 1.52,
+    "se": 0.28572,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::COther causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers aged 50 years or older (vs 30-49) had higher odds of evacuation due to all other causes, incl. ICD-10 R00-R99 (unadjusted odd…"
+   },
+   {
+    "record_id": "dk_W3023883332_c30",
+    "t": 4.65,
+    "approx": true,
+    "estimate": 3.82,
+    "se": 0.821444,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::COther causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, non-officers (vs officers) had higher odds of evacuation due to all other causes, incl. ICD-10 R00-R99 (age-adjusted odds ratio 3.82, 9…"
+   },
+   {
+    "record_id": "dk_W3023883332_c31",
+    "t": 4.68,
+    "approx": true,
+    "estimate": 2.47,
+    "se": 0.528071,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W3023883332::T3::_::COther causes",
+    "statement": "Among seafarers in the Danish-flagged merchant fleet 2004-2014, seafarers from non-Danish EU countries (vs Danish) had higher odds of evacuation due to all other causes, incl. ICD-10 R00-R99 (age-adj…"
+   }
+  ]
  },
  {
   "artid": "dk_W3027650922",
@@ -8087,10 +8834,10 @@
   "artid": "dk_W3037455063",
   "title": "Home Prices, Fertility, and Early-Life Health Outcomes",
   "authors": [
-   "Daysal, N. Meltem",
-   "Lovenheim, Michael",
-   "Siersbaek, Nikolaj",
-   "Wasser, David N."
+   "N. Meltem Daysal",
+   "Michael F. Lovenheim",
+   "Nikolaj Siersbaek",
+   "David N. Wasser"
   ],
   "year": 2021,
   "journal": "Journal of Public Economics",
@@ -8107,11 +8854,16 @@
   "n_stated": 5,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 125,
+  "n_headline": 17,
+  "strategies": {
+   "fixed_effects_within": 17
+  },
+  "strategies_all": {
+   "fixed_effects_within": 96,
+   "selection_on_observables": 29
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
    "from": 1992,
    "to": 2011,
@@ -8134,7 +8886,178 @@
    "housing.house_price"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3037455063_c4",
+    "t": 4.5,
+    "approx": false,
+    "estimate": 0.0027,
+    "se": 0.0006,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T3::_::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value increases the likelihood of giving birth by 0.27 percentage points (2.32% of the mean) among first-time homeowner women aged 20-44 -- the pape…"
+   },
+   {
+    "record_id": "dk_W3037455063_c42",
+    "t": -0.83,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0006,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::A::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value reduces the likelihood of low birth weight by 0.05 percentage points, but the estimate is not statistically significant (Table 6 Panel A colum…"
+   },
+   {
+    "record_id": "dk_W3037455063_c44",
+    "t": -2.14,
+    "approx": false,
+    "estimate": -0.0015,
+    "se": 0.0007,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::A::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value reduces the likelihood of being born premature by 0.15 percentage points (Table 6 Panel A column 4)."
+   },
+   {
+    "record_id": "dk_W3037455063_c45",
+    "t": -0.09,
+    "approx": false,
+    "estimate": -0.0023,
+    "se": 0.027,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::B::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change Number of Days Hospitalized in the first year of life (Table 6 Panel B column 1)."
+   },
+   {
+    "record_id": "dk_W3037455063_c46",
+    "t": -0.31,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0016,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::B::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the likelihood of ever being hospitalized in the first year of life (Table 6 Panel B column 2)."
+   },
+   {
+    "record_id": "dk_W3037455063_c47",
+    "t": 0.78,
+    "approx": false,
+    "estimate": 0.0007,
+    "se": 0.0009,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::B::C3",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the number of ER visits in the first year of life (Table 6 Panel B column 3)."
+   },
+   {
+    "record_id": "dk_W3037455063_c48",
+    "t": 0.56,
+    "approx": false,
+    "estimate": 0.0005,
+    "se": 0.0009,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::B::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the likelihood of ever having an ER visit in the first year of life (Table 6 Panel B column 4)."
+   },
+   {
+    "record_id": "dk_W3037455063_c49",
+    "t": 0.05,
+    "approx": false,
+    "estimate": 0.0019,
+    "se": 0.0348,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::C::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the number of days hospitalized at ages 1 to 5 (Table 6 Panel C column 1)."
+   },
+   {
+    "record_id": "dk_W3037455063_c50",
+    "t": 0.53,
+    "approx": false,
+    "estimate": 0.001,
+    "se": 0.0019,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::C::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the likelihood of ever being hospitalized at ages 1 to 5 (Table 6 Panel C column 2)."
+   },
+   {
+    "record_id": "dk_W3037455063_c51",
+    "t": -0.09,
+    "approx": false,
+    "estimate": -0.0005,
+    "se": 0.0057,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::C::C3",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the number of ER visits at ages 1 to 5 (Table 6 Panel C column 3)."
+   },
+   {
+    "record_id": "dk_W3037455063_c52",
+    "t": 0.56,
+    "approx": false,
+    "estimate": 0.001,
+    "se": 0.0018,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T6::C::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value does not significantly change the likelihood of ever having an ER visit at ages 1 to 5 (Table 6 Panel C column 4)."
+   },
+   {
+    "record_id": "dk_W3037455063_c56",
+    "t": 7.11,
+    "approx": false,
+    "estimate": 0.398,
+    "se": 0.056,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C1",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value increases the age of mothers who give birth (Table 7 column 1)."
+   },
+   {
+    "record_id": "dk_W3037455063_c57",
+    "t": 7.91,
+    "approx": false,
+    "estimate": 0.087,
+    "se": 0.011,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C2",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value increases the completed education of mothers who give birth (Table 7 column 2)."
+   },
+   {
+    "record_id": "dk_W3037455063_c59",
+    "t": 6.2,
+    "approx": false,
+    "estimate": 0.347,
+    "se": 0.056,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C4",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value increases the household income of mothers who give birth (Table 7 column 4)."
+   },
+   {
+    "record_id": "dk_W3037455063_c60",
+    "t": 3.88,
+    "approx": false,
+    "estimate": 0.031,
+    "se": 0.008,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C5",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value increases the likelihood that a mother who gives birth has a partner (Table 7 column 5)."
+   },
+   {
+    "record_id": "dk_W3037455063_c61",
+    "t": -7.0,
+    "approx": false,
+    "estimate": -0.0007,
+    "se": 0.0001,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C6",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value reduces predicted prematurity among mothers who give birth (Table 7 column 6)."
+   },
+   {
+    "record_id": "dk_W3037455063_c62",
+    "t": -8.0,
+    "approx": false,
+    "estimate": -0.0008,
+    "se": 0.0001,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3037455063::T7::_::C7",
+    "statement": "A 100,000 DKK increase in the lagged one-year home value reduces predicted low birth weight among mothers who give birth (Table 7 column 7)."
+   }
+  ]
  },
  {
   "artid": "dk_W3086531009",
@@ -8373,7 +9296,7 @@
  },
  {
   "artid": "dk_W3093088198",
-  "title": "The association between workplace bullying and suicidal behaviour: A register-based prospective study of 98,330 participants in Denmark",
+  "title": "The association between workplace bullying and suicidal behaviour: A register-based prospective study of 98,330 participants in Denmark.",
   "authors": [
    "Paul Maurice Conway",
    "Annette Erlangsen",
@@ -8384,11 +9307,11 @@
    "Laura Francioli",
    "Anne Helene Garde",
    "Åse Marie Hansen",
-   "Linda L. Magnusson Hanson",
-   "Tage S. Kristensen",
+   "Linda Magnusson Hanson",
+   "Tage Søndergaard Kristensen",
    "Eva Gemzøe Mikkelsen",
    "Reiner Rugulies",
-   "Elsebeth Nylev Stenager",
+   "Elsebeth Stenager",
    "Sannie Vester Thorsen",
    "Ebbe Villadsen",
    "Annie Høgh"
@@ -8408,15 +9331,17 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 3,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "selection_on_observables": 3
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2020,
-   "to": 2020,
-   "source": "publication"
+   "from": 2004,
+   "to": 2016,
+   "source": "design"
   },
   "scope_tags": [],
   "concepts": [],
@@ -8429,8 +9354,8 @@
   "authors": [
    "Helle Bendix Kleif"
   ],
-  "year": 2020,
-  "journal": "Young",
+  "year": 2021,
+  "journal": "YOUNG",
   "doi": "10.1177/1103308820945098",
   "url": "https://doi.org/10.1177/1103308820945098",
   "citations": 14,
@@ -8444,14 +9369,16 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 33,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 33
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2020,
-   "to": 2020,
+   "from": 2021,
+   "to": 2021,
    "source": "publication"
   },
   "scope_tags": [
@@ -9161,7 +10088,10 @@
  {
   "artid": "dk_W3122408342",
   "title": "Measurement Error in Income and Schooling and the Bias of Linear Estimators",
-  "authors": [],
+  "authors": [
+   "Paul Bingley",
+   "Alessandro Martinello"
+  ],
   "year": 2017,
   "journal": "Journal of Labor Economics",
   "doi": "10.1086/692539",
@@ -9176,17 +10106,24 @@
   ],
   "rule": "strict",
   "n_stated": 3,
-  "n_accepted": 4,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 3,
+  "n_rejected": 1,
+  "n_designs": 103,
+  "n_headline": 2,
+  "strategies": {
+   "instrumental_variables": 1,
+   "structural_model": 1
+  },
+  "strategies_all": {
+   "descriptive": 33,
+   "structural_model": 47,
+   "instrumental_variables": 23
+  },
+  "main_strategy": "instrumental_variables",
   "period": {
-   "from": 2017,
-   "to": 2017,
-   "source": "publication"
+   "from": 2003,
+   "to": 2004,
+   "source": "design"
   },
   "scope_tags": [
    "Survey respondents",
@@ -9195,13 +10132,32 @@
   "concepts": [
    "?dk_W3122408342:V2",
    "?dk_W3122408342:V6",
-   "?dk_W3122408342:V7",
-   "?dk_W3122408342:V8",
    "education.attainment",
    "income.labor"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3122408342_c12",
+    "t": 0.27,
+    "approx": false,
+    "estimate": 0.0194,
+    "se": 0.071,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W3122408342::T2::_::C2",
+    "statement": "Once classical measurement error in the register validation data is allowed for, there is no evidence that measurement error in the SHARE survey measure of gross income depends on the true value (rho…"
+   },
+   {
+    "record_id": "dk_W3122408342_c23",
+    "t": -6.8,
+    "approx": false,
+    "estimate": -0.276,
+    "se": 0.0406,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W3122408342::T2::_::C4",
+    "statement": "Even when imperfect validation data are allowed for, measurement error in the SHARE survey measure of years of schooling is strongly negatively related to the true value (rho_s = -.276): measurement…"
+   }
+  ]
  },
  {
   "artid": "dk_W3122484461",
@@ -9668,18 +10624,18 @@
  },
  {
   "artid": "dk_W3122935555",
-  "title": "Taxation and the Long Run Allocation of Labor:Theory and Danish Evidence",
+  "title": "Taxation and the long run allocation of labor: Theory and Danish evidence",
   "authors": [
-   "C. Kreiner",
-   "J. Munch",
+   "Claus Thustrup Kreiner",
+   "Jakob Roland Munch",
    "Hans Jørgen Whitta-Jacobsen"
   ],
   "year": 2015,
-  "journal": "Research at the University of Copenhagen (University of Copenhagen)",
+  "journal": "Journal of Public Economics",
   "doi": "10.1016/j.jpubeco.2014.03.012",
   "url": "https://doi.org/10.1016/j.jpubeco.2014.03.012",
   "citations": 15,
-  "journal_key": "researchattheuniversityofcopenhagenuniversityofcopenhagen",
+  "journal_key": "journalofpubliceconomics",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -9689,11 +10645,16 @@
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 83,
+  "n_headline": 4,
+  "strategies": {
+   "structural_model": 4
+  },
+  "strategies_all": {
+   "structural_model": 81,
+   "descriptive": 2
+  },
+  "main_strategy": "structural_model",
   "period": {
    "from": 2004,
    "to": 2006,
@@ -9713,7 +10674,48 @@
    "tax.marginal_tax_rate"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3122935555_c41",
+    "t": null,
+    "approx": false,
+    "estimate": 0.3,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W3122935555::T4::_::C1",
+    "statement": "A one percent increase in all net-of-tax rates along the intensive margin raises aggregate taxable (labor market) income by 0.3 percent through intensified search and labor mobility, i.e. a mobility-…"
+   },
+   {
+    "record_id": "dk_W3122935555_c66",
+    "t": null,
+    "approx": false,
+    "estimate": 0.099,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Replacing the existing Danish tax system along the intensive margin with a constant marginal tax rate m = 0.3 changes -Delta D / Y, the efficiency gain in proportion to initial income by 0.099."
+   },
+   {
+    "record_id": "dk_W3122935555_c70",
+    "t": null,
+    "approx": false,
+    "estimate": 0.124,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "Replacing the existing Danish tax system along the intensive margin with a constant marginal tax rate m = 0.0 changes -Delta D / Y, the efficiency gain in proportion to initial income by 0.124."
+   },
+   {
+    "record_id": "dk_W3122935555_c77",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "structural_model",
+    "source_table_id": null,
+    "statement": "The tax-responsiveness of labor mobility and allocation corresponds to a mobility-based elasticity of taxable income with respect to the net-of-tax rate in the range 0.15-0.35."
+   }
+  ]
  },
  {
   "artid": "dk_W3122965561",
@@ -18904,10 +19906,10 @@
   "artid": "dk_W4380153651",
   "title": "Interethnic Union Formation Among 1.5- and Second-Generation Immigrants: The Role of Cultural Proximity",
   "authors": [
-   "Hans-Peter Yogachandiran Qvist",
+   "Hans-Peter Y. Qvist",
    "Jeevitha Yogachandiran Qvist"
   ],
-  "year": 2023,
+  "year": 2025,
   "journal": "International Migration Review",
   "doi": "10.1177/01979183231177969",
   "url": "https://doi.org/10.1177/01979183231177969",
@@ -18922,11 +19924,15 @@
   "n_stated": 6,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 72,
+  "n_headline": 41,
+  "strategies": {
+   "selection_on_observables": 41
+  },
+  "strategies_all": {
+   "selection_on_observables": 72
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 1986,
    "to": 2016,
@@ -18947,19 +19953,430 @@
    "migration.origin_country"
   ],
   "n_unplaced": 3,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4380153651_c10",
+    "t": 4.79,
+    "approx": false,
+    "estimate": 0.651,
+    "se": 0.136,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other Christian' is associated with lower odds of forming a first interethnic union with…"
+   },
+   {
+    "record_id": "dk_W4380153651_c13",
+    "t": 5.9,
+    "approx": false,
+    "estimate": 0.578,
+    "se": 0.098,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Muslim' is associated with lower odds of forming a first interethnic union with a native th…"
+   },
+   {
+    "record_id": "dk_W4380153651_c15",
+    "t": 2.23,
+    "approx": false,
+    "estimate": 3.034,
+    "se": 1.362,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Muslim' is associated with higher odds of forming a first intraethnic union with a same-cou…"
+   },
+   {
+    "record_id": "dk_W4380153651_c16",
+    "t": 4.9,
+    "approx": false,
+    "estimate": 0.333,
+    "se": 0.068,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Muslim' is associated with lower odds of forming a first interethnic union with a native…"
+   },
+   {
+    "record_id": "dk_W4380153651_c18",
+    "t": 2.25,
+    "approx": false,
+    "estimate": 2.903,
+    "se": 1.29,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Muslim' is associated with higher odds of forming a first intraethnic union with a same-c…"
+   },
+   {
+    "record_id": "dk_W4380153651_c19",
+    "t": 5.6,
+    "approx": false,
+    "estimate": 0.504,
+    "se": 0.09,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Hindu, Buddhist, or other' is associated with lower odds of forming a first interethnic uni…"
+   },
+   {
+    "record_id": "dk_W4380153651_c21",
+    "t": 2.18,
+    "approx": false,
+    "estimate": 3.215,
+    "se": 1.477,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Hindu, Buddhist, or other' is associated with higher odds of forming a first intraethnic un…"
+   },
+   {
+    "record_id": "dk_W4380153651_c22",
+    "t": 4.64,
+    "approx": false,
+    "estimate": 0.691,
+    "se": 0.149,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Hindu, Buddhist, or other' is not significantly related to the odds of forming a first in…"
+   },
+   {
+    "record_id": "dk_W4380153651_c24",
+    "t": 2.12,
+    "approx": false,
+    "estimate": 1.845,
+    "se": 0.87,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Hindu, Buddhist, or other' is not significantly related to the odds of forming a first in…"
+   },
+   {
+    "record_id": "dk_W4380153651_c25",
+    "t": 22.41,
+    "approx": false,
+    "estimate": 1.031,
+    "se": 0.046,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a f…"
+   },
+   {
+    "record_id": "dk_W4380153651_c26",
+    "t": 16.6,
+    "approx": false,
+    "estimate": 0.946,
+    "se": 0.057,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C2",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a f…"
+   },
+   {
+    "record_id": "dk_W4380153651_c27",
+    "t": 9.02,
+    "approx": false,
+    "estimate": 1.001,
+    "se": 0.111,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a f…"
+   },
+   {
+    "record_id": "dk_W4380153651_c28",
+    "t": 19.6,
+    "approx": false,
+    "estimate": 0.98,
+    "se": 0.05,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a…"
+   },
+   {
+    "record_id": "dk_W4380153651_c29",
+    "t": 16.25,
+    "approx": false,
+    "estimate": 0.91,
+    "se": 0.056,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C5",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a…"
+   },
+   {
+    "record_id": "dk_W4380153651_c30",
+    "t": 9.05,
+    "approx": false,
+    "estimate": 1.077,
+    "se": 0.119,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in traditional values vs secular-rational values is not significantly related to the odds of forming a…"
+   },
+   {
+    "record_id": "dk_W4380153651_c31",
+    "t": 15.3,
+    "approx": false,
+    "estimate": 0.964,
+    "se": 0.063,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values is not significantly related to the odds of forming a first…"
+   },
+   {
+    "record_id": "dk_W4380153651_c32",
+    "t": 11.26,
+    "approx": false,
+    "estimate": 1.205,
+    "se": 0.107,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C2",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values increases the odds of forming a first interethnic union wit…"
+   },
+   {
+    "record_id": "dk_W4380153651_c33",
+    "t": 5.77,
+    "approx": false,
+    "estimate": 1.205,
+    "se": 0.209,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values is not significantly related to the odds of forming a first…"
+   },
+   {
+    "record_id": "dk_W4380153651_c34",
+    "t": 12.97,
+    "approx": false,
+    "estimate": 0.934,
+    "se": 0.072,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values is not significantly related to the odds of forming a fir…"
+   },
+   {
+    "record_id": "dk_W4380153651_c35",
+    "t": 10.55,
+    "approx": false,
+    "estimate": 1.15,
+    "se": 0.109,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C5",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values is not significantly related to the odds of forming a fir…"
+   },
+   {
+    "record_id": "dk_W4380153651_c36",
+    "t": 5.71,
+    "approx": false,
+    "estimate": 1.284,
+    "se": 0.225,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in survival values vs self-expression values is not significantly related to the odds of forming a fir…"
+   },
+   {
+    "record_id": "dk_W4380153651_c37",
+    "t": 3.76,
+    "approx": false,
+    "estimate": 0.73,
+    "se": 0.194,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first interethn…"
+   },
+   {
+    "record_id": "dk_W4380153651_c38",
+    "t": 2.59,
+    "approx": false,
+    "estimate": 1.89,
+    "se": 0.73,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C2",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first interethn…"
+   },
+   {
+    "record_id": "dk_W4380153651_c39",
+    "t": 1.25,
+    "approx": false,
+    "estimate": 0.44,
+    "se": 0.351,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first intraethn…"
+   },
+   {
+    "record_id": "dk_W4380153651_c40",
+    "t": 2.96,
+    "approx": false,
+    "estimate": 0.654,
+    "se": 0.221,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first interet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c41",
+    "t": 2.53,
+    "approx": false,
+    "estimate": 0.98,
+    "se": 0.388,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C5",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first interet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c42",
+    "t": 1.21,
+    "approx": false,
+    "estimate": 0.298,
+    "se": 0.246,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'The core Anglosphere' is not significantly related to the odds of forming a first intraet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c43",
+    "t": 3.98,
+    "approx": false,
+    "estimate": 0.677,
+    "se": 0.17,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first interet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c44",
+    "t": 2.78,
+    "approx": false,
+    "estimate": 1.651,
+    "se": 0.594,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C2",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first interet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c45",
+    "t": 1.41,
+    "approx": false,
+    "estimate": 0.89,
+    "se": 0.632,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first intraet…"
+   },
+   {
+    "record_id": "dk_W4380153651_c46",
+    "t": 3.12,
+    "approx": false,
+    "estimate": 0.709,
+    "se": 0.227,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first inter…"
+   },
+   {
+    "record_id": "dk_W4380153651_c47",
+    "t": 2.69,
+    "approx": false,
+    "estimate": 0.836,
+    "se": 0.311,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C5",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first inter…"
+   },
+   {
+    "record_id": "dk_W4380153651_c48",
+    "t": 1.36,
+    "approx": false,
+    "estimate": 0.708,
+    "se": 0.519,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other English-speaking' is not significantly related to the odds of forming a first intra…"
+   },
+   {
+    "record_id": "dk_W4380153651_c49",
+    "t": 3.51,
+    "approx": false,
+    "estimate": 0.618,
+    "se": 0.176,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is not significantly related to the odds of forming a first interethnic union with a…"
+   },
+   {
+    "record_id": "dk_W4380153651_c50",
+    "t": 2.51,
+    "approx": false,
+    "estimate": 2.344,
+    "se": 0.935,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C2",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is associated with higher odds of forming a first interethnic union with an immigran…"
+   },
+   {
+    "record_id": "dk_W4380153651_c51",
+    "t": 1.29,
+    "approx": false,
+    "estimate": 1.051,
+    "se": 0.817,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is not significantly related to the odds of forming a first intraethnic union with a…"
+   },
+   {
+    "record_id": "dk_W4380153651_c52",
+    "t": 2.77,
+    "approx": false,
+    "estimate": 0.51,
+    "se": 0.184,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C4",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is not significantly related to the odds of forming a first interethnic union with…"
+   },
+   {
+    "record_id": "dk_W4380153651_c53",
+    "t": 2.4,
+    "approx": false,
+    "estimate": 1.159,
+    "se": 0.482,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C5",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is not significantly related to the odds of forming a first interethnic union with…"
+   },
+   {
+    "record_id": "dk_W4380153651_c54",
+    "t": 1.24,
+    "approx": false,
+    "estimate": 0.866,
+    "se": 0.696,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Women::C6",
+    "statement": "Among female 1.5- and second-generation immigrants in Denmark, coming from a country of origin classified as 'Other' is not significantly related to the odds of forming a first intraethnic union with…"
+   },
+   {
+    "record_id": "dk_W4380153651_c57",
+    "t": 75.29,
+    "approx": false,
+    "estimate": 1.054,
+    "se": 0.014,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C3",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in relative group size increases the odds of forming a first intraethnic union with a same-country immig…"
+   },
+   {
+    "record_id": "dk_W4380153651_c61",
+    "t": 85.5,
+    "approx": false,
+    "estimate": 1.026,
+    "se": 0.012,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W4380153651::T4::Men::C1",
+    "statement": "Among male 1.5- and second-generation immigrants in Denmark, a one standard deviation increase in sex ratio increases the odds of forming a first interethnic union with a native, net of the cultural…"
+   }
+  ]
  },
  {
   "artid": "dk_W4381839750",
-  "title": "The Link between Physician Motivation and Care",
+  "title": "The link between physician motivation and care",
   "authors": [
-   "A. Oxholm",
-   "D. Gyrd-Hansen",
-   "C. Jacobsen",
-   "U. Jensen",
-   "L. Pedersen"
+   "Anne Sophie Oxholm",
+   "Dorte Gyrd-Hansen",
+   "Christian Bøtcher Jacobsen",
+   "Ulrich Thy Jensen",
+   "Line Bjørnskov Pedersen"
   ],
-  "year": 2023,
+  "year": 2024,
   "journal": "The European Journal of Health Economics",
   "doi": "10.1007/s10198-023-01605-7",
   "url": "https://doi.org/10.1007/s10198-023-01605-7",
@@ -18975,11 +20392,15 @@
   "n_stated": 5,
   "n_accepted": 5,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 72,
+  "n_headline": 14,
+  "strategies": {
+   "descriptive": 14
+  },
+  "strategies_all": {
+   "descriptive": 72
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2019,
    "to": 2019,
@@ -19001,7 +20422,148 @@
    "health.provider_non_paternalistic_altruism"
   ],
   "n_unplaced": 7,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4381839750_c2",
+    "t": -1.0,
+    "approx": false,
+    "estimate": -0.001,
+    "se": 0.001,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C1",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c5",
+    "t": 1.86,
+    "approx": false,
+    "estimate": 0.013,
+    "se": 0.007,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C2",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c8",
+    "t": 0.31,
+    "approx": false,
+    "estimate": 0.004,
+    "se": 0.013,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C3",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c11",
+    "t": 1.5,
+    "approx": false,
+    "estimate": 0.009,
+    "se": 0.006,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C4",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c14",
+    "t": 1.5,
+    "approx": false,
+    "estimate": 0.003,
+    "se": 0.002,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C5",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c17",
+    "t": -0.1,
+    "approx": false,
+    "estimate": -0.002,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C6",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c20",
+    "t": 2.25,
+    "approx": false,
+    "estimate": 0.018,
+    "se": 0.008,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C7",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is associated with a higher value of Share of enlis…"
+   },
+   {
+    "record_id": "dk_W4381839750_c23",
+    "t": 2.2,
+    "approx": false,
+    "estimate": 0.011,
+    "se": 0.005,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C8",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is associated with a higher value of Share of enlis…"
+   },
+   {
+    "record_id": "dk_W4381839750_c26",
+    "t": 1.5,
+    "approx": false,
+    "estimate": 0.003,
+    "se": 0.002,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C9",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is not statistically significantly associated with…"
+   },
+   {
+    "record_id": "dk_W4381839750_c29",
+    "t": 3.67,
+    "approx": false,
+    "estimate": 0.011,
+    "se": 0.003,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T2::_::C10",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is associated with a higher value of Share of enlis…"
+   },
+   {
+    "record_id": "dk_W4381839750_c43",
+    "t": 2.59,
+    "approx": false,
+    "estimate": 68.32,
+    "se": 26.33,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T4::FFS per enlisted patient (DKK)::C1",
+    "statement": "In Danish general practice in 2019, a one-unit higher EM (financial motivation) score (going from the least to the most motivated practice) is associated with a higher value of FFS per enlisted patie…"
+   },
+   {
+    "record_id": "dk_W4381839750_c60",
+    "t": -3.38,
+    "approx": false,
+    "estimate": -144.9,
+    "se": 42.86,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T4::Costs of all prescriptions redeemed per enlisted patient (DKK)::C2",
+    "statement": "In Danish general practice in 2019, a one-unit higher PSM (altruism towards society) score (going from the least to the most motivated practice) is associated with a lower value of Costs of all presc…"
+   },
+   {
+    "record_id": "dk_W4381839750_c62",
+    "t": 3.6,
+    "approx": false,
+    "estimate": 0.072,
+    "se": 0.02,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T4::Number of antibiotic prescriptions issued by the GP per enlisted patient::C1",
+    "statement": "In Danish general practice in 2019, a one-unit higher UO (altruism towards the patient) score (going from the least to the most motivated practice) is associated with a higher value of Number of anti…"
+   },
+   {
+    "record_id": "dk_W4381839750_c72",
+    "t": 2.06,
+    "approx": false,
+    "estimate": 0.033,
+    "se": 0.016,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4381839750::T4::Share of narrow-spectrum penicillin issued by the GP to enlisted patients::C2",
+    "statement": "In Danish general practice in 2019, a one-unit higher PSM (altruism towards society) score (going from the least to the most motivated practice) is associated with a higher value of Share of narrow-s…"
+   }
+  ]
  },
  {
   "artid": "dk_W4381950776",
@@ -19823,9 +21385,9 @@
    "Marie Evertsson",
    "Ylva Moberg"
   ],
-  "year": 2023,
+  "year": 2024,
   "journal": "Journal of Family Issues",
-  "doi": "10.1177/0192513x231194305",
+  "doi": "10.1177/0192513X231194305",
   "url": "https://doi.org/10.1177/0192513x231194305",
   "citations": 13,
   "journal_key": "journaloffamilyissues",
@@ -19838,11 +21400,15 @@
   "n_stated": 4,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
+  "n_designs": 30,
   "n_headline": 0,
   "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "strategies_all": {
+   "descriptive": 8,
+   "matching": 4,
+   "event_study": 18
+  },
+  "main_strategy": "event_study",
   "period": {
    "from": 1999,
    "to": 2020,
@@ -19864,20 +21430,72 @@
   "headline": []
  },
  {
+  "artid": "dk_W4387776349",
+  "title": "A guide to estimating the canonical income process in quasidifferences",
+  "authors": [
+   "Francis Chiparawasha",
+   "Dmytro Hryshko"
+  ],
+  "year": 2023,
+  "journal": "Macroeconomic Dynamics",
+  "doi": "10.1017/s1365100523000457",
+  "url": "https://doi.org/10.1017/s1365100523000457",
+  "citations": null,
+  "journal_key": "macroeconomicdynamics",
+  "k": 3,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2",
+   "stated_claims_r3"
+  ],
+  "rule": "strict",
+  "n_stated": 12,
+  "n_accepted": 7,
+  "n_rejected": 11,
+  "n_designs": 0,
+  "n_headline": 0,
+  "strategies": {},
+  "strategies_all": {},
+  "main_strategy": null,
+  "period": {
+   "from": 1984,
+   "to": 2008,
+   "source": "scope"
+  },
+  "scope_tags": [
+   "all",
+   "men",
+   "working age"
+  ],
+  "concepts": [
+   "?dk_W4387776349:V1",
+   "?dk_W4387776349:V2",
+   "?dk_W4387776349:V3",
+   "?dk_W4387776349:V4",
+   "?dk_W4387776349:V5",
+   "?dk_W4387776349:V6",
+   "?dk_W4387776349:V7",
+   "?dk_W4387776349:V8",
+   "?dk_W4387776349:V9"
+  ],
+  "n_unplaced": 18,
+  "headline": []
+ },
+ {
   "artid": "dk_W4388046637",
-  "title": "New system responses to juvenile crime",
+  "title": "New system responses to juvenile crime: Experiences from Denmark",
   "authors": [
    "Britt Østergaard Larsen",
    "Ann-Karina Henriksen",
    "Theresa Dyrvig Henriksen",
-   "Tea Torbenfeldt Bengtsson"
+   "Tea Torbenfelt Bengtsson"
   ],
   "year": 2023,
-  "journal": "Nordisk Tidsskrift for Kriminalvidenskab",
+  "journal": "Nordisk Tidsskrift for Kriminalvidenskab, nr. 3/2023, pp. 332-350",
   "doi": "10.7146/ntfk.v110i3.141475",
   "url": "https://doi.org/10.7146/ntfk.v110i3.141475",
   "citations": 6,
-  "journal_key": "nordisktidsskriftforkriminalvidenskab",
+  "journal_key": "nordisktidsskriftforkriminalvidenskabnr32023pp332350",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -19887,20 +21505,45 @@
   "n_stated": 0,
   "n_accepted": 0,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 12,
+  "n_headline": 2,
+  "strategies": {
+   "descriptive": 2
+  },
+  "strategies_all": {
+   "descriptive": 12
+  },
+  "main_strategy": "descriptive",
   "period": {
-   "from": 2023,
-   "to": 2023,
-   "source": "publication"
+   "from": 2017,
+   "to": 2021,
+   "source": "design"
   },
   "scope_tags": [],
   "concepts": [],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4388046637_c10",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Because the new system was added on top of the old one rather than replacing it, the reform significantly increased the complexity of the system handling juvenile crime, which case managers describe…"
+   },
+   {
+    "record_id": "dk_W4388046637_c11",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Although the Youth Crime Boards were meant to divert children aged 10-14 away from the criminal justice system, case managers describe the board meetings, adjudications and supervision as being exper…"
+   }
+  ]
  },
  {
   "artid": "dk_W4388665909",
@@ -29585,7 +31228,7 @@
   "title": "Measuring higher education: comparing Danish survey and register data in the study of values",
   "authors": [
    "Trond Beldo Klausen",
-   "Ole Preben Riis"
+   "Ole Riis"
   ],
   "year": 2026,
   "journal": "Quality & Quantity",
@@ -29601,13 +31244,17 @@
   ],
   "rule": "strict",
   "n_stated": 6,
-  "n_accepted": 2,
-  "n_rejected": 5,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 1,
+  "n_rejected": 6,
+  "n_designs": 66,
+  "n_headline": 9,
+  "strategies": {
+   "descriptive": 9
+  },
+  "strategies_all": {
+   "descriptive": 66
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2017,
    "to": 2017,
@@ -29620,12 +31267,101 @@
   ],
   "concepts": [
    "?dk_W7202348113:V8",
-   "?dk_W7202348113:V9",
-   "education.tertiary_completion",
-   "income.taxable.self_reported"
+   "education.tertiary_completion"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7202348113_c1",
+    "t": 2.24,
+    "approx": false,
+    "estimate": 0.047,
+    "se": 0.021,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents interviewed in person (CAPI) are more likely to report tertiary education that is not recorded in the registers than respondents who answered a self-administered questionnaire."
+   },
+   {
+    "record_id": "dk_W7202348113_c2",
+    "t": 2.19,
+    "approx": false,
+    "estimate": 0.046,
+    "se": 0.021,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Male respondents are more likely than female respondents to over-report tertiary education."
+   },
+   {
+    "record_id": "dk_W7202348113_c3",
+    "t": 6.94,
+    "approx": false,
+    "estimate": 0.368,
+    "se": 0.053,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents aged 18-26 are more likely to over-report tertiary education than respondents aged 45-53."
+   },
+   {
+    "record_id": "dk_W7202348113_c5",
+    "t": -3.15,
+    "approx": false,
+    "estimate": -0.107,
+    "se": 0.034,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents aged 36-44 are less likely to over-report tertiary education than respondents aged 45-53."
+   },
+   {
+    "record_id": "dk_W7202348113_c9",
+    "t": 5.03,
+    "approx": false,
+    "estimate": 0.181,
+    "se": 0.036,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents in the lowest income group are more likely to over-report tertiary education than respondents in the DKK 250,000-349,999 group."
+   },
+   {
+    "record_id": "dk_W7202348113_c10",
+    "t": 2.48,
+    "approx": false,
+    "estimate": 0.072,
+    "se": 0.029,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents with annual income of DKK 150,000-249,999 are more likely to over-report tertiary education than respondents in the DKK 250,000-349,999 group."
+   },
+   {
+    "record_id": "dk_W7202348113_c16",
+    "t": 2.55,
+    "approx": false,
+    "estimate": 0.12,
+    "se": 0.047,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents who immigrated to Denmark before age 26 are more likely to over-report tertiary education than respondents born in Denmark."
+   },
+   {
+    "record_id": "dk_W7202348113_c17",
+    "t": 4.42,
+    "approx": false,
+    "estimate": 0.234,
+    "se": 0.053,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::T3::_::CB",
+    "statement": "Respondents who immigrated to Denmark at age 26 or older are more likely to over-report tertiary education than respondents born in Denmark."
+   },
+   {
+    "record_id": "dk_W7202348113_c35",
+    "t": null,
+    "approx": false,
+    "estimate": 0.32,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7202348113::F3",
+    "statement": "Within the short-cycle tertiary category, acceptance of homosexuality is 0.32 scale points higher when the category is defined by register data than when it is defined by survey self-report."
+   }
+  ]
  },
  {
   "artid": "dk_W7212047720",
@@ -29649,11 +31385,15 @@
   "n_stated": 12,
   "n_accepted": 8,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 61,
+  "n_headline": 6,
+  "strategies": {
+   "event_study": 6
+  },
+  "strategies_all": {
+   "event_study": 61
+  },
+  "main_strategy": "event_study",
   "period": {
    "from": 2008,
    "to": 2022,
@@ -29681,7 +31421,68 @@
    "wealth.liquidity_constraint"
   ],
   "n_unplaced": 4,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7212047720_c1",
+    "t": -24.0,
+    "approx": false,
+    "estimate": -0.264,
+    "se": 0.011,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T2::_::C1",
+    "statement": "For older workers (aged 60 to 64 at displacement), job loss due to a mass layoff changes employment by -0.264 one year after the displacement event."
+   },
+   {
+    "record_id": "dk_W7212047720_c9",
+    "t": 14.82,
+    "approx": false,
+    "estimate": 0.163,
+    "se": 0.011,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T2::_::C5",
+    "statement": "For older workers (aged 60 to 64 at displacement), job loss due to a mass layoff changes early retirement by 0.163 one year after the displacement event."
+   },
+   {
+    "record_id": "dk_W7212047720_c11",
+    "t": 7.0,
+    "approx": false,
+    "estimate": 0.035,
+    "se": 0.005,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T2::_::C6",
+    "statement": "For older workers (aged 60 to 64 at displacement), job loss due to a mass layoff changes state pension by 0.035 one year after the displacement event."
+   },
+   {
+    "record_id": "dk_W7212047720_c16",
+    "t": -3.5,
+    "approx": false,
+    "estimate": -0.021,
+    "se": 0.006,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T3::_::C2",
+    "statement": "For older workers (aged 60 to 64 at displacement), job loss due to a mass layoff changes Pr(Homeowner) by -0.021 five years after the displacement event."
+   },
+   {
+    "record_id": "dk_W7212047720_c21",
+    "t": -2.47,
+    "approx": false,
+    "estimate": -0.047,
+    "se": 0.019,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T4::_::C1",
+    "statement": "For older partners (aged 60 or older at the worker's displacement) who were employed three years before displacement, the worker's job loss changes the partner's employment by -0.047 one year after t…"
+   },
+   {
+    "record_id": "dk_W7212047720_c29",
+    "t": 2.17,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.018,
+    "strategy": "event_study",
+    "source_table_id": "dk_W7212047720::T4::_::C5",
+    "statement": "For older partners (aged 60 or older at the worker's displacement) who were employed three years before displacement, the worker's job loss changes the partner's public pension by 0.039 one year afte…"
+   }
+  ]
  },
  {
   "artid": "dk_W7212086049",
@@ -29691,11 +31492,11 @@
    "Linert Lirëza"
   ],
   "year": 2026,
-  "journal": "E-Journal VFU",
+  "journal": "E-Journal VFU (Varna Free University “Chernorizets Hrabar”)",
   "doi": "10.53606/evfu.26.542-559",
   "url": "https://doi.org/10.53606/evfu.26.542-559",
   "citations": null,
-  "journal_key": "ejournalvfu",
+  "journal_key": "ejournalvfuvarnafreeuniversitychernorizetshrabar",
   "k": 2,
   "runs": [
    "stated_claims",
@@ -29705,11 +31506,15 @@
   "n_stated": 9,
   "n_accepted": 9,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 7,
+  "n_headline": 6,
+  "strategies": {
+   "descriptive": 6
+  },
+  "strategies_all": {
+   "descriptive": 7
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 2026,
    "to": 2026,
@@ -29736,7 +31541,68 @@
    "trade.import_competition"
   ],
   "n_unplaced": 9,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7212086049_c1",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Differential association — patterned exposure to people, messages and criminal opportunities differing in frequency, duration, priority and intensity — is one of the two components of social learning…"
+   },
+   {
+    "record_id": "dk_W7212086049_c2",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Definitions favourable to offending — attitudes and meanings that approve or neutralise criminal conduct — are, with differential association, the component of social learning theory most consistentl…"
+   },
+   {
+    "record_id": "dk_W7212086049_c3",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Evidence that imitation of criminal models produces criminal offending is more context-dependent than evidence on association and definitions: imitation alone is rarely sufficient for complex crime,…"
+   },
+   {
+    "record_id": "dk_W7212086049_c4",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Evidence that differential reinforcement — the actor's experienced balance of rewards and costs — produces criminal offending is more context-dependent than evidence on association and definitions, a…"
+   },
+   {
+    "record_id": "dk_W7212086049_c5",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Digital platforms accelerate exposure to criminal models, their visibility and vicarious reward, but they rarely operate independently of offline relationships and opportunities and should not be tre…"
+   },
+   {
+    "record_id": "dk_W7212086049_c7",
+    "t": null,
+    "approx": false,
+    "estimate": null,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Exposure to prison peers reinforced existing crime-specific criminal capital, producing higher recidivism in offences requiring specific skills, planning or networks — such as drug crime, theft, burg…"
+   }
+  ]
  },
  {
   "artid": "dk_W7212394491",
@@ -29916,7 +31782,7 @@
   "title": "The Longitudinal Association Between Organized Leisure Sports and School-Related Social Well-Being",
   "authors": [
    "Sanne Lund Clement",
-   "Rasmus Lind; id_orcid 0000-0003-3273-161X Ravn",
+   "Rasmus Lind Ravn",
    "Rasmus Juul Møberg",
    "Lotte Stausgaard Skrubbeltrang"
   ],
@@ -29935,15 +31801,19 @@
   "n_stated": 1,
   "n_accepted": 1,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 7,
+  "n_headline": 1,
+  "strategies": {
+   "selection_on_observables": 1
+  },
+  "strategies_all": {
+   "selection_on_observables": 7
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2026,
-   "to": 2026,
-   "source": "publication"
+   "from": 2021,
+   "to": 2022,
+   "source": "design"
   },
   "scope_tags": [
    "Public primary schools",
@@ -29955,7 +31825,18 @@
    "health.mental_health"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7214569468_c1",
+    "t": 4.0,
+    "approx": false,
+    "estimate": 0.18,
+    "se": 0.045,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7214569468::T3::_::C1",
+    "statement": "Among 5th–9th grade pupils, participation in organized leisure-time sports is associated with higher subsequent school-related social well-being (AIPW-adjusted difference of 0.180 points on the 1–5 i…"
+   }
+  ]
  },
  {
   "artid": "dk_W757177167",
@@ -29979,11 +31860,19 @@
   "n_stated": 7,
   "n_accepted": 5,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 134,
+  "n_headline": 60,
+  "strategies": {
+   "difference_in_differences": 15,
+   "sibling_family_comparison": 45
+  },
+  "strategies_all": {
+   "difference_in_differences": 32,
+   "selection_on_observables": 12,
+   "sibling_family_comparison": 45,
+   "other": 45
+  },
+  "main_strategy": "sibling_family_comparison",
   "period": {
    "from": 2005,
    "to": 2011,
@@ -30008,7 +31897,608 @@
    "family.educational_assortative_mating"
   ],
   "n_unplaced": 5,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W757177167_c6",
+    "t": -53.33,
+    "approx": false,
+    "estimate": -0.16,
+    "se": 0.003,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C1",
+    "statement": "In the 1st (lowest) exam-score quintile, the teacher-exam grading gap of boys is -0.160 SD relative to girls, controlling for the full set of pupil background characteristics and school fixed effects."
+   },
+   {
+    "record_id": "dk_W757177167_c7",
+    "t": -93.5,
+    "approx": false,
+    "estimate": -0.187,
+    "se": 0.002,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C2",
+    "statement": "In the 2nd exam-score quintile, the teacher-exam grading gap of boys is -0.187 SD relative to girls, controlling for the full set of pupil background characteristics and school fixed effects."
+   },
+   {
+    "record_id": "dk_W757177167_c8",
+    "t": -99.5,
+    "approx": false,
+    "estimate": -0.199,
+    "se": 0.002,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C3",
+    "statement": "In the 3rd (middle) exam-score quintile, the teacher-exam grading gap of boys is -0.199 SD relative to girls, controlling for the full set of pupil background characteristics and school fixed effects."
+   },
+   {
+    "record_id": "dk_W757177167_c9",
+    "t": -90.5,
+    "approx": false,
+    "estimate": -0.181,
+    "se": 0.002,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C4",
+    "statement": "In the 4th exam-score quintile, the teacher-exam grading gap of boys is -0.181 SD relative to girls, controlling for the full set of pupil background characteristics and school fixed effects."
+   },
+   {
+    "record_id": "dk_W757177167_c10",
+    "t": -53.0,
+    "approx": false,
+    "estimate": -0.106,
+    "se": 0.002,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C5",
+    "statement": "In the 5th (highest) exam-score quintile, the teacher-exam grading gap of boys is -0.106 SD relative to girls, controlling for the full set of pupil background characteristics and school fixed effect…"
+   },
+   {
+    "record_id": "dk_W757177167_c16",
+    "t": -28.0,
+    "approx": false,
+    "estimate": -0.14,
+    "se": 0.005,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C1",
+    "statement": "In the 1st (lowest) exam-score quintile, the teacher-exam grading gap of pupils with low educated parents is -0.140 SD relative to pupils with high educated parents, controlling for the full set of p…"
+   },
+   {
+    "record_id": "dk_W757177167_c17",
+    "t": -49.25,
+    "approx": false,
+    "estimate": -0.197,
+    "se": 0.004,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C2",
+    "statement": "In the 2nd exam-score quintile, the teacher-exam grading gap of pupils with low educated parents is -0.197 SD relative to pupils with high educated parents, controlling for the full set of pupil back…"
+   },
+   {
+    "record_id": "dk_W757177167_c18",
+    "t": -49.75,
+    "approx": false,
+    "estimate": -0.199,
+    "se": 0.004,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C3",
+    "statement": "In the 3rd (middle) exam-score quintile, the teacher-exam grading gap of pupils with low educated parents is -0.199 SD relative to pupils with high educated parents, controlling for the full set of p…"
+   },
+   {
+    "record_id": "dk_W757177167_c19",
+    "t": -43.5,
+    "approx": false,
+    "estimate": -0.174,
+    "se": 0.004,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C4",
+    "statement": "In the 4th exam-score quintile, the teacher-exam grading gap of pupils with low educated parents is -0.174 SD relative to pupils with high educated parents, controlling for the full set of pupil back…"
+   },
+   {
+    "record_id": "dk_W757177167_c20",
+    "t": -36.25,
+    "approx": false,
+    "estimate": -0.145,
+    "se": 0.004,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C5",
+    "statement": "In the 5th (highest) exam-score quintile, the teacher-exam grading gap of pupils with low educated parents is -0.145 SD relative to pupils with high educated parents, controlling for the full set of…"
+   },
+   {
+    "record_id": "dk_W757177167_c26",
+    "t": -2.8,
+    "approx": false,
+    "estimate": -0.014,
+    "se": 0.005,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C1",
+    "statement": "In the 1st (lowest) exam-score quintile, the teacher-exam grading gap of migrant pupils is -0.014 SD relative to natives, controlling for the full set of pupil background characteristics and school f…"
+   },
+   {
+    "record_id": "dk_W757177167_c27",
+    "t": -7.0,
+    "approx": false,
+    "estimate": -0.042,
+    "se": 0.006,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C2",
+    "statement": "In the 2nd exam-score quintile, the teacher-exam grading gap of migrant pupils is -0.042 SD relative to natives, controlling for the full set of pupil background characteristics and school fixed effe…"
+   },
+   {
+    "record_id": "dk_W757177167_c28",
+    "t": -5.33,
+    "approx": false,
+    "estimate": -0.032,
+    "se": 0.006,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C3",
+    "statement": "In the 3rd (middle) exam-score quintile, the teacher-exam grading gap of migrant pupils is -0.032 SD relative to natives, controlling for the full set of pupil background characteristics and school f…"
+   },
+   {
+    "record_id": "dk_W757177167_c29",
+    "t": -7.33,
+    "approx": false,
+    "estimate": -0.044,
+    "se": 0.006,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C4",
+    "statement": "In the 4th exam-score quintile, the teacher-exam grading gap of migrant pupils is -0.044 SD relative to natives, controlling for the full set of pupil background characteristics and school fixed effe…"
+   },
+   {
+    "record_id": "dk_W757177167_c30",
+    "t": -10.0,
+    "approx": false,
+    "estimate": -0.06,
+    "se": 0.006,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W757177167::T2::2::C5",
+    "statement": "In the 5th (highest) exam-score quintile, the teacher-exam grading gap of migrant pupils is -0.060 SD relative to natives, controlling for the full set of pupil background characteristics and school…"
+   },
+   {
+    "record_id": "dk_W757177167_c42",
+    "t": 12.0,
+    "approx": false,
+    "estimate": 0.012,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-NotGrade10::C1",
+    "statement": "Among boys in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.012 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c43",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-NotGrade10::C2",
+    "statement": "Among boys in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.024 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c44",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-NotGrade10::C3",
+    "statement": "Among boys in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.024 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c45",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-NotGrade10::C4",
+    "statement": "Among boys in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.024 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c46",
+    "t": 20.0,
+    "approx": false,
+    "estimate": 0.02,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-NotGrade10::C5",
+    "statement": "Among boys in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.020 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c47",
+    "t": 20.0,
+    "approx": false,
+    "estimate": 0.02,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-HighSchool::C1",
+    "statement": "Among boys in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.020 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c48",
+    "t": 37.0,
+    "approx": false,
+    "estimate": 0.037,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-HighSchool::C2",
+    "statement": "Among boys in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.037 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c49",
+    "t": 38.0,
+    "approx": false,
+    "estimate": 0.038,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-HighSchool::C3",
+    "statement": "Among boys in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.038 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c50",
+    "t": 33.0,
+    "approx": false,
+    "estimate": 0.033,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-HighSchool::C4",
+    "statement": "Among boys in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.033 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c51",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-HighSchool::C5",
+    "statement": "Among boys in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.024 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c52",
+    "t": null,
+    "approx": false,
+    "estimate": 0.012,
+    "se": null,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-AcademicTrack::C1",
+    "statement": "Among boys in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.012 (sibling…"
+   },
+   {
+    "record_id": "dk_W757177167_c53",
+    "t": 21.0,
+    "approx": false,
+    "estimate": 0.021,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-AcademicTrack::C2",
+    "statement": "Among boys in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.021 (sibling fixed ef…"
+   },
+   {
+    "record_id": "dk_W757177167_c54",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-AcademicTrack::C3",
+    "statement": "Among boys in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.024 (sibling…"
+   },
+   {
+    "record_id": "dk_W757177167_c55",
+    "t": 24.0,
+    "approx": false,
+    "estimate": 0.024,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-AcademicTrack::C4",
+    "statement": "Among boys in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.024 (sibling fixed ef…"
+   },
+   {
+    "record_id": "dk_W757177167_c56",
+    "t": 19.0,
+    "approx": false,
+    "estimate": 0.019,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Boys-AcademicTrack::C5",
+    "statement": "Among boys in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.019 (siblin…"
+   },
+   {
+    "record_id": "dk_W757177167_c57",
+    "t": 17.0,
+    "approx": false,
+    "estimate": 0.017,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-NotGrade10::C1",
+    "statement": "Among pupils with low educated parents in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.01…"
+   },
+   {
+    "record_id": "dk_W757177167_c58",
+    "t": 18.0,
+    "approx": false,
+    "estimate": 0.036,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-NotGrade10::C2",
+    "statement": "Among pupils with low educated parents in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.036 (siblin…"
+   },
+   {
+    "record_id": "dk_W757177167_c59",
+    "t": 21.0,
+    "approx": false,
+    "estimate": 0.042,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-NotGrade10::C3",
+    "statement": "Among pupils with low educated parents in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.04…"
+   },
+   {
+    "record_id": "dk_W757177167_c60",
+    "t": 21.5,
+    "approx": false,
+    "estimate": 0.043,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-NotGrade10::C4",
+    "statement": "Among pupils with low educated parents in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.043 (siblin…"
+   },
+   {
+    "record_id": "dk_W757177167_c61",
+    "t": 17.5,
+    "approx": false,
+    "estimate": 0.035,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-NotGrade10::C5",
+    "statement": "Among pupils with low educated parents in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.0…"
+   },
+   {
+    "record_id": "dk_W757177167_c62",
+    "t": 31.0,
+    "approx": false,
+    "estimate": 0.031,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-HighSchool::C1",
+    "statement": "Among pupils with low educated parents in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.031…"
+   },
+   {
+    "record_id": "dk_W757177167_c63",
+    "t": 60.0,
+    "approx": false,
+    "estimate": 0.06,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-HighSchool::C2",
+    "statement": "Among pupils with low educated parents in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.060 (sibling…"
+   },
+   {
+    "record_id": "dk_W757177167_c64",
+    "t": 30.5,
+    "approx": false,
+    "estimate": 0.061,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-HighSchool::C3",
+    "statement": "Among pupils with low educated parents in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.061…"
+   },
+   {
+    "record_id": "dk_W757177167_c65",
+    "t": 30.0,
+    "approx": false,
+    "estimate": 0.06,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-HighSchool::C4",
+    "statement": "Among pupils with low educated parents in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.060 (sibling…"
+   },
+   {
+    "record_id": "dk_W757177167_c66",
+    "t": 23.5,
+    "approx": false,
+    "estimate": 0.047,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-HighSchool::C5",
+    "statement": "Among pupils with low educated parents in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.04…"
+   },
+   {
+    "record_id": "dk_W757177167_c67",
+    "t": 20.0,
+    "approx": false,
+    "estimate": 0.02,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-AcademicTrack::C1",
+    "statement": "Among pupils with low educated parents in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-sc…"
+   },
+   {
+    "record_id": "dk_W757177167_c68",
+    "t": 39.0,
+    "approx": false,
+    "estimate": 0.039,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-AcademicTrack::C2",
+    "statement": "Among pupils with low educated parents in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school trac…"
+   },
+   {
+    "record_id": "dk_W757177167_c69",
+    "t": 42.0,
+    "approx": false,
+    "estimate": 0.042,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-AcademicTrack::C3",
+    "statement": "Among pupils with low educated parents in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-sc…"
+   },
+   {
+    "record_id": "dk_W757177167_c70",
+    "t": 20.5,
+    "approx": false,
+    "estimate": 0.041,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-AcademicTrack::C4",
+    "statement": "Among pupils with low educated parents in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school trac…"
+   },
+   {
+    "record_id": "dk_W757177167_c71",
+    "t": 18.5,
+    "approx": false,
+    "estimate": 0.037,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::LowParEduc-AcademicTrack::C5",
+    "statement": "Among pupils with low educated parents in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-s…"
+   },
+   {
+    "record_id": "dk_W757177167_c72",
+    "t": 18.0,
+    "approx": false,
+    "estimate": 0.036,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-NotGrade10::C1",
+    "statement": "Among migrant pupils in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.036 (sibling fixed e…"
+   },
+   {
+    "record_id": "dk_W757177167_c73",
+    "t": 25.67,
+    "approx": false,
+    "estimate": 0.077,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-NotGrade10::C2",
+    "statement": "Among migrant pupils in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.077 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c74",
+    "t": 25.0,
+    "approx": false,
+    "estimate": 0.075,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-NotGrade10::C3",
+    "statement": "Among migrant pupils in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.075 (sibling fixed e…"
+   },
+   {
+    "record_id": "dk_W757177167_c75",
+    "t": 22.67,
+    "approx": false,
+    "estimate": 0.068,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-NotGrade10::C4",
+    "statement": "Among migrant pupils in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.068 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c76",
+    "t": 11.67,
+    "approx": false,
+    "estimate": 0.035,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-NotGrade10::C5",
+    "statement": "Among migrant pupils in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of not attending grade 10 by 0.035 (sibling fixed…"
+   },
+   {
+    "record_id": "dk_W757177167_c77",
+    "t": 58.0,
+    "approx": false,
+    "estimate": 0.058,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-HighSchool::C1",
+    "statement": "Among migrant pupils in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.058 (sibling fixed ef…"
+   },
+   {
+    "record_id": "dk_W757177167_c78",
+    "t": 36.0,
+    "approx": false,
+    "estimate": 0.108,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-HighSchool::C2",
+    "statement": "Among migrant pupils in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.108 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c79",
+    "t": 33.67,
+    "approx": false,
+    "estimate": 0.101,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-HighSchool::C3",
+    "statement": "Among migrant pupils in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.101 (sibling fixed ef…"
+   },
+   {
+    "record_id": "dk_W757177167_c80",
+    "t": 21.25,
+    "approx": false,
+    "estimate": 0.085,
+    "se": 0.004,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-HighSchool::C4",
+    "statement": "Among migrant pupils in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.085 (sibling fixed effects)."
+   },
+   {
+    "record_id": "dk_W757177167_c81",
+    "t": 14.0,
+    "approx": false,
+    "estimate": 0.042,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-HighSchool::C5",
+    "statement": "Among migrant pupils in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending high-school by 0.042 (sibling fixed e…"
+   },
+   {
+    "record_id": "dk_W757177167_c82",
+    "t": 41.0,
+    "approx": false,
+    "estimate": 0.041,
+    "se": 0.001,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-AcademicTrack::C1",
+    "statement": "Among migrant pupils in the 1st (lowest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.04…"
+   },
+   {
+    "record_id": "dk_W757177167_c83",
+    "t": 40.0,
+    "approx": false,
+    "estimate": 0.08,
+    "se": 0.002,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-AcademicTrack::C2",
+    "statement": "Among migrant pupils in the 2nd exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.080 (siblin…"
+   },
+   {
+    "record_id": "dk_W757177167_c84",
+    "t": 26.33,
+    "approx": false,
+    "estimate": 0.079,
+    "se": 0.003,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-AcademicTrack::C3",
+    "statement": "Among migrant pupils in the 3rd (middle) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.07…"
+   },
+   {
+    "record_id": "dk_W757177167_c85",
+    "t": 16.75,
+    "approx": false,
+    "estimate": 0.067,
+    "se": 0.004,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-AcademicTrack::C4",
+    "statement": "Among migrant pupils in the 4th exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.067 (siblin…"
+   },
+   {
+    "record_id": "dk_W757177167_c86",
+    "t": 9.5,
+    "approx": false,
+    "estimate": 0.038,
+    "se": 0.004,
+    "strategy": "sibling_family_comparison",
+    "source_table_id": "dk_W757177167::T4::Migrants-AcademicTrack::C5",
+    "statement": "Among migrant pupils in the 5th (highest) exam-score quintile, a one standard deviation increase in the grade 9 teacher score raises the probability of attending the academic high-school track by 0.0…"
+   }
+  ]
  },
  {
   "artid": "dk_W82324926",

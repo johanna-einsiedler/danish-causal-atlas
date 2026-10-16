@@ -1,5 +1,5 @@
 {
- "batch": "T20261008T025755Z+E5",
+ "batch": "T20261008T025755Z+E6",
  "status": "drafted",
  "domains": [
   "beliefs",
@@ -45625,12 +45625,11 @@
     "non-prepopulated income"
    ],
    "abstract": false,
-   "n_papers": 5,
-   "n_edges": 6,
+   "n_papers": 4,
+   "n_edges": 5,
    "papers": [
     "dk_W2463599556",
     "dk_W7120018105",
-    "dk_W7202348113",
     "dk_W2900238486",
     "dk_W2088663850"
    ],
@@ -77500,7 +77499,7 @@
    ],
    "abstract": false,
    "n_papers": 3,
-   "n_edges": 4,
+   "n_edges": 5,
    "papers": [
     "dk_W3022890915",
     "dk_W3162839958",
@@ -79934,7 +79933,7 @@
   {
    "id": "?dk_W1940883135:V2",
    "label": "male partner holding a college degree",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International Family Migration and the Dual-Earner Model.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International family migration and the dual-earner model.",
    "definition": "A specific couple-level education configuration (only the man is college educated).",
    "left_out": false,
    "domain": "unplaced",
@@ -79997,7 +79996,7 @@
   {
    "id": "?dk_W1940883135:V3",
    "label": "both partners holding a college degree",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International Family Migration and the Dual-Earner Model.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International family migration and the dual-earner model.",
    "definition": "A distinct couple-level education configuration from the male-only or neither cases.",
    "left_out": false,
    "domain": "unplaced",
@@ -80060,7 +80059,7 @@
   {
    "id": "?dk_W1940883135:V4",
    "label": "neither partner being college educated",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International Family Migration and the Dual-Earner Model.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International family migration and the dual-earner model.",
    "definition": "A distinct couple-level education configuration, not a mirror of the male-only or both-college categories.",
    "left_out": false,
    "domain": "unplaced",
@@ -80123,7 +80122,7 @@
   {
    "id": "?dk_W1940883135:V8",
    "label": "primary earner's income",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International Family Migration and the Dual-Earner Model.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in International family migration and the dual-earner model.",
    "definition": "Income of the couple's primary earner, named identically in both runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -88259,9 +88258,11 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 0,
-   "n_edges": 0,
-   "papers": [],
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W3022890915"
+   ],
    "wordings": [
     {
      "text": "employees' savings preferences",
@@ -88523,7 +88524,7 @@
   {
    "id": "?dk_W3023883332:V1",
    "label": "age ≥50 years (vs 30-49 years)",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships.",
    "definition": "Older age category of the seafarer, same contrast in both runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -88605,7 +88606,7 @@
   {
    "id": "?dk_W3023883332:V2",
    "label": "risk of evacuations",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships.",
    "definition": "The outcome, evacuation risk of seafarers, worded identically across runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -88740,7 +88741,7 @@
   {
    "id": "?dk_W3023883332:V3",
    "label": "non-Danish European Union nationality (vs Danish)",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships.",
    "definition": "A specific nationality contrast distinct from the non-EU contrast.",
    "left_out": false,
    "domain": "unplaced",
@@ -88804,7 +88805,7 @@
   {
    "id": "?dk_W3023883332:V4",
    "label": "non-European Union nationality (vs Danish)",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships.",
    "definition": "A different nationality category than non-Danish EU, so a separate regressor.",
    "left_out": false,
    "domain": "unplaced",
@@ -88868,7 +88869,7 @@
   {
    "id": "?dk_W3023883332:V5",
    "label": "working as non-officer",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: a register-based study on Danish-flagged merchant ships.",
    "definition": "Job rank of the seafarer (non-officer vs officer), same in both runs.",
    "left_out": false,
    "domain": "unplaced",
@@ -89974,11 +89975,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W3122408342"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "measurement error in the validation data",
@@ -90058,11 +90057,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W3122408342"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "correlation between gross income and measurement error in income",
@@ -90132,7 +90129,7 @@
   {
    "id": "?dk_W3122935555:V3",
    "label": "going from a high-tax Scandinavian system to a level of taxation in line with low-tax OECD countries",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Taxation and the Long Run Allocation of Labor:Theory and Danish Evidence.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Taxation and the long run allocation of labor: Theory and Danish evidence.",
    "definition": "Identical counterfactual tax-level reform, one run just adds the United States example.",
    "left_out": false,
    "domain": "unplaced",
@@ -98137,7 +98134,7 @@
   {
    "id": "?dk_W4381839750:V2",
    "label": "fee-for-services per patient",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Fee-for-service volume per patient at the practice level.",
    "left_out": false,
    "domain": "unplaced",
@@ -98209,7 +98206,7 @@
   {
    "id": "?dk_W4381839750:V3",
    "label": "altruistic motivation towards the patient",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Patient-directed altruism of the practice; distinct target from societal altruism.",
    "left_out": false,
    "domain": "unplaced",
@@ -98308,7 +98305,7 @@
   {
    "id": "?dk_W4381839750:V4",
    "label": "share of high-need patients",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "\"Share of high-need patients served\" and \"share of high-need patients\" are the same practice-level quantity.",
    "left_out": false,
    "domain": "unplaced",
@@ -98401,7 +98398,7 @@
   {
    "id": "?dk_W4381839750:V5",
    "label": "prescriptions for antibiotics per patient",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Antibiotic prescribing rate per patient.",
    "left_out": false,
    "domain": "unplaced",
@@ -98473,7 +98470,7 @@
   {
    "id": "?dk_W4381839750:V7",
    "label": "medication costs per patient",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Medication spending per patient at the practice level.",
    "left_out": false,
    "domain": "unplaced",
@@ -98545,7 +98542,7 @@
   {
    "id": "?dk_W4381839750:V8",
    "label": "rate of narrow-spectrum penicillin prescribed",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Same prescribing rate; the shorter run-3 wording just drops \"prescribed\".",
    "left_out": false,
    "domain": "unplaced",
@@ -98638,7 +98635,7 @@
   {
    "id": "?dk_W4381839750:V9",
    "label": "risk of antimicrobial resistance in the population",
-   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The Link between Physician Motivation and Care.",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in The link between physician motivation and care.",
    "definition": "Population-level resistance risk, a different unit from practice outcomes.",
    "left_out": false,
    "domain": "unplaced",
@@ -99069,6 +99066,1716 @@
    ],
    "unplaced": true,
    "paper": "dk_W4386887755",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V1",
+   "label": "estimated persistence",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "All name the estimated autoregressive/persistence parameter of the income process; 'downward bias in estimated persistence' is the same estimate read from the other side, and 'persistence of shocks' / 'autoregressive parameter' are only different populations (scope).",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 4,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "estimated persistence",
+     "variants": [
+      "estimated persistence"
+     ],
+     "normalised": "estimated persistence",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 13
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V1",
+       "variable_name": "estimated persistence",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S1",
+         "role": "effect",
+         "sign": "-",
+         "other": "equally weighted estimation",
+         "statement": "Equally weighted estimation decreases the estimated persistence",
+         "population": "simulated panels, small and large samples, regardless of the magnitude of true persistence"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "effect",
+         "sign": "+",
+         "other": "optimal weighting",
+         "statement": "Optimal weighting increases the estimated persistence",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "effect",
+         "sign": "+",
+         "other": "diagonal weighting",
+         "statement": "Diagonal weighting increases the estimated persistence",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S13",
+         "role": "effect",
+         "sign": "0",
+         "other": "equally weighted estimation",
+         "statement": "Equally weighted estimation has no effect on the estimated persistence",
+         "population": "simulated panels, for different T, N, and initial conditions"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S1",
+         "role": "effect",
+         "sign": "-",
+         "other": "equal weighting of the moments",
+         "statement": "Equal weighting of the moments decreases estimated persistence.",
+         "population": "simulated panels, small and large samples, regardless of the magnitude of true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "effect",
+         "sign": "+",
+         "other": "optimal weighting of the moments",
+         "statement": "Optimal weighting of the moments increases estimated persistence.",
+         "population": "simulated panels with low true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "effect",
+         "sign": "+",
+         "other": "diagonal weighting of the moments",
+         "statement": "Diagonal weighting of the moments increases estimated persistence.",
+         "population": "simulated panels with low true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "effect",
+         "sign": "0",
+         "other": "optimal weighting of the moments",
+         "statement": "Optimal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels, e.g., a cohort followed from the start of their working careers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "effect",
+         "sign": "0",
+         "other": "diagonal weighting of the moments",
+         "statement": "Diagonal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels, e.g., a cohort followed from the start of their working careers"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S17",
+         "role": "effect",
+         "sign": "0",
+         "other": "equal weighting of the moments",
+         "statement": "Equal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels for different T, N, and initial conditions"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S1",
+         "role": "effect",
+         "sign": "-",
+         "other": "equal weighting of the moments",
+         "statement": "equal weighting of the moments decreases the estimated persistence",
+         "population": "simulated panels, small and large samples"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S2",
+         "role": "effect",
+         "sign": "+",
+         "other": "optimal weighting of the moments",
+         "statement": "optimal weighting of the moments increases the estimated persistence",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S3",
+         "role": "effect",
+         "sign": "+",
+         "other": "diagonal weighting of the moments",
+         "statement": "diagonal weighting of the moments increases the estimated persistence",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "estimated autoregressive parameter",
+     "variants": [
+      "estimated autoregressive parameter"
+     ],
+     "normalised": "estimated autoregressive parameter",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V1",
+       "variable_name": "estimated persistence",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S8",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "weighting scheme",
+         "statement": "The weighting scheme has mixed effects on the estimated autoregressive parameter",
+         "population": "a large sample of Danish males born in 1952"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S12",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "weighting scheme",
+         "statement": "The weighting scheme has mixed effects on the estimated autoregressive parameter.",
+         "population": "Danish males born in 1952"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S7",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "weighting scheme",
+         "statement": "the weighting scheme has mixed effects on the estimated autoregressive parameter",
+         "population": "Danish males born in 1952"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "estimated persistence of shocks",
+     "variants": [
+      "estimated persistence of shocks"
+     ],
+     "normalised": "estimated persistence of shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V1",
+       "variable_name": "estimated persistence",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S10",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated persistence of shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "downward bias in estimated persistence",
+     "variants": [
+      "downward bias in estimated persistence"
+     ],
+     "normalised": "downward bias in estimated persistence",
+     "polarity": "mirror",
+     "how": "unplaced",
+     "roles": {
+      "effect": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V1",
+       "variable_name": "estimated persistence",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S2",
+         "role": "effect",
+         "sign": "+",
+         "other": "variance of transitory shocks",
+         "statement": "The variance of transitory shocks increases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S3",
+         "role": "effect",
+         "sign": "-",
+         "other": "variance of persistent shocks",
+         "statement": "The variance of persistent shocks decreases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "effect",
+         "sign": "-",
+         "other": "variance of fixed effects",
+         "statement": "The variance of fixed effects decreases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "bias in the estimated persistence of shocks",
+     "variants": [
+      "bias in the estimated persistence of shocks"
+     ],
+     "normalised": "bia in the estimated persistence of shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V1",
+       "variable_name": "estimated persistence",
+       "claims": [
+        {
+         "run": "stated_claims_r3",
+         "id": "S9",
+         "role": "effect",
+         "sign": "+",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences increases bias in the estimated persistence of shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 5
+  },
+  {
+   "id": "?dk_W4387776349:V10",
+   "label": "estimated transmission coefficient of persistent shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Insurance/transmission coefficient for persistent shocks in the calibrated lifecycle model; level and its bias are one quantity.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "estimated transmission coefficient of persistent shocks",
+     "variants": [
+      "estimated transmission coefficient of persistent shocks"
+     ],
+     "normalised": "estimated transmission coefficient of persistent shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V10",
+       "variable_name": "estimated transmission coefficient of persistent shocks",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S11",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated transmission coefficient of persistent shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "bias in the estimated transmission coefficient for persistent shocks",
+     "variants": [
+      "bias in the estimated transmission coefficient for persistent shocks"
+     ],
+     "normalised": "bia in the estimated transmission coefficient for persistent shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V10",
+       "variable_name": "estimated transmission coefficient of persistent shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r3",
+         "id": "S10",
+         "role": "effect",
+         "sign": "+",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences increases bias in the estimated transmission coefficient for persistent shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V11",
+   "label": "estimated transmission coefficient of transitory shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Insurance/transmission coefficient for transitory shocks; level and its bias are one quantity.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "estimated transmission coefficient of transitory shocks",
+     "variants": [
+      "estimated transmission coefficient of transitory shocks"
+     ],
+     "normalised": "estimated transmission coefficient of transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V11",
+       "variable_name": "estimated transmission coefficient of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S12",
+         "role": "effect",
+         "sign": "mixed",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated transmission coefficient of transitory shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "bias in the estimated transmission coefficient for transitory shocks",
+     "variants": [
+      "bias in the estimated transmission coefficient for transitory shocks"
+     ],
+     "normalised": "bia in the estimated transmission coefficient for transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V11",
+       "variable_name": "estimated transmission coefficient of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r3",
+         "id": "S11",
+         "role": "effect",
+         "sign": "+",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences increases bias in the estimated transmission coefficient for transitory shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V12",
+   "label": "variance of transitory shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "True data-generating variance of transitory shocks, a design parameter rather than an estimate.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "variance of transitory shocks",
+     "variants": [
+      "variance of transitory shocks"
+     ],
+     "normalised": "variance of transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V12",
+       "variable_name": "variance of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S2",
+         "role": "cause",
+         "sign": "+",
+         "other": "downward bias in estimated persistence",
+         "statement": "The variance of transitory shocks increases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V13",
+   "label": "variance of persistent shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "True data-generating variance of persistent shocks, distinct from its estimate.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "variance of persistent shocks",
+     "variants": [
+      "variance of persistent shocks"
+     ],
+     "normalised": "variance of persistent shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V13",
+       "variable_name": "variance of persistent shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S3",
+         "role": "cause",
+         "sign": "-",
+         "other": "downward bias in estimated persistence",
+         "statement": "The variance of persistent shocks decreases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V14",
+   "label": "variance of fixed effects",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "True data-generating variance of individual fixed effects, distinct from its estimate.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "variance of fixed effects",
+     "variants": [
+      "variance of fixed effects"
+     ],
+     "normalised": "variance of fixed effect",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V14",
+       "variable_name": "variance of fixed effects",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "cause",
+         "sign": "-",
+         "other": "downward bias in estimated persistence",
+         "statement": "The variance of fixed effects decreases the downward bias in estimated persistence.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V15",
+   "label": "true persistence",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "The true persistence parameter used to simulate the panels, not the estimated one.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "true persistence",
+     "variants": [
+      "true persistence"
+     ],
+     "normalised": "true persistence",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V15",
+       "variable_name": "true persistence",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S9",
+         "role": "cause",
+         "sign": "+",
+         "other": "upward bias in the estimated variance of fixed effects",
+         "statement": "True persistence increases the upward bias in the estimated variance of fixed effects.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V16",
+   "label": "variance of persistent shocks relative to the variance of transitory shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "A ratio of two distinct true variances, so its own quantity rather than either variance alone.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "variance of persistent shocks relative to the variance of transitory shocks",
+     "variants": [
+      "variance of persistent shocks relative to the variance of transitory shocks"
+     ],
+     "normalised": "variance of persistent shock relative to the variance of transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V16",
+       "variable_name": "variance of persistent shocks relative to the variance of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r3",
+         "id": "S12",
+         "role": "cause",
+         "sign": "+",
+         "other": "reliability of estimation of the income process using quasidifferences",
+         "statement": "the variance of persistent shocks relative to the variance of transitory shocks increases the reliability of estimation of the income process using quasidifferences",
+         "population": "simulated panels, different T, N, and initial conditions"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V17",
+   "label": "number of sample individuals",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Sample size N in the simulated panels.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "number of sample individuals",
+     "variants": [
+      "number of sample individuals"
+     ],
+     "normalised": "number of sample individual",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V17",
+       "variable_name": "number of sample individuals",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S10",
+         "role": "cause",
+         "sign": "-",
+         "other": "bias in the estimated variance of persistent shocks",
+         "statement": "The number of sample individuals decreases the bias in the estimated variance of persistent shocks.",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S11",
+         "role": "cause",
+         "sign": "-",
+         "other": "bias in the estimated variance of transitory shocks",
+         "statement": "The number of sample individuals decreases the bias in the estimated variance of transitory shocks.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V18",
+   "label": "reliability of estimation of the income process using quasidifferences",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Overall reliability of the quasidifference estimator, an aggregate judgement distinct from any single estimated parameter.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
+   "wordings": [
+    {
+     "text": "reliability of estimation of the income process using quasidifferences",
+     "variants": [
+      "reliability of estimation of the income process using quasidifferences"
+     ],
+     "normalised": "reliability of estimation of the income proces using quasidifference",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V18",
+       "variable_name": "reliability of estimation of the income process using quasidifferences",
+       "claims": [
+        {
+         "run": "stated_claims_r3",
+         "id": "S12",
+         "role": "effect",
+         "sign": "+",
+         "other": "variance of persistent shocks relative to the variance of transitory shocks",
+         "statement": "the variance of persistent shocks relative to the variance of transitory shocks increases the reliability of estimation of the income process using quasidifferences",
+         "population": "simulated panels, different T, N, and initial conditions"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S13",
+         "role": "effect",
+         "sign": "+",
+         "other": "equal weighting of the moments",
+         "statement": "equal weighting of the moments increases the reliability of estimation of the income process using quasidifferences",
+         "population": "simulated panels, different T, N, and initial conditions"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V2",
+   "label": "weighting scheme",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "The choice of moment-weighting scheme in the quasidifference estimation, taken as a whole.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "weighting scheme",
+     "variants": [
+      "weighting scheme"
+     ],
+     "normalised": "weighting scheme",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V2",
+       "variable_name": "weighting scheme",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S8",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated autoregressive parameter",
+         "statement": "The weighting scheme has mixed effects on the estimated autoregressive parameter",
+         "population": "a large sample of Danish males born in 1952"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S12",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated autoregressive parameter",
+         "statement": "The weighting scheme has mixed effects on the estimated autoregressive parameter.",
+         "population": "Danish males born in 1952"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S7",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated autoregressive parameter",
+         "statement": "the weighting scheme has mixed effects on the estimated autoregressive parameter",
+         "population": "Danish males born in 1952"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V3",
+   "label": "equal weighting of the moments",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "'Equally weighted estimation' and 'equal weighting of the moments' are the same specific scheme, a sub-type of weighting scheme.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "equally weighted estimation",
+     "variants": [
+      "equally weighted estimation"
+     ],
+     "normalised": "equally weighted estimation",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V3",
+       "variable_name": "equal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S1",
+         "role": "cause",
+         "sign": "-",
+         "other": "estimated persistence",
+         "statement": "Equally weighted estimation decreases the estimated persistence",
+         "population": "simulated panels, small and large samples, regardless of the magnitude of true persistence"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S13",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated persistence",
+         "statement": "Equally weighted estimation has no effect on the estimated persistence",
+         "population": "simulated panels, for different T, N, and initial conditions"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "equal weighting of the moments",
+     "variants": [
+      "equal weighting of the moments"
+     ],
+     "normalised": "equal weighting of the moment",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 4
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V3",
+       "variable_name": "equal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S1",
+         "role": "cause",
+         "sign": "-",
+         "other": "estimated persistence",
+         "statement": "Equal weighting of the moments decreases estimated persistence.",
+         "population": "simulated panels, small and large samples, regardless of the magnitude of true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S17",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated persistence",
+         "statement": "Equal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels for different T, N, and initial conditions"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S1",
+         "role": "cause",
+         "sign": "-",
+         "other": "estimated persistence",
+         "statement": "equal weighting of the moments decreases the estimated persistence",
+         "population": "simulated panels, small and large samples"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S13",
+         "role": "cause",
+         "sign": "+",
+         "other": "reliability of estimation of the income process using quasidifferences",
+         "statement": "equal weighting of the moments increases the reliability of estimation of the income process using quasidifferences",
+         "population": "simulated panels, different T, N, and initial conditions"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V4",
+   "label": "optimal weighting of the moments",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Optimal (efficient) weighting is one specific weighting scheme, worded two ways across runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "optimal weighting",
+     "variants": [
+      "optimal weighting"
+     ],
+     "normalised": "optimal weighting",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V4",
+       "variable_name": "optimal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "Optimal weighting increases the estimated persistence",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "optimal weighting of the moments",
+     "variants": [
+      "optimal weighting of the moments"
+     ],
+     "normalised": "optimal weighting of the moment",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V4",
+       "variable_name": "optimal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "Optimal weighting of the moments increases estimated persistence.",
+         "population": "simulated panels with low true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S7",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated persistence",
+         "statement": "Optimal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels, e.g., a cohort followed from the start of their working careers"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S2",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "optimal weighting of the moments increases the estimated persistence",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V5",
+   "label": "diagonal weighting of the moments",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "Diagonal weighting is one specific weighting scheme, worded two ways across runs.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "diagonal weighting",
+     "variants": [
+      "diagonal weighting"
+     ],
+     "normalised": "diagonal weighting",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V5",
+       "variable_name": "diagonal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "Diagonal weighting increases the estimated persistence",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "diagonal weighting of the moments",
+     "variants": [
+      "diagonal weighting of the moments"
+     ],
+     "normalised": "diagonal weighting of the moment",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V5",
+       "variable_name": "diagonal weighting of the moments",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "Diagonal weighting of the moments increases estimated persistence.",
+         "population": "simulated panels with low true persistence"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated persistence",
+         "statement": "Diagonal weighting of the moments has no effect on estimated persistence.",
+         "population": "simulated panels, e.g., a cohort followed from the start of their working careers"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S3",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated persistence",
+         "statement": "diagonal weighting of the moments increases the estimated persistence",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V6",
+   "label": "estimation in quasidifferences",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "The quasidifference estimation method itself, used as the treatment in the simulation and lifecycle-model claims.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 3,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "estimation in quasidifferences",
+     "variants": [
+      "estimation in quasidifferences"
+     ],
+     "normalised": "estimation in quasidifference",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "cause": 13
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V6",
+       "variable_name": "estimation in quasidifferences",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated variance of fixed effects",
+         "statement": "Estimation in quasidifferences increases the estimated variance of fixed effects",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated variance of fixed effects",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of fixed effects",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated variance of persistent shocks",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of persistent shocks",
+         "population": "simulated panels, especially when the number of sample individuals is large"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated variance of transitory shocks",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of transitory shocks",
+         "population": "simulated panels, especially when the number of sample individuals is large"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S10",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated persistence of shocks",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated persistence of shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S11",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated transmission coefficient of persistent shocks",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated transmission coefficient of persistent shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S12",
+         "role": "cause",
+         "sign": "mixed",
+         "other": "estimated transmission coefficient of transitory shocks",
+         "statement": "Estimation in quasidifferences has mixed effects on the estimated transmission coefficient of transitory shocks",
+         "population": "simulated households, for high and low values of persistence, different weighting schemes and numbers of households"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "estimated variance of fixed effects",
+         "statement": "estimation in quasidifferences increases the estimated variance of fixed effects",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S5",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated variance of persistent shocks",
+         "statement": "estimation in quasidifferences has no effect on the estimated variance of persistent shocks",
+         "population": "simulated panels, especially large samples"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S6",
+         "role": "cause",
+         "sign": "0",
+         "other": "estimated variance of transitory shocks",
+         "statement": "estimation in quasidifferences has no effect on the estimated variance of transitory shocks",
+         "population": "simulated panels, especially large samples"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S9",
+         "role": "cause",
+         "sign": "+",
+         "other": "bias in the estimated persistence of shocks",
+         "statement": "estimation in quasidifferences increases bias in the estimated persistence of shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S10",
+         "role": "cause",
+         "sign": "+",
+         "other": "bias in the estimated transmission coefficient for persistent shocks",
+         "statement": "estimation in quasidifferences increases bias in the estimated transmission coefficient for persistent shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S11",
+         "role": "cause",
+         "sign": "+",
+         "other": "bias in the estimated transmission coefficient for transitory shocks",
+         "statement": "estimation in quasidifferences increases bias in the estimated transmission coefficient for transitory shocks",
+         "population": "simulated households, high and low values of persistence, different weighting schemes and numbers of households"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 1
+  },
+  {
+   "id": "?dk_W4387776349:V7",
+   "label": "estimated variance of fixed effects",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "'Upward bias in the estimated variance of fixed effects' moves with the estimate itself, so it is the same quantity.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "estimated variance of fixed effects",
+     "variants": [
+      "estimated variance of fixed effects"
+     ],
+     "normalised": "estimated variance of fixed effect",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V7",
+       "variable_name": "estimated variance of fixed effects",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences increases the estimated variance of fixed effects",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "0",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of fixed effects",
+         "population": "simulated panels"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences increases the estimated variance of fixed effects",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "upward bias in the estimated variance of fixed effects",
+     "variants": [
+      "upward bias in the estimated variance of fixed effects"
+     ],
+     "normalised": "upward bia in the estimated variance of fixed effect",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V7",
+       "variable_name": "estimated variance of fixed effects",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S9",
+         "role": "effect",
+         "sign": "+",
+         "other": "true persistence",
+         "statement": "True persistence increases the upward bias in the estimated variance of fixed effects.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V8",
+   "label": "estimated variance of persistent shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "The estimate and its (unsigned) bias refer to the same estimated parameter.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "estimated variance of persistent shocks",
+     "variants": [
+      "estimated variance of persistent shocks"
+     ],
+     "normalised": "estimated variance of persistent shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V8",
+       "variable_name": "estimated variance of persistent shocks",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "effect",
+         "sign": "0",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of persistent shocks",
+         "population": "simulated panels, especially when the number of sample individuals is large"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S5",
+         "role": "effect",
+         "sign": "0",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences has no effect on the estimated variance of persistent shocks",
+         "population": "simulated panels, especially large samples"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "bias in the estimated variance of persistent shocks",
+     "variants": [
+      "bias in the estimated variance of persistent shocks"
+     ],
+     "normalised": "bia in the estimated variance of persistent shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V8",
+       "variable_name": "estimated variance of persistent shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S10",
+         "role": "effect",
+         "sign": "-",
+         "other": "number of sample individuals",
+         "statement": "The number of sample individuals decreases the bias in the estimated variance of persistent shocks.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
+   "n_wordings": 2
+  },
+  {
+   "id": "?dk_W4387776349:V9",
+   "label": "estimated variance of transitory shocks",
+   "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in A guide to estimating the canonical income process in quasidifferences.",
+   "definition": "The estimate and its (unsigned) bias refer to the same estimated parameter.",
+   "left_out": false,
+   "domain": "unplaced",
+   "parent": null,
+   "children": [],
+   "direction": null,
+   "more_means": null,
+   "aliases": [],
+   "abstract": false,
+   "n_papers": 1,
+   "n_edges": 1,
+   "papers": [
+    "dk_W4387776349"
+   ],
+   "wordings": [
+    {
+     "text": "estimated variance of transitory shocks",
+     "variants": [
+      "estimated variance of transitory shocks"
+     ],
+     "normalised": "estimated variance of transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V9",
+       "variable_name": "estimated variance of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "effect",
+         "sign": "0",
+         "other": "estimation in quasidifferences",
+         "statement": "Estimation in quasidifferences has no effect on the estimated variance of transitory shocks",
+         "population": "simulated panels, especially when the number of sample individuals is large"
+        },
+        {
+         "run": "stated_claims_r3",
+         "id": "S6",
+         "role": "effect",
+         "sign": "0",
+         "other": "estimation in quasidifferences",
+         "statement": "estimation in quasidifferences has no effect on the estimated variance of transitory shocks",
+         "population": "simulated panels, especially large samples"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "bias in the estimated variance of transitory shocks",
+     "variants": [
+      "bias in the estimated variance of transitory shocks"
+     ],
+     "normalised": "bia in the estimated variance of transitory shock",
+     "polarity": "same",
+     "how": "unplaced",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W4387776349",
+       "variable": "V9",
+       "variable_name": "estimated variance of transitory shocks",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S11",
+         "role": "effect",
+         "sign": "-",
+         "other": "number of sample individuals",
+         "statement": "The number of sample individuals decreases the bias in the estimated variance of transitory shocks.",
+         "population": "simulated panels"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": true,
+   "paper": "dk_W4387776349",
    "n_wordings": 2
   },
   {
@@ -108868,11 +110575,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W7202348113"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "main findings",
