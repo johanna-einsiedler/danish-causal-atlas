@@ -5,7 +5,7 @@
    "label": "Labor income",
    "domain": "income",
    "parent": null,
-   "n_papers": 39,
+   "n_papers": 40,
    "papers": [
     "dk_W4378472128",
     "dk_W4386325880",
@@ -37,6 +37,7 @@
     "dk_W4412552984",
     "dk_W2921836311",
     "dk_W2156139463",
+    "dk_W7134125062",
     "dk_W2801804463",
     "dk_W4413790562",
     "dk_W2939678267",
@@ -102,6 +103,29 @@
    ]
   },
   {
+   "id": "education.attainment",
+   "label": "Educational attainment",
+   "domain": "education",
+   "parent": null,
+   "n_papers": 14,
+   "papers": [
+    "dk_W2548529099",
+    "dk_W2783930051",
+    "dk_W3122408342",
+    "dk_W4205546533",
+    "dk_W7120018105",
+    "dk_W2792687878",
+    "dk_W4408147308",
+    "dk_W4412957842",
+    "dk_W7164733992",
+    "dk_W2620793188",
+    "dk_W7134125062",
+    "dk_W2951412023",
+    "dk_W3122965561",
+    "dk_W7167459045"
+   ]
+  },
+  {
    "id": "labor.wage_rate",
    "label": "Wage rate",
    "domain": "labor",
@@ -122,28 +146,6 @@
     "dk_W4400146932",
     "dk_W3146661424",
     "dk_W2139380543"
-   ]
-  },
-  {
-   "id": "education.attainment",
-   "label": "Educational attainment",
-   "domain": "education",
-   "parent": null,
-   "n_papers": 13,
-   "papers": [
-    "dk_W2548529099",
-    "dk_W2783930051",
-    "dk_W3122408342",
-    "dk_W4205546533",
-    "dk_W7120018105",
-    "dk_W2792687878",
-    "dk_W4408147308",
-    "dk_W4412957842",
-    "dk_W7164733992",
-    "dk_W2620793188",
-    "dk_W2951412023",
-    "dk_W3122965561",
-    "dk_W7167459045"
    ]
   },
   {
@@ -313,20 +315,20 @@
    ]
   },
   {
-   "id": "family.parental_age_at_birth",
-   "label": "Parents' age at the child's birth",
-   "domain": "family",
+   "id": "income.socioeconomic_status",
+   "label": "Socio-economic status",
+   "domain": "income",
    "parent": null,
    "n_papers": 8,
    "papers": [
-    "dk_W3123970227",
-    "dk_W3212471012",
-    "dk_W2548529099",
-    "dk_W4408147308",
-    "dk_W2770250470",
-    "dk_W1827874139",
     "dk_W4295270093",
-    "dk_W3126668274"
+    "dk_W4412178202",
+    "dk_W3126668274",
+    "dk_W3167298212",
+    "dk_W3195462145",
+    "dk_W4409457195",
+    "dk_W4391218902",
+    "dk_W7134125062"
    ]
   },
   {
@@ -396,19 +398,19 @@
    ]
   },
   {
-   "id": "income.socioeconomic_status",
-   "label": "Socio-economic status",
-   "domain": "income",
+   "id": "family.parental_age_at_birth",
+   "label": "Parents' age at the child's birth",
+   "domain": "family",
    "parent": null,
    "n_papers": 7,
    "papers": [
+    "dk_W3123970227",
+    "dk_W3212471012",
+    "dk_W2548529099",
+    "dk_W4408147308",
+    "dk_W1827874139",
     "dk_W4295270093",
-    "dk_W4412178202",
-    "dk_W3126668274",
-    "dk_W3167298212",
-    "dk_W3195462145",
-    "dk_W4409457195",
-    "dk_W4391218902"
+    "dk_W3126668274"
    ]
   },
   {
@@ -920,6 +922,19 @@
    ]
   },
   {
+   "id": "migration.internal_migration",
+   "label": "Internal migration",
+   "domain": "migration",
+   "parent": null,
+   "n_papers": 4,
+   "papers": [
+    "dk_W2265295982",
+    "dk_W7160825662",
+    "dk_W7134125062",
+    "dk_W4309550482"
+   ]
+  },
+  {
    "id": "preferences.patience",
    "label": "Patience",
    "domain": "preferences",
@@ -1110,9 +1125,9 @@
    "parent": "health.health_care_use",
    "n_papers": 3,
    "papers": [
-    "dk_W2770250470",
     "dk_W4388665909",
-    "dk_W3001397820"
+    "dk_W3001397820",
+    "dk_W2770250470"
    ]
   },
   {
@@ -1260,18 +1275,6 @@
    ]
   },
   {
-   "id": "migration.internal_migration",
-   "label": "Internal migration",
-   "domain": "migration",
-   "parent": null,
-   "n_papers": 3,
-   "papers": [
-    "dk_W2265295982",
-    "dk_W7160825662",
-    "dk_W4309550482"
-   ]
-  },
-  {
    "id": "preferences.household_utility",
    "label": "Household utility",
    "domain": "preferences",
@@ -1375,6 +1378,17 @@
    "papers": [
     "dk_W7212086049",
     "dk_W3016333778"
+   ]
+  },
+  {
+   "id": "crime.facility_distance_from_home",
+   "label": "Distance of the prison placement from home",
+   "domain": "crime",
+   "parent": null,
+   "n_papers": 2,
+   "papers": [
+    "dk_W3135595892",
+    "dk_W7134125062"
    ]
   },
   {
@@ -1785,6 +1799,17 @@
    ]
   },
   {
+   "id": "labor.occupational_employment.high_wage",
+   "label": "Employment in high-wage occupations",
+   "domain": "labor",
+   "parent": "labor.occupational_employment",
+   "n_papers": 2,
+   "papers": [
+    "dk_W7134125062",
+    "dk_W2213841331"
+   ]
+  },
+  {
    "id": "labor.occupational_mobility.upward",
    "label": "Upward occupational mobility",
    "domain": "labor",
@@ -2093,16 +2118,6 @@
    "n_papers": 1,
    "papers": [
     "dk_W4320855144"
-   ]
-  },
-  {
-   "id": "crime.facility_distance_from_home",
-   "label": "Distance of the prison placement from home",
-   "domain": "crime",
-   "parent": null,
-   "n_papers": 1,
-   "papers": [
-    "dk_W3135595892"
    ]
   },
   {
@@ -3216,16 +3231,6 @@
    ]
   },
   {
-   "id": "labor.occupational_employment.high_wage",
-   "label": "Employment in high-wage occupations",
-   "domain": "labor",
-   "parent": "labor.occupational_employment",
-   "n_papers": 1,
-   "papers": [
-    "dk_W2213841331"
-   ]
-  },
-  {
    "id": "labor.occupational_employment.low_wage",
    "label": "Employment in low-wage occupations",
    "domain": "labor",
@@ -3569,8 +3574,8 @@
  "by_strategy": [
   {
    "strategy": "descriptive",
-   "n_papers": 80,
-   "n_records": 938,
+   "n_papers": 81,
+   "n_records": 952,
    "papers": [
     "dk_W1940883135",
     "dk_W2088663850",
@@ -3639,6 +3644,7 @@
     "dk_W4417214164",
     "dk_W7116973036",
     "dk_W7124554175",
+    "dk_W7134125062",
     "dk_W7134195116",
     "dk_W7134835134",
     "dk_W7138994761",
@@ -3713,8 +3719,8 @@
   },
   {
    "strategy": "difference_in_differences",
-   "n_papers": 40,
-   "n_records": 301,
+   "n_papers": 41,
+   "n_records": 314,
    "papers": [
     "dk_W1503225338",
     "dk_W2046545334",
@@ -3727,6 +3733,7 @@
     "dk_W2592024171",
     "dk_W2594576665",
     "dk_W2739075932",
+    "dk_W2770250470",
     "dk_W2802346683",
     "dk_W2915742260",
     "dk_W2939678267",
@@ -4304,7 +4311,7 @@
   },
   {
    "year": 2026,
-   "n": 44,
+   "n": 45,
    "papers": [
     "dk_W3216346448",
     "dk_W4385771522",
@@ -4323,6 +4330,7 @@
     "dk_W7120018105",
     "dk_W7124554175",
     "dk_W7127146382",
+    "dk_W7134125062",
     "dk_W7134195116",
     "dk_W7134835134",
     "dk_W7138836206",
@@ -5853,6 +5861,13 @@
    "source": "scope"
   },
   {
+   "artid": "dk_W7134125062",
+   "year": 2026,
+   "from": 2014,
+   "to": 2023,
+   "source": "scope"
+  },
+  {
    "artid": "dk_W7134195116",
    "year": 2026,
    "from": 2002,
@@ -6899,6 +6914,13 @@
    "n": 1,
    "papers": [
     "dk_W3216256880"
+   ]
+  },
+  {
+   "journal": "Regional Science Policy & Practice",
+   "n": 1,
+   "papers": [
+    "dk_W7134125062"
    ]
   },
   {
@@ -8697,11 +8719,77 @@
   },
   {
    "artid": "dk_W2770250470",
-   "n_headline": 0,
-   "n_with_t": 0,
+   "n_headline": 13,
+   "n_with_t": 13,
    "n_approx": 0,
-   "ts": [],
-   "median_abs_t": null
+   "ts": [
+    {
+     "t": 4.98,
+     "approx": false,
+     "record_id": "dk_W2770250470_c1"
+    },
+    {
+     "t": 6.87,
+     "approx": false,
+     "record_id": "dk_W2770250470_c4"
+    },
+    {
+     "t": 5.03,
+     "approx": false,
+     "record_id": "dk_W2770250470_c5"
+    },
+    {
+     "t": 2.41,
+     "approx": false,
+     "record_id": "dk_W2770250470_c6"
+    },
+    {
+     "t": 0.43,
+     "approx": false,
+     "record_id": "dk_W2770250470_c7"
+    },
+    {
+     "t": 0.89,
+     "approx": false,
+     "record_id": "dk_W2770250470_c8"
+    },
+    {
+     "t": 0.67,
+     "approx": false,
+     "record_id": "dk_W2770250470_c9"
+    },
+    {
+     "t": 4.5,
+     "approx": false,
+     "record_id": "dk_W2770250470_c11"
+    },
+    {
+     "t": 1.98,
+     "approx": false,
+     "record_id": "dk_W2770250470_c14"
+    },
+    {
+     "t": -2.88,
+     "approx": false,
+     "record_id": "dk_W2770250470_c15"
+    },
+    {
+     "t": 2.83,
+     "approx": false,
+     "record_id": "dk_W2770250470_c19"
+    },
+    {
+     "t": -2.98,
+     "approx": false,
+     "record_id": "dk_W2770250470_c26"
+    },
+    {
+     "t": 1.97,
+     "approx": false,
+     "record_id": "dk_W2770250470_c27"
+    }
+   ],
+   "median_abs_t": 2.83
   },
   {
    "artid": "dk_W2781798209",
@@ -16075,6 +16163,14 @@
    "median_abs_t": 388.25
   },
   {
+   "artid": "dk_W7134125062",
+   "n_headline": 14,
+   "n_with_t": 0,
+   "n_approx": 0,
+   "ts": [],
+   "median_abs_t": null
+  },
+  {
    "artid": "dk_W7134195116",
    "n_headline": 36,
    "n_with_t": 36,
@@ -17526,14 +17622,14 @@
   }
  ],
  "totals": {
-  "papers": 243,
-  "records_accepted": 887,
-  "records_rejected": 89,
-  "edges": 946,
+  "papers": 244,
+  "records_accepted": 890,
+  "records_rejected": 91,
+  "edges": 951,
   "contradictions": 3,
   "concepts_touched": 308,
-  "designs": 16287,
-  "headline": 2079,
-  "headline_with_t": 1668
+  "designs": 16366,
+  "headline": 2106,
+  "headline_with_t": 1681
  }
 }

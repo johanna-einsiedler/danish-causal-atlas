@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-17T03:36:52+00:00",
+  "built_at": "2026-10-17T17:06:49+00:00",
   "corpus": "danish-register-econ",
   "taxonomy": {
    "batch": "T20261008T025755Z+E6",
@@ -10,7 +10,7 @@
   "rules": [
    "strict"
   ],
-  "n_papers": 243,
+  "n_papers": 244,
   "scope_tags": [
    {
     "tag": "working age",
@@ -18,11 +18,11 @@
    },
    {
     "tag": "workers",
-    "n": 156
+    "n": 161
    },
    {
     "tag": "children",
-    "n": 108
+    "n": 109
    },
    {
     "tag": "women",
@@ -137,11 +137,11 @@
     "n": 16
    },
    {
-    "tag": "Firstborn and second-born siblings",
-    "n": 15
+    "tag": "couples",
+    "n": 16
    },
    {
-    "tag": "couples",
+    "tag": "Firstborn and second-born siblings",
     "n": 15
    },
    {
@@ -157,10 +157,6 @@
     "n": 13
    },
    {
-    "tag": "Spouses in households experiencing a health event",
-    "n": 13
-   },
-   {
     "tag": "Retirement",
     "n": 12
    },
@@ -171,10 +167,6 @@
    {
     "tag": "manufacturers",
     "n": 12
-   },
-   {
-    "tag": "Adult children (heirs)",
-    "n": 11
    },
    {
     "tag": "Death of a parent",
@@ -189,8 +181,16 @@
     "n": 11
    },
    {
+    "tag": "Spouses in households experiencing a health event",
+    "n": 11
+   },
+   {
     "tag": "upper secondary education",
     "n": 11
+   },
+   {
+    "tag": "Adult children (heirs)",
+    "n": 10
    },
    {
     "tag": "Childhood vaccination program",
@@ -222,10 +222,6 @@
    },
    {
     "tag": "Primary care practice closure",
-    "n": 9
-   },
-   {
-    "tag": "Severe nonfatal health shock (heart attack or stroke)",
     "n": 9
    },
    {
@@ -377,6 +373,10 @@
     "n": 6
    },
    {
+    "tag": "Severe nonfatal health shock (heart attack or stroke)",
+    "n": 6
+   },
+   {
     "tag": "Survey participants vs eligible population",
     "n": 6
    },
@@ -445,6 +445,10 @@
     "n": 5
    },
    {
+    "tag": "Out-migration from the capital city area",
+    "n": 5
+   },
+   {
     "tag": "Public sector",
     "n": 5
    },
@@ -458,6 +462,10 @@
    },
    {
     "tag": "adults aged 18-70",
+    "n": 5
+   },
+   {
+    "tag": "adults aged 24-74",
     "n": 5
    },
    {
@@ -841,10 +849,6 @@
     "n": 2
    },
    {
-    "tag": "High vs low predicted cardiovascular risk",
-    "n": 2
-   },
-   {
     "tag": "Hospitals",
     "n": 2
    },
@@ -1101,6 +1105,10 @@
     "n": 1
    },
    {
+    "tag": "High vs low predicted cardiovascular risk",
+    "n": 1
+   },
+   {
     "tag": "High-skilled vs low-skilled workers",
     "n": 1
    },
@@ -1302,10 +1310,6 @@
    },
    {
     "tag": "Workplace adversity at baseline",
-    "n": 1
-   },
-   {
-    "tag": "Younger vs older parental age at shock",
     "n": 1
    },
    {
@@ -1631,8 +1635,8 @@
    "domain": "crime",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 1,
-   "n_edges": 1,
+   "n_papers": 2,
+   "n_edges": 2,
    "unplaced": false,
    "summary": "How far from home the prison an inmate is held in is."
   },
@@ -1796,8 +1800,8 @@
    "domain": "education",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 13,
-   "n_edges": 20,
+   "n_papers": 14,
+   "n_edges": 21,
    "unplaced": false,
    "summary": "Educational attainment is how much schooling a person ends up completing."
   },
@@ -2368,8 +2372,8 @@
    "domain": "family",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 8,
-   "n_edges": 10,
+   "n_papers": 7,
+   "n_edges": 9,
    "unplaced": false,
    "summary": "This is how old a mother or father is at the birth of the child."
   },
@@ -2809,7 +2813,7 @@
    "parent": null,
    "direction": "higher_is_more",
    "n_papers": 9,
-   "n_edges": 16,
+   "n_edges": 17,
    "unplaced": false,
    "summary": "General health is how healthy a person is overall."
   },
@@ -2930,7 +2934,7 @@
    "parent": "health.health_care_use",
    "direction": "higher_is_more",
    "n_papers": 3,
-   "n_edges": 7,
+   "n_edges": 4,
    "unplaced": false,
    "summary": "Preventive dental care is the share of dental treatment that is prophylaxis and cleaning rather than repair."
   },
@@ -3007,7 +3011,7 @@
    "parent": null,
    "direction": "higher_is_more",
    "n_papers": 1,
-   "n_edges": 2,
+   "n_edges": 3,
    "unplaced": false,
    "summary": "A sudden severe health event striking a household member -- in these data a heart attack or a stroke."
   },
@@ -3446,8 +3450,8 @@
    "domain": "income",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 39,
-   "n_edges": 50,
+   "n_papers": 40,
+   "n_edges": 51,
    "unplaced": false,
    "summary": "The money a person earns from work over a period, as a level (annual labor market earnings / wage income)."
   },
@@ -3512,8 +3516,8 @@
    "domain": "income",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 7,
-   "n_edges": 11,
+   "n_papers": 8,
+   "n_edges": 12,
    "unplaced": false,
    "summary": "How high a person stands in terms of income, schooling and occupation."
   },
@@ -3996,8 +4000,8 @@
    "domain": "labor",
    "parent": "labor.occupational_employment",
    "direction": "higher_is_more",
-   "n_papers": 1,
-   "n_edges": 1,
+   "n_papers": 2,
+   "n_edges": 2,
    "unplaced": false,
    "summary": "Whether a worker holds a job in the top of the occupational wage distribution."
   },
@@ -4348,8 +4352,8 @@
    "domain": "migration",
    "parent": null,
    "direction": "higher_is_more",
-   "n_papers": 3,
-   "n_edges": 5,
+   "n_papers": 4,
+   "n_edges": 10,
    "unplaced": false,
    "summary": "Moving between regions within a country, including the inflow of movers into an area."
   },
@@ -5779,7 +5783,7 @@
    "parent": null,
    "direction": null,
    "n_papers": 1,
-   "n_edges": 2,
+   "n_edges": 1,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Family Health Behaviors."
   },
@@ -5800,8 +5804,8 @@
    "domain": "unplaced",
    "parent": null,
    "direction": null,
-   "n_papers": 1,
-   "n_edges": 1,
+   "n_papers": 0,
+   "n_edges": 0,
    "unplaced": true,
    "summary": "Not yet in the taxonomy: a variable the adjudication kept apart in Family Health Behaviors."
   },
@@ -51638,7 +51642,7 @@
       "V19->V17"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W2770250470:V19",
      "to": "?dk_W2770250470:V17",
      "sign": "0",
@@ -51762,7 +51766,7 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
@@ -51793,17 +51797,17 @@
       "V19->V14"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W2770250470:V19",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "baseline cardiovascular risk",
      "to_wording": "consumption of preventive care against cardiovascular disease",
-     "kind": "unknown",
-     "verdict": "accepted",
-     "reason": null,
-     "tier": "majority",
+     "kind": "statement",
+     "verdict": "rejected",
+     "reason": "statement",
+     "tier": "statement",
      "flags": [
       "existence",
       "folded",
@@ -51812,7 +51816,7 @@
      "support": 2,
      "k": 3,
      "label": "majority",
-     "design_basis": "unknown",
+     "design_basis": "none",
      "strategies": [],
      "populations": [
       "spouses",
@@ -51959,13 +51963,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "statement": 1
    },
    "years": {
     "from": 1980,
@@ -51990,7 +51994,7 @@
       "V20->V8"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W2770250470:V20",
      "to": "health.general_health",
      "sign": "+",
@@ -52113,7 +52117,7 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
@@ -52144,17 +52148,17 @@
       "V22->V14"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W2770250470:V22",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "0",
      "raw_sign": "0",
      "from_wording": "having been tested for cholesterol levels in the pre-shock period",
      "to_wording": "consumption of preventive care against cardiovascular disease",
-     "kind": "unknown",
-     "verdict": "accepted",
-     "reason": null,
-     "tier": "majority",
+     "kind": "statement",
+     "verdict": "rejected",
+     "reason": "statement",
+     "tier": "statement",
      "flags": [
       "existence",
       "folded",
@@ -52163,7 +52167,7 @@
      "support": 2,
      "k": 3,
      "label": "majority",
-     "design_basis": "unknown",
+     "design_basis": "none",
      "strategies": [],
      "populations": [
       "spouses already tested for cholesterol before the shock",
@@ -52291,13 +52295,13 @@
     ],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "0",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "statement": 1
    },
    "years": {
     "from": 1980,
@@ -52321,17 +52325,17 @@
       "V23->V13"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "?dk_W2770250470:V23",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "living closer to one's in-laws",
      "to_wording": "take-up of preventive care",
-     "kind": "unknown",
+     "kind": "statement",
      "verdict": "rejected",
-     "reason": "unsupported",
-     "tier": "contested",
+     "reason": "statement",
+     "tier": "statement",
      "flags": [
       "existence",
       "unplaced"
@@ -52339,7 +52343,7 @@
      "support": 1,
      "k": 3,
      "label": "single",
-     "design_basis": "unknown",
+     "design_basis": "none",
      "strategies": [],
      "populations": [
       "sons- and daughters-in-law of the individual who experiences the cardiovascular shock"
@@ -52463,13 +52467,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "statement": 1
    },
    "years": {
     "from": 1980,
@@ -127008,6 +127012,545 @@
    "strategies": []
   },
   {
+   "id": "crime.facility_distance_from_home->migration.internal_migration",
+   "from": "crime.facility_distance_from_home",
+   "to": "migration.internal_migration",
+   "records": [
+    {
+     "id": "dk_W7134125062:V7->V2",
+     "merged_from": [
+      "V7->V2",
+      "V7->V6"
+     ],
+     "paper": "dk_W7134125062",
+     "design_pending": false,
+     "from": "crime.facility_distance_from_home",
+     "to": "migration.internal_migration",
+     "sign": "?",
+     "raw_sign": "?",
+     "from_wording": "work-from-home (WFH) probability",
+     "to_wording": "rural migration",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "within_paper_merged"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "c1",
+       "basis": "record"
+      },
+      {
+       "strategy": "descriptive",
+       "record_id": "c24",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "CCA residents (potential out-migrants)",
+      "residents of the Copenhagen capital city area (CCA)",
+      "CCA out-migrants to rural destinations",
+      "CCA out-migrants to urban destinations",
+      "movers from the Stockholm capital city area (CCA) to rural areas",
+      "movers from the Stockholm capital city area (CCA) to urban areas"
+     ],
+     "scope_tags": [
+      "Out-migration from the capital city area",
+      "adults aged 24-74",
+      "workers"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.worker_years",
+       "label": "worker-years"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.adults_aged_24_74",
+       "label": "adults aged 24-74"
+      },
+      "role": {
+       "id": "role.workers",
+       "label": "workers"
+      },
+      "event": {
+       "id": "event.out_migration_from_the_capital_city_area",
+       "label": "Out-migration from the capital city area"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope is all Copenhagen CCA residents (potential out-migrants), while part of the linked estimates (Table 4) is conditional on having out-migrated from the CCA.",
+     "years": {
+      "from": 2014,
+      "to": 2023,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "In Denmark, higher work-from-home (WFH) probability paradoxically reduces CCA-to-rural migration, reinforcing metropolitan attachment, a pattern intensified during the pandemic.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Furthermore, the study explores how the COVID-19 pandemic and the expansion of remote work opportunities have influenced the migration decisions and destination choices of CCA out-migrants, distinguishing between relocations to rural and urban municipalities.",
+       "page": "2",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "According to Table 7, in Denmark, work-from-home (WFH) probability consistently reduces the likelihood of moving from the CCA to rural areas, with the strongest negative effect during COVID-19 and only partial weakening afterwards.",
+       "page": "9",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "In Denmark, higher work-from-home (WFH) probability paradoxically reduces CCA-to-rural migration, reinforcing metropolitan attachment, a pattern intensified during the pandemic.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Remote work is particularly revealing: a higher probability of working from home significantly reduces the likelihood of leaving the CCA for rural destinations in Denmark, indicating that remote work reinforces metropolitan residence rather than enabling rural relocation.",
+       "page": "7",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV1::C1 row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV1::C2 row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV1::C3 row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV2::C1 row 2",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV2::C2 row 2",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T7::DK-DV2::C3 row 2",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "abstract",
+       "text": "Sweden shows the opposite, where remote work gradually expanded the feasible migration radius, with higher WFH probabilities associating with notably longer distances to both rural and urban destinations, particularly post-pandemic.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "According to Equation 2, the linear regression results with year fixed effects in Table 5 show logged migration distances from CCA municipalities to rural areas in Denmark and Sweden.",
+       "page": "8",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "For CCA out-migrants choosing urban destinations in Denmark and Sweden, Table 6 (based on Equation 2) presents linear regression results with year fixed effects (2014–2023), revealing that CCA-to-urban moves are strongly stratified by life-course, education, skills, family status and, in Sweden, re…",
+       "page": "8",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Sweden shows the opposite, where remote work gradually expanded the feasible migration radius, with higher WFH probabilities associating with notably longer distances to both rural and urban destinations, particularly post-pandemic.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Remote-work probability (WFH) is insignificant for migration distance in Denmark but significantly positive in Sweden, i.e., each unit increase in WFH probability corresponds to a roughly 5.5% increase in migration distance.",
+       "page": "8",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "In Denmark, work-from-home (WFH) probability does not significantly influence urban migration distance, whereas in Sweden higher WFH probabilities associate with notably longer urban migration distances.",
+       "page": "9",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "It compares individuals relocating to rural areas with those remaining within the CCA or moving to other urban locations, also assessing whether these movements occur over shorter or longer distances.",
+       "page": "1-2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Conversely, Swedish remote workers moving to rural destinations consistently relocate over longer distances than non-remote workers across all three periods, with positive, highly significant coefficients remaining fairly stable over time.",
+       "page": "10",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Table 8 shows that for CCA-to-urban moves, remote work associates with longer migration distances, but far more strongly and persistently in Sweden.",
+       "page": "10",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T5::_::CSweden row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV3::C1 row 1",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV3::C2 row 1",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV3::C3 row 1",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T6::_::CSweden row 0",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV4::C1 row 3",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV4::C2 row 3",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T8::SE-DV4::C3 row 3",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W7134125062::T3::_::CDenmark row 0",
+       "value": -0.0088,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c1"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T7::DK-DV1::C2 row 0",
+       "value": -0.0113,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W7134125062::T5::_::CSweden row 0",
+       "value": 0.055,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c6"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T6::_::CSweden row 0",
+       "value": 0.069,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c8"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T8::SE-DV3::C3 row 1",
+       "value": 0.055,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      },
+      {
+       "cell": "dk_W7134125062::T8::SE-DV4::C3 row 3",
+       "value": 0.07,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": []
+      }
+     ],
+     "t": [
+      {
+       "record_id": "c1",
+       "t": null,
+       "approx": false,
+       "estimate": -0.0088,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+       "statement": "Among Danish CCA residents, a higher work-from-home probability is associated with a lower probability of migrating from the Copenhagen capital city area to a rural municipality (2014-2023)."
+      },
+      {
+       "record_id": "c10",
+       "t": null,
+       "approx": false,
+       "estimate": -0.0113,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T7::DK-DV1::C2",
+       "statement": "In Denmark, a higher work-from-home probability is associated with a lower probability of migrating from the capital city area to a rural municipality rather than staying in the pandemic period 2020-…"
+      },
+      {
+       "record_id": "c9",
+       "t": null,
+       "approx": false,
+       "estimate": -0.0076,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T7::DK-DV1::C1",
+       "statement": "In Denmark, a higher work-from-home probability is associated with a lower probability of migrating from the capital city area to a rural municipality rather than staying in the pre-pandemic period 2…"
+      },
+      {
+       "record_id": "c26",
+       "t": null,
+       "approx": false,
+       "estimate": 0.055,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T8::SE-DV3::C3",
+       "statement": "In Sweden, a higher work-from-home probability is associated with a longer the log distance of a move from the capital city area to a rural destination in the post-pandemic period 2022-2023."
+      },
+      {
+       "record_id": "c32",
+       "t": null,
+       "approx": false,
+       "estimate": 0.07,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T8::SE-DV4::C3",
+       "statement": "In Sweden, a higher work-from-home probability is associated with a longer the log distance of a move from the capital city area to an urban destination in the post-pandemic period 2022-2023."
+      },
+      {
+       "record_id": "c6",
+       "t": null,
+       "approx": false,
+       "estimate": 0.055,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T5::_::CSweden",
+       "statement": "Among Swedish CCA-to-rural migrants, a higher work-from-home probability is associated with a longer log migration distance - about 5.5% per unit of WFH probability (2014-2023)."
+      },
+      {
+       "record_id": "c8",
+       "t": null,
+       "approx": false,
+       "estimate": 0.069,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T6::_::CSweden",
+       "statement": "Among Swedish CCA-to-urban migrants, a higher work-from-home probability is associated with a longer log migration distance (2014-2023)."
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S9",
+       "statement": "work-from-home probability decreases CCA-to-rural migration",
+       "sign": "-",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "CCA-to-rural migration",
+       "population": "CCA residents (potential out-migrants)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S8",
+       "statement": "Work-from-home probability decreases CCA-to-rural migration.",
+       "sign": "-",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "CCA-to-rural migration",
+       "population": "residents of the Copenhagen capital city area (CCA)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S11",
+       "statement": "work-from-home probability increases migration distance",
+       "sign": "+",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "migration distance",
+       "population": "CCA out-migrants to rural destinations",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S12",
+       "statement": "work-from-home probability increases migration distance",
+       "sign": "+",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "migration distance",
+       "population": "CCA out-migrants to urban destinations",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S10",
+       "statement": "Work-from-home probability increases migration distance to rural destinations.",
+       "sign": "+",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "migration distance to rural destinations",
+       "population": "movers from the Stockholm capital city area (CCA) to rural areas",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S11",
+       "statement": "Work-from-home probability increases migration distance to urban destinations.",
+       "sign": "+",
+       "cause": "work-from-home (WFH) probability",
+       "effect": "migration distance to urban destinations",
+       "population": "movers from the Stockholm capital city area (CCA) to urban areas",
+       "period": "2014–2023",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "loose",
+      "to": "loose"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W7134125062"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [],
+    "0": [],
+    "?": [
+     "dk_W7134125062"
+    ]
+   },
+   "design_pending": false,
+   "consensus_sign": "?",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "associational": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2023
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "Out-migration from the capital city area",
+    "adults aged 24-74",
+    "workers"
+   ],
+   "strategies": [
+    "descriptive"
+   ]
+  },
+  {
    "id": "crime.facility_transfer->family.family_background",
    "from": "crime.facility_transfer",
    "to": "family.family_background",
@@ -138049,6 +138592,428 @@
     "working age"
    ],
    "strategies": []
+  },
+  {
+   "id": "education.attainment->migration.internal_migration",
+   "from": "education.attainment",
+   "to": "migration.internal_migration",
+   "records": [
+    {
+     "id": "dk_W7134125062:V1->V2",
+     "merged_from": [
+      "V1->V2",
+      "V1->V6"
+     ],
+     "paper": "dk_W7134125062",
+     "design_pending": false,
+     "from": "education.attainment",
+     "to": "migration.internal_migration",
+     "sign": "?",
+     "raw_sign": "?",
+     "from_wording": "education level",
+     "to_wording": "rural migration",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [
+      "member_conflict",
+      "within_paper_merged"
+     ],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "c33",
+       "basis": "record"
+      },
+      {
+       "strategy": "descriptive",
+       "record_id": "c39",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "CCA residents (potential out-migrants)",
+      "residents of the Copenhagen capital city area (CCA)",
+      "CCA out-migrants to rural destinations",
+      "CCA out-migrants to urban destinations",
+      "movers out of the Stockholm capital city area (CCA), to both rural and urban destinations"
+     ],
+     "scope_tags": [
+      "Out-migration from the capital city area",
+      "adults aged 24-74",
+      "workers"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.worker_years",
+       "label": "worker-years"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.adults_aged_24_74",
+       "label": "adults aged 24-74"
+      },
+      "role": {
+       "id": "role.workers",
+       "label": "workers"
+      },
+      "event": {
+       "id": "event.out_migration_from_the_capital_city_area",
+       "label": "Out-migration from the capital city area"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope is all Copenhagen CCA residents (potential out-migrants), but two of the linked estimates (Table 4) are restricted to those who actually out-migrated from the CCA.",
+     "years": {
+      "from": 2014,
+      "to": 2023,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Using longitudinal micro-register data from Denmark and Sweden covering the period 2014–2023, combined with logistic regression analysis, the study conducts an exploratory comparative analysis of migrants originating from the Capital City Area (CCA).",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "As shown in Table 3, the Danish results reveal clear education, family, and human-capital gradients.",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "It compares individuals relocating to rural areas with those remaining within the CCA or moving to other urban locations, also assessing whether these movements occur over shorter or longer distances.",
+       "page": "1-2",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "A near-parallel education gradient in both countries indicates that the most highly educated and high-skilled workers are about ten percentage points less likely to choose rural destinations, pointing to spatial sorting and a potential rural brain drain.",
+       "page": "7",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 13",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 12",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 13",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "abstract",
+       "text": "Sweden demonstrates spatial flexibility, with rural migration broadly distributed across social groups, though migration distances increase with workers' level of education regardless of destination.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "According to Equation 2, the linear regression results with year fixed effects in Table 5 show logged migration distances from CCA municipalities to rural areas in Denmark and Sweden.",
+       "page": "8",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "For CCA out-migrants choosing urban destinations in Denmark and Sweden, Table 6 (based on Equation 2) presents linear regression results with year fixed effects (2014–2023), revealing that CCA-to-urban moves are strongly stratified by life-course, education, skills, family status and, in Sweden, re…",
+       "page": "8",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Sweden demonstrates spatial flexibility, with rural migration broadly distributed across social groups, though migration distances increase with workers' level of education regardless of destination.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "In Sweden, by contrast, a clear education gradient emerges, i.e., more education corresponds to longer migration distances.",
+       "page": "8",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "According to Table 6, education and skills drive long-distance mobility, especially in Sweden.",
+       "page": "9",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T5::_::CSweden row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T5::_::CSweden row 13",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T6::_::CSweden row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T6::_::CSweden row 13",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T5::_::CSweden row 12",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T6::_::CSweden row 12",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W7134125062::T3::_::CDenmark row 14",
+       "value": -0.007,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c33"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T5::_::CSweden row 14",
+       "value": 0.296,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c39"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T6::_::CSweden row 14",
+       "value": 0.382,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c40"
+       ]
+      }
+     ],
+     "t": [
+      {
+       "record_id": "c33",
+       "t": null,
+       "approx": false,
+       "estimate": -0.007,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+       "statement": "Danish CCA residents with long higher education are less likely than primary-educated residents to migrate from the Copenhagen capital city area to a rural municipality."
+      },
+      {
+       "record_id": "c39",
+       "t": null,
+       "approx": false,
+       "estimate": 0.296,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T5::_::CSweden",
+       "statement": "Among Swedish CCA-to-rural migrants, those with long higher education move substantially longer distances than primary-educated movers."
+      },
+      {
+       "record_id": "c40",
+       "t": null,
+       "approx": false,
+       "estimate": 0.382,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T6::_::CSweden",
+       "statement": "Among Swedish CCA-to-urban migrants, those with long higher education move substantially longer distances than primary-educated movers."
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S2",
+       "statement": "education level decreases rural migration",
+       "sign": "-",
+       "cause": "education level",
+       "effect": "rural migration",
+       "population": "CCA residents (potential out-migrants)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S2",
+       "statement": "Higher education decreases rural migration.",
+       "sign": "-",
+       "cause": "higher education",
+       "effect": "rural migration",
+       "population": "residents of the Copenhagen capital city area (CCA)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S6",
+       "statement": "education level increases migration distance",
+       "sign": "+",
+       "cause": "education level",
+       "effect": "migration distance",
+       "population": "CCA out-migrants to rural destinations",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S7",
+       "statement": "education level increases migration distance",
+       "sign": "+",
+       "cause": "education level",
+       "effect": "migration distance",
+       "population": "CCA out-migrants to urban destinations",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S6",
+       "statement": "Education increases migration distance.",
+       "sign": "+",
+       "cause": "level of education",
+       "effect": "migration distance",
+       "population": "movers out of the Stockholm capital city area (CCA), to both rural and urban destinations",
+       "period": "2014–2023",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "loose",
+      "to": "loose"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W7134125062"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [],
+    "0": [],
+    "?": [
+     "dk_W7134125062"
+    ]
+   },
+   "design_pending": false,
+   "consensus_sign": "?",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "associational": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2023
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "Out-migration from the capital city area",
+    "adults aged 24-74",
+    "workers"
+   ],
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "education.dropout->income.labor",
@@ -174895,17 +175860,17 @@
       "V21->V14"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "family.parental_age_at_birth",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "parent's age at the time of the shock",
      "to_wording": "consumption of preventive care against cardiovascular disease",
-     "kind": "unknown",
-     "verdict": "accepted",
-     "reason": null,
-     "tier": "majority",
+     "kind": "statement",
+     "verdict": "rejected",
+     "reason": "statement",
+     "tier": "statement",
      "flags": [
       "existence",
       "folded"
@@ -174913,7 +175878,7 @@
      "support": 2,
      "k": 3,
      "label": "majority",
-     "design_basis": "unknown",
+     "design_basis": "none",
      "strategies": [],
      "populations": [
       "adult children",
@@ -175032,13 +175997,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
    "causal": false,
    "kinds": {
-    "unknown": 1
+    "statement": 1
    },
    "years": {
     "from": 1980,
@@ -195094,25 +196059,31 @@
       "V1->V8"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock",
      "to": "health.general_health",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "health shock",
      "to_wording": "health behaviors",
-     "kind": "unknown",
-     "verdict": "rejected",
-     "reason": "unsupported",
-     "tier": "contested",
+     "kind": "causal",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "backed",
      "flags": [
-      "existence"
+      "existence_backed"
      ],
      "support": 1,
      "k": 3,
      "label": "single",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c1",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "spouses of individuals who experienced a nonfatal heart attack or stroke",
       "adult children of individuals who experienced a nonfatal heart attack or stroke"
@@ -195271,7 +196242,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c1"
+       ]
       },
       {
        "cell": "dk_W2770250470::T1::_::C4 row 16",
@@ -195279,7 +196252,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c4"
+       ]
       },
       {
        "cell": "dk_W2770250470::T1::_::C5 row 16",
@@ -195287,10 +196262,53 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c5"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2770250470_c1",
+       "t": 4.98,
+       "approx": false,
+       "estimate": 0.01166,
+       "se": 0.00234,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T1::_::C1",
+       "statement": "A family member's first-time nonfatal heart attack or stroke increases prime-age spouses' (ages 25-55) statin consumption by 1.17 percentage points four years after the shock."
+      },
+      {
+       "record_id": "dk_W2770250470_c14",
+       "t": 1.98,
+       "approx": false,
+       "estimate": 0.01748,
+       "se": 0.00883,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T3::_::C3",
+       "statement": "Spouses whose cholesterol levels had already been tested in the pre-shock periods increase their statin consumption by 1.75 percentage points in response to a family cardiovascular shock."
+      },
+      {
+       "record_id": "dk_W2770250470_c4",
+       "t": 6.87,
+       "approx": false,
+       "estimate": 0.00433,
+       "se": 0.00063,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T1::_::C4",
+       "statement": "A parent's first-time nonfatal heart attack or stroke increases younger adult children's (ages 25-40) statin consumption by 0.433 percentage points four years after the shock."
+      },
+      {
+       "record_id": "dk_W2770250470_c5",
+       "t": 5.03,
+       "approx": false,
+       "estimate": 0.00799,
+       "se": 0.00159,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T1::_::C5",
+       "statement": "A parent's first-time nonfatal heart attack or stroke increases older adult children's (ages 40-65) statin consumption by 0.799 percentage points four years after the shock."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -195333,13 +196351,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -195350,7 +196368,9 @@
     "children",
     "couples"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock->health.health_care_use",
@@ -195363,14 +196383,14 @@
       "V1->V12"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock",
      "to": "health.health_care_use",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "health shock",
      "to_wording": "health care consumption",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -195378,8 +196398,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c6",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "close coworkers (similar age and occupation class, small workplaces) of individuals who experienced a nonfatal heart attack or stroke",
       "socially distant coworkers of individuals who experienced a nonfatal heart attack or stroke",
@@ -195511,7 +196537,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c6"
+       ]
       },
       {
        "cell": "dk_W2770250470::T2::_::C3 row 0",
@@ -195519,7 +196547,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c8"
+       ]
       },
       {
        "cell": "dk_W2770250470::T2::_::C4 row 0",
@@ -195527,7 +196557,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c9"
+       ]
       },
       {
        "cell": "dk_W2770250470::T2::_::C2 row 0",
@@ -195535,10 +196567,53 @@
        "label": "majority",
        "support": 2,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c7"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2770250470_c6",
+       "t": 2.41,
+       "approx": false,
+       "estimate": 0.01349,
+       "se": 0.00559,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T2::_::C1",
+       "statement": "A worker's first-time nonfatal heart attack or stroke increases the statin consumption of close coworkers (same occupation class, age gap of 5 years or less, smaller workplaces) by 1.35 percentage po…"
+      },
+      {
+       "record_id": "dk_W2770250470_c7",
+       "t": 0.43,
+       "approx": false,
+       "estimate": 0.00143,
+       "se": 0.0033,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T2::_::C2",
+       "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers in larger workplaces."
+      },
+      {
+       "record_id": "dk_W2770250470_c8",
+       "t": 0.89,
+       "approx": false,
+       "estimate": 0.00297,
+       "se": 0.00335,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T2::_::C3",
+       "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers in the same smaller workplace who are separated from the shocked worker by a larg…"
+      },
+      {
+       "record_id": "dk_W2770250470_c9",
+       "t": 0.67,
+       "approx": false,
+       "estimate": 0.0035,
+       "se": 0.00524,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T2::_::C4",
+       "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers of similar age in the same smaller workplace who belong to a different occupation…"
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -195625,13 +196700,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -195643,7 +196718,9 @@
     "Severe nonfatal health shock (heart attack or stroke)",
     "coworkers"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock->health.health_care_use.preventive_dental_care",
@@ -195657,14 +196734,14 @@
       "V1->V13"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "parent-in-law cardiovascular shock",
      "to_wording": "take-up of preventive care",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -195676,8 +196753,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c27",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "sons- and daughters-in-law of individuals who experienced a cardiovascular shock",
       "sons- and daughters-in-law",
@@ -195930,7 +197013,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c27"
+       ]
       },
       {
        "cell": "dk_W2770250470::T6::_::C4 row 4",
@@ -195946,7 +197031,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c1"
+       ]
       },
       {
        "cell": "dk_W2770250470::T1::_::C4 row 16",
@@ -195954,7 +197041,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c4"
+       ]
       },
       {
        "cell": "dk_W2770250470::T1::_::C5 row 16",
@@ -195962,10 +197051,23 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c5"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2770250470_c27",
+       "t": 1.97,
+       "approx": false,
+       "estimate": 0.00114,
+       "se": 0.00058,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T6::_::C1",
+       "statement": "A parent-in-law's first-time nonfatal heart attack or stroke increases sons- and daughters-in-law's statin consumption by 0.114 percentage points on average."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -196063,13 +197165,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1980,
@@ -196082,7 +197184,9 @@
     "children-in-law",
     "spouses and adult children"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock.fatal->health.general_health",
@@ -196090,32 +197194,44 @@
    "to": "health.general_health",
    "records": [
     {
-     "id": "dk_W2770250470:V5->V11",
+     "id": "dk_W2770250470:V5->V9",
      "merged_from": [
-      "V5->V11",
-      "V5->V9"
+      "V5->V9",
+      "V5->V11"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock.fatal",
      "to": "health.general_health",
      "sign": "?",
      "raw_sign": "?",
      "from_wording": "fatal family event",
-     "to_wording": "general awareness regarding own health",
-     "kind": "unknown",
+     "to_wording": "smoking",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
      "flags": [
+      "basis_from_candidates",
       "folded",
       "within_paper_merged"
      ],
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c21",
+       "basis": "record"
+      },
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c34",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "spouses of individuals who died",
       "spouses",
@@ -196161,8 +197277,8 @@
       },
       {
        "kind": "introduction",
-       "text": "Panel A of Figure 3 displays spousal responses using our first proxy for health alertness. The figure shows that, in the immediate years just after their spouse's death, individuals' propensity to visit hospitals on account of suspected health conditions clearly and meaningfully increases.",
-       "page": "3176",
+       "text": "In support of these findings, we provide additional analysis of spillovers in behaviors within a complementary setting of fatal events, focusing on spouses. We show that fatal family events lead to considerable behavioral improvements in the form of",
+       "page": "3163",
        "label": "majority",
        "n_runs": 2
       },
@@ -196170,62 +197286,6 @@
        "kind": "introduction",
        "text": "We show that fatal family events lead to considerable behavioral improvements in the form of decreases in key harmful habits (smoking and usage of prescription opioids), as well as to increases in general awareness regarding one’s health.",
        "page": "3163–3164",
-       "label": "majority",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We begin by analyzing the effects of death events on family members' general awareness of health, using two proxies for the degree to which individuals may pay attention to health issues.",
-       "page": "3176",
-       "label": "majority",
-       "n_runs": 2
-      },
-      {
-       "kind": "introduction",
-       "text": "We show that fatal family events lead to considerable behavioral improvements in the form of",
-       "page": "3163",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "introduction",
-       "text": "decreases in key harmful habits (smoking and usage of prescription opioids), as well as to increases in general awareness regarding own health.",
-       "page": "3164",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "introduction",
-       "text": "Panel B of Figure 3 reveals a similar (and more pronounced) response pattern in this outcome: there are significant on-impact increases in the propensity of urgent care contacts that then fade out, though do not fully disappear, in the course of four years after the event.",
-       "page": "3176",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "introduction",
-       "text": "Panel A of Figure 3 displays spousal responses using our first proxy for health alertness. ... Panel B of Figure 3 reveals a similar (and more pronounced) response pattern in this outcome: there are significant on-impact increases in the propensity of urgent care contacts that then fade.",
-       "page": "3176",
-       "label": "single",
-       "n_runs": 1
-      },
-      {
-       "kind": "cell",
-       "text": "dk_W2770250470::F3::A row 1",
-       "page": null,
-       "label": "all",
-       "n_runs": 3
-      },
-      {
-       "kind": "cell",
-       "text": "dk_W2770250470::F3::B row 1",
-       "page": null,
-       "label": "all",
-       "n_runs": 3
-      },
-      {
-       "kind": "introduction",
-       "text": "In support of these findings, we provide additional analysis of spillovers in behaviors within a complementary setting of fatal events, focusing on spouses. We show that fatal family events lead to considerable behavioral improvements in the form of",
-       "page": "3163",
        "label": "majority",
        "n_runs": 2
       },
@@ -196242,6 +197302,20 @@
        "page": "3177",
        "label": "majority",
        "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We show that fatal family events lead to considerable behavioral improvements in the form of",
+       "page": "3163",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "decreases in key harmful habits (smoking and usage of prescription opioids), as well as to increases in general awareness regarding own health.",
+       "page": "3164",
+       "label": "single",
+       "n_runs": 1
       },
       {
        "kind": "introduction",
@@ -196277,9 +197351,59 @@
        "page": null,
        "label": "all",
        "n_runs": 3
+      },
+      {
+       "kind": "introduction",
+       "text": "Panel A of Figure 3 displays spousal responses using our first proxy for health alertness. The figure shows that, in the immediate years just after their spouse's death, individuals' propensity to visit hospitals on account of suspected health conditions clearly and meaningfully increases.",
+       "page": "3176",
+       "label": "majority",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "We begin by analyzing the effects of death events on family members' general awareness of health, using two proxies for the degree to which individuals may pay attention to health issues.",
+       "page": "3176",
+       "label": "majority",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Panel B of Figure 3 reveals a similar (and more pronounced) response pattern in this outcome: there are significant on-impact increases in the propensity of urgent care contacts that then fade out, though do not fully disappear, in the course of four years after the event.",
+       "page": "3176",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Panel A of Figure 3 displays spousal responses using our first proxy for health alertness. ... Panel B of Figure 3 reveals a similar (and more pronounced) response pattern in this outcome: there are significant on-impact increases in the propensity of urgent care contacts that then fade.",
+       "page": "3176",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W2770250470::F3::A row 1",
+       "page": null,
+       "label": "all",
+       "n_runs": 3
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W2770250470::F3::B row 1",
+       "page": null,
+       "label": "all",
+       "n_runs": 3
       }
      ],
      "cells": [
+      {
+       "cell": "dk_W2770250470::F3::C row 1",
+       "value": 0.5,
+       "label": "all",
+       "support": 3,
+       "k": 3,
+       "record_ids": []
+      },
       {
        "cell": "dk_W2770250470::F3::A row 1",
        "value": 0.132,
@@ -196295,51 +197419,10 @@
        "support": 3,
        "k": 3,
        "record_ids": []
-      },
-      {
-       "cell": "dk_W2770250470::F3::C row 1",
-       "value": 0.5,
-       "label": "all",
-       "support": 3,
-       "k": 3,
-       "record_ids": []
       }
      ],
      "t": [],
      "claims": [
-      {
-       "run": "stated_claims",
-       "id": "S5",
-       "statement": "A fatal family event increases general awareness regarding own health",
-       "sign": "+",
-       "cause": "fatal family event",
-       "effect": "general awareness regarding own health",
-       "population": "spouses of individuals who died",
-       "period": "1985-2011",
-       "support": "assembled"
-      },
-      {
-       "run": "stated_claims_r2",
-       "id": "S5",
-       "statement": "A fatal family event increases general awareness regarding one’s health.",
-       "sign": "+",
-       "cause": "fatal family event",
-       "effect": "general awareness regarding one’s health",
-       "population": "spouses",
-       "period": "1985–2011",
-       "support": "assembled"
-      },
-      {
-       "run": "stated_claims_r3",
-       "id": "S5",
-       "statement": "Fatal family events increase general awareness regarding own health",
-       "sign": "+",
-       "cause": "fatal family events",
-       "effect": "general awareness regarding own health",
-       "population": "spouses of the deceased family member",
-       "period": "1980-2011",
-       "support": "assembled"
-      },
       {
        "run": "stated_claims",
        "id": "S3",
@@ -196372,11 +197455,44 @@
        "population": "spouses of the deceased family member",
        "period": "1980-2011",
        "support": "assembled"
+      },
+      {
+       "run": "stated_claims",
+       "id": "S5",
+       "statement": "A fatal family event increases general awareness regarding own health",
+       "sign": "+",
+       "cause": "fatal family event",
+       "effect": "general awareness regarding own health",
+       "population": "spouses of individuals who died",
+       "period": "1985-2011",
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S5",
+       "statement": "A fatal family event increases general awareness regarding one’s health.",
+       "sign": "+",
+       "cause": "fatal family event",
+       "effect": "general awareness regarding one’s health",
+       "population": "spouses",
+       "period": "1985–2011",
+       "support": "assembled"
+      },
+      {
+       "run": "stated_claims_r3",
+       "id": "S5",
+       "statement": "Fatal family events increase general awareness regarding own health",
+       "sign": "+",
+       "cause": "fatal family events",
+       "effect": "general awareness regarding own health",
+       "population": "spouses of the deceased family member",
+       "period": "1980-2011",
+       "support": "assembled"
       }
      ],
      "placement": {
       "from": "loose",
-      "to": "loose"
+      "to": "folded"
      }
     }
    ],
@@ -196392,13 +197508,13 @@
      "dk_W2770250470"
     ]
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "?",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1985,
@@ -196410,7 +197526,9 @@
     "Death of a spouse",
     "Spouses in households experiencing a health event"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock.fatal->health.health_care_use",
@@ -196423,14 +197541,14 @@
       "V6->V16"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock.fatal",
      "to": "health.health_care_use",
      "sign": "+",
      "raw_sign": "+",
      "from_wording": "spouse's death from cancer",
      "to_wording": "expenditure on diagnostic radiologists",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -196440,8 +197558,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c19",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "individuals whose spouse died of cancer, relative to individuals whose spouse died of any other cause",
       "individuals whose spouses died",
@@ -196564,7 +197688,9 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c19"
+       ]
       },
       {
        "cell": "dk_W2770250470::T5::_::C3 row 0",
@@ -196575,7 +197701,18 @@
        "record_ids": []
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2770250470_c19",
+       "t": 2.83,
+       "approx": false,
+       "estimate": 1.54639,
+       "se": 0.54724,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T4::_::C3",
+       "statement": "Individuals whose spouse died of cancer increase their expenditure on diagnostic radiology by DKK 1.55 in the year after the death relative to those whose spouse died of any other cause."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -196640,13 +197777,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "+",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1985,
@@ -196658,7 +197795,9 @@
     "Death of a spouse from cancer",
     "Spouses in households experiencing a health event"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock.fatal->health.health_care_use.opioid",
@@ -196671,23 +197810,31 @@
       "V5->V10"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock.fatal",
      "to": "health.health_care_use.opioid",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "fatal family event",
      "to_wording": "usage of prescription opioids",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
-     "tier": "unanimous",
-     "flags": [],
+     "tier": "majority",
+     "flags": [
+      "basis_from_candidates"
+     ],
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c34",
+       "basis": "candidate"
+      }
+     ],
      "populations": [
       "spouses of individuals who died",
       "spouses",
@@ -196840,13 +197987,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1985,
@@ -196857,7 +198004,9 @@
     "Death of a spouse",
     "Spouses in households experiencing a health event"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock.fatal->health.health_care_use.preventive_dental_care",
@@ -196870,14 +198019,14 @@
       "V6->V14"
      ],
      "paper": "dk_W2770250470",
-     "design_pending": true,
+     "design_pending": false,
      "from": "health.health_shock.fatal",
      "to": "health.health_care_use.preventive_dental_care",
      "sign": "-",
      "raw_sign": "-",
      "from_wording": "spouse's death from cancer",
      "to_wording": "consumption of preventive care against cardiovascular disease",
-     "kind": "unknown",
+     "kind": "causal",
      "verdict": "accepted",
      "reason": null,
      "tier": "unanimous",
@@ -196887,8 +198036,14 @@
      "support": 3,
      "k": 3,
      "label": "all",
-     "design_basis": "unknown",
-     "strategies": [],
+     "design_basis": "identified",
+     "strategies": [
+      {
+       "strategy": "difference_in_differences",
+       "record_id": "dk_W2770250470_c26",
+       "basis": "record"
+      }
+     ],
      "populations": [
       "spouses of individuals who died of cancer",
       "spouses",
@@ -196982,10 +198137,23 @@
        "label": "all",
        "support": 3,
        "k": 3,
-       "record_ids": []
+       "record_ids": [
+        "dk_W2770250470_c26"
+       ]
       }
      ],
-     "t": [],
+     "t": [
+      {
+       "record_id": "dk_W2770250470_c26",
+       "t": -2.98,
+       "approx": false,
+       "estimate": -0.004494,
+       "se": 0.001508,
+       "strategy": "difference_in_differences",
+       "source_table_id": "dk_W2770250470::T5::_::C6",
+       "statement": "Individuals whose spouse died of cancer reduce their statin consumption relative to those whose spouse died of other, non-cardiovascular causes."
+      }
+     ],
      "claims": [
       {
        "run": "stated_claims",
@@ -197039,13 +198207,13 @@
     "0": [],
     "?": []
    },
-   "design_pending": true,
+   "design_pending": false,
    "consensus_sign": "-",
    "has_contradiction": false,
    "flags": [],
-   "causal": false,
+   "causal": true,
    "kinds": {
-    "unknown": 1
+    "causal": 1
    },
    "years": {
     "from": 1985,
@@ -197057,7 +198225,9 @@
     "Death of a spouse from cancer",
     "Spouses in households experiencing a health event"
    ],
-   "strategies": []
+   "strategies": [
+    "difference_in_differences"
+   ]
   },
   {
    "id": "health.health_shock.fatal->health.mental_health",
@@ -221098,6 +222268,238 @@
    ]
   },
   {
+   "id": "income.labor->migration.internal_migration",
+   "from": "income.labor",
+   "to": "migration.internal_migration",
+   "records": [
+    {
+     "id": "dk_W7134125062:V4->V2",
+     "merged_from": [
+      "V4->V2"
+     ],
+     "paper": "dk_W7134125062",
+     "design_pending": false,
+     "from": "income.labor",
+     "to": "migration.internal_migration",
+     "sign": "+",
+     "raw_sign": "+",
+     "from_wording": "earnings",
+     "to_wording": "rural migration",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "c35",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "CCA residents (potential out-migrants)",
+      "residents of the Copenhagen capital city area (CCA)"
+     ],
+     "scope_tags": [
+      "adults aged 24-74",
+      "workers",
+      "Out-migration from the capital city area"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.worker_years",
+       "label": "worker-years"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.adults_aged_24_74",
+       "label": "adults aged 24-74"
+      },
+      "role": {
+       "id": "role.workers",
+       "label": "workers"
+      },
+      "event": {
+       "id": "event.out_migration_from_the_capital_city_area",
+       "label": "Out-migration from the capital city area"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope is all Copenhagen CCA residents (potential out-migrants), while part of the linked estimates (Table 4) covers only those who already out-migrated from the CCA.",
+     "years": {
+      "from": 2014,
+      "to": 2023,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Using longitudinal micro-register data from Denmark and Sweden covering the period 2014–2023, combined with logistic regression analysis, the study conducts an exploratory comparative analysis of migrants originating from the Capital City Area (CCA).",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Conversely, there is a strong positive income gradient: higher-earning Danes, especially those in the top wage quartile, are markedly more likely to move to rural areas than low-income residents, indicating a \"wealthy rural exodus\" driven by financially secure individuals seeking amenity-based, lif…",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 28",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 27",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 28",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 27",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 26",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W7134125062::T3::_::CDenmark row 28",
+       "value": 0.0272,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c35"
+       ]
+      }
+     ],
+     "t": [
+      {
+       "record_id": "c35",
+       "t": null,
+       "approx": false,
+       "estimate": 0.0272,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+       "statement": "Danish CCA residents in the top wage quartile are more likely than those in the bottom quartile to migrate from the Copenhagen capital city area to a rural municipality - the paper's \"wealthy rural e…"
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S4",
+       "statement": "earnings increase rural migration",
+       "sign": "+",
+       "cause": "earnings",
+       "effect": "rural migration",
+       "population": "CCA residents (potential out-migrants)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S4",
+       "statement": "High earnings increase rural migration.",
+       "sign": "+",
+       "cause": "high earnings",
+       "effect": "rural migration",
+       "population": "residents of the Copenhagen capital city area (CCA)",
+       "period": "2014–2023",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "exact",
+      "to": "loose"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W7134125062"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [
+     "dk_W7134125062"
+    ],
+    "-": [],
+    "0": [],
+    "?": []
+   },
+   "design_pending": false,
+   "consensus_sign": "+",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "associational": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2023
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "Out-migration from the capital city area",
+    "adults aged 24-74",
+    "workers"
+   ],
+   "strategies": [
+    "descriptive"
+   ]
+  },
+  {
    "id": "income.means_tested_transfer->wealth.net_wealth",
    "from": "income.means_tested_transfer",
    "to": "wealth.net_wealth",
@@ -226505,6 +227907,275 @@
     "Retirement age indexation to life expectancy",
     "adults aged 50 and above",
     "men"
+   ],
+   "strategies": [
+    "descriptive"
+   ]
+  },
+  {
+   "id": "income.socioeconomic_status->migration.internal_migration",
+   "from": "income.socioeconomic_status",
+   "to": "migration.internal_migration",
+   "records": [
+    {
+     "id": "dk_W7134125062:V5->V2",
+     "merged_from": [
+      "V5->V2"
+     ],
+     "paper": "dk_W7134125062",
+     "design_pending": false,
+     "from": "income.socioeconomic_status",
+     "to": "migration.internal_migration",
+     "sign": "0",
+     "raw_sign": "0",
+     "from_wording": "socioeconomic status",
+     "to_wording": "rural migration",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "c2",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "CCA residents (potential out-migrants)",
+      "residents of the Stockholm capital city area (CCA)"
+     ],
+     "scope_tags": [
+      "adults aged 24-74",
+      "workers",
+      "Out-migration from the capital city area"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.worker_years",
+       "label": "worker-years"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.adults_aged_24_74",
+       "label": "adults aged 24-74"
+      },
+      "role": {
+       "id": "role.workers",
+       "label": "workers"
+      },
+      "event": {
+       "id": "event.out_migration_from_the_capital_city_area",
+       "label": "Out-migration from the capital city area"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope is all Stockholm CCA residents, but one of the linked estimates (Table 4, Sweden) is restricted to CCA out-migrants only.",
+     "years": {
+      "from": 2014,
+      "to": 2023,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Sweden demonstrates spatial flexibility, with rural migration broadly distributed across social groups, though migration distances increase with workers' level of education regardless of destination.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "In Sweden, by contrast, covariates such as age, family status, education, skills, sector, and WFH probability show minimal influence on the likelihood of leaving the CCA for rural areas (Table 3).",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Sweden demonstrates spatial flexibility, with rural migration broadly distributed across social groups, though migration distances increase with workers' level of education regardless of destination.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Using longitudinal micro-register data from Denmark and Sweden covering the period 2014–2023, combined with logistic regression analysis, the study conducts an exploratory comparative analysis of migrants originating from the Capital City Area (CCA).",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CSweden row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CSweden row 23",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CSweden row 14",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CSweden row 23",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CSweden row 28",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CSweden row 13",
+       "page": null,
+       "label": "single",
+       "n_runs": 1
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W7134125062::T3::_::CSweden row 14",
+       "value": 0.0,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c2"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T3::_::CSweden row 23",
+       "value": 1e-05,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c2"
+       ]
+      },
+      {
+       "cell": "dk_W7134125062::T3::_::CSweden row 28",
+       "value": -3e-05,
+       "label": "single",
+       "support": 1,
+       "k": 2,
+       "record_ids": [
+        "c2"
+       ]
+      }
+     ],
+     "t": [
+      {
+       "record_id": "c2",
+       "t": null,
+       "approx": false,
+       "estimate": 8e-05,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CSweden",
+       "statement": "Among Swedish CCA residents, a higher work-from-home probability is associated with a very slightly higher probability of migrating from the Stockholm capital city area to a rural municipality (2014-…"
+      },
+      {
+       "record_id": "c36",
+       "t": null,
+       "approx": false,
+       "estimate": 0.0,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CSweden",
+       "statement": "In Sweden, having long higher education is not significantly associated with the probability of migrating from the Stockholm capital city area to a rural municipality."
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S5",
+       "statement": "socioeconomic status has no effect on rural migration",
+       "sign": "0",
+       "cause": "socioeconomic status",
+       "effect": "rural migration",
+       "population": "CCA residents (potential out-migrants)",
+       "period": "2014–2023",
+       "support": "weak"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S5",
+       "statement": "Socioeconomic characteristics have no effect on rural migration.",
+       "sign": "0",
+       "cause": "socioeconomic characteristics",
+       "effect": "rural migration",
+       "population": "residents of the Stockholm capital city area (CCA)",
+       "period": "2014–2023",
+       "support": "weak"
+      }
+     ],
+     "placement": {
+      "from": "alias",
+      "to": "loose"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W7134125062"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [],
+    "0": [
+     "dk_W7134125062"
+    ],
+    "?": []
+   },
+   "design_pending": false,
+   "consensus_sign": "0",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "associational": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2023
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "Out-migration from the capital city area",
+    "adults aged 24-74",
+    "workers"
    ],
    "strategies": [
     "descriptive"
@@ -251475,6 +253146,231 @@
     "working age"
    ],
    "strategies": []
+  },
+  {
+   "id": "labor.occupational_employment.high_wage->migration.internal_migration",
+   "from": "labor.occupational_employment.high_wage",
+   "to": "migration.internal_migration",
+   "records": [
+    {
+     "id": "dk_W7134125062:V3->V2",
+     "merged_from": [
+      "V3->V2"
+     ],
+     "paper": "dk_W7134125062",
+     "design_pending": false,
+     "from": "labor.occupational_employment.high_wage",
+     "to": "migration.internal_migration",
+     "sign": "-",
+     "raw_sign": "-",
+     "from_wording": "high-skilled occupation",
+     "to_wording": "rural migration",
+     "kind": "associational",
+     "verdict": "accepted",
+     "reason": null,
+     "tier": "unanimous",
+     "flags": [],
+     "support": 2,
+     "k": 2,
+     "label": "all",
+     "design_basis": "descriptive",
+     "strategies": [
+      {
+       "strategy": "descriptive",
+       "record_id": "c34",
+       "basis": "record"
+      }
+     ],
+     "populations": [
+      "CCA residents (potential out-migrants)",
+      "residents of the Copenhagen capital city area (CCA)"
+     ],
+     "scope_tags": [
+      "adults aged 24-74",
+      "workers",
+      "Out-migration from the capital city area"
+     ],
+     "facets": {
+      "unit": {
+       "id": "unit.worker_years",
+       "label": "worker-years"
+      },
+      "sex": {
+       "id": "sex.all",
+       "label": "all"
+      },
+      "life_stage": {
+       "id": "life_stage.adults_aged_24_74",
+       "label": "adults aged 24-74"
+      },
+      "role": {
+       "id": "role.workers",
+       "label": "workers"
+      },
+      "event": {
+       "id": "event.out_migration_from_the_capital_city_area",
+       "label": "Out-migration from the capital city area"
+      }
+     },
+     "scope_source": "estimates",
+     "scope_disagreement": "The stated scope is all Copenhagen CCA residents (potential out-migrants), while part of the linked estimates (Table 4) covers only those who already out-migrated from the CCA.",
+     "years": {
+      "from": 2014,
+      "to": 2023,
+      "source": "estimates"
+     },
+     "evidence": [
+      {
+       "kind": "abstract",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Utilising longitudinal micro-register data and logistic regression, we analyse counterurbanisation patterns in two Nordic countries sharing cultural similarities but differing markedly in population density and geography.",
+       "page": "1",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "As shown in Table 3, the Danish results reveal clear education, family, and human-capital gradients.",
+       "page": "7",
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "introduction",
+       "text": "Denmark exhibits strong socioeconomic stratification, where highly educated, high-skilled workers avoid rural migration, whilst high earners drive a \"wealthy rural exodus\" seeking amenity-rich lifestyles.",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Models of migration destination with year fixed effects for 2014–2023 show that the choice between rural and urban destinations after leaving the CCA is strongly shaped by life-course, education, skills, and work arrangements (Table 4).",
+       "page": "7",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "Using longitudinal micro-register data from Denmark and Sweden covering the period 2014–2023, combined with logistic regression analysis, the study conducts an exploratory comparative analysis of migrants originating from the Capital City Area (CCA).",
+       "page": "1",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "introduction",
+       "text": "A near-parallel education gradient in both countries indicates that the most highly educated and high-skilled workers are about ten percentage points less likely to choose rural destinations, pointing to spatial sorting and a potential rural brain drain.",
+       "page": "7",
+       "label": "single",
+       "n_runs": 1
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T3::_::CDenmark row 23",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      },
+      {
+       "kind": "cell",
+       "text": "dk_W7134125062::T4::_::CDenmark row 23",
+       "page": null,
+       "label": "all",
+       "n_runs": 2
+      }
+     ],
+     "cells": [
+      {
+       "cell": "dk_W7134125062::T3::_::CDenmark row 23",
+       "value": -0.002,
+       "label": "all",
+       "support": 2,
+       "k": 2,
+       "record_ids": [
+        "c34"
+       ]
+      }
+     ],
+     "t": [
+      {
+       "record_id": "c34",
+       "t": null,
+       "approx": false,
+       "estimate": -0.002,
+       "se": null,
+       "strategy": "descriptive",
+       "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+       "statement": "Danish CCA residents in high-skilled occupations are less likely than manual-skilled workers to migrate from the Copenhagen capital city area to a rural municipality."
+      }
+     ],
+     "claims": [
+      {
+       "run": "stated_claims",
+       "id": "S3",
+       "statement": "high-skilled occupation decreases rural migration",
+       "sign": "-",
+       "cause": "high-skilled occupation",
+       "effect": "rural migration",
+       "population": "CCA residents (potential out-migrants)",
+       "period": "2014–2023",
+       "support": "explicit"
+      },
+      {
+       "run": "stated_claims_r2",
+       "id": "S3",
+       "statement": "High-skilled occupation decreases rural migration.",
+       "sign": "-",
+       "cause": "high-skilled occupation",
+       "effect": "rural migration",
+       "population": "residents of the Copenhagen capital city area (CCA)",
+       "period": "2014–2023",
+       "support": "explicit"
+      }
+     ],
+     "placement": {
+      "from": "loose",
+      "to": "loose"
+     }
+    }
+   ],
+   "papers": [
+    "dk_W7134125062"
+   ],
+   "n_papers": 1,
+   "signs": {
+    "+": [],
+    "-": [
+     "dk_W7134125062"
+    ],
+    "0": [],
+    "?": []
+   },
+   "design_pending": false,
+   "consensus_sign": "-",
+   "has_contradiction": false,
+   "flags": [],
+   "causal": false,
+   "kinds": {
+    "associational": 1
+   },
+   "years": {
+    "from": 2014,
+    "to": 2023
+   },
+   "n_pub_dated": 0,
+   "scope_tags": [
+    "Out-migration from the capital city area",
+    "adults aged 24-74",
+    "workers"
+   ],
+   "strategies": [
+    "descriptive"
+   ]
   },
   {
    "id": "labor.occupational_mobility->labor.occupational_mobility",

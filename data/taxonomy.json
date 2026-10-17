@@ -3873,10 +3873,11 @@
     "prison proximity to home"
    ],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
+   "n_papers": 2,
+   "n_edges": 2,
    "papers": [
-    "dk_W3135595892"
+    "dk_W3135595892",
+    "dk_W7134125062"
    ],
    "wordings": [
     {
@@ -3926,10 +3927,85 @@
        ]
       }
      ]
+    },
+    {
+     "text": "work-from-home (WFH) probability",
+     "variants": [
+      "work-from-home (WFH) probability"
+     ],
+     "normalised": "work from home wfh probability",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "cause": 6
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V7",
+       "variable_name": "work-from-home (WFH) probability",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S9",
+         "role": "cause",
+         "sign": "-",
+         "other": "CCA-to-rural migration",
+         "statement": "work-from-home probability decreases CCA-to-rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S11",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance",
+         "statement": "work-from-home probability increases migration distance",
+         "population": "CCA out-migrants to rural destinations"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S12",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance",
+         "statement": "work-from-home probability increases migration distance",
+         "population": "CCA out-migrants to urban destinations"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "cause",
+         "sign": "-",
+         "other": "CCA-to-rural migration",
+         "statement": "Work-from-home probability decreases CCA-to-rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S10",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance to rural destinations",
+         "statement": "Work-from-home probability increases migration distance to rural destinations.",
+         "population": "movers from the Stockholm capital city area (CCA) to rural areas"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S11",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance to urban destinations",
+         "statement": "Work-from-home probability increases migration distance to urban destinations.",
+         "population": "movers from the Stockholm capital city area (CCA) to urban areas"
+        }
+       ]
+      }
+     ]
     }
    ],
    "unplaced": false,
-   "n_wordings": 1
+   "n_wordings": 2
   },
   {
    "id": "crime.facility_transfer",
@@ -7567,8 +7643,8 @@
     "children's education"
    ],
    "abstract": false,
-   "n_papers": 13,
-   "n_edges": 20,
+   "n_papers": 14,
+   "n_edges": 21,
    "papers": [
     "dk_W2548529099",
     "dk_W2783930051",
@@ -7580,6 +7656,7 @@
     "dk_W4412957842",
     "dk_W7164733992",
     "dk_W2620793188",
+    "dk_W7134125062",
     "dk_W2951412023",
     "dk_W3122965561",
     "dk_W7167459045"
@@ -8668,6 +8745,114 @@
      ]
     },
     {
+     "text": "education level",
+     "variants": [
+      "education level"
+     ],
+     "normalised": "education level",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "cause": 3
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V1",
+       "variable_name": "education level",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "cause",
+         "sign": "-",
+         "other": "rural migration",
+         "statement": "education level decreases rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance",
+         "statement": "education level increases migration distance",
+         "population": "CCA out-migrants to rural destinations"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance",
+         "statement": "education level increases migration distance",
+         "population": "CCA out-migrants to urban destinations"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "higher education",
+     "variants": [
+      "higher education"
+     ],
+     "normalised": "higher education",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V1",
+       "variable_name": "education level",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S2",
+         "role": "cause",
+         "sign": "-",
+         "other": "rural migration",
+         "statement": "Higher education decreases rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "level of education",
+     "variants": [
+      "level of education"
+     ],
+     "normalised": "level of education",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V1",
+       "variable_name": "education level",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "cause",
+         "sign": "+",
+         "other": "migration distance",
+         "statement": "Education increases migration distance.",
+         "population": "movers out of the Stockholm capital city area (CCA), to both rural and urban destinations"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "text": "educational attainment",
      "variants": [
       "educational attainment"
@@ -8773,7 +8958,7 @@
     }
    ],
    "unplaced": false,
-   "n_wordings": 23
+   "n_wordings": 26
   },
   {
    "id": "education.dropout",
@@ -21336,14 +21521,13 @@
     "age at first birth"
    ],
    "abstract": false,
-   "n_papers": 8,
-   "n_edges": 10,
+   "n_papers": 7,
+   "n_edges": 9,
    "papers": [
     "dk_W3123970227",
     "dk_W3212471012",
     "dk_W2548529099",
     "dk_W4408147308",
-    "dk_W2770250470",
     "dk_W1827874139",
     "dk_W4295270093",
     "dk_W3126668274"
@@ -27098,7 +27282,7 @@
    ],
    "abstract": false,
    "n_papers": 9,
-   "n_edges": 16,
+   "n_edges": 17,
    "papers": [
     "dk_W3037455063",
     "dk_W3131143603",
@@ -29428,11 +29612,11 @@
    ],
    "abstract": false,
    "n_papers": 3,
-   "n_edges": 7,
+   "n_edges": 4,
    "papers": [
-    "dk_W2770250470",
     "dk_W4388665909",
-    "dk_W3001397820"
+    "dk_W3001397820",
+    "dk_W2770250470"
    ],
    "wordings": [
     {
@@ -32244,7 +32428,7 @@
    ],
    "abstract": true,
    "n_papers": 1,
-   "n_edges": 2,
+   "n_edges": 3,
    "papers": [
     "dk_W2770250470"
    ],
@@ -41133,8 +41317,8 @@
     "earnings from work"
    ],
    "abstract": false,
-   "n_papers": 39,
-   "n_edges": 50,
+   "n_papers": 40,
+   "n_edges": 51,
    "papers": [
     "dk_W4378472128",
     "dk_W4386325880",
@@ -41166,6 +41350,7 @@
     "dk_W4412552984",
     "dk_W2921836311",
     "dk_W2156139463",
+    "dk_W7134125062",
     "dk_W2801804463",
     "dk_W4413790562",
     "dk_W2939678267",
@@ -41626,7 +41811,8 @@
      "polarity": "same",
      "how": "exact",
      "roles": {
-      "effect": 93
+      "effect": 93,
+      "cause": 1
      },
      "papers": [
       {
@@ -42465,6 +42651,22 @@
          "other": "taxes",
          "statement": "Taxes decrease earnings in the short run",
          "population": "top earners (full population of treated workers)"
+        }
+       ]
+      },
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V4",
+       "variable_name": "earnings",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "rural migration",
+         "statement": "earnings increase rural migration",
+         "population": "CCA residents (potential out-migrants)"
         }
        ]
       },
@@ -43886,10 +44088,40 @@
        ]
       }
      ]
+    },
+    {
+     "text": "high earnings",
+     "variants": [
+      "high earnings"
+     ],
+     "normalised": "high earning",
+     "polarity": "same",
+     "how": "exact",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V4",
+       "variable_name": "earnings",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "cause",
+         "sign": "+",
+         "other": "rural migration",
+         "statement": "High earnings increase rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        }
+       ]
+      }
+     ]
     }
    ],
    "unplaced": false,
-   "n_wordings": 36
+   "n_wordings": 37
   },
   {
    "id": "income.means_tested_transfer",
@@ -44534,8 +44766,8 @@
     "socioeconomic background"
    ],
    "abstract": false,
-   "n_papers": 7,
-   "n_edges": 11,
+   "n_papers": 8,
+   "n_edges": 12,
    "papers": [
     "dk_W4295270093",
     "dk_W4412178202",
@@ -44543,7 +44775,8 @@
     "dk_W3167298212",
     "dk_W3195462145",
     "dk_W4409457195",
-    "dk_W4391218902"
+    "dk_W4391218902",
+    "dk_W7134125062"
    ],
    "wordings": [
     {
@@ -45130,10 +45363,70 @@
        ]
       }
      ]
+    },
+    {
+     "text": "socioeconomic status",
+     "variants": [
+      "socioeconomic status"
+     ],
+     "normalised": "socioeconomic statu",
+     "polarity": "same",
+     "how": "alias",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V5",
+       "variable_name": "socioeconomic status",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "cause",
+         "sign": "0",
+         "other": "rural migration",
+         "statement": "socioeconomic status has no effect on rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "socioeconomic characteristics",
+     "variants": [
+      "socioeconomic characteristics"
+     ],
+     "normalised": "socioeconomic characteristic",
+     "polarity": "same",
+     "how": "alias",
+     "roles": {
+      "cause": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V5",
+       "variable_name": "socioeconomic status",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "cause",
+         "sign": "0",
+         "other": "rural migration",
+         "statement": "Socioeconomic characteristics have no effect on rural migration.",
+         "population": "residents of the Stockholm capital city area (CCA)"
+        }
+       ]
+      }
+     ]
     }
    ],
    "unplaced": false,
-   "n_wordings": 12
+   "n_wordings": 14
   },
   {
    "id": "income.taxable",
@@ -56761,9 +57054,10 @@
     "high-wage employment"
    ],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
+   "n_papers": 2,
+   "n_edges": 2,
    "papers": [
+    "dk_W7134125062",
     "dk_W2213841331"
    ],
    "wordings": [
@@ -56805,10 +57099,49 @@
        ]
       }
      ]
+    },
+    {
+     "text": "high-skilled occupation",
+     "variants": [
+      "high-skilled occupation"
+     ],
+     "normalised": "high skilled occupation",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "cause": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V3",
+       "variable_name": "high-skilled occupation",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "cause",
+         "sign": "-",
+         "other": "rural migration",
+         "statement": "high-skilled occupation decreases rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S3",
+         "role": "cause",
+         "sign": "-",
+         "other": "rural migration",
+         "statement": "High-skilled occupation decreases rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        }
+       ]
+      }
+     ]
     }
    ],
    "unplaced": false,
-   "n_wordings": 1
+   "n_wordings": 2
   },
   {
    "id": "labor.occupational_employment.low_wage",
@@ -64495,11 +64828,12 @@
     "residential mobility between regions"
    ],
    "abstract": false,
-   "n_papers": 3,
-   "n_edges": 5,
+   "n_papers": 4,
+   "n_edges": 10,
    "papers": [
     "dk_W2265295982",
     "dk_W7160825662",
+    "dk_W7134125062",
     "dk_W4309550482"
    ],
    "wordings": [
@@ -64597,6 +64931,264 @@
          "other": "mortality",
          "statement": "In-migration to Lolland-Falster increases mortality.",
          "population": "publicly supported people aged 30–64"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "rural migration",
+     "variants": [
+      "rural migration"
+     ],
+     "normalised": "rural migration",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "effect": 8
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V2",
+       "variable_name": "rural migration",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S2",
+         "role": "effect",
+         "sign": "-",
+         "other": "education level",
+         "statement": "education level decreases rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S3",
+         "role": "effect",
+         "sign": "-",
+         "other": "high-skilled occupation",
+         "statement": "high-skilled occupation decreases rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "earnings",
+         "statement": "earnings increase rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S5",
+         "role": "effect",
+         "sign": "0",
+         "other": "socioeconomic status",
+         "statement": "socioeconomic status has no effect on rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S2",
+         "role": "effect",
+         "sign": "-",
+         "other": "higher education",
+         "statement": "Higher education decreases rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S3",
+         "role": "effect",
+         "sign": "-",
+         "other": "high-skilled occupation",
+         "statement": "High-skilled occupation decreases rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S4",
+         "role": "effect",
+         "sign": "+",
+         "other": "high earnings",
+         "statement": "High earnings increase rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S5",
+         "role": "effect",
+         "sign": "0",
+         "other": "socioeconomic characteristics",
+         "statement": "Socioeconomic characteristics have no effect on rural migration.",
+         "population": "residents of the Stockholm capital city area (CCA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "CCA-to-rural migration",
+     "variants": [
+      "CCA-to-rural migration"
+     ],
+     "normalised": "cca to rural migration",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "effect": 2
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V2",
+       "variable_name": "rural migration",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S9",
+         "role": "effect",
+         "sign": "-",
+         "other": "work-from-home (WFH) probability",
+         "statement": "work-from-home probability decreases CCA-to-rural migration",
+         "population": "CCA residents (potential out-migrants)"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S8",
+         "role": "effect",
+         "sign": "-",
+         "other": "work-from-home (WFH) probability",
+         "statement": "Work-from-home probability decreases CCA-to-rural migration.",
+         "population": "residents of the Copenhagen capital city area (CCA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "migration distance",
+     "variants": [
+      "migration distance"
+     ],
+     "normalised": "migration distance",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "effect": 5
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V6",
+       "variable_name": "migration distance",
+       "claims": [
+        {
+         "run": "stated_claims",
+         "id": "S6",
+         "role": "effect",
+         "sign": "+",
+         "other": "education level",
+         "statement": "education level increases migration distance",
+         "population": "CCA out-migrants to rural destinations"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S7",
+         "role": "effect",
+         "sign": "+",
+         "other": "education level",
+         "statement": "education level increases migration distance",
+         "population": "CCA out-migrants to urban destinations"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S11",
+         "role": "effect",
+         "sign": "+",
+         "other": "work-from-home (WFH) probability",
+         "statement": "work-from-home probability increases migration distance",
+         "population": "CCA out-migrants to rural destinations"
+        },
+        {
+         "run": "stated_claims",
+         "id": "S12",
+         "role": "effect",
+         "sign": "+",
+         "other": "work-from-home (WFH) probability",
+         "statement": "work-from-home probability increases migration distance",
+         "population": "CCA out-migrants to urban destinations"
+        },
+        {
+         "run": "stated_claims_r2",
+         "id": "S6",
+         "role": "effect",
+         "sign": "+",
+         "other": "level of education",
+         "statement": "Education increases migration distance.",
+         "population": "movers out of the Stockholm capital city area (CCA), to both rural and urban destinations"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "migration distance to rural destinations",
+     "variants": [
+      "migration distance to rural destinations"
+     ],
+     "normalised": "migration distance to rural destination",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V6",
+       "variable_name": "migration distance",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S10",
+         "role": "effect",
+         "sign": "+",
+         "other": "work-from-home (WFH) probability",
+         "statement": "Work-from-home probability increases migration distance to rural destinations.",
+         "population": "movers from the Stockholm capital city area (CCA) to rural areas"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "migration distance to urban destinations",
+     "variants": [
+      "migration distance to urban destinations"
+     ],
+     "normalised": "migration distance to urban destination",
+     "polarity": "same",
+     "how": "loose",
+     "roles": {
+      "effect": 1
+     },
+     "papers": [
+      {
+       "artid": "dk_W7134125062",
+       "variable": "V6",
+       "variable_name": "migration distance",
+       "claims": [
+        {
+         "run": "stated_claims_r2",
+         "id": "S11",
+         "role": "effect",
+         "sign": "+",
+         "other": "work-from-home (WFH) probability",
+         "statement": "Work-from-home probability increases migration distance to urban destinations.",
+         "population": "movers from the Stockholm capital city area (CCA) to urban areas"
         }
        ]
       }
@@ -64796,7 +65388,7 @@
     }
    ],
    "unplaced": false,
-   "n_wordings": 4
+   "n_wordings": 9
   },
   {
    "id": "migration.internal_migration.transfer_recipient_inflow",
@@ -85038,7 +85630,7 @@
    "aliases": [],
    "abstract": false,
    "n_papers": 1,
-   "n_edges": 2,
+   "n_edges": 1,
    "papers": [
     "dk_W2770250470"
    ],
@@ -85202,11 +85794,9 @@
    "more_means": null,
    "aliases": [],
    "abstract": false,
-   "n_papers": 1,
-   "n_edges": 1,
-   "papers": [
-    "dk_W2770250470"
-   ],
+   "n_papers": 0,
+   "n_edges": 0,
+   "papers": [],
    "wordings": [
     {
      "text": "having been tested for cholesterol levels in the pre-shock period",

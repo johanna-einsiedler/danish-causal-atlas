@@ -5070,7 +5070,10 @@
  {
   "artid": "dk_W2770250470",
   "title": "Family Health Behaviors",
-  "authors": [],
+  "authors": [
+   "Itzik Fadlon",
+   "Torben Heien Nielsen"
+  ],
   "year": 2019,
   "journal": "American Economic Review",
   "doi": "10.1257/aer.20171993",
@@ -5085,13 +5088,17 @@
   ],
   "rule": "strict",
   "n_stated": 10,
-  "n_accepted": 11,
-  "n_rejected": 2,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 9,
+  "n_rejected": 4,
+  "n_designs": 37,
+  "n_headline": 13,
+  "strategies": {
+   "difference_in_differences": 13
+  },
+  "strategies_all": {
+   "difference_in_differences": 37
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1980,
    "to": 2011,
@@ -5119,8 +5126,6 @@
    "?dk_W2770250470:V17",
    "?dk_W2770250470:V19",
    "?dk_W2770250470:V20",
-   "?dk_W2770250470:V22",
-   "family.parental_age_at_birth",
    "health.general_health",
    "health.health_care_use",
    "health.health_care_use.opioid",
@@ -5129,7 +5134,138 @@
    "health.health_shock.fatal"
   ],
   "n_unplaced": 5,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2770250470_c1",
+    "t": 4.98,
+    "approx": false,
+    "estimate": 0.01166,
+    "se": 0.00234,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T1::_::C1",
+    "statement": "A family member's first-time nonfatal heart attack or stroke increases prime-age spouses' (ages 25-55) statin consumption by 1.17 percentage points four years after the shock."
+   },
+   {
+    "record_id": "dk_W2770250470_c4",
+    "t": 6.87,
+    "approx": false,
+    "estimate": 0.00433,
+    "se": 0.00063,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T1::_::C4",
+    "statement": "A parent's first-time nonfatal heart attack or stroke increases younger adult children's (ages 25-40) statin consumption by 0.433 percentage points four years after the shock."
+   },
+   {
+    "record_id": "dk_W2770250470_c5",
+    "t": 5.03,
+    "approx": false,
+    "estimate": 0.00799,
+    "se": 0.00159,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T1::_::C5",
+    "statement": "A parent's first-time nonfatal heart attack or stroke increases older adult children's (ages 40-65) statin consumption by 0.799 percentage points four years after the shock."
+   },
+   {
+    "record_id": "dk_W2770250470_c6",
+    "t": 2.41,
+    "approx": false,
+    "estimate": 0.01349,
+    "se": 0.00559,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T2::_::C1",
+    "statement": "A worker's first-time nonfatal heart attack or stroke increases the statin consumption of close coworkers (same occupation class, age gap of 5 years or less, smaller workplaces) by 1.35 percentage po…"
+   },
+   {
+    "record_id": "dk_W2770250470_c7",
+    "t": 0.43,
+    "approx": false,
+    "estimate": 0.00143,
+    "se": 0.0033,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T2::_::C2",
+    "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers in larger workplaces."
+   },
+   {
+    "record_id": "dk_W2770250470_c8",
+    "t": 0.89,
+    "approx": false,
+    "estimate": 0.00297,
+    "se": 0.00335,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T2::_::C3",
+    "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers in the same smaller workplace who are separated from the shocked worker by a larg…"
+   },
+   {
+    "record_id": "dk_W2770250470_c9",
+    "t": 0.67,
+    "approx": false,
+    "estimate": 0.0035,
+    "se": 0.00524,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T2::_::C4",
+    "statement": "A worker's first-time nonfatal heart attack or stroke has no detectable effect on the statin consumption of coworkers of similar age in the same smaller workplace who belong to a different occupation…"
+   },
+   {
+    "record_id": "dk_W2770250470_c11",
+    "t": 4.5,
+    "approx": false,
+    "estimate": 0.01089,
+    "se": 0.00242,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T3::_::C1",
+    "statement": "Spouses whose own predicted cardiovascular risk is above the median increase their statin consumption by an additional 1.09 percentage points, relative to below-median-risk spouses, in response to a…"
+   },
+   {
+    "record_id": "dk_W2770250470_c14",
+    "t": 1.98,
+    "approx": false,
+    "estimate": 0.01748,
+    "se": 0.00883,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T3::_::C3",
+    "statement": "Spouses whose cholesterol levels had already been tested in the pre-shock periods increase their statin consumption by 1.75 percentage points in response to a family cardiovascular shock."
+   },
+   {
+    "record_id": "dk_W2770250470_c15",
+    "t": -2.88,
+    "approx": false,
+    "estimate": -0.00023,
+    "se": 8e-05,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T3::_::C4",
+    "statement": "Adult children whose parent was younger at the time of the cardiovascular shock increase their statin consumption more: the treatment effect falls by 0.023 percentage points per year of parental age."
+   },
+   {
+    "record_id": "dk_W2770250470_c19",
+    "t": 2.83,
+    "approx": false,
+    "estimate": 1.54639,
+    "se": 0.54724,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T4::_::C3",
+    "statement": "Individuals whose spouse died of cancer increase their expenditure on diagnostic radiology by DKK 1.55 in the year after the death relative to those whose spouse died of any other cause."
+   },
+   {
+    "record_id": "dk_W2770250470_c26",
+    "t": -2.98,
+    "approx": false,
+    "estimate": -0.004494,
+    "se": 0.001508,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T5::_::C6",
+    "statement": "Individuals whose spouse died of cancer reduce their statin consumption relative to those whose spouse died of other, non-cardiovascular causes."
+   },
+   {
+    "record_id": "dk_W2770250470_c27",
+    "t": 1.97,
+    "approx": false,
+    "estimate": 0.00114,
+    "se": 0.00058,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2770250470::T6::_::C1",
+    "statement": "A parent-in-law's first-time nonfatal heart attack or stroke increases sons- and daughters-in-law's statin consumption by 0.114 percentage points on average."
+   }
+  ]
  },
  {
   "artid": "dk_W2781798209",
@@ -29447,6 +29583,200 @@
     "strategy": "structural_model",
     "source_table_id": "dk_W7127146382::T2::Sweden::Cr",
     "statement": "In Sweden the implied spousal (marital) correlation in underlying educational status, r estimated from the Sibling-in-law ratio (θrs/θs) is 0.720."
+   }
+  ]
+ },
+ {
+  "artid": "dk_W7134125062",
+  "title": "Back to the countryside? Remote work and counterurbanisation in Denmark and Sweden",
+  "authors": [
+   "Nino Javakhishvili-Larsen",
+   "Kent Eliasson",
+   "Hans Westlund"
+  ],
+  "year": 2026,
+  "journal": "Regional Science Policy & Practice",
+  "doi": "10.1016/j.rspp.2026.100297",
+  "url": "https://doi.org/10.1016/j.rspp.2026.100297",
+  "citations": 6,
+  "journal_key": "regionalsciencepolicypractice",
+  "k": 2,
+  "runs": [
+   "stated_claims",
+   "stated_claims_r2"
+  ],
+  "rule": "strict",
+  "n_stated": 9,
+  "n_accepted": 5,
+  "n_rejected": 0,
+  "n_designs": 42,
+  "n_headline": 14,
+  "strategies": {
+   "descriptive": 14
+  },
+  "strategies_all": {
+   "descriptive": 42
+  },
+  "main_strategy": "descriptive",
+  "period": {
+   "from": 2014,
+   "to": 2023,
+   "source": "scope"
+  },
+  "scope_tags": [
+   "Out-migration from the capital city area",
+   "adults aged 24-74",
+   "workers"
+  ],
+  "concepts": [
+   "crime.facility_distance_from_home",
+   "education.attainment",
+   "income.labor",
+   "income.socioeconomic_status",
+   "labor.occupational_employment.high_wage",
+   "migration.internal_migration"
+  ],
+  "n_unplaced": 0,
+  "headline": [
+   {
+    "record_id": "c1",
+    "t": null,
+    "approx": false,
+    "estimate": -0.0088,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+    "statement": "Among Danish CCA residents, a higher work-from-home probability is associated with a lower probability of migrating from the Copenhagen capital city area to a rural municipality (2014-2023)."
+   },
+   {
+    "record_id": "c2",
+    "t": null,
+    "approx": false,
+    "estimate": 8e-05,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CSweden",
+    "statement": "Among Swedish CCA residents, a higher work-from-home probability is associated with a very slightly higher probability of migrating from the Stockholm capital city area to a rural municipality (2014-…"
+   },
+   {
+    "record_id": "c6",
+    "t": null,
+    "approx": false,
+    "estimate": 0.055,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T5::_::CSweden",
+    "statement": "Among Swedish CCA-to-rural migrants, a higher work-from-home probability is associated with a longer log migration distance - about 5.5% per unit of WFH probability (2014-2023)."
+   },
+   {
+    "record_id": "c8",
+    "t": null,
+    "approx": false,
+    "estimate": 0.069,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T6::_::CSweden",
+    "statement": "Among Swedish CCA-to-urban migrants, a higher work-from-home probability is associated with a longer log migration distance (2014-2023)."
+   },
+   {
+    "record_id": "c9",
+    "t": null,
+    "approx": false,
+    "estimate": -0.0076,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T7::DK-DV1::C1",
+    "statement": "In Denmark, a higher work-from-home probability is associated with a lower probability of migrating from the capital city area to a rural municipality rather than staying in the pre-pandemic period 2…"
+   },
+   {
+    "record_id": "c10",
+    "t": null,
+    "approx": false,
+    "estimate": -0.0113,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T7::DK-DV1::C2",
+    "statement": "In Denmark, a higher work-from-home probability is associated with a lower probability of migrating from the capital city area to a rural municipality rather than staying in the pandemic period 2020-…"
+   },
+   {
+    "record_id": "c26",
+    "t": null,
+    "approx": false,
+    "estimate": 0.055,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T8::SE-DV3::C3",
+    "statement": "In Sweden, a higher work-from-home probability is associated with a longer the log distance of a move from the capital city area to a rural destination in the post-pandemic period 2022-2023."
+   },
+   {
+    "record_id": "c32",
+    "t": null,
+    "approx": false,
+    "estimate": 0.07,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T8::SE-DV4::C3",
+    "statement": "In Sweden, a higher work-from-home probability is associated with a longer the log distance of a move from the capital city area to an urban destination in the post-pandemic period 2022-2023."
+   },
+   {
+    "record_id": "c33",
+    "t": null,
+    "approx": false,
+    "estimate": -0.007,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+    "statement": "Danish CCA residents with long higher education are less likely than primary-educated residents to migrate from the Copenhagen capital city area to a rural municipality."
+   },
+   {
+    "record_id": "c34",
+    "t": null,
+    "approx": false,
+    "estimate": -0.002,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+    "statement": "Danish CCA residents in high-skilled occupations are less likely than manual-skilled workers to migrate from the Copenhagen capital city area to a rural municipality."
+   },
+   {
+    "record_id": "c35",
+    "t": null,
+    "approx": false,
+    "estimate": 0.0272,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CDenmark",
+    "statement": "Danish CCA residents in the top wage quartile are more likely than those in the bottom quartile to migrate from the Copenhagen capital city area to a rural municipality - the paper's \"wealthy rural e…"
+   },
+   {
+    "record_id": "c36",
+    "t": null,
+    "approx": false,
+    "estimate": 0.0,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T3::_::CSweden",
+    "statement": "In Sweden, having long higher education is not significantly associated with the probability of migrating from the Stockholm capital city area to a rural municipality."
+   },
+   {
+    "record_id": "c39",
+    "t": null,
+    "approx": false,
+    "estimate": 0.296,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T5::_::CSweden",
+    "statement": "Among Swedish CCA-to-rural migrants, those with long higher education move substantially longer distances than primary-educated movers."
+   },
+   {
+    "record_id": "c40",
+    "t": null,
+    "approx": false,
+    "estimate": 0.382,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W7134125062::T6::_::CSweden",
+    "statement": "Among Swedish CCA-to-urban migrants, those with long higher education move substantially longer distances than primary-educated movers."
    }
   ]
  },
