@@ -606,36 +606,46 @@
  {
   "artid": "dk_W2010342843",
   "title": "Offshoring, Transition, and Training: Evidence from Danish Matched Worker-Firm Data",
-  "authors": [],
+  "authors": [
+   "David Hummels",
+   "Jakob R. Munch",
+   "Lars Skipper",
+   "Chong Xiang"
+  ],
   "year": 2012,
-  "journal": "American Economic Review",
+  "journal": "American Economic Review: Papers & Proceedings 102(3): 424–428",
   "doi": "10.1257/aer.102.3.424",
   "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.3.424",
   "citations": 40,
-  "journal_key": "americaneconomicreview",
-  "k": 3,
+  "journal_key": "americaneconomicreviewpapersproceedings1023424428",
+  "k": 2,
   "runs": [
    "stated_claims",
-   "stated_claims_r2",
-   "stated_claims_r3"
+   "stated_claims_r2"
   ],
   "rule": "strict",
   "n_stated": 3,
   "n_accepted": 3,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 18,
+  "n_headline": 1,
+  "strategies": {
+   "event_study": 1
+  },
+  "strategies_all": {
+   "event_study": 11,
+   "descriptive": 7
+  },
+  "main_strategy": "event_study",
   "period": {
-   "from": 2012,
-   "to": 2012,
-   "source": "publication"
+   "from": 1995,
+   "to": 2006,
+   "source": "design"
   },
   "scope_tags": [
    "Displaced offshorers vs nonoffshorers",
    "Job displacement in a mass layoff",
+   "Manufacturing",
    "workers"
   ],
   "concepts": [
@@ -645,7 +655,18 @@
    "labor.parental_leave.take_up"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2010342843_c1",
+    "t": null,
+    "approx": false,
+    "estimate": 0.07,
+    "se": null,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2010342843::F1",
+    "statement": "Workers displaced in a mass layoff from a firm that substantially increased offshoring take up vocational training at a 7 percentage point higher rate than the baseline population in the year of disp…"
+   }
+  ]
  },
  {
   "artid": "dk_W2029320109",
@@ -2031,7 +2052,10 @@
  {
   "artid": "dk_W2156139463",
   "title": "Tax bunching, income shifting and self-employment",
-  "authors": [],
+  "authors": [
+   "Daniel le Maire",
+   "Bertel Schjerning"
+  ],
   "year": 2013,
   "journal": "Journal of Public Economics",
   "doi": "10.1016/j.jpubeco.2013.08.002",
@@ -2045,14 +2069,19 @@
    "stated_claims_r3"
   ],
   "rule": "strict",
-  "n_stated": 3,
+  "n_stated": 4,
   "n_accepted": 3,
   "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 83,
+  "n_headline": 18,
+  "strategies": {
+   "bunching": 18
+  },
+  "strategies_all": {
+   "bunching": 74,
+   "descriptive": 9
+  },
+  "main_strategy": "bunching",
   "period": {
    "from": 1994,
    "to": 2009,
@@ -2063,8 +2092,8 @@
    "Proximity to top tax kink",
    "self employed",
    "self_employed",
-   "taxpayers",
-   "workers"
+   "workers",
+   "working age"
   ],
   "concepts": [
    "income.labor",
@@ -2073,7 +2102,188 @@
    "tax.marginal_tax_rate"
   ],
   "n_unplaced": 0,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W2156139463_c19",
+    "t": 83.72,
+    "approx": false,
+    "estimate": 0.4521,
+    "se": 0.0054,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19962001",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 1996–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c20",
+    "t": 92.5,
+    "approx": false,
+    "estimate": 0.518,
+    "se": 0.0056,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022008",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 2002–2008 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c21",
+    "t": 61.01,
+    "approx": false,
+    "estimate": 0.4759,
+    "se": 0.0078,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19961998",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 1996–1998 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c22",
+    "t": 57.82,
+    "approx": false,
+    "estimate": 0.4279,
+    "se": 0.0074,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19992001",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 1999–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c23",
+    "t": 61.21,
+    "approx": false,
+    "estimate": 0.4958,
+    "se": 0.0081,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022004",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 2002–2004 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c24",
+    "t": 70.08,
+    "approx": false,
+    "estimate": 0.5326,
+    "se": 0.0076,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20052008",
+    "statement": "Elasticity of taxable income implied by bunching at the top tax bracket cutoff (Saez' formula applied directly to taxable income), estimated on the 2005–2008 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c33",
+    "t": 22.69,
+    "approx": false,
+    "estimate": 0.1543,
+    "se": 0.0068,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19961998",
+    "statement": "Structural elasticity ε estimated from bunching in adjusted earned income (bunching method, Eq. (4)), estimated on the 1996–1998 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c34",
+    "t": 22.41,
+    "approx": false,
+    "estimate": 0.1412,
+    "se": 0.0063,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19992001",
+    "statement": "Structural elasticity ε estimated from bunching in adjusted earned income (bunching method, Eq. (4)), estimated on the 1999–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c35",
+    "t": 28.3,
+    "approx": false,
+    "estimate": 0.1783,
+    "se": 0.0063,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022004",
+    "statement": "Structural elasticity ε estimated from bunching in adjusted earned income (bunching method, Eq. (4)), estimated on the 2002–2004 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c36",
+    "t": 24.79,
+    "approx": false,
+    "estimate": 0.1413,
+    "se": 0.0057,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20052008",
+    "statement": "Structural elasticity ε estimated from bunching in adjusted earned income (bunching method, Eq. (4)), estimated on the 2005–2008 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c37",
+    "t": 70.52,
+    "approx": false,
+    "estimate": 0.1481,
+    "se": 0.0021,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19962001",
+    "statement": "Structural elasticity ε estimated from the shifting areas around the cutoff (shifting method, Eq. (6)), estimated on the 1996–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c38",
+    "t": 72.48,
+    "approx": false,
+    "estimate": 0.1957,
+    "se": 0.0027,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022008",
+    "statement": "Structural elasticity ε estimated from the shifting areas around the cutoff (shifting method, Eq. (6)), estimated on the 2002–2008 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c45",
+    "t": 54.15,
+    "approx": false,
+    "estimate": 0.6281,
+    "se": 0.0116,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19961998",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (bunching method, Eq. (4)), estimated on the 1996–1998 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c46",
+    "t": 51.24,
+    "approx": false,
+    "estimate": 0.6251,
+    "se": 0.0122,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19992001",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (bunching method, Eq. (4)), estimated on the 1999–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c47",
+    "t": 54.94,
+    "approx": false,
+    "estimate": 0.5769,
+    "se": 0.0105,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022004",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (bunching method, Eq. (4)), estimated on the 2002–2004 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c48",
+    "t": 69.41,
+    "approx": false,
+    "estimate": 0.6733,
+    "se": 0.0097,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20052008",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (bunching method, Eq. (4)), estimated on the 2005–2008 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c49",
+    "t": 118.48,
+    "approx": false,
+    "estimate": 0.6161,
+    "se": 0.0052,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C19962001",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (shifting method, Eq. (6)), estimated on the 1996–2001 sample of Danish self-employed."
+   },
+   {
+    "record_id": "dk_W2156139463_c50",
+    "t": 135.59,
+    "approx": false,
+    "estimate": 0.5288,
+    "se": 0.0039,
+    "strategy": "bunching",
+    "source_table_id": "dk_W2156139463::T3::_::C20022008",
+    "statement": "Share of the bunching mass in taxable income that is due to pure income shifting (shifting method, Eq. (6)), estimated on the 2002–2008 sample of Danish self-employed."
+   }
+  ]
  },
  {
   "artid": "dk_W2169246780",
@@ -2703,29 +2913,46 @@
  },
  {
   "artid": "dk_W2236924981",
-  "title": "Active vs. Passive Decisions and Crowd-Out in Retirement Savings Accounts: Evidence from Denmark *",
-  "authors": [],
+  "title": "Active vs. Passive Decisions and Crowd-Out in Retirement Savings Accounts: Evidence from Denmark",
+  "authors": [
+   "Raj Chetty",
+   "John N. Friedman",
+   "Søren Leth-Petersen",
+   "Torben Heien Nielsen",
+   "Tore Olsen"
+  ],
   "year": 2014,
   "journal": "The Quarterly Journal of Economics",
   "doi": "10.1093/qje/qju013",
   "url": "https://academic.oup.com/qje/article/129/3/1141/1817647",
   "citations": 691,
   "journal_key": "thequarterlyjournalofeconomics",
-  "k": 3,
+  "k": 2,
   "runs": [
    "stated_claims",
-   "stated_claims_r2",
-   "stated_claims_r3"
+   "stated_claims_r2"
   ],
   "rule": "strict",
-  "n_stated": 10,
+  "n_stated": 11,
   "n_accepted": 6,
-  "n_rejected": 2,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_rejected": 0,
+  "n_designs": 95,
+  "n_headline": 17,
+  "strategies": {
+   "event_study": 5,
+   "instrumental_variables": 4,
+   "regression_discontinuity": 2,
+   "difference_in_differences": 3,
+   "descriptive": 3
+  },
+  "strategies_all": {
+   "event_study": 43,
+   "instrumental_variables": 17,
+   "regression_discontinuity": 7,
+   "difference_in_differences": 16,
+   "descriptive": 12
+  },
+  "main_strategy": "event_study",
   "period": {
    "from": 1995,
    "to": 2009,
@@ -2735,21 +2962,193 @@
    "1999 capital pension subsidy reduction",
    "Active vs passive savers",
    "Firm switch changing pension contributions",
-   "all",
    "pension savers",
-   "workers"
+   "taxpayers",
+   "workers",
+   "working age"
   ],
   "concepts": [
    "?dk_W2236924981:V10",
    "?dk_W2236924981:V2",
-   "?dk_W2236924981:V3",
+   "?dk_W2236924981:V8",
    "?dk_W2236924981:V9",
    "wealth.net_wealth",
    "wealth.saving",
    "wealth.saving.personal_pension_contribution"
   ],
-  "n_unplaced": 5,
-  "headline": []
+  "n_unplaced": 4,
+  "headline": [
+   {
+    "record_id": "dk_W2236924981_c1",
+    "t": 632.67,
+    "approx": false,
+    "estimate": 0.949,
+    "se": 0.0015,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2236924981::TIII::A::C1",
+    "statement": "In Table III, a higher Change in the employer pension contribution rate (Delta p^E) is associated with a higher Delta Tot. pension rate."
+   },
+   {
+    "record_id": "dk_W2236924981_c3",
+    "t": 34.69,
+    "approx": false,
+    "estimate": 0.777,
+    "se": 0.0224,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2236924981::TIII::A::C2",
+    "statement": "In Table III, a higher Change in the employer pension contribution rate (Delta p^E) is associated with a higher Delta Tot. savings rate."
+   },
+   {
+    "record_id": "dk_W2236924981_c13",
+    "t": 10.67,
+    "approx": false,
+    "estimate": 4.541,
+    "se": 0.4255,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2236924981::TIII::A::C7",
+    "statement": "In Table III, a higher Change in the employer pension contribution rate (Delta p^E) is associated with a higher Accrued wealth."
+   },
+   {
+    "record_id": "dk_W2236924981_c22",
+    "t": 375.6,
+    "approx": false,
+    "estimate": 0.939,
+    "se": 0.0025,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2236924981::TIII::C::C1",
+    "statement": "In Table III, a higher Predicted change in the indicator for crossing the pension threshold (Delta theta^pred), instrumented by Delta p^E is associated with a higher Delta theta_i: change in an indic…"
+   },
+   {
+    "record_id": "dk_W2236924981_c31",
+    "t": 7.48,
+    "approx": false,
+    "estimate": 0.845,
+    "se": 0.113,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W2236924981::TIV::_::C4",
+    "statement": "In Table IV, a higher Mandatory Savings Plan eligibility (labor income at or above the DKr 34,500 cutoff in 1998), scaled by the DKr 345 mandated contribution is associated with a higher Total pensio…"
+   },
+   {
+    "record_id": "dk_W2236924981_c32",
+    "t": 3.49,
+    "approx": false,
+    "estimate": 1.268,
+    "se": 0.363,
+    "strategy": "regression_discontinuity",
+    "source_table_id": "dk_W2236924981::TIV::_::C5",
+    "statement": "In Table IV, a higher Mandatory Savings Plan eligibility (labor income at or above the DKr 34,500 cutoff in 1998), scaled by the DKr 345 mandated contribution is associated with a higher Total saving…"
+   },
+   {
+    "record_id": "dk_W2236924981_c39",
+    "t": -11.0,
+    "approx": false,
+    "estimate": -0.033,
+    "se": 0.003,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2236924981::TV::_::C5",
+    "statement": "In Table V, a higher Above top tax cutoff x post (the 1999 capital pension subsidy reduction) is associated with a lower No change in indiv. contrib.."
+   },
+   {
+    "record_id": "dk_W2236924981_c42",
+    "t": 22.71,
+    "approx": false,
+    "estimate": 0.159,
+    "se": 0.007,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2236924981::TV::_::C8",
+    "statement": "In Table V, a higher Above top tax cutoff x post (the 1999 capital pension subsidy reduction) is associated with a higher Indiv. exits capital pension."
+   },
+   {
+    "record_id": "dk_W2236924981_c43",
+    "t": -29.89,
+    "approx": false,
+    "estimate": -0.568,
+    "se": 0.019,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2236924981::TVI::_::C1",
+    "statement": "In Table VI, a higher Individual capital pension contributions (P^{I,C}), instrumented by the 1999 subsidy reduction is associated with a lower Annuity contrib.."
+   },
+   {
+    "record_id": "dk_W2236924981_c44",
+    "t": 22.74,
+    "approx": false,
+    "estimate": 0.432,
+    "se": 0.019,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2236924981::TVI::_::C2",
+    "statement": "In Table VI, a higher Individual capital pension contributions (P^{I,C}), instrumented by the 1999 subsidy reduction is associated with a higher Total pension contrib.."
+   },
+   {
+    "record_id": "dk_W2236924981_c53",
+    "t": -4.12,
+    "approx": false,
+    "estimate": -0.994,
+    "se": 0.241,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W2236924981::TVII::_::C5",
+    "statement": "In Table VII, a higher Individual pension contributions (P^I), instrumented by the 1999 subsidy reduction is associated with a lower Taxable saving threshold."
+   },
+   {
+    "record_id": "dk_W2236924981_c57",
+    "t": -30.96,
+    "approx": false,
+    "estimate": -0.226,
+    "se": 0.0073,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W2236924981::TVIII::_::C1",
+    "statement": "In Table VIII, a higher Post-1999 x new saver is associated with a lower Contributes to capital pension."
+   },
+   {
+    "record_id": "dk_W2236924981_c62",
+    "t": 29.83,
+    "approx": false,
+    "estimate": 0.176,
+    "se": 0.0059,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W2236924981::TVIII::_::C3",
+    "statement": "In Table VIII, a higher Fraction of other years with change in pension is associated with a higher Extensive margin substitution in 1999."
+   },
+   {
+    "record_id": "dk_W2236924981_c64",
+    "t": 622.5,
+    "approx": false,
+    "estimate": 0.996,
+    "se": 0.0016,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2236924981::TVIII::_::C5",
+    "statement": "In Table VIII, a higher Change in the employer pension contribution rate (Delta p^E) is associated with a higher Delta Tot. pension rate."
+   },
+   {
+    "record_id": "dk_W2236924981_c70",
+    "t": 18.14,
+    "approx": false,
+    "estimate": 0.078,
+    "se": 0.0043,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W2236924981::TIX::A::C1",
+    "statement": "In Table IX, a higher Wealth/inc. ratio is associated with a higher Exit capital pensions and raise annuity pensions in 1999?."
+   },
+   {
+    "record_id": "dk_W2236924981_c76",
+    "t": 10.4,
+    "approx": false,
+    "estimate": 0.052,
+    "se": 0.005,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W2236924981::TIX::A::C5",
+    "statement": "In Table IX, a higher Economics education is associated with a higher Exit capital pensions and raise annuity pensions in 1999?."
+   },
+   {
+    "record_id": "dk_W2236924981_c81",
+    "t": -90.63,
+    "approx": false,
+    "estimate": -0.435,
+    "se": 0.0048,
+    "strategy": "event_study",
+    "source_table_id": "dk_W2236924981::TIX::B::C1",
+    "statement": "In Table IX, a higher Delta Emp. pen. rate x wealth/inc. is associated with a lower Delta Tot. savings rate."
+   }
+  ]
  },
  {
   "artid": "dk_W2247861621",
@@ -4685,9 +5084,9 @@
    "stated_claims_r3"
   ],
   "rule": "strict",
-  "n_stated": 17,
-  "n_accepted": 12,
-  "n_rejected": 3,
+  "n_stated": 10,
+  "n_accepted": 11,
+  "n_rejected": 2,
   "n_designs": 0,
   "n_headline": 0,
   "strategies": {},
@@ -4710,31 +5109,26 @@
    "Severe nonfatal health shock (heart attack or stroke)",
    "Spouses in households experiencing a health event",
    "Younger vs older parental age at shock",
+   "children",
    "children-in-law",
    "couples",
-   "spouses and adult children",
-   "workers",
-   "working age"
+   "coworkers",
+   "spouses and adult children"
   ],
   "concepts": [
-   "?dk_W2770250470:V12",
-   "?dk_W2770250470:V16",
    "?dk_W2770250470:V17",
-   "?dk_W2770250470:V18",
    "?dk_W2770250470:V19",
-   "?dk_W2770250470:V24",
-   "?dk_W2770250470:V25",
-   "consumption.household_consumption",
+   "?dk_W2770250470:V20",
+   "?dk_W2770250470:V22",
    "family.parental_age_at_birth",
    "health.general_health",
    "health.health_care_use",
    "health.health_care_use.opioid",
    "health.health_care_use.preventive_dental_care",
    "health.health_shock",
-   "health.health_shock.fatal",
-   "place.physical_proximity_to_others"
+   "health.health_shock.fatal"
   ],
-  "n_unplaced": 8,
+  "n_unplaced": 5,
   "headline": []
  },
  {
@@ -9638,9 +10032,13 @@
  },
  {
   "artid": "dk_W3115523961",
-  "title": "International Organization for Migration, Migration in West and North Africa and across the Mediterranean: Trends, Risks, Development and GovernanceGeneva, 2020. 458 p. Free download at IOM Online Bookstore",
+  "title": "Book Reviews",
   "authors": [
-   "Geoffrey McNicoll"
+   "Landis MacKellar",
+   "Larry Willmore",
+   "Geoffrey McNicoll",
+   "John Bongaarts",
+   "Dennis Hodgson"
   ],
   "year": 2020,
   "journal": "Population and Development Review",
@@ -10837,12 +11235,12 @@
  },
  {
   "artid": "dk_W3123148862",
-  "title": "When the Floodgates Open: “Northern” Firms' Response to Removal of Trade Quotas on Chinese Goods",
+  "title": "When the Floodgates Open: “Northern” Firms’ Response to Removal of Trade Quotas on Chinese Goods",
   "authors": [
-   "Utar, Hale"
+   "Hale Utar"
   ],
   "year": 2014,
-  "journal": "American Economic Journal Applied Economics",
+  "journal": "American Economic Journal: Applied Economics",
   "doi": "10.1257/app.6.4.226",
   "url": "https://www.aeaweb.org/articles?id=10.1257/app.6.4.226",
   "citations": 53,
@@ -10854,14 +11252,18 @@
    "stated_claims_r3"
   ],
   "rule": "strict",
-  "n_stated": 17,
-  "n_accepted": 13,
-  "n_rejected": 1,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_stated": 13,
+  "n_accepted": 12,
+  "n_rejected": 3,
+  "n_designs": 120,
+  "n_headline": 13,
+  "strategies": {
+   "difference_in_differences": 13
+  },
+  "strategies_all": {
+   "difference_in_differences": 120
+  },
+  "main_strategy": "difference_in_differences",
   "period": {
    "from": 1995,
    "to": 2007,
@@ -10871,10 +11273,10 @@
    "MFA quota removal on Chinese goods",
    "Textile and clothing sector",
    "firms",
+   "manufacturers",
    "workers"
   ],
   "concepts": [
-   "?dk_W3123148862:V12",
    "?dk_W3123148862:V13",
    "?dk_W3123148862:V14",
    "?dk_W3123148862:V15",
@@ -10890,55 +11292,212 @@
    "trade.import_competition"
   ],
   "n_unplaced": 9,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3123148862_c9",
+    "t": -2.32,
+    "approx": false,
+    "estimate": -0.132,
+    "se": 0.057,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T3::A::C2",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t reduces log value added for Danish textile and apparel manufacturers that produced MFA quot…"
+   },
+   {
+    "record_id": "dk_W3123148862_c10",
+    "t": -3.93,
+    "approx": false,
+    "estimate": -0.212,
+    "se": 0.054,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T3::A::C3",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t reduces log FTE for Danish textile and apparel manufacturers that produced MFA quota goods…"
+   },
+   {
+    "record_id": "dk_W3123148862_c27",
+    "t": -2.52,
+    "approx": false,
+    "estimate": -0.166,
+    "se": 0.066,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C2",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t reduces Basic level occupations for Danish textile and apparel manufacturers that produced…"
+   },
+   {
+    "record_id": "dk_W3123148862_c28",
+    "t": -0.67,
+    "approx": false,
+    "estimate": -0.029,
+    "se": 0.043,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C3",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t has no statistically significant effect on Professional and technical occupations for Danis…"
+   },
+   {
+    "record_id": "dk_W3123148862_c29",
+    "t": 1.47,
+    "approx": false,
+    "estimate": 0.059,
+    "se": 0.04,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C4",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t has no statistically significant effect on Employees with college education for Danish text…"
+   },
+   {
+    "record_id": "dk_W3123148862_c30",
+    "t": -5.73,
+    "approx": false,
+    "estimate": -0.275,
+    "se": 0.048,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C5",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t reduces Employees with high school education for Danish textile and apparel manufacturers t…"
+   },
+   {
+    "record_id": "dk_W3123148862_c31",
+    "t": -4.45,
+    "approx": false,
+    "estimate": -0.169,
+    "se": 0.038,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C6",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t reduces Employees with T&C production education for Danish textile and apparel manufacturer…"
+   },
+   {
+    "record_id": "dk_W3123148862_c32",
+    "t": 3.06,
+    "approx": false,
+    "estimate": 0.098,
+    "se": 0.032,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T4::A::C7",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQProd99_i x Dum02_t raises Employees with T&C tech. design education for Danish textile and apparel manufacture…"
+   },
+   {
+    "record_id": "dk_W3123148862_c90",
+    "t": 2.53,
+    "approx": false,
+    "estimate": 0.147,
+    "se": 0.058,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T6::B::C4",
+    "statement": "Among Danish T&C manufacturers exposed to the post-2002 Chinese low-wage competition, also importing MFA quota goods in 1999 (MFAQImp99_i x Comp99_i x Dum02_t) raises No. of employees with T&C tech.…"
+   },
+   {
+    "record_id": "dk_W3123148862_c103",
+    "t": -2.98,
+    "approx": false,
+    "estimate": -0.536,
+    "se": 0.18,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T7::A::C1",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQ2Prod99_i x Dum02_t reduces log intangible assets for Danish textile and apparel manufacturers that produced M…"
+   },
+   {
+    "record_id": "dk_W3123148862_c105",
+    "t": 6.28,
+    "approx": false,
+    "estimate": 0.49,
+    "se": 0.078,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T7::A::C3",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQ2Prod99_i x Dum02_t raises log number of dropped products for Danish textile and apparel manufacturers that pr…"
+   },
+   {
+    "record_id": "dk_W3123148862_c107",
+    "t": 3.55,
+    "approx": false,
+    "estimate": 0.234,
+    "se": 0.066,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T7::A::C5",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQ2Prod99_i x Dum02_t raises log number of new non-MFA products for Danish textile and apparel manufacturers tha…"
+   },
+   {
+    "record_id": "dk_W3123148862_c108",
+    "t": 4.51,
+    "approx": false,
+    "estimate": 0.311,
+    "se": 0.069,
+    "strategy": "difference_in_differences",
+    "source_table_id": "dk_W3123148862::T7::A::C6",
+    "statement": "Intensified Chinese low-wage competition from the MFA quota abolishment, measured by MFAQ2Prod99_i x Dum02_t raises log number of new non-T&C products for Danish textile and apparel manufacturers tha…"
+   }
+  ]
  },
  {
   "artid": "dk_W3123555343",
   "title": "Labour market signalling and unemployment duration: An empirical analysis using employer–employee data",
   "authors": [
    "Anders Frederiksen",
-   "R. Ibsen",
-   "M. Rosholm",
+   "Rikke Ibsen",
+   "Michael Rosholm",
    "Niels Westergaard-Nielsen"
   ],
-  "year": 2012,
+  "year": 2013,
   "journal": "Economics Letters",
   "doi": "10.1016/j.econlet.2012.09.032",
   "url": "https://doi.org/10.1016/j.econlet.2012.09.032",
   "citations": 11,
   "journal_key": "economicsletters",
-  "k": 2,
+  "k": 3,
   "runs": [
    "stated_claims",
-   "stated_claims_r2"
+   "stated_claims_r2",
+   "stated_claims_r3"
   ],
   "rule": "strict",
   "n_stated": 2,
-  "n_accepted": 2,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_accepted": 1,
+  "n_rejected": 2,
+  "n_designs": 17,
+  "n_headline": 2,
+  "strategies": {
+   "selection_on_observables": 2
+  },
+  "strategies_all": {
+   "selection_on_observables": 15,
+   "descriptive": 2
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2012,
-   "to": 2012,
-   "source": "publication"
+   "from": 1994,
+   "to": 1999,
+   "source": "design"
   },
   "scope_tags": [
-   "Closure/downsizing vs other displacement",
-   "Job displacement in a mass layoff",
-   "workers"
+   "Entry into a new UI spell",
+   "men",
+   "workers",
+   "working age"
   ],
   "concepts": [
    "?dk_W3123555343:V1",
-   "?dk_W3123555343:V2",
-   "?dk_W3123555343:V3",
-   "labor.unemployment"
+   "?dk_W3123555343:V2"
   ],
   "n_unplaced": 3,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3123555343_c3",
+    "t": 11.89,
+    "approx": false,
+    "estimate": 0.226,
+    "se": 0.019,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3123555343::T1::Model2::CEmployment",
+    "statement": "Men displaced from a closing workplace have a higher transition rate out of unemployment into employment than men leaving a workplace with no change in employment (±10%)."
+   },
+   {
+    "record_id": "dk_W3123555343_c4",
+    "t": 4.48,
+    "approx": false,
+    "estimate": 0.112,
+    "se": 0.025,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W3123555343::T1::Model2::CEmployment",
+    "statement": "Men displaced from a workplace that downsized by 50%–99% have a higher transition rate out of unemployment into employment than men leaving a workplace with no change in employment (±10%)."
+   }
+  ]
  },
  {
   "artid": "dk_W3123871901",
@@ -11071,7 +11630,7 @@
  },
  {
   "artid": "dk_W3123970227",
-  "title": "Long-term effects of school size on students’ outcomes",
+  "title": "Long-term effects of school size on students' outcomes",
   "authors": [
    "Maria Knoth Humlum",
    "Nina Smith"
@@ -11091,18 +11650,25 @@
   "n_stated": 2,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 65,
+  "n_headline": 6,
+  "strategies": {
+   "fixed_effects_within": 6
+  },
+  "strategies_all": {
+   "selection_on_observables": 1,
+   "fixed_effects_within": 44,
+   "sibling_family_comparison": 5,
+   "instrumental_variables": 15
+  },
+  "main_strategy": "fixed_effects_within",
   "period": {
    "from": 1986,
    "to": 2004,
    "source": "scope"
   },
   "scope_tags": [
-   "Compulsory school (class 9 exams)",
+   "Public primary schools",
    "children",
    "students"
   ],
@@ -11112,7 +11678,68 @@
    "family.parental_age_at_birth"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W3123970227_c24",
+    "t": 3.0,
+    "approx": false,
+    "estimate": 0.003,
+    "se": 0.001,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::A::C1",
+    "statement": "Effect of a 100-student increase in school size on the probability of completing high school or vocational education for Girls attending grade 9 in Danish public schools 1986-2004 (the omitted gender…"
+   },
+   {
+    "record_id": "dk_W3123970227_c26",
+    "t": 2.5,
+    "approx": false,
+    "estimate": 0.005,
+    "se": 0.002,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::A::C2",
+    "statement": "Effect of a 100-student increase in school size on the probability of completing high school or vocational education for Children of fathers with basic or missing education (both the 'Missing educati…"
+   },
+   {
+    "record_id": "dk_W3123970227_c32",
+    "t": 1.0,
+    "approx": false,
+    "estimate": 0.001,
+    "se": 0.001,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::B::C1",
+    "statement": "Effect of a 100-student increase in school size on the probability of being enrolled in or having completed high school or vocational education 6 years after grade 9 for Girls attending grade 9 in Da…"
+   },
+   {
+    "record_id": "dk_W3123970227_c34",
+    "t": 4.0,
+    "approx": false,
+    "estimate": 0.004,
+    "se": 0.001,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::B::C2",
+    "statement": "Effect of a 100-student increase in school size on the probability of being enrolled in or having completed high school or vocational education 6 years after grade 9 for Children of fathers with basi…"
+   },
+   {
+    "record_id": "dk_W3123970227_c48",
+    "t": 0.95,
+    "approx": false,
+    "estimate": 0.018,
+    "se": 0.019,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::D::C1",
+    "statement": "Effect of a 100-student increase in school size on log annual earnings at the age of 30 for Girls attending grade 9 in Danish public schools 1986-2004 (the omitted gender category)."
+   },
+   {
+    "record_id": "dk_W3123970227_c50",
+    "t": 1.84,
+    "approx": false,
+    "estimate": 0.035,
+    "se": 0.019,
+    "strategy": "fixed_effects_within",
+    "source_table_id": "dk_W3123970227::T6::D::C2",
+    "statement": "Effect of a 100-student increase in school size on log annual earnings at the age of 30 for Children of fathers with basic or missing education (both the 'Missing education' and 'Basic education' dum…"
+   }
+  ]
  },
  {
   "artid": "dk_W3124469853",
@@ -17521,7 +18148,7 @@
   "title": "Socioeconomic background affects mortality in Danish children with severe chronic disease",
   "authors": [
    "Andreas Jensen",
-   "Gorm O. Greisen",
+   "Gorm Greisen",
    "Lone Graff Stensballe"
   ],
   "year": 2022,
@@ -17539,11 +18166,15 @@
   "n_stated": 5,
   "n_accepted": 4,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 76,
+  "n_headline": 7,
+  "strategies": {
+   "descriptive": 7
+  },
+  "strategies_all": {
+   "descriptive": 76
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1994,
    "to": 2020,
@@ -17551,22 +18182,90 @@
   },
   "scope_tags": [
    "Diagnosis of severe chronic disease",
-   "Immigrants vs natives",
-   "Low vs high SES",
-   "Low vs high family income",
-   "Young vs older maternal age",
+   "Non-Danish vs Danish ethnicity",
    "children",
    "patients"
   ],
   "concepts": [
-   "?dk_W4295270093:V1",
+   "?dk_W4295270093:V2",
    "family.parental_age_at_birth",
    "health.mortality",
    "income.household",
    "income.socioeconomic_status"
   ],
   "n_unplaced": 1,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4295270093_c1",
+    "t": 13.02,
+    "approx": true,
+    "estimate": 1.96,
+    "se": 0.150513,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T3::Total mortality::COverall",
+    "statement": "Among children born in Denmark 1994-2018 with a severe chronic disease, 'Non-Danish ethnicity' is associated with a higher mortality rate (total mortality, overall model with ethnicity status as a co…"
+   },
+   {
+    "record_id": "dk_W4295270093_c5",
+    "t": 11.87,
+    "approx": true,
+    "estimate": 1.09,
+    "se": 0.091838,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T3::Total mortality::COverall",
+    "statement": "Among children born in Denmark 1994-2018 with a severe chronic disease, 'Maternal age < 25 years (reference: > 35 years)' is associated with no statistically significant difference in the mortality r…"
+   },
+   {
+    "record_id": "dk_W4295270093_c21",
+    "t": 14.67,
+    "approx": true,
+    "estimate": 1.31,
+    "se": 0.089287,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T3::Total mortality::COverall",
+    "statement": "Among children born in Denmark 1994-2018 with a severe chronic disease, 'Family income: low 3rd (reference: high 3rd)' is associated with a higher mortality rate (total mortality, overall model with…"
+   },
+   {
+    "record_id": "dk_W4295270093_c45",
+    "t": 12.36,
+    "approx": true,
+    "estimate": 1.23,
+    "se": 0.099492,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T3::Total mortality::CDanish",
+    "statement": "Among children born in Denmark 1994-2018 with a severe chronic disease, 'Family income: low 3rd (reference: high 3rd)' is associated with a higher mortality rate (total mortality, Danish-ethnicity st…"
+   },
+   {
+    "record_id": "dk_W4295270093_c46",
+    "t": 2.38,
+    "approx": true,
+    "estimate": 1.32,
+    "se": 0.553582,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T3::Total mortality::CNonDanish",
+    "statement": "Among children born in Denmark 1994-2018 with a severe chronic disease, 'Family income: low 3rd (reference: high 3rd)' is associated with no statistically significant difference in the mortality rate…"
+   },
+   {
+    "record_id": "dk_W4295270093_c75",
+    "t": 31.73,
+    "approx": true,
+    "estimate": 1.7,
+    "se": 0.053572,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T4::Total mortality::CDanish",
+    "statement": "Among Danish children with a severe chronic disease in the category 'All non-cancer', a doubling of the socioeconomic risk score is associated with a higher mortality rate in total mortality (Danish-…"
+   },
+   {
+    "record_id": "dk_W4295270093_c76",
+    "t": 13.26,
+    "approx": true,
+    "estimate": 2.03,
+    "se": 0.153064,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4295270093::T4::Total mortality::CNonDanish",
+    "statement": "Among Danish children with a severe chronic disease in the category 'All non-cancer', a doubling of the socioeconomic risk score is associated with a higher mortality rate in total mortality (Non-Dan…"
+   }
+  ]
  },
  {
   "artid": "dk_W4295929599",
@@ -21436,9 +22135,9 @@
    "Francis Chiparawasha",
    "Dmytro Hryshko"
   ],
-  "year": 2023,
+  "year": 2024,
   "journal": "Macroeconomic Dynamics",
-  "doi": "10.1017/s1365100523000457",
+  "doi": "10.1017/S1365100523000457",
   "url": "https://doi.org/10.1017/s1365100523000457",
   "citations": null,
   "journal_key": "macroeconomicdynamics",
@@ -21452,11 +22151,18 @@
   "n_stated": 12,
   "n_accepted": 7,
   "n_rejected": 11,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 60,
+  "n_headline": 18,
+  "strategies": {
+   "other": 10,
+   "structural_model": 8
+  },
+  "strategies_all": {
+   "other": 30,
+   "descriptive": 7,
+   "structural_model": 23
+  },
+  "main_strategy": "other",
   "period": {
    "from": 1984,
    "to": 2008,
@@ -21479,7 +22185,188 @@
    "?dk_W4387776349:V9"
   ],
   "n_unplaced": 18,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W4387776349_c1",
+    "t": 34.66,
+    "approx": false,
+    "estimate": 0.7971,
+    "se": 0.023,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::A::C1",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, zero initial conditions, N = 1000), equally weighted minimum-dist…"
+   },
+   {
+    "record_id": "dk_W4387776349_c2",
+    "t": 61.53,
+    "approx": false,
+    "estimate": 0.8983,
+    "se": 0.0146,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::A::C1",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.01, σ²_η = 0.01, zero initial conditions, N = 1000), equally weighted minimum-dist…"
+   },
+   {
+    "record_id": "dk_W4387776349_c3",
+    "t": 115.22,
+    "approx": false,
+    "estimate": 0.8987,
+    "se": 0.0078,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::A::C1",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.01, σ²_η = 0.04, zero initial conditions, N = 1000), equally weighted minimum-dist…"
+   },
+   {
+    "record_id": "dk_W4387776349_c5",
+    "t": 110.28,
+    "approx": false,
+    "estimate": 0.8602,
+    "se": 0.0078,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::B::C1",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, zero initial conditions, N = 10,000), equally weighted minimum-di…"
+   },
+   {
+    "record_id": "dk_W4387776349_c7",
+    "t": 8.89,
+    "approx": false,
+    "estimate": 0.9953,
+    "se": 0.112,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::A::C6",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, zero initial conditions, N = 1000), optimally weighted minimum-di…"
+   },
+   {
+    "record_id": "dk_W4387776349_c8",
+    "t": 3.0,
+    "approx": false,
+    "estimate": 1.0236,
+    "se": 0.3415,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T1::A::C9",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, zero initial conditions, N = 1000), diagonally weighted minimum-d…"
+   },
+   {
+    "record_id": "dk_W4387776349_c9",
+    "t": 96.53,
+    "approx": false,
+    "estimate": 0.917,
+    "se": 0.0095,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T2::A::C1",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.995 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, zero initial conditions, N = 1000), equally weighted minimum-di…"
+   },
+   {
+    "record_id": "dk_W4387776349_c14",
+    "t": 3.0,
+    "approx": false,
+    "estimate": 1.0298,
+    "se": 0.3432,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T3::A::C3",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, nonzero initial conditions, N = 1000), diagonally weighted minimu…"
+   },
+   {
+    "record_id": "dk_W4387776349_c15",
+    "t": 8.18,
+    "approx": false,
+    "estimate": 1.018,
+    "se": 0.1244,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T3::A::C2",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, nonzero initial conditions, N = 1000), optimally weighted minimum…"
+   },
+   {
+    "record_id": "dk_W4387776349_c17",
+    "t": 4.55,
+    "approx": false,
+    "estimate": 1.0216,
+    "se": 0.2243,
+    "strategy": "other",
+    "source_table_id": "dk_W4387776349::T3::B::C3",
+    "statement": "In Monte Carlo data generated from the canonical income process with true persistence ρ = 0.9 (σ²_α = 0.10, σ²_ε = 0.04, σ²_η = 0.01, nonzero initial conditions, N = 10,000), diagonally weighted mini…"
+   },
+   {
+    "record_id": "dk_W4387776349_c41",
+    "t": 32.49,
+    "approx": false,
+    "estimate": 0.8058,
+    "se": 0.0248,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T6::B::C1",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.90 (N = 10,000, equally weighting, income data only), the estimate of Estimated persistence of long-lasting shocks, ρ̂ is…"
+   },
+   {
+    "record_id": "dk_W4387776349_c43",
+    "t": 8.99,
+    "approx": false,
+    "estimate": 0.2562,
+    "se": 0.0285,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T6::A::C4",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.995 (N = 1000, equally weighting, income data only), the estimate of Estimated variance of fixed effects, σ̂²_α is 0.2562…"
+   },
+   {
+    "record_id": "dk_W4387776349_c44",
+    "t": 25.87,
+    "approx": false,
+    "estimate": 0.0388,
+    "se": 0.0015,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T6::A::C1",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.90 (N = 1000, equally weighting, income data only), the estimate of Estimated variance of transitory shocks, σ̂²_ε is 0.0…"
+   },
+   {
+    "record_id": "dk_W4387776349_c48",
+    "t": 10.39,
+    "approx": false,
+    "estimate": 0.7075,
+    "se": 0.0681,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T7::_::C1",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.90 (N = 1000, equally weighting, consumption and income data), the estimate of Estimated transmission coefficient of pers…"
+   },
+   {
+    "record_id": "dk_W4387776349_c51",
+    "t": 12.73,
+    "approx": false,
+    "estimate": 0.9169,
+    "se": 0.072,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T7::_::C4",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.995 (N = 1000, equally weighting, consumption and income data), the estimate of Estimated transmission coefficient of per…"
+   },
+   {
+    "record_id": "dk_W4387776349_c52",
+    "t": 29.81,
+    "approx": false,
+    "estimate": 0.8763,
+    "se": 0.0294,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T7::_::C4",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.995 (N = 1000, equally weighting, consumption and income data), the estimate of Estimated persistence of long-lasting sho…"
+   },
+   {
+    "record_id": "dk_W4387776349_c54",
+    "t": 45.13,
+    "approx": false,
+    "estimate": 0.8845,
+    "se": 0.0196,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T8::_::C1",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.90 (N = 10,000, equally weighting, consumption and income data), the estimate of Estimated persistence of long-lasting sh…"
+   },
+   {
+    "record_id": "dk_W4387776349_c60",
+    "t": 26.58,
+    "approx": false,
+    "estimate": 0.2818,
+    "se": 0.0106,
+    "strategy": "structural_model",
+    "source_table_id": "dk_W4387776349::T8::_::C1",
+    "statement": "In data simulated from the calibrated lifecycle model with true persistence 0.90 (N = 10,000, equally weighting, consumption and income data), the estimate of Estimated transmission coefficient of tr…"
+   }
+  ]
  },
  {
   "artid": "dk_W4388046637",
@@ -26931,36 +27818,41 @@
  },
  {
   "artid": "dk_W4412957842",
-  "title": "Changing Landscapes of Parenthood: Childbearing Among Same‐Sex and Different‐Sex Couples in the Nordic Countries",
+  "title": "Changing Landscapes of Parenthood: Childbearing Among Same-Sex and Different-Sex Couples in the Nordic Countries",
   "authors": [
    "Maria Ponkilainen",
-   "Elina K. Einiö",
+   "Elina Einiö",
    "Martin Kolk",
    "Peter Fallesen",
    "Fartein Ask Torvik",
    "Maria Lyster Andersen",
    "Mikko Myrskylä"
   ],
-  "year": 2025,
+  "year": 2026,
   "journal": "Population and Development Review",
   "doi": "10.1111/padr.70068",
   "url": "https://doi.org/10.1111/padr.70068",
   "citations": 1,
   "journal_key": "populationanddevelopmentreview",
-  "k": 2,
+  "k": 3,
   "runs": [
    "stated_claims",
-   "stated_claims_r2"
+   "stated_claims_r2",
+   "stated_claims_r3"
   ],
   "rule": "strict",
   "n_stated": 6,
   "n_accepted": 5,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_rejected": 1,
+  "n_designs": 56,
+  "n_headline": 33,
+  "strategies": {
+   "descriptive": 33
+  },
+  "strategies_all": {
+   "descriptive": 56
+  },
+  "main_strategy": "descriptive",
   "period": {
    "from": 1989,
    "to": 2023,
@@ -26969,7 +27861,11 @@
   "scope_tags": [
    "Female same-sex vs different-sex couples",
    "Legal union formation",
-   "couples"
+   "adults under 45",
+   "couples",
+   "high vs low education",
+   "high vs low income",
+   "women"
   ],
   "concepts": [
    "?dk_W4412957842:V5",
@@ -26977,11 +27873,342 @@
    "?dk_W4412957842:V7",
    "education.attainment",
    "family.fertility.additional",
-   "income.labor",
+   "place.community_background.income_level",
    "preferences.patience"
   ],
-  "n_unplaced": 3,
-  "headline": []
+  "n_unplaced": 4,
+  "headline": [
+   {
+    "record_id": "dk_W4412957842_c2",
+    "t": null,
+    "approx": false,
+    "estimate": 27.5,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Sweden, among couples entering a legal union in the 1995 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formation…"
+   },
+   {
+    "record_id": "dk_W4412957842_c4",
+    "t": null,
+    "approx": false,
+    "estimate": 28.5,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Finland, among couples entering a legal union in the 2002 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formatio…"
+   },
+   {
+    "record_id": "dk_W4412957842_c5",
+    "t": null,
+    "approx": false,
+    "estimate": 32.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Denmark, among couples entering a legal union in the 2018 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formatio…"
+   },
+   {
+    "record_id": "dk_W4412957842_c6",
+    "t": null,
+    "approx": false,
+    "estimate": 31.4,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Sweden, among couples entering a legal union in the 2016 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formation…"
+   },
+   {
+    "record_id": "dk_W4412957842_c7",
+    "t": null,
+    "approx": false,
+    "estimate": 28.3,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Norway, among couples entering a legal union in the 2017 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formation…"
+   },
+   {
+    "record_id": "dk_W4412957842_c8",
+    "t": null,
+    "approx": false,
+    "estimate": 28.5,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Finland, among couples entering a legal union in the 2016 cohort, female same-sex couples were less likely than different-sex couples to include a spouse who was already a parent at union formatio…"
+   },
+   {
+    "record_id": "dk_W4412957842_c9",
+    "t": null,
+    "approx": false,
+    "estimate": 32.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Denmark, the proportion of female same-sex couples in which at least one spouse was already a parent at union formation increased between the first union cohort (20.0 percent) and the last (32.2 p…"
+   },
+   {
+    "record_id": "dk_W4412957842_c10",
+    "t": null,
+    "approx": false,
+    "estimate": 28.3,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Norway, the proportion of female same-sex couples in which at least one spouse was already a parent at union formation increased between the first union cohort (14.1 percent) and the last (28.3 pe…"
+   },
+   {
+    "record_id": "dk_W4412957842_c11",
+    "t": null,
+    "approx": false,
+    "estimate": 31.4,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Sweden, the proportion of female same-sex couples in which at least one spouse was already a parent at union formation remained relatively stable between the first union cohort (27.5 percent) and…"
+   },
+   {
+    "record_id": "dk_W4412957842_c12",
+    "t": null,
+    "approx": false,
+    "estimate": 28.5,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F2",
+    "statement": "In Finland, the proportion of female same-sex couples in which at least one spouse was already a parent at union formation remained relatively stable between the first union cohort (28.5 percent) and…"
+   },
+   {
+    "record_id": "dk_W4412957842_c17",
+    "t": null,
+    "approx": false,
+    "estimate": 64.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Denmark, female same-sex couples who entered a legal union in 2012 had a probability of having at least one child within five years similar to that of different-sex couples of the same cohort (64.…"
+   },
+   {
+    "record_id": "dk_W4412957842_c18",
+    "t": null,
+    "approx": false,
+    "estimate": 59.8,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Sweden, female same-sex couples who entered a legal union in 2009 had a probability of having at least one child within five years similar to that of different-sex couples of the same cohort (59.8…"
+   },
+   {
+    "record_id": "dk_W4412957842_c19",
+    "t": null,
+    "approx": false,
+    "estimate": 54.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Norway, female same-sex couples who entered a legal union in 2012 had a probability of having at least one child within five years similar to that of different-sex couples of the same cohort (54.2…"
+   },
+   {
+    "record_id": "dk_W4412957842_c20",
+    "t": null,
+    "approx": false,
+    "estimate": 52.7,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Finland, female same-sex couples who entered a legal union in 2015 had a lower probability of having at least one child within five years than different-sex couples of the same cohort (52.7 vs. 62…"
+   },
+   {
+    "record_id": "dk_W4412957842_c22",
+    "t": null,
+    "approx": false,
+    "estimate": 54.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Sweden, female same-sex couples who entered a legal union in 2016 had a lower probability of having at least one child within five years than different-sex couples of the same cohort (54.2 vs. 59.…"
+   },
+   {
+    "record_id": "dk_W4412957842_c23",
+    "t": null,
+    "approx": false,
+    "estimate": 49.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Norway, female same-sex couples who entered a legal union in 2017 had a lower probability of having at least one child within five years than different-sex couples of the same cohort (49.1 vs. 53.…"
+   },
+   {
+    "record_id": "dk_W4412957842_c24",
+    "t": null,
+    "approx": false,
+    "estimate": 49.7,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Finland, female same-sex couples who entered a legal union in 2016 had a lower probability of having at least one child within five years than different-sex couples of the same cohort (49.7 vs. 61…"
+   },
+   {
+    "record_id": "dk_W4412957842_c25",
+    "t": null,
+    "approx": false,
+    "estimate": 64.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Denmark, the probability that female same-sex couples had at least one child within five years of legal union formation was higher in the 2012 union cohort (64.1 percent) than in the 1989 cohort (…"
+   },
+   {
+    "record_id": "dk_W4412957842_c26",
+    "t": null,
+    "approx": false,
+    "estimate": 59.8,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Sweden, the probability that female same-sex couples had at least one child within five years of legal union formation was higher in the 2009 union cohort (59.8 percent) than in the 1995 cohort (0…"
+   },
+   {
+    "record_id": "dk_W4412957842_c27",
+    "t": null,
+    "approx": false,
+    "estimate": 54.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Norway, the probability that female same-sex couples had at least one child within five years of legal union formation was higher in the 2012 union cohort (54.2 percent) than in the 1993-1996 coho…"
+   },
+   {
+    "record_id": "dk_W4412957842_c28",
+    "t": null,
+    "approx": false,
+    "estimate": 52.7,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Finland, the probability that female same-sex couples had at least one child within five years of legal union formation was higher in the 2015 union cohort (52.7 percent) than in the 2002 cohort (…"
+   },
+   {
+    "record_id": "dk_W4412957842_c30",
+    "t": null,
+    "approx": false,
+    "estimate": 54.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Sweden, the probability that female same-sex couples had at least one child within five years of legal union formation was lower in the 2016 union cohort (54.2 percent) than in the 2009 cohort (59…"
+   },
+   {
+    "record_id": "dk_W4412957842_c31",
+    "t": null,
+    "approx": false,
+    "estimate": 49.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Norway, the probability that female same-sex couples had at least one child within five years of legal union formation was lower in the 2017 union cohort (49.1 percent) than in the 2012 cohort (54…"
+   },
+   {
+    "record_id": "dk_W4412957842_c32",
+    "t": null,
+    "approx": false,
+    "estimate": 49.7,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F3",
+    "statement": "In Finland, the probability that female same-sex couples had at least one child within five years of legal union formation was lower in the 2016 union cohort (49.7 percent) than in the 2015 cohort (5…"
+   },
+   {
+    "record_id": "dk_W4412957842_c37",
+    "t": null,
+    "approx": false,
+    "estimate": 62.8,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F4",
+    "statement": "Among female same-sex couples in Denmark in the 2016-2018 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with high educat…"
+   },
+   {
+    "record_id": "dk_W4412957842_c38",
+    "t": null,
+    "approx": false,
+    "estimate": 56.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F4",
+    "statement": "Among female same-sex couples in Denmark in the 2016-2018 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with medium educ…"
+   },
+   {
+    "record_id": "dk_W4412957842_c39",
+    "t": null,
+    "approx": false,
+    "estimate": 59.9,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F4",
+    "statement": "Among female same-sex couples in Sweden in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with high educati…"
+   },
+   {
+    "record_id": "dk_W4412957842_c40",
+    "t": null,
+    "approx": false,
+    "estimate": 46.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F4",
+    "statement": "Among female same-sex couples in Sweden in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with medium educa…"
+   },
+   {
+    "record_id": "dk_W4412957842_c44",
+    "t": null,
+    "approx": false,
+    "estimate": 57.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F5",
+    "statement": "Among female same-sex couples in Finland in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with high income…"
+   },
+   {
+    "record_id": "dk_W4412957842_c45",
+    "t": null,
+    "approx": false,
+    "estimate": 51.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F5",
+    "statement": "Among female same-sex couples in Finland in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with medium inco…"
+   },
+   {
+    "record_id": "dk_W4412957842_c46",
+    "t": null,
+    "approx": false,
+    "estimate": 62.8,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F5",
+    "statement": "Among female same-sex couples in Sweden in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with medium incom…"
+   },
+   {
+    "record_id": "dk_W4412957842_c47",
+    "t": null,
+    "approx": false,
+    "estimate": 58.2,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F5",
+    "statement": "Among female same-sex couples in Sweden in the 2014-2016 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with high income…"
+   },
+   {
+    "record_id": "dk_W4412957842_c48",
+    "t": null,
+    "approx": false,
+    "estimate": 56.1,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": "dk_W4412957842::F5",
+    "statement": "Among female same-sex couples in Norway in the 2014-2015 union cohort, the probability of having at least one child within five years of legal union formation was higher for couples with high income…"
+   }
+  ]
  },
  {
   "artid": "dk_W4413415251",
@@ -27795,7 +29022,7 @@
   "artid": "dk_W7117966348",
   "title": "New venture team stability and long-run organizational growth",
   "authors": [
-   "Jerry M Guo",
+   "Jerry Guo",
    "Anders Frederiksen",
    "Lars Frederiksen"
   ],
@@ -27811,21 +29038,26 @@
    "stated_claims_r2"
   ],
   "rule": "strict",
-  "n_stated": 4,
+  "n_stated": 5,
   "n_accepted": 2,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 48,
+  "n_headline": 8,
+  "strategies": {
+   "instrumental_variables": 8
+  },
+  "strategies_all": {
+   "selection_on_observables": 9,
+   "instrumental_variables": 39
+  },
+  "main_strategy": "instrumental_variables",
   "period": {
    "from": 1981,
    "to": 1997,
    "source": "scope"
   },
   "scope_tags": [
-   "all"
+   "Venture founding"
   ],
   "concepts": [
    "?dk_W7117966348:V1",
@@ -27833,7 +29065,88 @@
    "health.mortality"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7117966348_c2",
+    "t": 4.27,
+    "approx": false,
+    "estimate": 5.33,
+    "se": 1.249,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T2::_::C2",
+    "statement": "Instrumenting NVT stability with family constellations and deaths in the new venture team, the degree of NVT stability has a positive and significant effect on the size of the new venture 10 years af…"
+   },
+   {
+    "record_id": "dk_W7117966348_c6",
+    "t": 2.62,
+    "approx": false,
+    "estimate": 4.1,
+    "se": 1.564,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T4::_::CNVTsize2",
+    "statement": "Among new ventures founded by a team of exactly 2 people, the degree of NVT stability has a positive and significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c8",
+    "t": 3.48,
+    "approx": false,
+    "estimate": 9.79,
+    "se": 2.816,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T4::_::CNVTsize4",
+    "statement": "Among new ventures founded by a team of exactly 4 people, the degree of NVT stability has a positive and significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c11",
+    "t": 1.42,
+    "approx": false,
+    "estimate": 7.0,
+    "se": 4.939,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T5::_::CMaleteam",
+    "statement": "Among all-male new venture teams, the degree of NVT stability has no statistically significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c12",
+    "t": 2.86,
+    "approx": false,
+    "estimate": 4.74,
+    "se": 1.655,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T5::_::CMixedgender",
+    "statement": "Among mixed-gender new venture teams, the degree of NVT stability has a positive and significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c13",
+    "t": -1.16,
+    "approx": false,
+    "estimate": -5.61,
+    "se": 4.825,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T5::_::CFemaleteam",
+    "statement": "Among all-female new venture teams, the degree of NVT stability has no statistically significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c17",
+    "t": 3.62,
+    "approx": false,
+    "estimate": 5.3,
+    "se": 1.466,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T7::_::CNVTeducationlevelbelowthemedian",
+    "statement": "Among new ventures whose team has below-median average years of education, the degree of NVT stability has a positive and significant effect on firm size 10 years after founding."
+   },
+   {
+    "record_id": "dk_W7117966348_c18",
+    "t": 2.98,
+    "approx": false,
+    "estimate": 5.9,
+    "se": 1.977,
+    "strategy": "instrumental_variables",
+    "source_table_id": "dk_W7117966348::T7::_::CNVTeducationlevelabovethemedian",
+    "statement": "Among new ventures whose team has above-median average years of education, the degree of NVT stability has a positive and significant effect on firm size 10 years after founding."
+   }
+  ]
  },
  {
   "artid": "dk_W7120018105",
@@ -28136,54 +29449,6 @@
     "statement": "In Sweden the implied spousal (marital) correlation in underlying educational status, r estimated from the Sibling-in-law ratio (θrs/θs) is 0.720."
    }
   ]
- },
- {
-  "artid": "dk_W7134125062",
-  "title": "Back to the countryside? Remote work and counterurbanisation in Denmark and Sweden",
-  "authors": [
-   "Nino Javakhishvili‐Larsen",
-   "Kent Eliasson",
-   "Hans Westlund"
-  ],
-  "year": 2026,
-  "journal": "Regional Science Policy & Practice",
-  "doi": "10.1016/j.rspp.2026.100297",
-  "url": "https://doi.org/10.1016/j.rspp.2026.100297",
-  "citations": 6,
-  "journal_key": "regionalsciencepolicypractice",
-  "k": 2,
-  "runs": [
-   "stated_claims",
-   "stated_claims_r2"
-  ],
-  "rule": "strict",
-  "n_stated": 8,
-  "n_accepted": 5,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
-  "period": {
-   "from": 2014,
-   "to": 2023,
-   "source": "scope"
-  },
-  "scope_tags": [
-   "Out-migration from the capital city area",
-   "workers"
-  ],
-  "concepts": [
-   "?dk_W7134125062:V5",
-   "crime.facility_distance_from_home",
-   "education.attainment",
-   "education.human_capital",
-   "income.labor",
-   "migration.internal_migration"
-  ],
-  "n_unplaced": 1,
-  "headline": []
  },
  {
   "artid": "dk_W7134195116",
@@ -29999,19 +31264,19 @@
  },
  {
   "artid": "dk_W7164733992",
-  "title": "Influenza Vaccination Among Individuals With Type 1 Diabetes in Denmark: Coverage, Persistence, and Determinants, 2015–2022",
+  "title": "Influenza Vaccination Among Individuals With Type 1 Diabetes in Denmark: Coverage, Persistence, and Determinants, 2015-2022",
   "authors": [
    "Vithiya Karunakaran",
    "Ida Borreby Pedersen",
-   "Astrid Johannesson Hjelholt",
+   "Astrid Hjelholt",
    "Mads Kjølby",
    "Esben Thyssen Vestergaard",
-   "Ole Fröbert",
+   "Ole Frøbert",
    "Anders Aasted Isaksen",
    "Kurt Kristensen"
   ],
   "year": 2026,
-  "journal": "Diabetes Obesity and Metabolism",
+  "journal": "Diabetes, Obesity and Metabolism",
   "doi": "10.1111/dom.70965",
   "url": "https://doi.org/10.1111/dom.70965",
   "citations": null,
@@ -30025,28 +31290,35 @@
   "n_stated": 7,
   "n_accepted": 6,
   "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_designs": 48,
+  "n_headline": 14,
+  "strategies": {
+   "selection_on_observables": 12,
+   "descriptive": 2
+  },
+  "strategies_all": {
+   "selection_on_observables": 45,
+   "descriptive": 3
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
    "from": 2015,
    "to": 2022,
    "source": "scope"
   },
   "scope_tags": [
-   "Childhood type 1 diabetes diagnosis",
+   "High vs low HbA1c",
    "North Denmark Region vs other regions",
    "Type 1 diabetes diagnosis",
    "Women vs men",
    "ages 1-64",
    "children",
+   "high vs low education",
    "patients",
    "working age"
   ],
   "concepts": [
-   "?dk_W7164733992:V2",
+   "?dk_W7164733992:V1",
    "?dk_W7164733992:V3",
    "education.attainment",
    "education.relative_age_in_cohort",
@@ -30055,7 +31327,148 @@
    "place.region_of_upbringing"
   ],
   "n_unplaced": 2,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7164733992_c5",
+    "t": 19.14,
+    "approx": true,
+    "estimate": 0.83,
+    "se": 0.043368,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Type 1 diabetes duration [4-6) years (vs [1-4) years, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 1-18 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c6",
+    "t": 18.22,
+    "approx": true,
+    "estimate": 0.79,
+    "se": 0.043368,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Type 1 diabetes duration [6-9) years (vs [1-4) years, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 1-18 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c7",
+    "t": 17.42,
+    "approx": true,
+    "estimate": 0.8,
+    "se": 0.045919,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Type 1 diabetes duration [9-18] years (vs [1-4) years, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 1-18 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c8",
+    "t": 21.31,
+    "approx": true,
+    "estimate": 0.87,
+    "se": 0.040817,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "HbA1c >= 53 mmol/mol (insufficient glycaemic control; vs HbA1c < 53 mmol/mol, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 1-18 years…"
+   },
+   {
+    "record_id": "dk_W7164733992_c10",
+    "t": 9.5,
+    "approx": true,
+    "estimate": 0.8,
+    "se": 0.084185,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Residence in The North Denmark Region (vs the Capital Region of Denmark, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 1-18 years in D…"
+   },
+   {
+    "record_id": "dk_W7164733992_c20",
+    "t": 352.79,
+    "approx": true,
+    "estimate": 0.9,
+    "se": 0.002551,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Male sex (vs female, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c21",
+    "t": 91.73,
+    "approx": true,
+    "estimate": 1.17,
+    "se": 0.012755,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Age [33-45) years (vs [19-33) years, reference) is associated with higher influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c22",
+    "t": 81.01,
+    "approx": true,
+    "estimate": 1.24,
+    "se": 0.015306,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Age [45-55) years (vs [19-33) years, reference) is associated with higher influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c23",
+    "t": 87.55,
+    "approx": true,
+    "estimate": 1.34,
+    "se": 0.015306,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "Age [55-64] years (vs [19-33) years, reference) is associated with higher influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c27",
+    "t": 186.2,
+    "approx": true,
+    "estimate": 0.95,
+    "se": 0.005102,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "HbA1c >= 53 mmol/mol (insufficient glycaemic control; vs HbA1c < 53 mmol/mol, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 year…"
+   },
+   {
+    "record_id": "dk_W7164733992_c32",
+    "t": 89.18,
+    "approx": true,
+    "estimate": 0.91,
+    "se": 0.010204,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "0-10 years of education (vs > 15 years, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c33",
+    "t": 182.28,
+    "approx": true,
+    "estimate": 0.93,
+    "se": 0.005102,
+    "strategy": "selection_on_observables",
+    "source_table_id": null,
+    "statement": "11-15 years of education (vs > 15 years, reference) is associated with lower influenza vaccination coverage among individuals with type 1 diabetes aged 19-64 years in Denmark."
+   },
+   {
+    "record_id": "dk_W7164733992_c39",
+    "t": null,
+    "approx": false,
+    "estimate": 15.7,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Influenza vaccination coverage among children and adolescents with type 1 diabetes in Denmark rose from 5.6% in the 2015/16 season to 15.7% in the 2021/22 season."
+   },
+   {
+    "record_id": "dk_W7164733992_c40",
+    "t": null,
+    "approx": false,
+    "estimate": 41.8,
+    "se": null,
+    "strategy": "descriptive",
+    "source_table_id": null,
+    "statement": "Influenza vaccination coverage among adults aged 19-64 with type 1 diabetes in Denmark rose from 18.3% in the 2015/16 season to 41.8% in the 2021/22 season."
+   }
+  ]
  },
  {
   "artid": "dk_W7167459045",
@@ -31171,10 +32584,10 @@
   "artid": "dk_W7202262283",
   "title": "CEO aging and investment propensity: Experimental evidence",
   "authors": [
-   "Brenner, S.",
-   "Christoffersen, J.",
-   "Andersen, T.",
-   "Plenborg, T."
+   "Steffen Brenner",
+   "Jeppe Christoffersen",
+   "Torben Andersen",
+   "Thomas Plenborg"
   ],
   "year": 2026,
   "journal": "Journal of Corporate Finance",
@@ -31189,39 +32602,171 @@
    "stated_claims_r3"
   ],
   "rule": "strict",
-  "n_stated": 10,
-  "n_accepted": 8,
-  "n_rejected": 0,
-  "n_designs": 0,
-  "n_headline": 0,
-  "strategies": {},
-  "strategies_all": {},
-  "main_strategy": null,
+  "n_stated": 6,
+  "n_accepted": 4,
+  "n_rejected": 5,
+  "n_designs": 27,
+  "n_headline": 13,
+  "strategies": {
+   "selection_on_observables": 9,
+   "RCT": 4
+  },
+  "strategies_all": {
+   "selection_on_observables": 19,
+   "RCT": 8
+  },
+  "main_strategy": "selection_on_observables",
   "period": {
-   "from": 2026,
-   "to": 2026,
-   "source": "publication"
+   "from": 2019,
+   "to": 2019,
+   "source": "design"
   },
   "scope_tags": [
    "CEOs",
    "CEOs aged 60+ vs younger",
+   "elderly",
    "firms"
   ],
   "concepts": [
-   "?dk_W7202262283:V10",
-   "?dk_W7202262283:V12",
-   "?dk_W7202262283:V13",
    "?dk_W7202262283:V3",
-   "?dk_W7202262283:V4",
-   "?dk_W7202262283:V5",
    "?dk_W7202262283:V6",
-   "?dk_W7202262283:V7",
    "education.relative_age_in_cohort",
    "income.capital",
    "preferences.risk_tolerance"
   ],
   "n_unplaced": 8,
-  "headline": []
+  "headline": [
+   {
+    "record_id": "dk_W7202262283_c1",
+    "t": null,
+    "approx": false,
+    "estimate": -0.239,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T3::_::C2",
+    "statement": "Holding the randomized expected return, standard deviation of returns, skewness of returns and payout horizon constant, CEOs aged 60 or older rate the same hypothetical investment project as less att…"
+   },
+   {
+    "record_id": "dk_W7202262283_c7",
+    "t": null,
+    "approx": false,
+    "estimate": -0.03,
+    "se": null,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7202262283::T3::_::C3",
+    "statement": "Longer randomized payout horizon does not reduce investment attractiveness more for CEOs aged 60 or above than for younger CEOs (H2 is not supported)."
+   },
+   {
+    "record_id": "dk_W7202262283_c8",
+    "t": null,
+    "approx": false,
+    "estimate": 0.059,
+    "se": null,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7202262283::T3::_::C3",
+    "statement": "Investment attractiveness does not decrease more strongly with higher randomized return dispersion for CEOs aged 60 or above (H3a is not supported)."
+   },
+   {
+    "record_id": "dk_W7202262283_c9",
+    "t": null,
+    "approx": false,
+    "estimate": -0.364,
+    "se": null,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7202262283::T3::_::C3",
+    "statement": "CEOs aged 60 or above respond less positively to randomized positive skewness of returns than younger CEOs (the only significant age interaction)."
+   },
+   {
+    "record_id": "dk_W7202262283_c10",
+    "t": null,
+    "approx": false,
+    "estimate": 0.262,
+    "se": null,
+    "strategy": "RCT",
+    "source_table_id": "dk_W7202262283::T3::_::C3",
+    "statement": "Sensitivity of rated investment attractiveness to randomized expected return does not differ significantly between CEOs aged 60 or above and younger CEOs."
+   },
+   {
+    "record_id": "dk_W7202262283_c11",
+    "t": null,
+    "approx": false,
+    "estimate": 0.014,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T4A::_::C1",
+    "statement": "CEOs aged 60 or above do not differ from younger CEOs in self-reported willingness to take risks."
+   },
+   {
+    "record_id": "dk_W7202262283_c12",
+    "t": null,
+    "approx": false,
+    "estimate": -0.198,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T4A::_::C2",
+    "statement": "CEOs aged 60 or above do not differ from younger CEOs in lottery-based (Holt-Laury) risk aversion."
+   },
+   {
+    "record_id": "dk_W7202262283_c15",
+    "t": null,
+    "approx": false,
+    "estimate": -0.029,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C1",
+    "statement": "Firms whose CEO is aged 60 or older show lower asset growth in administrative data."
+   },
+   {
+    "record_id": "dk_W7202262283_c16",
+    "t": null,
+    "approx": false,
+    "estimate": -0.027,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C2",
+    "statement": "Firms whose CEO is aged 60 or older show lower asset growth in administrative data, conditional on the experimentally derived Inaction Propensity."
+   },
+   {
+    "record_id": "dk_W7202262283_c17",
+    "t": null,
+    "approx": false,
+    "estimate": -0.128,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C3",
+    "statement": "Firms whose CEO is aged 60 or older show lower 3-year difference - assets in administrative data."
+   },
+   {
+    "record_id": "dk_W7202262283_c18",
+    "t": null,
+    "approx": false,
+    "estimate": -0.125,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C4",
+    "statement": "Firms whose CEO is aged 60 or older show lower 3-year difference - assets in administrative data, conditional on the experimentally derived Inaction Propensity."
+   },
+   {
+    "record_id": "dk_W7202262283_c23",
+    "t": null,
+    "approx": false,
+    "estimate": 0.004,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C2",
+    "statement": "A CEO's experimentally measured Inaction Propensity predicts the firm's realized asset growth in administrative data: the higher the residual tendency to rate otherwise identical projects as attracti…"
+   },
+   {
+    "record_id": "dk_W7202262283_c24",
+    "t": null,
+    "approx": false,
+    "estimate": 0.01,
+    "se": null,
+    "strategy": "selection_on_observables",
+    "source_table_id": "dk_W7202262283::T5::_::C4",
+    "statement": "A CEO's experimentally measured Inaction Propensity predicts the firm's realized 3-year difference - assets in administrative data: the higher the residual tendency to rate otherwise identical projec…"
+   }
+  ]
  },
  {
   "artid": "dk_W7202348113",
