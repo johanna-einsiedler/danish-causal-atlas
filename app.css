@@ -251,3 +251,5 @@ svg.dag text.sg{font:700 12px var(--mono)}
 .ego svg{width:100%;height:100%}
 .epanel{border:1px solid var(--rule);padding:.8rem 1rem;margin:0 0 1rem;font-size:.9rem;background:var(--surface)}
 @media(max-width:1000px){.concept-page{grid-template-columns:1fr}.concept-page .side{position:static;max-height:none;border-right:0}}
+
+nav .links a.ext{color:var(--accent)}
