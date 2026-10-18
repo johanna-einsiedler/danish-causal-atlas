@@ -343,9 +343,10 @@ function drawForce(host, nodeIds, edges, opts) {
   const svg = d3.select(host).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', [0, 0, W, H]);
   const defs = svg.append('defs');
   const COL = { pos: getCSS('--pos'), neg: getCSS('--neg'), nul: getCSS('--nul'), unk: getCSS('--nul'), con: getCSS('--neg') };
-  Object.entries(COL).forEach(([k, col]) => defs.append('marker').attr('id', 'arrow-' + k).attr('viewBox', '0 -5 10 10')
-    .attr('refX', 9).attr('refY', 0).attr('markerWidth', 6).attr('markerHeight', 6).attr('orient', 'auto')
-    .append('path').attr('d', 'M0,-4L9,0L0,4').attr('fill', col));
+  // arrowheads of one size whatever the stroke width (markerUnits userSpaceOnUse); the tip sits at the path end
+  Object.entries(COL).forEach(([k, col]) => defs.append('marker').attr('id', 'arrow-' + k).attr('viewBox', '0 -5 12 10')
+    .attr('refX', 11).attr('refY', 0).attr('markerWidth', 12).attr('markerHeight', 12).attr('markerUnits', 'userSpaceOnUse').attr('orient', 'auto')
+    .append('path').attr('d', 'M0,-4.5L11,0L0,4.5').attr('fill', col));
   const g = svg.append('g');
   const zoom = d3.zoom().scaleExtent([0.15, 5]).on('zoom', ev => g.attr('transform', ev.transform));
   svg.call(zoom);
@@ -355,7 +356,7 @@ function drawForce(host, nodeIds, edges, opts) {
     .attr('fill', 'none').attr('stroke', d => COL[cls(d.e)])
     .attr('stroke-width', d => 1.2 + 0.9 * (d.e.n_papers - 1))
     .attr('stroke-dasharray', d => d.e.has_contradiction || d.e.consensus_sign === '?' ? '6,3' : (d.e.causal || d.e.design_pending ? null : '2,3'))
-    .attr('stroke-linecap', 'round').attr('stroke-opacity', d => opts.focusEdge && opts.focusEdge !== d.e.id ? .25 : (d.e.design_pending ? .45 : .85))
+    .attr('stroke-linecap', 'butt').attr('stroke-opacity', d => opts.focusEdge && opts.focusEdge !== d.e.id ? .25 : (d.e.design_pending ? .45 : .85))   // butt: a round cap stuck out past the arrow tip
     .attr('marker-end', d => 'url(#arrow-' + cls(d.e) + ')').style('cursor', 'pointer')
     .on('click', (ev, d) => { ev.stopPropagation(); if (opts.onEdge) opts.onEdge(d.e); });
   link.append('title').text(d => conceptLabel(d.e.from) + ' ' + ARROW + ' ' + conceptLabel(d.e.to) + ': ' + signWord(d.e.consensus_sign) +
