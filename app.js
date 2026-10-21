@@ -23,11 +23,34 @@ const PALETTE = ['#1a4f8a', '#17795e', '#a8621a', '#6b3fa0', '#2a7f9e', '#7a6a1a
 const domCol = d => DOMCOL[d] || '#9b998c';
 
 /* ================= load ================= */
+const DATA_FILES = ['graph.json', 'taxonomy.json', 'papers.json', 'stats.json'];
+let DATA_SOURCE = { kind: 'bundled' };
+async function loadFromZenodo(src) {
+  // data/source.json names a Zenodo concept; the API resolves it to the LATEST published version, whose files are fetched
+  const api = (src.zenodo_api || 'https://zenodo.org/api').replace(/\/$/, '');
+  const rec = await fetch(api + '/records/' + encodeURIComponent(src.zenodo_concept_recid), { headers: { Accept: 'application/json' } })
+    .then(r => { if (!r.ok) throw new Error('zenodo record ' + r.status); return r.json(); });
+  const files = {}; (rec.files || []).forEach(f => files[f.key] = f);
+  const missing = DATA_FILES.filter(k => !files[k]); if (missing.length) throw new Error('zenodo version lacks ' + missing.join(', '));
+  const data = await Promise.all(DATA_FILES.map(k => fetch(files[k].links.self).then(r => { if (!r.ok) throw new Error(k + ' ' + r.status); return r.json(); })));
+  DATA_SOURCE = { kind: 'zenodo', doi: rec.doi, concept_doi: rec.conceptdoi, version: (rec.metadata || {}).version, published: (rec.metadata || {}).publication_date,
+    record_url: (rec.links || {}).self_html || ('https://zenodo.org/records/' + rec.id), record_id: rec.id };
+  return data;
+}
+async function loadBundled() {
+  return Promise.all(DATA_FILES.map(k => fetch('data/' + k).then(r => { if (!r.ok) throw new Error(k + ' ' + r.status); return r.json(); })));
+}
 (async function init() {
   let data;
   try {
-    data = await Promise.all(['data/graph.json', 'data/taxonomy.json', 'data/papers.json', 'data/stats.json']
-      .map(u => fetch(u).then(r => { if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); })));
+    let src = null;
+    try { const r = await fetch('data/source.json'); if (r.ok) src = await r.json(); } catch (e) { src = null; }
+    if (src && src.zenodo_concept_recid) {
+      try { data = await loadFromZenodo(src); }
+      catch (e) { console.warn('Zenodo unavailable, using the bundled data:', e.message); data = await loadBundled(); DATA_SOURCE = { kind: 'bundled', zenodo_error: e.message }; }
+    } else {
+      data = await loadBundled();
+    }
   } catch (err) {
     $('#app').innerHTML = '<div class="wrap"><p class="empty">The atlas data did not load (' + esc(err.message) +
       '). Build it with <code>python pipeline/build_atlas.py --all</code> and serve the site folder.</p></div>';
@@ -1006,12 +1029,29 @@ function searchRecord() {
     (r.focus != null ? 'The <b>focus set</b>, records whose title or abstract mentions both Denmark and register or administrative data, holds ' + r.focus.toLocaleString('en') + ' records (' + r.focus_in_corpus.toLocaleString('en') + ' already in the corpus) and is the starting point for extraction; ' : '') +
     'the remaining candidates wait for the full-text screen, which catches papers whose abstract does not name their data. Working-paper indexes and citation snowballing are not part of the search yet.</p>';
 }
+function dataSourceLine() {
+  const s = DATA_SOURCE;
+  if (s.kind === 'zenodo') return '<p class="sub">Data: Zenodo record <a href="' + esc(s.record_url) + '">' + esc(s.doi || s.record_id) + '</a>' +
+    (s.version ? ', version ' + esc(s.version) : '') + (s.published ? ', published ' + esc(s.published) : '') + ', the latest version of concept ' + esc(s.concept_doi || '') + ', loaded at page open.</p>';
+  return '<p class="sub">Data: the build bundled with this site' + (s.zenodo_error ? ' (Zenodo could not be reached: ' + esc(s.zenodo_error) + ')' : '') + '.</p>';
+}
+function citeSection() {
+  const s = DATA_SOURCE;
+  return '<h3>How to cite</h3>' +
+    '<p>The dataset:</p><blockquote>Johanna Einsiedler (2026). Register-data claims \u2014 agent (Danish) (version 1) [Data set]. Metalens. ' +
+    '<a href="https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c">https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c</a></blockquote>' +
+    '<p>The import schema the claims follow:</p><blockquote>Einsiedler, J. (2026). Claims in empirical economics papers: import schema (version 1) [Software]. Metalens. ' +
+    '<a href="https://doi.org/10.5281/zenodo.23520761">https://doi.org/10.5281/zenodo.23520761</a></blockquote>' +
+    (s.kind === 'zenodo' ? '<p>The atlas data as shown here:</p><blockquote>Einsiedler, J. (' + esc((s.published || '2026').slice(0, 4)) + '). The Danish Causal Atlas: data' + (s.version ? ' (version ' + esc(s.version) + ')' : '') +
+      ' [Data set]. Zenodo. <a href="https://doi.org/' + esc(s.doi) + '">https://doi.org/' + esc(s.doi) + '</a></blockquote>' : '');
+}
 function viewAbout(app) {
   const w = wrap(app, 'about');
   const m = G.meta, T = STATS.totals;
   const built = (m.built_at || '').slice(0, 10);
   w.innerHTML =
     '<h2>About the atlas</h2>' +
+    dataSourceLine() +
     '<p class="sub">Built ' + esc(built) + ' from ' + T.papers + ' papers' + MID + T.records_accepted + ' relations' + MID + T.concepts_touched + ' concepts' + MID + 'taxonomy batch ' + esc(m.taxonomy.batch) + ' (' + esc(m.taxonomy.status) + ')</p>' +
     '<p>The atlas reads published economics research built on Danish administrative registers and reduces each paper to its stated causal claims: ' +
     'one cause, one effect, a sign, the population and years it holds for, and the evidence behind it. Across papers the claims are placed on one ' +
@@ -1061,7 +1101,8 @@ function viewAbout(app) {
     'standard error; when only a confidence interval is printed the standard error is approximated from it and the point is drawn hollow.</p>' +
     '<h3>Reading the graph</h3>' +
     '<p>Arrows point from cause to effect and are coloured by sign: green increases, red decreases, grey no effect; dashed when the sign is unclear or contested; dotted when the paper\u2019s design records exist but none is an identified design; faint when the design pass has not run for the paper yet. Line width counts papers; node colour is the concept’s domain. Click an arrow for the papers behind it with their evidence, a concept for its summary ' +
-    'and wordings. Every view, with its filters, is a link.</p>';
+    'and wordings. Every view, with its filters, is a link.</p>' +
+    citeSection();
 }
 
 /* ================= paper page ================= */
