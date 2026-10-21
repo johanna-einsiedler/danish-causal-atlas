@@ -1038,12 +1038,23 @@ function dataSourceLine() {
 function citeSection() {
   const s = DATA_SOURCE;
   return '<h3>How to cite</h3>' +
-    '<p>The dataset:</p><blockquote>Johanna Einsiedler (2026). Register-data claims \u2014 agent (Danish) (version 1) [Data set]. Metalens. ' +
-    '<a href="https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c">https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c</a></blockquote>' +
+    '<p>The claims dataset the atlas is built from (the stated claims of every paper with their evidence and table results, released on Zenodo; the version shown is the latest one Zenodo lists):</p>' +
+    '<blockquote id="claims-cite">Johanna Einsiedler (2026). Claims in Danish register-data economics papers (version 1) [Data set]. Metalens. ' +
+    '<a href="https://doi.org/10.5281/zenodo.23514504">https://doi.org/10.5281/zenodo.23514504</a><span class="cite"></span></blockquote>' +
     '<p>The import schema the claims follow:</p><blockquote>Einsiedler, J. (2026). Claims in empirical economics papers: import schema (version 1) [Software]. Metalens. ' +
     '<a href="https://doi.org/10.5281/zenodo.23520761">https://doi.org/10.5281/zenodo.23520761</a></blockquote>' +
     (s.kind === 'zenodo' ? '<p>The atlas data as shown here:</p><blockquote>Einsiedler, J. (' + esc((s.published || '2026').slice(0, 4)) + '). The Danish Causal Atlas: data' + (s.version ? ' (version ' + esc(s.version) + ')' : '') +
       ' [Data set]. Zenodo. <a href="https://doi.org/' + esc(s.doi) + '">https://doi.org/' + esc(s.doi) + '</a></blockquote>' : '');
+}
+const CLAIMS_CONCEPT = '23514503';   // Zenodo concept of the claims release; the API resolves it to the latest version
+function refreshClaimsCite() {
+  fetch('https://zenodo.org/api/records/' + CLAIMS_CONCEPT, { headers: { Accept: 'application/json' } }).then(r => r.ok ? r.json() : null).then(rec => {
+    const q = document.getElementById('claims-cite'); if (!rec || !q) return;
+    const m = rec.metadata || {}; const v = String(m.version || '').replace(/^v/, '') || '?'; const np = ((m.description || '').match(/(\d+) papers/) || [])[1];
+    q.innerHTML = 'Johanna Einsiedler (' + esc((m.publication_date || '2026').slice(0, 4)) + '). ' + esc(m.title || 'Claims in Danish register-data economics papers').replace(/ \u2014 release v\d+$/, '') +
+      ' (version ' + esc(v) + ') [Data set]. Metalens. <a href="https://doi.org/' + esc(rec.doi) + '">https://doi.org/' + esc(rec.doi) + '</a>' +
+      '<span class="cite">latest version on Zenodo, published ' + esc(m.publication_date || '') + (np ? ', ' + np + ' papers' : '') + '; all versions: <a href="https://doi.org/' + esc(rec.conceptdoi || '') + '">' + esc(rec.conceptdoi || '') + '</a></span>';
+  }).catch(() => {});
 }
 function viewAbout(app) {
   const w = wrap(app, 'about');
@@ -1103,6 +1114,7 @@ function viewAbout(app) {
     '<p>Arrows point from cause to effect and are coloured by sign: green increases, red decreases, grey no effect; dashed when the sign is unclear or contested; dotted when the paper\u2019s design records exist but none is an identified design; faint when the design pass has not run for the paper yet. Line width counts papers; node colour is the concept’s domain. Click an arrow for the papers behind it with their evidence, a concept for its summary ' +
     'and wordings. Every view, with its filters, is a link.</p>' +
     citeSection();
+  refreshClaimsCite();
 }
 
 /* ================= paper page ================= */

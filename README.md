@@ -16,10 +16,11 @@ are used.
 
 ## How to cite
 
-The dataset:
+The claims dataset the atlas is built from (the stated claims of every paper with their evidence and table
+results; the About page of the site shows the latest version Zenodo lists):
 
-> Johanna Einsiedler (2026). Register-data claims — agent (Danish) (version 1) [Data set]. Metalens.
-> https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/register-data-claims-agent-danish-4d724d9c
+> Johanna Einsiedler (2026). Claims in Danish register-data economics papers (version 1) [Data set]. Metalens.
+> https://doi.org/10.5281/zenodo.23514504 (all versions: https://doi.org/10.5281/zenodo.23514503)
 
 The import schema the claims follow:
 
